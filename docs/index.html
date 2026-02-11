@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTS Overlay Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b0b0b0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #dcdcdc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        .selectors {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+
+        .selector-group {
+            display: flex;
+            flex-direction: column;
+            min-width: 200px;
+        }
+
+        .selector-group label {
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+
+        select,
+        input,
+        button {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: #333;
+            color: white;
+        }
+
+        button {
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        .build-orders-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .build-order-button {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .build-order-button:hover {
+            background-color: #555;
+        }
+
+        .build-order-button img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .build-order-name {
+            flex-grow: 1;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+
+        .filters input {
+            flex-grow: 1;
+            min-width: 200px;
+        }
+
+        .no-build-orders {
+            text-align: center;
+            font-size: 18px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="assets/common/title/rts_overlay.png" alt="RTS Overlay Title">
+        </div>
+        <div class="selectors">
+            <div class="selector-group">
+                <label for="game-select">Game:</label>
+                <select id="game-select">
+                    <option value="aoe2" selected>Age of Empires II</option>
+                    <option value="aoe4">Age of Empires IV</option>
+                    <option value="aom">Age of Mythology</option>
+                    <option value="sc2">StarCraft II</option>
+                    <option value="wc3">WarCraft III</option>
+                </select>
+            </div>
+            <div class="selector-group">
+                <label for="faction-select">Faction:</label>
+                <select id="faction-select">
+                    <option value="Generic">Generic</option>
+                </select>
+            </div>
+            <div class="selector-group">
+                <label>&nbsp;</label>
+                <button id="design-build-order">Design your build order</button>
+            </div>
+            <div class="selector-group">
+                <label>&nbsp;</label>
+                <button id="download-overlay">Download overlay</button>
+            </div>
+        </div>
+        <div class="filters">
+            <div class="selector-group" id="opponent-faction-group" style="display: none;">
+                <label for="opponent-faction-select">Opponent Faction:</label>
+                <select id="opponent-faction-select">
+                    <option value="Any">Any</option>
+                </select>
+            </div>
+            <div class="selector-group">
+                <label for="author-filter">Author:</label>
+                <input type="text" id="author-filter" placeholder="Enter author name">
+            </div>
+            <div class="selector-group" style="flex-grow: 1;">
+                <label for="build-order-filter">Build Order Name:</label>
+                <input type="text" id="build-order-filter" placeholder="Enter build order name">
+            </div>
+        </div>
+        <div class="build-orders-container" id="build-orders-container">
+            <!-- Build orders will be displayed here -->
+        </div>
+    </div>
+    <!-- Include the build order JS files -->
+    <script src="build_orders/aoe2_build_orders.js"></script>
+    <script src="build_orders/aoe4_build_orders.js"></script>
+    <script src="build_orders/aom_build_orders.js"></script>
+    <script src="build_orders/sc2_build_orders.js"></script>
+    <script src="build_orders/wc3_build_orders.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const gameSelect = document.getElementById('game-select');
+            const factionSelect = document.getElementById('faction-select');
+            const opponentFactionGroup = document.getElementById('opponent-faction-group');
+            const opponentFactionSelect = document.getElementById('opponent-faction-select');
+            const designBuildOrderButton = document.getElementById('design-build-order');
+            const downloadOverlayButton = document.getElementById('download-overlay');
+            const authorFilter = document.getElementById('author-filter');
+            const buildOrderFilter = document.getElementById('build-order-filter');
+            const buildOrdersContainer = document.getElementById('build-orders-container');
+
+            // Define factions for each game without "Generic" or "Any"
+            const gameFactions = {
+                aoe2: ['Armenians', 'Aztecs', 'Bengalis', 'Berbers', 'Bohemians', 'Britons', 'Burgundians', 'Bulgarians', 'Burmese', 'Byzantines', 'Celts', 'Chinese', 'Cumans', 'Dravidians', 'Ethiopians', 'Franks', 'Georgians', 'Goths', 'Gurjaras', 'Hindustanis', 'Huns', 'Incas', 'Italians', 'Japanese', 'Jurchens', 'Khitans', 'Khmer', 'Koreans', 'Lithuanians', 'Magyars', 'Mayans', 'Malay', 'Malians', 'Mongols', 'Persians', 'Poles', 'Portuguese', 'Romans', 'Saracens', 'Shu', 'Sicilians', 'Slavs', 'Spanish', 'Tatars', 'Teutons', 'Turks', 'Vietnamese', 'Vikings', 'Wei', 'Wu'],
+                aoe4: ['Abbasid Dynasty', 'Ayyubids', 'Byzantines', 'Chinese', 'Delhi Sultanate', 'English', 'French', 'Golden Horde', 'House of Lancaster', 'Holy Roman Empire', 'Japanese', 'Jeanne d\'Arc', 'Knights Templar', 'Macedonian Dynasty', 'Malians', 'Mongols', 'Order of the Dragon', 'Ottomans', 'Rus', 'Sengoku Daimyo', 'Tughlaq Dynasty', 'Zhu Xi\'s Legacy'],
+                aom: ['Zeus', 'Hades', 'Poseidon', 'Thor', 'Odin', 'Loki', 'Freyr', 'Kronos', 'Oranos', 'Gaia', 'Fuxi', 'Nuwa', 'Shennong', 'Amaterasu', 'Tsukuyomi', 'Susanoo'],
+                sc2: ['Terran', 'Protoss', 'Zerg'],
+                wc3: ['Humans', 'Orcs', 'Night Elves', 'Undead']
+            };
+
+            // Map game names to their build orders arrays
+            const buildOrdersMap = {
+                'aoe2': aoe2_build_orders,
+                'aoe4': aoe4_build_orders,
+                'aom': aom_build_orders,
+                'sc2': sc2_build_orders,
+                'wc3': wc3_build_orders
+            };
+
+            // Update faction select based on game
+            function updateFactionSelect() {
+                const game = gameSelect.value;
+                factionSelect.innerHTML = '';
+                if (game === 'aoe2') {
+                    const genericOption = document.createElement('option');
+                    genericOption.value = 'Generic';
+                    genericOption.textContent = 'Generic';
+                    factionSelect.appendChild(genericOption);
+                }
+                if (game && gameFactions[game]) {
+                    gameFactions[game].forEach(faction => {
+                        const option = document.createElement('option');
+                        option.value = faction;
+                        option.textContent = faction;
+                        factionSelect.appendChild(option);
+                    });
+                }
+
+                // Show opponent faction select for SC2 and WC3
+                if (game === 'sc2' || game === 'wc3') {
+                    opponentFactionGroup.style.display = 'flex';
+                    opponentFactionSelect.innerHTML = '<option value="Any">Any</option>';
+                    if (gameFactions[game]) {
+                        gameFactions[game].forEach(faction => {
+                            const option = document.createElement('option');
+                            option.value = faction;
+                            option.textContent = faction;
+                            opponentFactionSelect.appendChild(option);
+                        });
+                    }
+                } else {
+                    opponentFactionGroup.style.display = 'none';
+                }
+            }
+
+            // Initialize the faction select with AoE2 factions
+            updateFactionSelect();
+
+            // Update design build order button link based on game
+            designBuildOrderButton.addEventListener('click', function () {
+                const game = gameSelect.value;
+                if (game) {
+                    window.open(`https://rts-overlay.github.io/?gameId=${game}`, '_blank');
+                }
+            });
+
+            // Download overlay button link
+            downloadOverlayButton.addEventListener('click', function () {
+                window.open('https://github.com/CraftySalamander/RTS_Overlay', '_blank');
+            });
+
+            // Filter build orders based on input
+            function filterBuildOrders() {
+                const game = gameSelect.value;
+                const faction = factionSelect.value;
+                const opponentFaction = opponentFactionSelect.value;
+                const author = authorFilter.value.toLowerCase();
+                const buildOrderName = buildOrderFilter.value.toLowerCase();
+
+                buildOrdersContainer.innerHTML = '';
+                if (game) {
+                    const buildOrders = buildOrdersMap[game] || [];
+
+                    if (buildOrders.length === 0) {
+                        buildOrdersContainer.innerHTML = '<div class="no-build-orders">No valid build order</div>';
+                    } else {
+                        buildOrders.forEach(buildOrder => {
+                            // Check if the build order matches the filters
+                            const matchesFaction = faction === 'Generic' || buildOrder.faction === faction;
+                            const matchesOpponentFaction = !opponentFactionGroup.style.display || opponentFaction === 'Any' || buildOrder.opponent_faction === opponentFaction;
+                            const matchesAuthor = !author || buildOrder.author.toLowerCase().includes(author);
+                            const matchesName = !buildOrderName || buildOrder.name.toLowerCase().includes(buildOrderName);
+
+                            if (matchesFaction && matchesOpponentFaction && matchesAuthor && matchesName) {
+                                const buildOrderElement = document.createElement('div');
+                                buildOrderElement.className = 'build-order-button';
+                                buildOrderElement.innerHTML = `
+                                    <img src="assets/${game}/civilization/CivIcon-${buildOrder.faction}.png" alt="${buildOrder.faction} icon">
+                                    <span class="build-order-name">${buildOrder.name}</span>
+                                `;
+                                buildOrdersContainer.appendChild(buildOrderElement);
+                            }
+                        });
+                    }
+                }
+            }
+
+            // Add event listeners for filtering
+            gameSelect.addEventListener('change', function () {
+                updateFactionSelect();
+                filterBuildOrders();
+            });
+            factionSelect.addEventListener('change', filterBuildOrders);
+            opponentFactionSelect.addEventListener('change', filterBuildOrders);
+            authorFilter.addEventListener('input', filterBuildOrders);
+            buildOrderFilter.addEventListener('input', filterBuildOrders);
+        });
+    </script>
+</body>
+
+</html>
