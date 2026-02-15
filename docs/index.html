@@ -1,65 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Title and CSS -->
     <title>RTS Builds</title>
-    <meta charset="utf-8">
-    <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <meta charset="utf-8" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="header">
-            <img src="assets/common/title/rts_builds.png" alt="RTS Builds Title">
+      <div class="header">
+        <img src="assets/common/title/rts_builds.png" alt="RTS Builds Title" />
+      </div>
+      <div class="selectors">
+        <div class="selector-group">
+          <label for="game-select">Game:</label>
+          <select id="game-select">
+            <option value="aoe2" selected>Age of Empires II</option>
+            <option value="aoe4">Age of Empires IV</option>
+            <option value="aom">Age of Mythology</option>
+            <option value="sc2">StarCraft II</option>
+            <option value="wc3">WarCraft III</option>
+          </select>
         </div>
-        <div class="selectors">
-            <div class="selector-group">
-                <label for="game-select">Game:</label>
-                <select id="game-select">
-                    <option value="aoe2" selected>Age of Empires II</option>
-                    <option value="aoe4">Age of Empires IV</option>
-                    <option value="aom">Age of Mythology</option>
-                    <option value="sc2">StarCraft II</option>
-                    <option value="wc3">WarCraft III</option>
-                </select>
-            </div>
-            <div class="selector-group">
-                <label for="faction-select">Faction:</label>
-                <select id="faction-select">
-                    <option value="Generic">Generic</option>
-                </select>
-            </div>
-            <div class="selector-group">
-                <label>&nbsp;</label>
-                <button id="design-build-order">Design your build order</button>
-            </div>
-            <div class="selector-group">
-                <label>&nbsp;</label>
-                <button id="download-overlay">Download overlay</button>
-            </div>
+        <div class="selector-group">
+          <label for="faction-select">Faction:</label>
+          <select id="faction-select">
+            <option value="Generic">Generic</option>
+          </select>
         </div>
-        <div class="filters">
-            <div class="selector-group" id="opponent-faction-group" style="display: none;">
-                <label for="opponent-faction-select">Opponent Faction:</label>
-                <select id="opponent-faction-select">
-                    <option value="Any">Any</option>
-                </select>
-            </div>
-            <div class="selector-group">
-                <label for="author-filter">Author:</label>
-                <input type="text" id="author-filter" placeholder="Enter author name">
-            </div>
-            <div class="selector-group" style="flex-grow: 1;">
-                <label for="build-order-filter">Build Order Name:</label>
-                <input type="text" id="build-order-filter" placeholder="Enter build order name">
-            </div>
+        <div class="selector-group">
+          <label>&nbsp;</label>
+          <button id="design-build-order">Design your build order</button>
         </div>
-        <div class="build-orders-container" id="build-orders-container">
-            <!-- Build orders will be displayed here -->
+        <div class="selector-group">
+          <label>&nbsp;</label>
+          <button id="download-overlay">Download overlay</button>
         </div>
+      </div>
+      <div class="filters">
+        <div
+          class="selector-group"
+          id="opponent-faction-group"
+          style="display: none"
+        >
+          <label for="opponent-faction-select">Opponent Faction:</label>
+          <select id="opponent-faction-select">
+            <option value="Any">Any</option>
+          </select>
+        </div>
+        <div class="selector-group">
+          <label for="author-filter">Author:</label>
+          <input
+            type="text"
+            id="author-filter"
+            placeholder="Enter author name"
+          />
+        </div>
+        <div class="selector-group" style="flex-grow: 1">
+          <label for="build-order-filter">Build Order Name:</label>
+          <input
+            type="text"
+            id="build-order-filter"
+            placeholder="Enter build order name"
+          />
+        </div>
+      </div>
+      <div class="build-orders-container" id="build-orders-container">
+        <!-- Build orders will be displayed here -->
+      </div>
     </div>
     <!-- Include the build order JS files -->
     <script src="build_orders/aoe2_build_orders.js"></script>
@@ -71,6 +82,5 @@
     <!-- Include the other JS files -->
     <script src="factions.js"></script>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
