@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // Recover elements
   const gameSelect = document.getElementById("game-select");
   const factionSelect = document.getElementById("faction-select");
   const opponentFactionGroup = document.getElementById(
@@ -37,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
 
-    // Show opponent faction select for SC2 and WC3
+    // Show opponent faction select for specific games
     if (game === "sc2" || game === "wc3") {
       opponentFactionGroup.style.display = "flex";
       opponentFactionSelect.innerHTML = '<option value="Any">Any</option>';
@@ -109,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const buildOrderElement = document.createElement("div");
             buildOrderElement.className = "build-order-button";
             buildOrderElement.innerHTML = `
-                        <img src="assets/${game}/civilization/${gameFactions[game][buildOrder.faction]}" alt="${buildOrder.faction} icon">
+                        <img src="assets/${game}/${gameFactions[game][buildOrder.faction]}" alt="${buildOrder.faction} icon">
                         <span class="build-order-name">${buildOrder.name}</span>
                         `;
             buildOrdersContainer.appendChild(buildOrderElement);
