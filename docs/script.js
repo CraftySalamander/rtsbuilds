@@ -2,19 +2,13 @@ document.addEventListener("DOMContentLoaded", function () {
   // Recover elements
   const gameSelect = document.getElementById("game-select");
   const factionSelect = document.getElementById("faction-select");
-  const opponentFactionGroup = document.getElementById(
-    "opponent-faction-group",
-  );
-  const opponentFactionSelect = document.getElementById(
-    "opponent-faction-select",
-  );
+  const opponentFactionGroup = document.getElementById("opponent-faction-group");
+  const opponentFactionSelect = document.getElementById("opponent-faction-select");
   const designBuildOrderButton = document.getElementById("design-build-order");
   const downloadOverlayButton = document.getElementById("download-overlay");
   const authorFilter = document.getElementById("author-filter");
   const buildOrderFilter = document.getElementById("build-order-filter");
-  const buildOrdersContainer = document.getElementById(
-    "build-orders-container",
-  );
+  const buildOrdersContainer = document.getElementById("build-orders-container");
 
   // Map game names to their build orders arrays
   const buildOrdersMap = {
@@ -32,8 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (game && gameFactions[game]) {
       Object.keys(gameFactions[game]).forEach((factionKey) => {
         // Skip specific generic factions
-        const skipEntry =
-          (game === "sc2" || game === "wc3") && factionKey == "Any";
+        const skipEntry = (game === "sc2" || game === "wc3") && factionKey == "Any";
         if (!skipEntry) {
           const option = document.createElement("option");
           option.value = factionKey;
@@ -90,8 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const buildOrders = buildOrdersMap[game] || [];
 
       if (buildOrders.length === 0) {
-        buildOrdersContainer.innerHTML =
-          '<div class="no-build-orders">No valid build order</div>';
+        buildOrdersContainer.innerHTML = '<div class="no-build-orders">No valid build order</div>';
       } else {
         buildOrders.forEach((buildOrder) => {
           // Check if the build order matches the filters
@@ -104,18 +96,11 @@ document.addEventListener("DOMContentLoaded", function () {
             !filterOpponentFaction ||
             buildOrder.opponent_faction === "Any" ||
             buildOrder.opponent_faction === opponentFaction;
-          const matchesAuthor =
-            !author || buildOrder.author.toLowerCase().includes(author);
+          const matchesAuthor = !author || buildOrder.author.toLowerCase().includes(author);
           const matchesName =
-            !buildOrderName ||
-            buildOrder.name.toLowerCase().includes(buildOrderName);
+            !buildOrderName || buildOrder.name.toLowerCase().includes(buildOrderName);
 
-          if (
-            matchesFaction &&
-            matchesOpponentFaction &&
-            matchesAuthor &&
-            matchesName
-          ) {
+          if (matchesFaction && matchesOpponentFaction && matchesAuthor && matchesName) {
             const buildOrderElement = document.createElement("div");
             buildOrderElement.className = "build-order-button";
             const factionIcon = Array.isArray(buildOrder.faction)
