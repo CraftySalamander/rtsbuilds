@@ -96,7 +96,10 @@ document.addEventListener("DOMContentLoaded", function () {
         buildOrders.forEach((buildOrder) => {
           // Check if the build order matches the filters
           const matchesFaction =
-            faction == "All" || buildOrder.faction === faction;
+            faction === "All" ||
+            (Array.isArray(buildOrder.faction)
+              ? buildOrder.faction.includes(faction)
+              : buildOrder.faction === faction);
           const matchesOpponentFaction =
             !filterOpponentFaction ||
             buildOrder.opponent_faction === "Any" ||
@@ -115,8 +118,11 @@ document.addEventListener("DOMContentLoaded", function () {
           ) {
             const buildOrderElement = document.createElement("div");
             buildOrderElement.className = "build-order-button";
+            const factionIcon = Array.isArray(buildOrder.faction)
+              ? buildOrder.faction[0]
+              : buildOrder.faction;
             buildOrderElement.innerHTML = `
-                        <img src="assets/${game}/${gameFactions[game][buildOrder.faction]}" alt="${buildOrder.faction} icon">
+                        <img src="assets/${game}/${gameFactions[game][factionIcon]}" alt="${factionIcon} icon">
                         <span class="build-order-name">${buildOrder.name}</span>
                         `;
             buildOrdersContainer.appendChild(buildOrderElement);
