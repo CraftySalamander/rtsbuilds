@@ -31,17 +31,22 @@ document.addEventListener("DOMContentLoaded", function () {
     factionSelect.innerHTML = "";
     if (game && gameFactions[game]) {
       Object.keys(gameFactions[game]).forEach((factionKey) => {
-        const option = document.createElement("option");
-        option.value = factionKey;
-        option.textContent = factionKey;
-        factionSelect.appendChild(option);
+        // Skip specific generic factions
+        const skipEntry =
+          (game === "sc2" || game === "wc3") && factionKey == "Any";
+        if (!skipEntry) {
+          const option = document.createElement("option");
+          option.value = factionKey;
+          option.textContent = factionKey;
+          factionSelect.appendChild(option);
+        }
       });
     }
 
     // Show opponent faction select for specific games
     if (game === "sc2" || game === "wc3") {
       opponentFactionGroup.style.display = "flex";
-      opponentFactionSelect.innerHTML = '<option value="Any">Any</option>';
+      opponentFactionSelect.innerHTML = "";
       if (gameFactions[game]) {
         Object.keys(gameFactions[game]).forEach((factionKey) => {
           const option = document.createElement("option");
@@ -78,6 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const opponentFaction = opponentFactionSelect.value;
     const author = authorFilter.value.toLowerCase();
     const buildOrderName = buildOrderFilter.value.toLowerCase();
+    const filterOpponentFaction = game === "sc2" || game === "wc3";
 
     buildOrdersContainer.innerHTML = "";
     if (game) {
@@ -90,10 +96,10 @@ document.addEventListener("DOMContentLoaded", function () {
         buildOrders.forEach((buildOrder) => {
           // Check if the build order matches the filters
           const matchesFaction =
-            faction === "Generic" || buildOrder.faction === faction;
+            buildOrder.faction === "Generic" || buildOrder.faction === faction;
           const matchesOpponentFaction =
-            !opponentFactionGroup.style.display ||
-            opponentFaction === "Any" ||
+            !filterOpponentFaction ||
+            buildOrder.opponent_faction === "Any" ||
             buildOrder.opponent_faction === opponentFaction;
           const matchesAuthor =
             !author || buildOrder.author.toLowerCase().includes(author);

@@ -99,16 +99,16 @@ const gameFactions = {
     Susanoo: "major_god/susanoo.png",
   },
   sc2: {
+    Any: "race_icon/AnyRaceIcon.png",
     Terran: "race_icon/TerranIcon.png",
     Protoss: "race_icon/ProtossIcon.png",
     Zerg: "race_icon/ZergIcon.png",
-    Any: "race_icon/AnyRaceIcon.png",
   },
   wc3: {
+    Any: "race/dice.png",
     Humans: "race/human.png",
     Orcs: "race/orc.png",
     "Night Elves": "race/night_elf.png",
     Undead: "race/undead.png",
-    Any: "race/dice.png",
   },
 };
