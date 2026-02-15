@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const authorFilter = document.getElementById("author-filter");
   const buildOrderFilter = document.getElementById("build-order-filter");
   const buildOrdersContainer = document.getElementById("build-orders-container");
+  const header = document.querySelector(".header");
 
   // Map game names to their build orders arrays
   const buildOrdersMap = {
@@ -110,11 +111,53 @@ document.addEventListener("DOMContentLoaded", function () {
                         <img src="assets/${game}/${gameFactions[game][factionIcon]}" alt="${factionIcon} icon">
                         <span class="build-order-name">${buildOrder.name}</span>
                         `;
+            buildOrderElement.addEventListener("click", function () {
+              openBuildOrderWindow(buildOrder);
+            });
             buildOrdersContainer.appendChild(buildOrderElement);
           }
         });
       }
     }
+  }
+
+  // Function to open a new window with the build order content
+  function openBuildOrderWindow(buildOrder) {
+    const content = buildOrder.content;
+    const newWindow = window.open("", "_blank");
+    newWindow.document.write(`
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <title>${buildOrder.name}</title>
+        <style>
+          body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+          }
+          .header-img {
+            max-width: 200px; /* Adjust the max-width as needed */
+            height: auto;
+          }
+          pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+          }
+        </style>
+      </head>
+      <body>
+        <div class="header">
+          <img src="assets/common/title/rts_builds.png" alt="RTS Builds Title" class="header-img">
+        </div>
+        <div class="build-order-content">
+          <h2>${buildOrder.name}</h2>
+          <pre>${JSON.stringify(content, null, 2)}</pre>
+        </div>
+      </body>
+      </html>
+    `);
+    newWindow.document.close();
   }
 
   // Add event listeners for filtering
