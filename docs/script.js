@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Update faction select based on game
   function updateFactionSelect() {
     const game = gameSelect.value;
-    factionSelect.innerHTML = "";
+    factionSelect.innerHTML = '<option value="All">All</option>';
     if (game && gameFactions[game]) {
       Object.keys(gameFactions[game]).forEach((factionKey) => {
         // Skip specific generic factions
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
         buildOrders.forEach((buildOrder) => {
           // Check if the build order matches the filters
           const matchesFaction =
-            buildOrder.faction === "Generic" || buildOrder.faction === faction;
+            faction == "All" || buildOrder.faction === faction;
           const matchesOpponentFaction =
             !filterOpponentFaction ||
             buildOrder.opponent_faction === "Any" ||
