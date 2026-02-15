@@ -97,8 +97,6 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
 
             # Create a new entry for build_orders.js
             faction = data[game_field_mapping[game]['faction']]
-            if isinstance(faction, str):
-                faction = faction.lower()
 
             entry = {
                 'name': data['name'],
@@ -109,8 +107,6 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
 
             if game in ['sc2', 'wc3']:
                 opponent_faction = data[game_field_mapping[game]['opponent_faction']]
-                if isinstance(opponent_faction, str):
-                    opponent_faction = opponent_faction.lower()
                 entry['opponent_faction'] = opponent_faction
 
             # Check for duplicate entries based on name (case-insensitive)
