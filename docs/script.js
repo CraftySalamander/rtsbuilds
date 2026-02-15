@@ -169,4 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
   opponentFactionSelect.addEventListener("change", filterBuildOrders);
   authorFilter.addEventListener("input", filterBuildOrders);
   buildOrderFilter.addEventListener("input", filterBuildOrders);
+
+  // Run initial filtering
+  filterBuildOrders();
 });
