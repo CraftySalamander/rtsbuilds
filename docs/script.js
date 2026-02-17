@@ -22,12 +22,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Update faction select based on game
   function updateFactionSelect() {
-    const game = gameSelect.value;
+    gameName = gameSelect.value;
+
+    imagesGame = getImagesGame(gameName);
+    imagesCommon = getImagesCommon();
+
     factionSelect.innerHTML = '<option value="All">All</option>';
-    if (game && gameFactions[game]) {
-      Object.keys(gameFactions[game]).forEach((factionKey) => {
+    if (gameName && gameFactions[gameName]) {
+      Object.keys(gameFactions[gameName]).forEach((factionKey) => {
         // Skip specific generic factions
-        const skipEntry = (game === "sc2" || game === "wc3") && factionKey == "Any";
+        const skipEntry = (gameName === "sc2" || gameName === "wc3") && factionKey == "Any";
         if (!skipEntry) {
           const option = document.createElement("option");
           option.value = factionKey;
@@ -38,11 +42,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Show opponent faction select for specific games
-    if (game === "sc2" || game === "wc3") {
+    if (gameName === "sc2" || gameName === "wc3") {
       opponentFactionGroup.style.display = "flex";
       opponentFactionSelect.innerHTML = "";
-      if (gameFactions[game]) {
-        Object.keys(gameFactions[game]).forEach((factionKey) => {
+      if (gameFactions[gameName]) {
+        Object.keys(gameFactions[gameName]).forEach((factionKey) => {
           const option = document.createElement("option");
           option.value = factionKey;
           option.textContent = factionKey;
@@ -59,9 +63,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Update design build order button link based on game
   designBuildOrderButton.addEventListener("click", function () {
-    const game = gameSelect.value;
-    if (game) {
-      window.open(`https://rts-overlay.github.io/?gameId=${game}`, "_blank");
+    if (gameName) {
+      window.open(`https://rts-overlay.github.io/?gameId=${gameName}`, "_blank");
     }
   });
 
@@ -72,16 +75,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Filter build orders based on input
   function filterBuildOrders() {
-    const game = gameSelect.value;
     const faction = factionSelect.value;
     const opponentFaction = opponentFactionSelect.value;
     const author = authorFilter.value.toLowerCase();
     const buildOrderName = buildOrderFilter.value.toLowerCase();
-    const filterOpponentFaction = game === "sc2" || game === "wc3";
+    const filterOpponentFaction = gameName === "sc2" || gameName === "wc3";
 
     buildOrdersContainer.innerHTML = "";
-    if (game) {
-      const buildOrders = buildOrdersMap[game] || [];
+    if (gameName) {
+      const buildOrders = buildOrdersMap[gameName] || [];
 
       if (buildOrders.length === 0) {
         buildOrdersContainer.innerHTML = '<div class="no-build-orders">No valid build order</div>';
@@ -108,56 +110,17 @@ document.addEventListener("DOMContentLoaded", function () {
               ? buildOrder.faction[0]
               : buildOrder.faction;
             buildOrderElement.innerHTML = `
-                        <img src="assets/${game}/${gameFactions[game][factionIcon]}" alt="${factionIcon} icon">
+                        <img src="assets/${gameName}/${gameFactions[gameName][factionIcon]}" alt="${factionIcon} icon">
                         <span class="build-order-name">${buildOrder.name}</span>
                         `;
             buildOrderElement.addEventListener("click", function () {
-              openBuildOrderWindow(buildOrder);
+              openSinglePanelPage(buildOrder.content);
             });
             buildOrdersContainer.appendChild(buildOrderElement);
           }
         });
       }
     }
-  }
-
-  // Function to open a new window with the build order content
-  function openBuildOrderWindow(buildOrder) {
-    const content = buildOrder.content;
-    const newWindow = window.open("", "_blank");
-    newWindow.document.write(`
-      <!DOCTYPE html>
-      <html lang="en">
-      <head>
-        <meta charset="utf-8">
-        <title>${buildOrder.name}</title>
-        <style>
-          body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-          }
-          .header-img {
-            max-width: 200px; /* Adjust the max-width as needed */
-            height: auto;
-          }
-          pre {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-          }
-        </style>
-      </head>
-      <body>
-        <div class="header">
-          <img src="assets/common/title/rts_builds.png" alt="RTS Builds Title" class="header-img">
-        </div>
-        <div class="build-order-content">
-          <h2>${buildOrder.name}</h2>
-          <pre>${JSON.stringify(content, null, 2)}</pre>
-        </div>
-      </body>
-      </html>
-    `);
-    newWindow.document.close();
   }
 
   // Add event listeners for filtering
