@@ -226,12 +226,12 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
 
   htmlContent += indentSpace(2) + "body {\n";
   htmlContent += indentSpace(3) + "font-family: Arial, Helvetica, sans-serif;\n";
-  htmlContent += indentSpace(3) + "background-color: rgb(220, 220, 220);\n";
+  htmlContent += indentSpace(3) + "background-color: rgb(176, 176, 176);\n";
   htmlContent += indentSpace(2) + "}\n\n";
 
   htmlContent += indentSpace(2) + "table {\n";
   htmlContent += indentSpace(3) + "color: rgb(255, 255, 255);\n";
-  htmlContent += indentSpace(3) + "background-color: rgb(70, 70, 70);\n";
+  htmlContent += indentSpace(3) + "background-color: rgb(51, 51, 51);\n";
   htmlContent += indentSpace(3) + "margin: 0 auto;\n";
   htmlContent += indentSpace(3) + "border-radius: 15px;\n";
   htmlContent += indentSpace(3) + "border-collapse: collapse;\n";
@@ -950,7 +950,7 @@ function displayBuildOrderWC3(dataBO) {
  * Open a new page displaying the full BO in a single panel.
  *
  * @param {Object} dataBO    Dictionary with the content of the build order.
- * 
+ *
  * This function corresponds to the "openSinglePanelPage" function of RTS Overlay.
  */
 function displayBuildOrder(dataBO) {
