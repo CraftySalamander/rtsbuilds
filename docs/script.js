@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <span class="build-order-name">${buildOrder.name}</span>
                         `;
             buildOrderElement.addEventListener("click", function () {
-              openSinglePanelPage(buildOrder.content);
+              displayBuildOrder(buildOrder.content);
             });
             buildOrdersContainer.appendChild(buildOrderElement);
           }

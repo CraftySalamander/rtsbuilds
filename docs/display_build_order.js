@@ -143,7 +143,7 @@ function noteToTextImages(note, imageHeight = -1) {
  * @param {Object} sectionsHeader     Dictionary describing the sections headers, containing 'key',
  *                                    'before' and 'after', null if no section.
  */
-function openSinglePanelPageFromDescription(dataBO, columnsDescription, sectionsHeader = null) {
+function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHeader = null) {
   const buildOrderData = dataBO["build_order"];
 
   // Check which columns need to be displayed
@@ -690,7 +690,7 @@ function getBOImageHTML(imagePath, imageHeight = -1) {
  *
  * @param {Object} dataBO    Dictionary with the content of the build order.
  */
-function openSinglePanelPageAoE2(dataBO) {
+function displayBuildOrderAoE2(dataBO) {
   // Image folders
   const common = "assets/common/";
   const game = "assets/" + gameName + "/";
@@ -744,7 +744,7 @@ function openSinglePanelPageAoE2(dataBO) {
   sectionsHeader["first_line"] = sectionsHeader.after;
 
   // Feed game description to generic function
-  openSinglePanelPageFromDescription(dataBO, columnsDescription, sectionsHeader);
+  displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHeader);
 }
 
 /**
@@ -752,7 +752,7 @@ function openSinglePanelPageAoE2(dataBO) {
  *
  * @param {Object} dataBO    Dictionary with the content of the build order.
  */
-function openSinglePanelPageAoE4(dataBO) {
+function displayBuildOrderAoE4(dataBO) {
   // Image folders
   const common = "assets/common/";
   const game = "assets/" + gameName + "/";
@@ -801,7 +801,7 @@ function openSinglePanelPageAoE4(dataBO) {
   sectionsHeader["first_line"] = sectionsHeader.before;
 
   // Feed game description to generic function
-  openSinglePanelPageFromDescription(dataBO, columnsDescription, sectionsHeader);
+  displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHeader);
 }
 
 /**
@@ -809,7 +809,7 @@ function openSinglePanelPageAoE4(dataBO) {
  *
  * @param {Object} dataBO    Dictionary with the content of the build order.
  */
-function openSinglePanelPageAoM(dataBO) {
+function displayBuildOrderAoM(dataBO) {
   // Image folders
   const common = "assets/common/";
   const game = "assets/" + gameName + "/";
@@ -865,7 +865,7 @@ function openSinglePanelPageAoM(dataBO) {
   sectionsHeader["first_line"] = sectionsHeader.after;
 
   // Feed game description to generic function
-  openSinglePanelPageFromDescription(dataBO, columnsDescription, sectionsHeader);
+  displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHeader);
 }
 
 /**
@@ -873,7 +873,7 @@ function openSinglePanelPageAoM(dataBO) {
  *
  * @param {Object} dataBO    Dictionary with the content of the build order.
  */
-function openSinglePanelPageSC2(dataBO) {
+function displayBuildOrderSC2(dataBO) {
   // Image folders
   const common = "assets/common/";
   const game = "assets/" + gameName + "/";
@@ -904,7 +904,7 @@ function openSinglePanelPageSC2(dataBO) {
   }
 
   // Feed game description to generic function
-  openSinglePanelPageFromDescription(dataBO, columnsDescription);
+  displayBuildOrderFromDescription(dataBO, columnsDescription);
 }
 
 /**
@@ -912,7 +912,7 @@ function openSinglePanelPageSC2(dataBO) {
  *
  * @param {Object} dataBO    Dictionary with the content of the build order.
  */
-function openSinglePanelPageWC3(dataBO) {
+function displayBuildOrderWC3(dataBO) {
   // Image folders
   const common = "assets/common/";
   const game = "assets/" + gameName + "/";
@@ -943,30 +943,32 @@ function openSinglePanelPageWC3(dataBO) {
   }
 
   // Feed game description to generic function
-  openSinglePanelPageFromDescription(dataBO, columnsDescription);
+  displayBuildOrderFromDescription(dataBO, columnsDescription);
 }
 
 /**
  * Open a new page displaying the full BO in a single panel.
  *
  * @param {Object} dataBO    Dictionary with the content of the build order.
+ * 
+ * This function corresponds to the "openSinglePanelPage" function of RTS Overlay.
  */
-function openSinglePanelPage(dataBO) {
+function displayBuildOrder(dataBO) {
   switch (gameName) {
     case "aoe2":
-      openSinglePanelPageAoE2(dataBO);
+      displayBuildOrderAoE2(dataBO);
       break;
     case "aoe4":
-      openSinglePanelPageAoE4(dataBO);
+      displayBuildOrderAoE4(dataBO);
       break;
     case "aom":
-      openSinglePanelPageAoM(dataBO);
+      displayBuildOrderAoM(dataBO);
       break;
     case "sc2":
-      openSinglePanelPageSC2(dataBO);
+      displayBuildOrderSC2(dataBO);
       break;
     case "wc3":
-      openSinglePanelPageWC3(dataBO);
+      displayBuildOrderWC3(dataBO);
       break;
     default:
       throw "Unknown game: " + gameName;
