@@ -1,0 +1,205 @@
+{
+  "name": "BEN Phosphorus rush",
+  "civilization": "Bengalis",
+  "author": "Phosphorus (Viper adapted)",
+  "source": "https://youtu.be/NpoS8Zlk7DI",
+  "build_order": [
+    {
+      "villager_count": 6,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+      ],
+      "time": "1:15"
+    },
+    {
+      "villager_count": 9,
+      "age": 1,
+      "resources": {
+        "wood": 3,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)"
+      ],
+      "time": "2:30"
+    },
+    {
+      "villager_count": 11,
+      "age": 1,
+      "resources": {
+        "wood": 3,
+        "food": 8,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next 2 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@ (lure 1st)"
+      ],
+      "time": "3:20"
+    },
+    {
+      "villager_count": 13,
+      "age": 1,
+      "resources": {
+        "wood": 3,
+        "food": 10,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next 2 @resource/MaleVillDE.jpg@ build 1 @other/House_aoe2DE.png@ and @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@"
+      ],
+      "time": "4:10"
+    },
+    {
+      "villager_count": 14,
+      "age": 1,
+      "resources": {
+        "wood": 3,
+        "food": 11,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Lure 2nd @animal/Boar_aoe2DE.png@"
+      ],
+      "time": "4:35"
+    },
+    {
+      "villager_count": 15,
+      "age": 1,
+      "resources": {
+        "wood": 3,
+        "food": 12,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ goes to @resource/BerryBushDE.png@ | Push @animal/Deer_aoe2DE.png@"
+      ],
+      "time": "5:00"
+    },
+    {
+      "villager_count": 16,
+      "age": 1,
+      "resources": {
+        "wood": 3,
+        "food": 12,
+        "gold": 0,
+        "stone": 1
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@, then @mining_camp/Mining_camp_aoe2de.png@ on @resource/Aoe2de_stone.png@"
+      ],
+      "time": "5:25"
+    },
+    {
+      "villager_count": 18,
+      "age": 1,
+      "resources": {
+        "wood": 3,
+        "food": 14,
+        "gold": 0,
+        "stone": 1
+      },
+      "notes": [
+        "Add 2 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@"
+      ],
+      "time": "6:15"
+    },
+    {
+      "villager_count": 19,
+      "age": 1,
+      "resources": {
+        "wood": 3,
+        "food": 14,
+        "gold": 0,
+        "stone": 2
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ goes to @resource/Aoe2de_stone.png@"
+      ],
+      "time": "6:40"
+    },
+    {
+      "villager_count": 21,
+      "age": 1,
+      "resources": {
+        "wood": 3,
+        "food": 16,
+        "gold": 0,
+        "stone": 2
+      },
+      "notes": [
+        "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@ | Research @town_center/LoomDE.png@ | 22 pop @age/FeudalAgeIconDE.png@"
+      ],
+      "time": "7:55"
+    },
+    {
+      "villager_count": 21,
+      "age": 2,
+      "resources": {
+        "wood": 5,
+        "food": 14,
+        "gold": 0,
+        "stone": 2
+      },
+      "notes": [
+        "Before @age/FeudalAgeIconDE.png@ | Build 1 @other/House_aoe2DE.png@ | 2 from @resource/Aoe2de_food.png@ to @resource/Aoe2de_wood.png@ (straggler)"
+      ],
+      "time": "10:05"
+    },
+    {
+      "villager_count": 25,
+      "age": 2,
+      "resources": {
+        "wood": 8,
+        "food": 11,
+        "gold": 0,
+        "stone": 6
+      },
+      "notes": [
+        "In @age/FeudalAgeIconDE.png@ | Make 2 @resource/MaleVillDE.jpg@ | Build @market/Market_aoe2DE.png@ & @blacksmith/Blacksmith_aoe2de.png@ | Sell @resource/Aoe2de_food.png@/@resource/Aoe2de_stone.png@",
+        "Some @resource/Aoe2de_food.png@@resource/MaleVillDE.jpg@ to @resource/Aoe2de_stone.png@ & @resource/Aoe2de_wood.png@ (straggler) | 26 pop @age/CastleAgeIconDE.png@"
+      ],
+      "time": "10:55"
+    },
+    {
+      "villager_count": 25,
+      "age": 3,
+      "resources": {
+        "wood": 3,
+        "food": 5,
+        "gold": 0,
+        "stone": 17
+      },
+      "notes": [
+        "Before @age/CastleAgeIconDE.png@ | Build @defensive_structures/Tower_aoe2de.png@ if needed | Adapt economy"
+      ],
+      "time": "13:35"
+    },
+    {
+      "villager_count": 30,
+      "age": 3,
+      "resources": {
+        "wood": 11,
+        "food": 6,
+        "gold": 13,
+        "stone": 0
+      },
+      "notes": [
+        "In @age/CastleAgeIconDE.png@ | Build @castle/Castle_aoe2DE.png@ | Build @mining_camp/Mining_camp_aoe2de.png@ on @resource/Aoe2de_gold.png@ | Produce @unique_unit/Aoe2de_ratha_ranged.png@"
+      ],
+      "time": "14:50"
+    }
+  ]
+}

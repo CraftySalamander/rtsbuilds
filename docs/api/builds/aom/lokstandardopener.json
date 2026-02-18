@@ -1,0 +1,163 @@
+{
+  "major_god": "Loki",
+  "name": "LOK Standard Opener",
+  "author": "Magic",
+  "source": "https://youtu.be/k45PhrzMj_0",
+  "build_order": [
+    {
+      "worker_count": 4,
+      "age": 1,
+      "resources": {
+        "food": 2,
+        "wood": 1,
+        "gold": 1,
+        "favor": 0
+      },
+      "notes": [
+        "First 2 @norse_civilian/gatherer.png@ to @animal/elk.png@ | Train 1 @norse_civilian/dwarf.png@ to @resource/gold.png@ | Build @other/house.png@",
+        "1 @norse_civilian/gatherer.png@ builds @resource/gold.png@@norse_civilian/ox_cart.png@ & @resource/wood.png@@norse_civilian/ox_cart.png@, then to @resource/wood.png@"
+      ],
+      "time": "0:15"
+    },
+    {
+      "worker_count": 6,
+      "age": 1,
+      "resources": {
+        "food": 4,
+        "wood": 1,
+        "gold": 1,
+        "favor": 0
+      },
+      "notes": [
+        "Next 2 @norse_civilian/gatherer.png@ go to @resource/food.png@"
+      ],
+      "time": "0:45"
+    },
+    {
+      "worker_count": 7,
+      "age": 1,
+      "resources": {
+        "food": 4,
+        "wood": 1,
+        "gold": 2,
+        "favor": 0
+      },
+      "notes": [
+        "Next @norse_civilian/dwarf.png@ goes to @resource/gold.png@"
+      ],
+      "time": "1:00"
+    },
+    {
+      "worker_count": 8,
+      "age": 1,
+      "resources": {
+        "food": 5,
+        "wood": 1,
+        "gold": 2,
+        "favor": 0
+      },
+      "notes": [
+        "Next @norse_civilian/gatherer.png@ goes to @resource/food.png@"
+      ],
+      "time": "1:15"
+    },
+    {
+      "worker_count": 9,
+      "age": 1,
+      "resources": {
+        "food": 5,
+        "wood": 1,
+        "gold": 3,
+        "favor": 0
+      },
+      "notes": [
+        "Next @norse_civilian/gatherer.png@ goes to @resource/gold.png@"
+      ],
+      "time": "1:30"
+    },
+    {
+      "worker_count": 10,
+      "age": 1,
+      "resources": {
+        "food": 5,
+        "wood": 1,
+        "gold": 4,
+        "favor": 0
+      },
+      "notes": [
+        "Next @norse_civilian/dwarf.png@ goes to @resource/gold.png@"
+      ],
+      "time": "1:45"
+    },
+    {
+      "worker_count": 12,
+      "age": 1,
+      "resources": {
+        "food": 7,
+        "wood": 1,
+        "gold": 4,
+        "favor": 0
+      },
+      "notes": [
+        "Next 2 @norse_civilian/gatherer.png@ go to @resource/food.png@ | Build @temple/temple.png@"
+      ],
+      "time": "2:15"
+    },
+    {
+      "worker_count": 13,
+      "age": 1,
+      "resources": {
+        "food": 7,
+        "wood": 3,
+        "gold": 3,
+        "favor": 0
+      },
+      "notes": [
+        "Next @norse_civilian/gatherer.png@ goes to @resource/wood.png@ | @resource/gold.png@@norse_civilian/gatherer.png@ to @resource/wood.png@"
+      ],
+      "time": "2:30"
+    },
+    {
+      "worker_count": 14,
+      "age": 1,
+      "resources": {
+        "food": 7,
+        "wood": 3,
+        "gold": 4,
+        "favor": 0
+      },
+      "notes": [
+        "Next @norse_civilian/dwarf.png@ goes to @resource/gold.png@ | 2:50@age/classical_age.png@"
+      ],
+      "time": "2:45"
+    },
+    {
+      "worker_count": 14,
+      "age": 2,
+      "resources": {
+        "food": 6,
+        "wood": 4,
+        "gold": 4,
+        "favor": 2
+      },
+      "notes": [
+        "Before @age/classical_age.png@ | Move 1 @resource/food.png@@norse_civilian/gatherer.png@ to @resource/wood.png@ | Build @other/house.png@ | Train @norse_hero/hersir.png@"
+      ],
+      "time": "3:45"
+    },
+    {
+      "worker_count": 17,
+      "age": 2,
+      "resources": {
+        "food": 6,
+        "wood": 4,
+        "gold": 7,
+        "favor": 3
+      },
+      "notes": [
+        "In @age/classical_age.png@ | Next 3 @norse_civilian/dwarf.png@ to @resource/gold.png@ | Build @norse_building/great_hall.png@ & @norse_building/longhouse.png@"
+      ],
+      "time": "4:30"
+    }
+  ]
+}

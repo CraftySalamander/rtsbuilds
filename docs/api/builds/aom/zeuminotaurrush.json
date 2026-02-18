@@ -1,0 +1,137 @@
+{
+  "major_god": "Zeus",
+  "name": "ZEU Minotaur Rush",
+  "author": "KeeN Flame",
+  "source": "https://youtu.be/GTxD7JvU2qQ",
+  "build_order": [
+    {
+      "worker_count": 5,
+      "age": 1,
+      "resources": {
+        "food": 4,
+        "wood": 1,
+        "gold": 0,
+        "favor": 0
+      },
+      "notes": [
+        "First 4 @greeks_civilian/villager_greek.png@ to @animal/giraffe.png@ (build @greeks_building/granary.png@)",
+        "Next @greeks_civilian/villager_greek.png@ goes to @resource/wood.png@ (build @greeks_building/storehouse.png@)"
+      ],
+      "time": "0:15"
+    },
+    {
+      "worker_count": 7,
+      "age": 1,
+      "resources": {
+        "food": 4,
+        "wood": 1,
+        "gold": 2,
+        "favor": 0
+      },
+      "notes": [
+        "Next 2 @greeks_civilian/villager_greek.png@ to @resource/gold.png@ (build @greeks_building/storehouse.png@)"
+      ],
+      "time": "0:45"
+    },
+    {
+      "worker_count": 11,
+      "age": 1,
+      "resources": {
+        "food": 8,
+        "wood": 1,
+        "gold": 2,
+        "favor": 0
+      },
+      "notes": [
+        "Next 4 @greeks_civilian/villager_greek.png@ to @animal/giraffe.png@"
+      ],
+      "time": "1:45"
+    },
+    {
+      "worker_count": 13,
+      "age": 1,
+      "resources": {
+        "food": 8,
+        "wood": 1,
+        "gold": 4,
+        "favor": 0
+      },
+      "notes": [
+        "Next 2 @greeks_civilian/villager_greek.png@ to @resource/gold.png@ | Build @temple/temple.png@ with @resource/gold.png@@greeks_civilian/villager_greek.png@"
+      ],
+      "time": "2:15"
+    },
+    {
+      "worker_count": 15,
+      "age": 1,
+      "resources": {
+        "food": 8,
+        "wood": 1,
+        "gold": 4,
+        "favor": 2
+      },
+      "notes": [
+        "Build 1 @other/house.png@ with @resource/food.png@@greeks_civilian/villager_greek.png@ | Next 2 @greeks_civilian/villager_greek.png@ to @resource/favor.png@",
+        "Drop off @resource/food.png@ | 2:45 @greeks_minor_god/athena.png@"
+      ],
+      "time": "2:45"
+    },
+    {
+      "worker_count": 15,
+      "age": 2,
+      "resources": {
+        "food": 5,
+        "wood": 4,
+        "gold": 4,
+        "favor": 2
+      },
+      "notes": [
+        "Before @age/classical_age.png@ | Move 3 @resource/food.png@@greeks_civilian/villager_greek.png@ to @resource/wood.png@ | Train @greeks_hero/jason.png@"
+      ],
+      "time": "3:45"
+    },
+    {
+      "worker_count": 18,
+      "age": 2,
+      "resources": {
+        "food": 8,
+        "wood": 4,
+        "gold": 4,
+        "favor": 2
+      },
+      "notes": [
+        "In @age/classical_age.png@ | Build @greeks_building/military_academy.png@ + 2 @other/house.png@ | Train 3 extra @greeks_myth/minotaur.png@",
+        "Next 3@greeks_civilian/villager_greek.png@ to @resource/food.png@"
+      ],
+      "time": "4:30"
+    },
+    {
+      "worker_count": 20,
+      "age": 2,
+      "resources": {
+        "food": 8,
+        "wood": 4,
+        "gold": 4,
+        "favor": 4
+      },
+      "notes": [
+        "Next 2 @greeks_civilian/villager_greek.png@ to @temple/temple.png@ | Train @greeks_human/hoplite.png@ +@greeks_hero/heracles.png@"
+      ],
+      "time": "5:00"
+    },
+    {
+      "worker_count": 27,
+      "age": 2,
+      "resources": {
+        "food": 8,
+        "wood": 5,
+        "gold": 10,
+        "favor": 4
+      },
+      "notes": [
+        "Add 1 @greeks_civilian/villager_greek.png@ to @resource/wood.png@ & 6 @greeks_civilian/villager_greek.png@ to @resource/gold.png@ | Research @greeks_tech/labyrinth_of_minos.png@ + @greeks_tech/sarissa.png@"
+      ],
+      "time": "6:45"
+    }
+  ]
+}

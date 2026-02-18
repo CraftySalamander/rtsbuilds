@@ -1,0 +1,137 @@
+{
+  "name": "GEO 19 Pop Fast Knights",
+  "civilization": "Georgians",
+  "author": "Poop Lord",
+  "source": "https://youtu.be/r7wdhFAptZE",
+  "build_order": [
+    {
+      "villager_count": 4,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 4,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build 2 @other/House_aoe2DE.png@ | Scout with @stable/Scoutcavalry_aoe2DE.png@ & @other/MuleCart.png@ | 4 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+      ],
+      "time": "0:25"
+    },
+    {
+      "villager_count": 5,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 5,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Lure 1st @animal/Boar_aoe2DE.png@ | Start pushing @animal/Deer_aoe2DE.png@"
+      ],
+      "time": "0:50"
+    },
+    {
+      "villager_count": 7,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 7,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next 2 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@/@animal/Deer_aoe2DE.png@ | Grab 2nd @animal/Boar_aoe2DE.png@ when needed"
+      ],
+      "time": "1:40"
+    },
+    {
+      "villager_count": 10,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 10,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@ | 2 extra @resource/MaleVillDE.jpg@ on @resource/BerryBushDE.png@"
+      ],
+      "time": "2:55"
+    },
+    {
+      "villager_count": 15,
+      "age": 1,
+      "resources": {
+        "wood": 5,
+        "food": 10,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build 1 @other/House_aoe2DE.png@ | 5 to @resource/Aoe2de_wood.png@ (with @other/MuleCart.png@ close to @resource/Aoe2de_gold.png@)"
+      ],
+      "time": "5:00"
+    },
+    {
+      "villager_count": 18,
+      "age": 1,
+      "resources": {
+        "wood": 5,
+        "food": 13,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next 3 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@/@animal/Deer_aoe2DE.png@/@animal/Sheep_aoe2DE.png@ | Research @town_center/LoomDE.png@ | 19 pop @age/FeudalAgeIconDE.png@"
+      ],
+      "time": "6:40"
+    },
+    {
+      "villager_count": 18,
+      "age": 2,
+      "resources": {
+        "wood": 8,
+        "food": 10,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Before @age/FeudalAgeIconDE.png@ | 1 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to @barracks/Barracks_aoe2DE.png@, then back to @resource/Aoe2de_food.png@",
+        "Move 3 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to straggler, back to @resource/Aoe2de_food.png@ when 350 @resource/Aoe2de_wood.png@"
+      ],
+      "time": "8:50"
+    },
+    {
+      "villager_count": 18,
+      "age": 2,
+      "resources": {
+        "wood": 0,
+        "food": 13,
+        "gold": 5,
+        "stone": 0
+      },
+      "notes": [
+        "In @age/FeudalAgeIconDE.png@ | 5 from @lumber_camp/Lumber_camp_aoe2de.png@ to @stable/Stable_aoe2DE.png@ (1), @market/Market_aoe2DE.png@ (3) & @resource/Aoe2de_gold.png@ (1 with @other/MuleCart.png@)",
+        "Sell 200 @resource/Aoe2de_stone.png@ | Builders to @resource/Aoe2de_gold.png@ | No new @resource/MaleVillDE.jpg@ | Research @age/CastleAgeIconDE.png@"
+      ],
+      "time": "10:34"
+    },
+    {
+      "villager_count": 18,
+      "age": 3,
+      "resources": {
+        "wood": 0,
+        "food": 9,
+        "gold": 9,
+        "stone": 0
+      },
+      "notes": [
+        "Before @age/CastleAgeIconDE.png@ | Build 1 @other/House_aoe2DE.png@ | Research @stable/BloodlinesDE.png@ | 4 from @resource/Aoe2de_food.png@ to @resource/Aoe2de_gold.png@",
+        "All @resource/Aoe2de_food.png@ @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ (no @mill/FarmDE.png@) | In @age/CastleAgeIconDE.png@ | Harass with @stable/Knight_aoe2DE.png@ & adapt"
+      ],
+      "time": "13:13"
+    }
+  ]
+}

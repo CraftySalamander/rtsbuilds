@@ -1,0 +1,180 @@
+{
+  "name": "Knight Rush into Eco Boom",
+  "civilization": "Generic",
+  "author": "Morley Games",
+  "source": "https://youtu.be/CuJezVzC4Fg",
+  "build_order": [
+    {
+      "villager_count": 6,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build 2 @other/House_aoe2DE.png@ | 6 first @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+      ],
+      "time": "1:15"
+    },
+    {
+      "villager_count": 7,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 7,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Lure 1st @animal/Boar_aoe2DE.png@"
+      ],
+      "time": "1:40"
+    },
+    {
+      "villager_count": 11,
+      "age": 1,
+      "resources": {
+        "wood": 4,
+        "food": 7,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next 4 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@) | Start pushing @animal/Deer_aoe2DE.png@ (3+)"
+      ],
+      "time": "3:20"
+    },
+    {
+      "villager_count": 12,
+      "age": 1,
+      "resources": {
+        "wood": 4,
+        "food": 8,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@ then lures 2nd @animal/Boar_aoe2DE.png@"
+      ],
+      "time": "3:45"
+    },
+    {
+      "villager_count": 13,
+      "age": 1,
+      "resources": {
+        "wood": 4,
+        "food": 9,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Add 1 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@"
+      ],
+      "time": "4:10"
+    },
+    {
+      "villager_count": 18,
+      "age": 1,
+      "resources": {
+        "wood": 4,
+        "food": 14,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ builds @other/House_aoe2DE.png@ & @mill/Mill_aoe2de.png@ (@resource/BerryBushDE.png@) | 4 extra to @resource/BerryBushDE.png@"
+      ],
+      "time": "6:15"
+    },
+    {
+      "villager_count": 19,
+      "age": 1,
+      "resources": {
+        "wood": 4,
+        "food": 15,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ seeds @mill/FarmDE.png@"
+      ],
+      "time": "6:40"
+    },
+    {
+      "villager_count": 22,
+      "age": 1,
+      "resources": {
+        "wood": 7,
+        "food": 15,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next 3 to @resource/Aoe2de_wood.png@ (1st @lumber_camp/Lumber_camp_aoe2de.png@) | Move 2 from @animal/Sheep_aoe2DE.png@ to @mill/FarmDE.png@",
+        "Resarch 23 pop @age/FeudalAgeIconDE.png@ (no loom)"
+      ],
+      "time": "7:55"
+    },
+    {
+      "villager_count": 22,
+      "age": 2,
+      "resources": {
+        "wood": 7,
+        "food": 15,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Before @age/FeudalAgeIconDE.png@ | Build @barracks/Barracks_aoe2DE.png@"
+      ],
+      "time": "10:05"
+    },
+    {
+      "villager_count": 23,
+      "age": 2,
+      "resources": {
+        "wood": 7,
+        "food": 15,
+        "gold": 1,
+        "stone": 0
+      },
+      "notes": [
+        "In @age/FeudalAgeIconDE.png@ | Research @town_center/LoomDE.png@ | Build @stable/Stable_aoe2DE.png@ (2@resource/MaleVillDE.jpg@) & @market/Market_aoe2DE.png@ (3@resource/MaleVillDE.jpg@)",
+        "1 new @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ | Sell 200 @resource/Aoe2de_stone.png@ | Click 24 pop @age/CastleAgeIconDE.png@"
+      ],
+      "time": "10:55"
+    },
+    {
+      "villager_count": 23,
+      "age": 3,
+      "resources": {
+        "wood": 8,
+        "food": 10,
+        "gold": 5,
+        "stone": 0
+      },
+      "notes": [
+        "Before @age/CastleAgeIconDE.png@ | 5 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @resource/Aoe2de_gold.png@ (4) & @resource/Aoe2de_wood.png@ (1)",
+        "Research @stable/BloodlinesDE.png@ | Seed @mill/FarmDE.png@ after @animal/Sheep_aoe2DE.png@ | Build 1 @other/House_aoe2DE.png@"
+      ],
+      "time": "13:35"
+    },
+    {
+      "villager_count": 28,
+      "age": 3,
+      "resources": {
+        "wood": 8,
+        "food": 13,
+        "gold": 7,
+        "stone": 0
+      },
+      "notes": [
+        "In @age/CastleAgeIconDE.png@ | 2 new @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@, next @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@",
+        "Make 4-6 @stable/Knight_aoe2DE.png@ | Use @market/Market_aoe2DE.png@ to build 2nd @town_center/Towncenter_aoe2DE.png@ when possible"
+      ],
+      "time": "15:40"
+    }
+  ]
+}

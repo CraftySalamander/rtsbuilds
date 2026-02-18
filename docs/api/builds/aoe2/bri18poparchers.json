@@ -1,0 +1,181 @@
+{
+  "name": "BRI 18 Pop Archers",
+  "civilization": "Britons",
+  "author": "Morley Games",
+  "source": "https://youtu.be/zvxNZUno7-g",
+  "build_order": [
+    {
+      "villager_count": 5,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 5,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build 2 @other/House_aoe2DE.png@. | Send the first 5 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@."
+      ],
+      "time": "0:50"
+    },
+    {
+      "villager_count": 6,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Lure the first @animal/Boar_aoe2DE.png@."
+      ],
+      "time": "1:15"
+    },
+    {
+      "villager_count": 8,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build the first @lumber_camp/Lumber_camp_aoe2de.png@. | Send the next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@."
+      ],
+      "time": "2:05"
+    },
+    {
+      "villager_count": 9,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 7,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Add 1 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@."
+      ],
+      "time": "2:30"
+    },
+    {
+      "villager_count": 10,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 8,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@, then lures 2nd @animal/Boar_aoe2DE.png@."
+      ],
+      "time": "2:55"
+    },
+    {
+      "villager_count": 13,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 11,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Add 3 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@."
+      ],
+      "time": "4:10"
+    },
+    {
+      "villager_count": 14,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 12,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build a @mill/Mill_aoe2de.png@ and gather @resource/BerryBushDE.png@."
+      ],
+      "time": "4:35"
+    },
+    {
+      "villager_count": 17,
+      "age": 1,
+      "resources": {
+        "wood": 5,
+        "food": 12,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@. | Research @town_center/LoomDE.png@. | click up to @age/FeudalAgeIconDE.png@."
+      ],
+      "time": "6:15"
+    },
+    {
+      "villager_count": 17,
+      "age": 2,
+      "resources": {
+        "wood": 10,
+        "food": 5,
+        "gold": 1,
+        "stone": 0,
+        "builder": 1
+      },
+      "notes": [
+        "Before @age/FeudalAgeIconDE.png@ | 1 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to @other/House_aoe2DE.png@ & @barracks/Barracks_aoe2DE.png@. | 1 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@.",
+        "5 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to @resource/Aoe2de_wood.png@ on Straggler (2) & @lumber_camp/Lumber_camp_aoe2de.png@ (3)."
+      ],
+      "time": "8:25"
+    },
+    {
+      "villager_count": 21,
+      "age": 2,
+      "resources": {
+        "wood": 8,
+        "food": 7,
+        "gold": 5,
+        "stone": 0,
+        "builder": 1
+      },
+      "notes": [
+        "In @age/FeudalAgeIconDE.png@ | 2 @resource/MaleVillDE.jpg@ from Straggler (+ @animal/Sheep_aoe2DE.png@ when done) to @resource/BerryBushDE.png@.",
+        "Build @archery_range/Archery_range_aoe2DE.png@ + @other/House_aoe2DE.png@. | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@.",
+        "Next 4 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@. | Build @blacksmith/Blacksmith_aoe2de.png@ & research @blacksmith/FletchingDE.png@."
+      ],
+      "time": "10:05"
+    },
+    {
+      "villager_count": 25,
+      "age": 2,
+      "resources": {
+        "wood": 8,
+        "food": 12,
+        "gold": 5,
+        "stone": 0
+      },
+      "notes": [
+        "Add 4 @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@ (+ builder). | Start @archery_range/Archer_aoe2DE.png@. | Build @other/House_aoe2DE.png@."
+      ],
+      "time": "11:45"
+    },
+    {
+      "villager_count": 27,
+      "age": 2,
+      "resources": {
+        "wood": 10,
+        "food": 12,
+        "gold": 5,
+        "stone": 0
+      },
+      "notes": [
+        "Send the next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build 2nd @lumber_camp/Lumber_camp_aoe2de.png@)."
+      ],
+      "time": "12:35"
+    }
+  ]
+}

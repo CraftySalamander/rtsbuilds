@@ -1,0 +1,69 @@
+{
+  "major_god": "Fuxi",
+  "name": "FUX 3:30 advance",
+  "author": "TheRapl",
+  "source": "https://youtu.be/g-mhEVySE_c",
+  "build_order": [
+    {
+      "worker_count": 12,
+      "age": 1,
+      "resources": {
+        "food": 9,
+        "wood": 0,
+        "gold": 0,
+        "favor": 0
+      },
+      "notes": [
+        "First 2 @chinese_civilian/peasant.png@ on @resource/food.png@ | 1st @chinese_civilian/kuafu.png@ on @resource/gold.png@ (build 2 @chinese_building/silo.png@)",
+        "Next 7 @chinese_civilian/peasant.png@ on @resource/food.png@ | Scout with @chinese_hero/pioneer.png@ | Cast @chinese_power/peachblossomspring_power.png@",
+        "At 150 @resource/gold.png@, move @chinese_civilian/kuafu.png@ to @resource/wood.png@ (straggler) & build 1 @other/house.png@",
+        "At 150 @resource/wood.png@, build @temple/temple.png@ with @chinese_civilian/kuafu.png@, then back to @resource/wood.png@"
+      ],
+      "time": "1:45"
+    },
+    {
+      "worker_count": 15,
+      "age": 1,
+      "resources": {
+        "food": 9,
+        "wood": 4,
+        "gold": 0,
+        "favor": 0
+      },
+      "notes": [
+        "Next 3 @chinese_civilian/peasant.png@ to @resource/wood.png@ (straggler) | 2:30@chinese_minor_god/chiyou.png@"
+      ],
+      "time": "2:30"
+    },
+    {
+      "worker_count": 15,
+      "age": 2,
+      "resources": {
+        "food": 4,
+        "wood": 4,
+        "gold": 5,
+        "favor": 0
+      },
+      "notes": [
+        "Before @age/classical_age.png@ | Build @chinese_building/silo.png@ on @resource/wood.png@ | Move 5 @resource/food.png@@chinese_civilian/peasant.png@ to @resource/gold.png@"
+      ],
+      "time": "3:30"
+    },
+    {
+      "worker_count": 18,
+      "age": 2,
+      "resources": {
+        "food": 7,
+        "wood": 5,
+        "gold": 4,
+        "favor": 0
+      },
+      "notes": [
+        "In @age/classical_age.png@ | Next @chinese_civilian/peasant.png@ to @resource/berry.png@ (build @chinese_building/silo.png@)",
+        "Train 2nd @chinese_myth/yazi.png@ to raid | Always build with @chinese_civilian/kuafu.png@ (@other/house.png@, @chinese_building/military_camp.png@...)",
+        "Adapt your eco for game plan | Train @chinese_civilian/kuafu.png@ when possible"
+      ],
+      "time": "4:15"
+    }
+  ]
+}

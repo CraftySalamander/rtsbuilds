@@ -1,0 +1,154 @@
+{
+  "name": "ETH 2 Range",
+  "civilization": "Ethiopians",
+  "author": "HERA",
+  "source": "https://buildorderguide.com",
+  "description": "Reach feudal extremely quickly and produce out of 2 ranges. Slighty modified from HERA's aggressive Arabia build.",
+  "build_order": [
+    {
+      "villager_count": 6,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "2 @other/House_aoe2DE.png@ + 6 on @animal/Sheep_aoe2DE.png@"
+      ],
+      "time": "1:15"
+    },
+    {
+      "villager_count": 8,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "2 on @resource/Aoe2de_wood.png@"
+      ],
+      "time": "2:05"
+    },
+    {
+      "villager_count": 15,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 13,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "7 on @resource/Aoe2de_food.png@ under @town_center/Towncenter_aoe2DE.png@. Build @other/House_aoe2DE.png@.",
+        "Get 2 @animal/Boar_aoe2DE.png@, push @animal/Deer_aoe2DE.png@ if you have time."
+      ],
+      "time": "5:00"
+    },
+    {
+      "villager_count": 16,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 13,
+        "gold": 1,
+        "stone": 0
+      },
+      "notes": [
+        "1 on @resource/Aoe2de_gold.png@"
+      ],
+      "time": "5:25"
+    },
+    {
+      "villager_count": 18,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 15,
+        "gold": 1,
+        "stone": 0
+      },
+      "notes": [
+        "2 on @resource/Aoe2de_food.png@ under @town_center/Towncenter_aoe2DE.png@ | Research @town_center/LoomDE.png@",
+        "Research 19 Pop @age/FeudalAgeIconDE_alpha.png@"
+      ],
+      "time": "6:40"
+    },
+    {
+      "villager_count": 18,
+      "age": 2,
+      "resources": {
+        "wood": 14,
+        "food": 1,
+        "gold": 2,
+        "stone": 0,
+        "builder": 1
+      },
+      "notes": [
+        "Before @age/FeudalAgeIconDE_alpha.png@ | 12 @resource/Aoe2de_food.png@ from @town_center/Towncenter_aoe2DE.png@ \u2192 9 @resource/Aoe2de_wood.png@ (3 straggler)",
+        "2 @resource/Aoe2de_food.png@ from @town_center/Towncenter_aoe2DE.png@ \u2192  @barracks/Barracks_aoe2DE.png@ & @other/House_aoe2DE.png@. Then, to @defensive_structures/Palisade_wall_aoe2de.png@/@resource/Aoe2de_gold.png@"
+      ],
+      "time": "8:50"
+    },
+    {
+      "villager_count": 20,
+      "age": 2,
+      "resources": {
+        "wood": 14,
+        "food": 1,
+        "gold": 4,
+        "stone": 0
+      },
+      "notes": [
+        "In @age/FeudalAgeIconDE_alpha.png@ | Build 2 @archery_range/Archery_range_aoe2DE.png@. Research @lumber_camp/DoubleBitAxe_aoe2DE.png@. | 2 on @resource/Aoe2de_gold.png@"
+      ],
+      "time": "9:40"
+    },
+    {
+      "villager_count": 25,
+      "age": 2,
+      "resources": {
+        "wood": 14,
+        "food": 6,
+        "gold": 4,
+        "stone": 0
+      },
+      "notes": [
+        "5 on Straggler | Build @blacksmith/Blacksmith_aoe2de.png@ | Research @blacksmith/FletchingDE.png@",
+        "@mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@ | Seed @mill/FarmDE.png@ with straggler @resource/MaleVillDE_alpha.png@ | Build @other/House_aoe2DE.png@"
+      ],
+      "time": "11:45"
+    },
+    {
+      "villager_count": 28,
+      "age": 2,
+      "resources": {
+        "wood": 14,
+        "food": 6,
+        "gold": 7,
+        "stone": 0
+      },
+      "notes": [
+        "3 on @resource/Aoe2de_gold.png@"
+      ],
+      "time": "13:00"
+    },
+    {
+      "villager_count": 37,
+      "age": 2,
+      "resources": {
+        "wood": 14,
+        "food": 15,
+        "gold": 7,
+        "stone": 0
+      },
+      "notes": [
+        "9 on @mill/FarmDE.png@ | Research @town_center/WheelbarrowDE.png@ | Research @age/CastleAgeIconDE_alpha.png@"
+      ],
+      "time": "18:00"
+    }
+  ]
+}

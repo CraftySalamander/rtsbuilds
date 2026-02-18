@@ -1,0 +1,180 @@
+{
+  "name": "AZT Arena Siege & Monks",
+  "civilization": "Aztecs",
+  "author": "HumzaCrumza",
+  "source": "https://buildorderguide.com/#/build/29",
+  "video": "https://www.youtube.com/watch?v=981tpPgpOAU",
+  "description": "The Aztecs have always been a deadly Arena civ, mostly for the fact that they can grab map control decisively with their stronger monks and eagle warriors. This strategy tries to highlight this strength by using that same map control and going aggressive with Monks and Siege.",
+  "build_order": [
+    {
+      "villager_count": 6,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build 2 @other/House_aoe2DE.png@ | 6 on @animal/Sheep_aoe2DE.png@"
+      ],
+      "time": "1:15"
+    },
+    {
+      "villager_count": 10,
+      "age": 1,
+      "resources": {
+        "wood": 4,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "4 on @resource/Aoe2de_wood.png@ (build 1st @lumber_camp/Lumber_camp_aoe2de.png@)"
+      ],
+      "time": "2:55"
+    },
+    {
+      "villager_count": 11,
+      "age": 1,
+      "resources": {
+        "wood": 4,
+        "food": 7,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ lures 1st @animal/Boar_aoe2DE.png@"
+      ],
+      "time": "3:20"
+    },
+    {
+      "villager_count": 12,
+      "age": 1,
+      "resources": {
+        "wood": 4,
+        "food": 8,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ builds 2 @other/House_aoe2DE.png@ + @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@ | Push 3 @animal/Deer_aoe2DE.png@"
+      ],
+      "time": "3:45"
+    },
+    {
+      "villager_count": 18,
+      "age": 1,
+      "resources": {
+        "wood": 4,
+        "food": 14,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next 6 @resource/MaleVillDE.jpg@ on @resource/Aoe2de_food.png@ under @town_center/Towncenter_aoe2DE.png@ | Lure 2nd @animal/Boar_aoe2DE.png@"
+      ],
+      "time": "6:15"
+    },
+    {
+      "villager_count": 22,
+      "age": 1,
+      "resources": {
+        "wood": 8,
+        "food": 14,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "4 on @resource/Aoe2de_wood.png@ | 3 @animal/Sheep_aoe2DE.png@ \u2192 3 @resource/BerryBushDE.png@"
+      ],
+      "time": "7:55"
+    },
+    {
+      "villager_count": 24,
+      "age": 1,
+      "resources": {
+        "wood": 8,
+        "food": 14,
+        "gold": 2,
+        "stone": 0
+      },
+      "notes": [
+        "2 on @resource/Aoe2de_gold.png@ | Research 25 Pop @age/FeudalAgeIconDE_alpha.png@"
+      ],
+      "time": "8:45"
+    },
+    {
+      "villager_count": 24,
+      "age": 2,
+      "resources": {
+        "wood": 10,
+        "food": 12,
+        "gold": 2,
+        "stone": 0
+      },
+      "notes": [
+        "Before @age/FeudalAgeIconDE_alpha.png@ | 2 @animal/Sheep_aoe2DE.png@ \u2192 straggler | Seed 3 @mill/FarmDE.png@ | Build 1 @other/House_aoe2DE.png@"
+      ],
+      "time": "10:55"
+    },
+    {
+      "villager_count": 26,
+      "age": 2,
+      "resources": {
+        "wood": 10,
+        "food": 12,
+        "gold": 4,
+        "stone": 0
+      },
+      "notes": [
+        "In @age/FeudalAgeIconDE_alpha.png@ | Build @blacksmith/Blacksmith_aoe2de.png@ + @market/Market_aoe2DE.png@ | 2 on @resource/Aoe2de_gold.png@ | Research @age/CastleAgeIconDE_alpha.png@"
+      ],
+      "time": "11:45"
+    },
+    {
+      "villager_count": 26,
+      "age": 3,
+      "resources": {
+        "wood": 10,
+        "food": 9,
+        "gold": 7,
+        "stone": 0
+      },
+      "notes": [
+        "Before @age/CastleAgeIconDE_alpha.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ | Build @barracks/Barracks_aoe2DE.png@ | Train @barracks/Eaglescout_aoe2DE.png@",
+        "3 @resource/BerryBushDE.png@ \u2192 3 @resource/Aoe2de_gold.png@ | Seed 2 @mill/FarmDE.png@ | Build @other/House_aoe2DE.png@"
+      ],
+      "time": "14:25"
+    },
+    {
+      "villager_count": 35,
+      "age": 3,
+      "resources": {
+        "wood": 10,
+        "food": 9,
+        "gold": 16,
+        "stone": 0
+      },
+      "notes": [
+        "In @age/CastleAgeIconDE_alpha.png@ | 9 on @resource/Aoe2de_gold.png@ | Build @monastery/MonasteryAoe2DE.png@ + @siege_workshop/Siege_workshop_aoe2DE.png@ | Optional: Sell 200 @resource/Aoe2de_stone.png@",
+        "Train 10 @barracks/Eaglescout_aoe2DE.png@ + 3 @monastery/Monk_aoe2DE.png@ + 3 @siege_workshop/Battering_ram_aoe2DE.png@ | Research @barracks/Eaglewarrior_aoe2DE.png@ & @monastery/RedemptionDE.png@"
+      ],
+      "time": "18:10"
+    },
+    {
+      "villager_count": 45,
+      "age": 3,
+      "resources": {
+        "wood": 20,
+        "food": 9,
+        "gold": 16,
+        "stone": 0
+      },
+      "notes": [
+        "10 on @resource/Aoe2de_wood.png@"
+      ],
+      "time": "22:20"
+    }
+  ]
+}

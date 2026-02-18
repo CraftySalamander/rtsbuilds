@@ -1,0 +1,81 @@
+{
+  "name": "WU 5 Militia Rush Game Start",
+  "civilization": "Wu",
+  "author": "Poop Lord",
+  "source": "https://youtu.be/fJjmHAFUCbE?si=yEZRHVc8k0jjmffs",
+  "build_order": [
+    {
+      "age": 1,
+      "time": "1:15",
+      "villager_count": 6,
+      "resources": {
+        "wood": 2,
+        "food": 4,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build @barracks/Barracks_aoe2DE.png@ with 2 @resource/villager.jpg@, then to @resource/Aoe2de_wood.png@ (@resource/tree.png@)",
+        "Build 1 @other/House_aoe2DE.png@ with 1 @resource/villager.jpg@, then to @animal/Sheep_aoe2DE.png@ | Train 2 @barracks/MilitiaDE.png@",
+        "Next 3 @resource/villager.jpg@ to @animal/Sheep_aoe2DE.png@ (stop @resource/villager.jpg@ production)"
+      ]
+    },
+    {
+      "age": 1,
+      "time": "2:45",
+      "villager_count": 6,
+      "resources": {
+        "wood": 0,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "At 30 @resource/Aoe2de_wood.png@, build 1 @other/House_aoe2DE.png@ with @resource/Aoe2de_wood.png@@resource/villager.jpg@, then to @animal/Sheep_aoe2DE.png@",
+        "Train 3 additional @barracks/MilitiaDE.png@ | Attack as soon as possible"
+      ]
+    },
+    {
+      "age": 1,
+      "time": "3:18",
+      "villager_count": 7,
+      "resources": {
+        "wood": 0,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "At 5 @barracks/MilitiaDE.png@ | Re-train @resource/villager.jpg@ | Next @resource/villager.jpg@ forward (lame)"
+      ]
+    },
+    {
+      "age": 1,
+      "time": "3:50",
+      "villager_count": 8,
+      "resources": {
+        "wood": 1,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/villager.jpg@ goes to  @resource/Aoe2de_wood.png@ (@resource/tree.png@)"
+      ]
+    },
+    {
+      "age": 1,
+      "time": "4:20",
+      "villager_count": 9,
+      "resources": {
+        "wood": 1,
+        "food": 7,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/villager.jpg@ to @resource/Aoe2de_food.png@ (lure @animal/Boar_aoe2DE.png@) | Build 1 @other/House_aoe2DE.png@"
+      ]
+    }
+  ]
+}

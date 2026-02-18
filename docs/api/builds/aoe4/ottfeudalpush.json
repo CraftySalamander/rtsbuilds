@@ -1,0 +1,140 @@
+{
+  "civilization": "Ottomans",
+  "name": "OTT Feudal push",
+  "author": "Valdemar",
+  "source": "https://aoe4guides.com/builds/5jvtuovn54SF94ipII7M",
+  "video": "https://www.youtube.com/embed/val32xAfFLA",
+  "build_order": [
+    {
+      "age": 1,
+      "population_count": -1,
+      "time": "0:40",
+      "villager_count": 8,
+      "resources": {
+        "food": 8,
+        "wood": 0,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "5 @unit_worker/villager-ottomans.png@ gather 50 @resource/resource_stone.png@, then 50 @resource/resource_wood.png@ (@resource/gaiatreeprototypetree.png@) | 1 builds 1 @building_economy/house.png@",
+        "Then all (+new) @unit_worker/villager-ottomans.png@ on @resource/sheep.png@ (until 8) | Build @building_ottomans/military-school-1.png@"
+      ]
+    },
+    {
+      "age": 1,
+      "population_count": -1,
+      "time": "1:40",
+      "villager_count": 11,
+      "resources": {
+        "food": 8,
+        "wood": 0,
+        "gold": 3,
+        "stone": 0
+      },
+      "notes": [
+        "Next 3@unit_worker/villager-ottomans.png@ to @resource/resource_gold.png@ (build @building_economy/mining-camp.png@)"
+      ]
+    },
+    {
+      "age": 1,
+      "population_count": -1,
+      "time": "2:40",
+      "villager_count": 14,
+      "resources": {
+        "food": 11,
+        "wood": 3,
+        "gold": 0,
+        "stone": 0,
+        "builder": -1
+      },
+      "notes": [
+        "New @unit_worker/villager-ottomans.png@ on@resource/sheep.png@ | When -100 in @resource/resource_gold.png@-vein, all @resource/resource_gold.png@@unit_worker/villager-ottomans.png@ to @resource/gaiatreeprototypetree.png@",
+        "Build @landmark_ottomans/twin-minaret-medrese-1.png@ with 4 @unit_worker/villager-ottomans.png@ from @resource/resource_food.png@"
+      ]
+    },
+    {
+      "age": 1,
+      "population_count": -1,
+      "time": "3:00",
+      "villager_count": 15,
+      "resources": {
+        "food": 4,
+        "wood": 7,
+        "gold": 0,
+        "stone": 0,
+        "builder": 4
+      },
+      "notes": [
+        "Split according to macro tab. Gather @resource/gaiatreeprototypetree.png@ (build @building_economy/lumber-camp.png@ when possible)"
+      ]
+    },
+    {
+      "age": 1,
+      "population_count": -1,
+      "time": "3:20",
+      "villager_count": 16,
+      "resources": {
+        "food": 4,
+        "wood": 7,
+        "gold": 0,
+        "stone": 0,
+        "builder": 5
+      },
+      "notes": [
+        "Next @unit_worker/villager-ottomans.png@ builds @building_economy/house.png@, then to @resource/resource_wood.png@"
+      ]
+    },
+    {
+      "age": 2,
+      "population_count": -1,
+      "time": "4:20",
+      "villager_count": 19,
+      "resources": {
+        "food": 8,
+        "wood": 8,
+        "gold": 0,
+        "stone": 3,
+        "builder": -1
+      },
+      "notes": [
+        "Send 3 @unit_worker/villager-ottomans.png@ from @resource/gaiatreeprototypetree.png@ to @building_economy/mining-camp.png@@resource/resource_stone.png@ and gather 200@resource/resource_stone.png@",
+        "Keep @resource/rally.png@ on @resource/resource_wood.png@ until @age/age_2.png@. 4 age-up-@unit_worker/villager-ottomans.png@ go on @landmark_ottomans/twin-minaret-medrese-1.png@-@resource/berrybush.png@",
+        "Switch @building_ottomans/military-school-1.png@ to @unit_ottomans/sipahi-2.png@"
+      ]
+    },
+    {
+      "age": 2,
+      "population_count": -1,
+      "time": "5:20",
+      "villager_count": 22,
+      "resources": {
+        "food": 7,
+        "wood": 14,
+        "gold": 0,
+        "stone": 0,
+        "builder": 1
+      },
+      "notes": [
+        "Build @building_technology/blacksmith.png@, then @building_military/stable.png@, then 2nd @building_ottomans/military-school-1.png@, then @building_military/archery-range.png@ (1 @resource/resource_food.png@@unit_worker/villager-ottomans.png@)",
+        "Produce @unit_ottomans/sipahi-2.png@ from @building_military/stable.png@ | Research @technology_ottomans/anatolian-hills-1.png@ | Pull @resource/resource_stone.png@@unit_worker/villager-ottomans.png@ to @resource/resource_wood.png@"
+      ]
+    },
+    {
+      "age": 2,
+      "population_count": -1,
+      "time": "7:20",
+      "villager_count": 28,
+      "resources": {
+        "food": 11,
+        "wood": 14,
+        "gold": 3,
+        "stone": 0
+      },
+      "notes": [
+        "New @unit_worker/villager-ottomans.png@ to @resource/resource_food.png@/@resource/resource_gold.png@ | Mass units | Research techs"
+      ]
+    }
+  ],
+  "season": "Season 5"
+}

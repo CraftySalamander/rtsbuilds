@@ -1,0 +1,181 @@
+{
+  "major_god": "Odin",
+  "name": "ODI Fast Heroic",
+  "author": "KeeN Flame",
+  "source": "https://youtu.be/b0aPXdya1NI",
+  "build_order": [
+    {
+      "worker_count": 5,
+      "age": 1,
+      "resources": {
+        "food": 2,
+        "wood": 1,
+        "gold": 2,
+        "favor": 0
+      },
+      "notes": [
+        "2 @norse_civilian/gatherer.png@ to @animal/giraffe.png@ with @norse_civilian/ox_cart.png@ | 3rd @norse_civilian/gatherer.png@ builds @norse_civilian/ox_cart.png@ on @resource/wood.png@",
+        "1 @norse_civilian/dwarf.png@ + 1 @norse_civilian/gatherer.png@ to @resource/gold.png@ (build @norse_civilian/ox_cart.png@ ) | Build @other/house.png@ | Cast @norse_power/great_hunt.png@"
+      ],
+      "time": "0:30"
+    },
+    {
+      "worker_count": 7,
+      "age": 1,
+      "resources": {
+        "food": 4,
+        "wood": 1,
+        "gold": 2,
+        "favor": 0
+      },
+      "notes": [
+        "Next 2 @norse_civilian/gatherer.png@ to @animal/giraffe.png@"
+      ],
+      "time": "1:00"
+    },
+    {
+      "worker_count": 8,
+      "age": 1,
+      "resources": {
+        "food": 4,
+        "wood": 1,
+        "gold": 3,
+        "favor": 0
+      },
+      "notes": [
+        "Add 1 @norse_civilian/dwarf.png@ on @resource/gold.png@"
+      ],
+      "time": "1:15"
+    },
+    {
+      "worker_count": 9,
+      "age": 1,
+      "resources": {
+        "food": 4,
+        "wood": 2,
+        "gold": 3,
+        "favor": 0
+      },
+      "notes": [
+        "Add 1 @norse_civilian/gatherer.png@ on @resource/wood.png@"
+      ],
+      "time": "1:30"
+    },
+    {
+      "worker_count": 10,
+      "age": 1,
+      "resources": {
+        "food": 4,
+        "wood": 2,
+        "gold": 4,
+        "favor": 0
+      },
+      "notes": [
+        "Add 1 @norse_civilian/dwarf.png@ on @resource/gold.png@"
+      ],
+      "time": "1:45"
+    },
+    {
+      "worker_count": 11,
+      "age": 1,
+      "resources": {
+        "food": 5,
+        "wood": 2,
+        "gold": 4,
+        "favor": 0
+      },
+      "notes": [
+        "Add 1 @norse_civilian/gatherer.png@ on @animal/giraffe.png@"
+      ],
+      "time": "2:00"
+    },
+    {
+      "worker_count": 14,
+      "age": 1,
+      "resources": {
+        "food": 9,
+        "wood": 0,
+        "gold": 5,
+        "favor": 0
+      },
+      "notes": [
+        "Add 1 @norse_civilian/dwarf.png@ on @resource/gold.png@, then 2 @norse_civilian/gatherer.png@ on @animal/giraffe.png@",
+        "Build @temple/temple.png@ | Move @resource/wood.png@@norse_civilian/gatherer.png@ to @animal/giraffe.png@"
+      ],
+      "time": "2:45"
+    },
+    {
+      "worker_count": 15,
+      "age": 1,
+      "resources": {
+        "food": 9,
+        "wood": 0,
+        "gold": 6,
+        "favor": 0
+      },
+      "notes": [
+        "Add 1 @norse_civilian/dwarf.png@ to @resource/gold.png@ | 3:00 @norse_minor_god/heimdall.png@"
+      ],
+      "time": "3:00"
+    },
+    {
+      "worker_count": 15,
+      "age": 2,
+      "resources": {
+        "food": 7,
+        "wood": 3,
+        "gold": 5,
+        "favor": 0
+      },
+      "notes": [
+        "Before @age/classical_age.png@ | Move 1 @resource/gold.png@@norse_civilian/gatherer.png@ + 2 @animal/giraffe.png@@norse_civilian/gatherer.png@ to @resource/wood.png@",
+        "Scout with @norse_myth/raven.png@ to find opponent @resource/wood.png@ | Build @other/house.png@"
+      ],
+      "time": "4:00"
+    },
+    {
+      "worker_count": 18,
+      "age": 2,
+      "resources": {
+        "food": 10,
+        "wood": 0,
+        "gold": 8,
+        "favor": 0
+      },
+      "notes": [
+        "In @age/classical_age.png@ | Add 3@norse_civilian/dwarf.png@ to @resource/gold.png@ | Build @armory/armory.png@ | All @resource/wood.png@@norse_civilian/gatherer.png@ to @resource/food.png@",
+        "Force drop @resource/food.png@ | 4:55 @norse_minor_god/njord.png@"
+      ],
+      "time": "4:55"
+    },
+    {
+      "worker_count": 18,
+      "age": 3,
+      "resources": {
+        "food": 5,
+        "wood": 5,
+        "gold": 8,
+        "favor": 2
+      },
+      "notes": [
+        "Before @age/heroic_age.png@ | Move 5 @resource/food.png@@norse_civilian/gatherer.png@ to @resource/wood.png@",
+        "Build @other/house.png@+@norse_building/longhouse.png@ | Train @norse_hero/hersir.png@"
+      ],
+      "time": "6:10"
+    },
+    {
+      "worker_count": -1,
+      "age": 3,
+      "resources": {
+        "food": -1,
+        "wood": -1,
+        "gold": -1,
+        "favor": -1
+      },
+      "notes": [
+        "In @age/heroic_age.png@ | Cast @norse_power/walking_woods_power.png@ & @norse_power/undermine.png@ (towards @norse_building/town_center_norse.png@) | Attack"
+      ],
+      "time": "6:11"
+    }
+  ]
+}

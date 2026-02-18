@@ -1,0 +1,103 @@
+{
+  "civilization": "French",
+  "name": "Feudal knights aggression",
+  "author": "Valdemar",
+  "source": "https://youtu.be/rJWuW9cGuKc",
+  "season": 6,
+  "build_order": [
+    {
+      "population_count": -1,
+      "villager_count": 7,
+      "age": 1,
+      "resources": {
+        "food": 7,
+        "wood": 0,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "First 6 @unit_worker/villager.png@ on @resource/sheep.png@ | Send first extra @resource/sheep.png@ to @building_economy/town-center.png@",
+        "Next @unit_worker/villager.png@ builds @building_economy/house.png@, then on @resource/sheep.png@"
+      ],
+      "time": "0:18"
+    },
+    {
+      "population_count": -1,
+      "villager_count": 10,
+      "age": 1,
+      "resources": {
+        "food": 7,
+        "wood": 0,
+        "gold": 3,
+        "stone": 0
+      },
+      "notes": [
+        "Next 3 @unit_worker/villager.png@ on @resource/resource_gold.png@."
+      ],
+      "time": "1:13"
+    },
+    {
+      "population_count": -1,
+      "villager_count": 19,
+      "age": 1,
+      "resources": {
+        "food": 11,
+        "wood": 5,
+        "gold": 3,
+        "stone": 0
+      },
+      "notes": [
+        "Next @unit_worker/villager.png@ to @resource/sheep.png@ (up to 11) | Build @landmark_french/school-of-cavalry.png@ with 5 @unit_worker/villager.png@ from @resource/sheep.png@",
+        "Shift click the 5 builders to @resource/resource_wood.png@ (2 will first build @building_economy/lumber-camp.png@ & @building_economy/house.png@)",
+        "Produce @unit_french/royal-knight-2.png@ when possible"
+      ],
+      "time": "3:56"
+    },
+    {
+      "population_count": -1,
+      "villager_count": 22,
+      "age": 1,
+      "resources": {
+        "food": 11,
+        "wood": 5,
+        "gold": 6,
+        "stone": 0
+      },
+      "notes": [
+        "Next 3 @unit_worker/villager.png@ to @resource/resource_gold.png@ | Continue @unit_french/royal-knight-2.png@ production"
+      ],
+      "time": "4:51"
+    },
+    {
+      "population_count": -1,
+      "villager_count": 28,
+      "age": 1,
+      "resources": {
+        "food": 17,
+        "wood": 5,
+        "gold": 6,
+        "stone": 0
+      },
+      "notes": [
+        "Next @unit_worker/villager.png@ to @resource/sheep.png@ | Build 1 @building_military/archery-range.png@ | Look for @resource/berrybush.png@/@resource/deer.png@/@resource/boar.png@",
+        "Build @building_technology/blacksmith.png@ & research @technology_military/iron-undermesh.png@ | Train @unit_french/royal-knight-2.png@ & @unit_infantry/archer-2.png@"
+      ],
+      "time": "6:40"
+    },
+    {
+      "population_count": -1,
+      "villager_count": 31,
+      "age": 1,
+      "resources": {
+        "food": 17,
+        "wood": 7,
+        "gold": 7,
+        "stone": 0
+      },
+      "notes": [
+        "Next @unit_worker/villager.png@ go to @resource/resource_wood.png@/@resource/resource_gold.png@ | Have 10-11 @unit_infantry/archer-2.png@, @unit_french/royal-knight-2.png@ for the rest"
+      ],
+      "time": "7:35"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "AMA opening",
+  "major_god": "Amaterasu",
+  "author": "TheRapl",
+  "source": "https://www.youtube.com/watch?v=Wo1Qb4GjJyI&t=38s",
+  "build_order": [
+    {
+      "age": 1,
+      "worker_count": 5,
+      "resources": {
+        "food": 5,
+        "wood": 0,
+        "gold": 0,
+        "favor": 1
+      },
+      "notes": [
+        "5 @japanese_civilian/commoner.png@ on @animal/giraffe.png@ (build @japanese_building/watermill.png@)",
+        "Build @japanese_building/shrine.png@ with @japanese_hero/miko.png@ | Scout with @japanese_myth/kitsune.png@"
+      ]
+    },
+    {
+      "age": 1,
+      "worker_count": 7,
+      "resources": {
+        "food": 5,
+        "wood": 2,
+        "gold": 0,
+        "favor": 1
+      },
+      "notes": [
+        "Next 2 @japanese_civilian/commoner.png@ on @resource/wood.png@ (build @japanese_building/watermill.png@)"
+      ]
+    },
+    {
+      "age": 1,
+      "worker_count": 9,
+      "resources": {
+        "food": 7,
+        "wood": 2,
+        "gold": 0,
+        "favor": 1
+      },
+      "notes": [
+        "Next 2 @japanese_civilian/commoner.png@ on @resource/food.png@ | Pre-queue @japanese_tech/kagura.png@ | Build @temple/temple.png@"
+      ]
+    },
+    {
+      "age": 1,
+      "worker_count": 12,
+      "resources": {
+        "food": 7,
+        "wood": 5,
+        "gold": 0,
+        "favor": 1
+      },
+      "notes": [
+        "2nd @japanese_hero/miko.png@ search @other/relic.png@| Add 3 @japanese_civilian/commoner.png@ on @resource/wood.png@ | Upgrade @japanese_tech/sacred_custodians.png@",
+        "Build @japanese_building/shrine.png@ with 2nd @japanese_hero/miko.png@ | Age up with @japanese_minor_god/ame-no-uzume.png@ | Build @other/house.png@"
+      ]
+    }
+  ]
+}

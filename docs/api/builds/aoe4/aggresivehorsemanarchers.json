@@ -1,0 +1,126 @@
+{
+  "civilization": "Order of the Dragon",
+  "name": "Aggresive Horseman & Archers",
+  "author": "BeastyQt",
+  "source": "https://youtu.be/GEzcw-eYp0E",
+  "build_order": [
+    {
+      "age": 1,
+      "population_count": -1,
+      "villager_count": 7,
+      "resources": {
+        "food": 5,
+        "wood": 0,
+        "gold": 2,
+        "stone": 0,
+        "builder": -1
+      },
+      "notes": [
+        "Send all 5 @unit_worker/villager.png@ to @resource/sheep.png@ | Next 2 @unit_worker/villager.png@ build @building_economy/house.png@ & @building_economy/mining-camp.png@, then to @resource/resource_gold.png@"
+      ],
+      "time": "0:48"
+    },
+    {
+      "age": 1,
+      "population_count": -1,
+      "villager_count": 11,
+      "resources": {
+        "food": 9,
+        "wood": 0,
+        "gold": 2,
+        "stone": 0,
+        "builder": -1
+      },
+      "notes": [
+        "Rally @unit_worker/villager.png@ to @resource/sheep.png@ until you have 9"
+      ],
+      "time": "2:24"
+    },
+    {
+      "population_count": -1,
+      "villager_count": 12,
+      "age": 1,
+      "resources": {
+        "food": 4,
+        "wood": 4,
+        "gold": 2,
+        "stone": 0,
+        "builder": 2
+      },
+      "notes": [
+        "Send 5 from @resource/sheep.png@ + 1 new @unit_worker/villager.png@ to build @landmark_hre/meinwerk-palace.png@ (2) and to @resource/resource_wood.png@ (4, straggler)"
+      ],
+      "time": "2:48"
+    },
+    {
+      "population_count": -1,
+      "villager_count": 15,
+      "age": 1,
+      "resources": {
+        "food": 5,
+        "wood": 6,
+        "gold": 2,
+        "stone": 0,
+        "builder": 2
+      },
+      "notes": [
+        "Build @building_economy/mill.png@ on @resource/berrybush.png@ with next @unit_worker/villager.png@, then next @unit_worker/villager.png@ to @resource/resource_wood.png@ (build @building_economy/lumber-camp.png@)",
+        "Research @technology_economy/wheelbarrow.png@, then @technology_economy/double-broadaxe.png@ (when possible)"
+      ],
+      "time": "4:00"
+    },
+    {
+      "population_count": -1,
+      "villager_count": 20,
+      "age": 2,
+      "resources": {
+        "food": 12,
+        "wood": 6,
+        "gold": 2,
+        "stone": 0,
+        "builder": -1
+      },
+      "notes": [
+        "Next @unit_worker/villager.png@  to @resource/sheep.png@ (up to 12) | Build @building_military/stable.png@ after @landmark_hre/meinwerk-palace.png@, then to @resource/sheep.png@",
+        "Build @building_economy/house.png@, later @building_military/archery-range.png@ | Train @unit_dragon/gilded-horseman-2.png@ and harass"
+      ],
+      "time": "6:00"
+    },
+    {
+      "population_count": -1,
+      "villager_count": 23,
+      "age": 2,
+      "resources": {
+        "food": 12,
+        "wood": 9,
+        "gold": 2,
+        "stone": 0,
+        "builder": -1
+      },
+      "notes": [
+        "Next 3 @unit_worker/villager.png@ to @resource/resource_wood.png@  | Research @technology_military/iron-undermesh.png@, then  @technology_military/steeled-arrow.png@ | Train @unit_dragon/gilded-horseman-2.png@ & @unit_dragon/gilded-archer-2.png@",
+        "Adapt @resource/resource_food.png@ source (@resource/boar.png@ if safe) | Research @technology_economy/horticulture.png@/@technology_economy/survival-techniques.png@"
+      ],
+      "time": "7:12"
+    },
+    {
+      "population_count": -1,
+      "villager_count": 31,
+      "age": 2,
+      "resources": {
+        "food": 14,
+        "wood": 15,
+        "gold": 2,
+        "stone": 0,
+        "builder": -1
+      },
+      "notes": [
+        "Next 2 @unit_worker/villager.png@ to @resource/resource_food.png@ then again @resource/resource_wood.png@ (up to 15) | Research @technology_military/fitted-leatherwork.png@",
+        "Start building @building_economy/farm.png@ | Adapt (e.g. @unit_dragon/gilded-spearman-1.png@/@unit_siege/battering-ram.png@/...)"
+      ],
+      "time": "10:24"
+    }
+  ],
+  "season": "Season 6",
+  "strategy": "Rush"
+}

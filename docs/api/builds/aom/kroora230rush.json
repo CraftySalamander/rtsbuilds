@@ -1,0 +1,69 @@
+{
+  "major_god": [
+    "Kronos",
+    "Oranos"
+  ],
+  "name": "KRO/ORA 2:30 Rush",
+  "author": "KeeN Flame",
+  "source": "https://youtu.be/uPDnl4fl32o",
+  "build_order": [
+    {
+      "worker_count": 10,
+      "age": 1,
+      "resources": {
+        "food": 3,
+        "wood": 1,
+        "gold": 1,
+        "favor": 3
+      },
+      "notes": [
+        "First 2 @atlanteans_civilian/citizen.png@ to @resource/wood.png@ & @resource/gold.png@ (build @atlanteans_building/manor.png@) | Next 3 @atlanteans_civilian/citizen.png@ to @animal/giraffe.png@"
+      ],
+      "time": "1:15"
+    },
+    {
+      "worker_count": 16,
+      "age": 1,
+      "resources": {
+        "food": 8,
+        "wood": 0,
+        "gold": 0,
+        "favor": 3
+      },
+      "notes": [
+        "Next 3 @atlanteans_civilian/citizen.png@ to @animal/giraffe.png@ | At 180 @resource/wood.png@, @resource/wood.png@@atlanteans_civilian/citizen.png@ to @animal/giraffe.png@",
+        "At 150 @resource/gold.png@, @resource/gold.png@@atlanteans_civilian/citizen.png@ builds @temple/temple.png@, then @animal/giraffe.png@ | 2:35 @age/classical_age.png@"
+      ],
+      "time": "2:30"
+    },
+    {
+      "worker_count": 16,
+      "age": 2,
+      "resources": {
+        "food": 2,
+        "wood": 4,
+        "gold": 2,
+        "favor": 3
+      },
+      "notes": [
+        "Before @age/classical_age.png@ | Move 6 @resource/food.png@@atlanteans_civilian/citizen.png@ to @resource/wood.png@ (4) & @resource/gold.png@ (2)",
+        "@atlanteans_building/time_shift.png@ @temple/temple.png@ forward (for @major_god/kronos.png@) | Build @atlanteans_building/manor.png@ on new @animal/giraffe.png@"
+      ],
+      "time": "3:30"
+    },
+    {
+      "worker_count": 18,
+      "age": 2,
+      "resources": {
+        "food": 3,
+        "wood": 3,
+        "gold": 3,
+        "favor": 3
+      },
+      "notes": [
+        "In @age/classical_age.png@ | Build @atlanteans_building/military_barracks.png@ & @atlanteans_building/counter-barracks.png@ | Train units & adapt"
+      ],
+      "time": "3:55"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "major_god": "Kronos",
+  "name": "KRO 2 TC",
+  "author": "Mista",
+  "source": "https://youtu.be/qjobNO7JQ_M",
+  "build_order": [
+    {
+      "worker_count": 6,
+      "age": 1,
+      "resources": {
+        "food": 2,
+        "wood": 0,
+        "gold": 1,
+        "favor": 3
+      },
+      "notes": [
+        "First 2 @atlanteans_civilian/citizen.png@ to @animal/giraffe.png@ | 3rd @atlanteans_civilian/citizen.png@ to @resource/gold.png@"
+      ],
+      "time": "0:25"
+    },
+    {
+      "worker_count": 10,
+      "age": 1,
+      "resources": {
+        "food": 2,
+        "wood": 2,
+        "gold": 1,
+        "favor": 3
+      },
+      "notes": [
+        "Next 2 @atlanteans_civilian/citizen.png@ to @resource/wood.png@ | Build @atlanteans_building/manor.png@ with @resource/wood.png@@atlanteans_civilian/citizen.png@"
+      ],
+      "time": "1:15"
+    },
+    {
+      "worker_count": 12,
+      "age": 1,
+      "resources": {
+        "food": 3,
+        "wood": 2,
+        "gold": 0,
+        "favor": 3,
+        "builder": 1
+      },
+      "notes": [
+        "Next @atlanteans_civilian/citizen.png@ goes to @animal/giraffe.png@ | Build @temple/temple.png@ with @resource/gold.png@@atlanteans_civilian/citizen.png@, then to @resource/berry.png@"
+      ],
+      "time": "1:40"
+    },
+    {
+      "worker_count": 16,
+      "age": 1,
+      "resources": {
+        "food": 8,
+        "wood": 0,
+        "gold": 0,
+        "favor": 3
+      },
+      "notes": [
+        "Next 2 @atlanteans_civilian/citizen.png@ go to @animal/giraffe.png@ | @atlanteans_building/time_shift.png@@temple/temple.png@",
+        "At 30 @resource/wood.png@, move 2 @resource/wood.png@@atlanteans_civilian/citizen.png@ to @animal/chicken.png@"
+      ],
+      "time": "2:30"
+    },
+    {
+      "worker_count": 18,
+      "age": 1,
+      "resources": {
+        "food": 8,
+        "wood": 0,
+        "gold": 1,
+        "favor": 3
+      },
+      "notes": [
+        "Next @atlanteans_civilian/citizen.png@ goes to @resource/gold.png@ | 2:55 @atlanteans_minor_god/prometheus.png@"
+      ],
+      "time": "2:55"
+    },
+    {
+      "worker_count": 18,
+      "age": 2,
+      "resources": {
+        "food": 2,
+        "wood": 4,
+        "gold": 3,
+        "favor": 3
+      },
+      "notes": [
+        "Before @age/classical_age.png@ | Move 6 @resource/food.png@@atlanteans_civilian/citizen.png@ to @resource/wood.png@(4) & @resource/gold.png@(2)",
+        "Build 2 @atlanteans_building/manor.png@ & @atlanteans_building/time_shift.png@ all @atlanteans_building/manor.png@ next to @atlanteans_building/town_center_atlantean.png@"
+      ],
+      "time": "3:55"
+    },
+    {
+      "worker_count": 20,
+      "age": 2,
+      "resources": {
+        "food": 2,
+        "wood": 4,
+        "gold": 4,
+        "favor": 3
+      },
+      "notes": [
+        "In @age/classical_age.png@ | Attack with 2@atlanteans_myth/promethean.png@ | Next @atlanteans_civilian/citizen.png@ (as @atlanteans_hero/citizen_hero.png@) to @resource/gold.png@"
+      ],
+      "time": "4:20"
+    },
+    {
+      "worker_count": 22,
+      "age": 2,
+      "resources": {
+        "food": 5,
+        "wood": 2,
+        "gold": 2,
+        "favor": 3,
+        "builder": 2
+      },
+      "notes": [
+        "Next @atlanteans_civilian/citizen.png@ (as @atlanteans_hero/citizen_hero.png@) and @resource/gold.png@@atlanteans_hero/citizen_hero.png@ build 2nd @atlanteans_building/town_center_atlantean.png@",
+        "@atlanteans_building/time_shift.png@@temple/temple.png@ to@atlanteans_building/town_center_atlantean.png@ | Move 2 @resource/wood.png@@atlanteans_civilian/citizen.png@ + 1 @resource/gold.png@@atlanteans_civilian/citizen.png@ to @resource/food.png@"
+      ],
+      "time": "4:45"
+    },
+    {
+      "worker_count": 26,
+      "age": 2,
+      "resources": {
+        "food": 9,
+        "wood": 2,
+        "gold": 2,
+        "favor": 3
+      },
+      "notes": [
+        "Next @atlanteans_civilian/citizen.png@ (+ @resource/repair.png@) to @resource/food.png@ | Bring back @other/relic.png@ with @atlanteans_hero/oracle_hero.png@"
+      ],
+      "time": "5:35"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "major_god": "Ra",
+  "name": "RA 2 TC Rain",
+  "author": "Magic",
+  "source": "https://youtu.be/baQZk5RXog8",
+  "build_order": [
+    {
+      "worker_count": 4,
+      "age": 1,
+      "resources": {
+        "food": 3,
+        "wood": 0,
+        "gold": 0,
+        "favor": 0,
+        "builder": 1
+      },
+      "notes": [
+        "First 3 @egyptians_civilian/laborer.png@ to @animal/giraffe.png@ (build @egyptians_building/granary.png@) | Next @egyptians_civilian/laborer.png@ builds @egyptians_building/monument_to_villagers.png@",
+        "@egyptians_hero/pharaoh.png@ on @egyptians_building/granary.png@, @egyptians_hero/priest.png@ on @egyptians_building/monument_to_villagers.png@"
+      ],
+      "time": "0:15"
+    },
+    {
+      "worker_count": 6,
+      "age": 1,
+      "resources": {
+        "food": 3,
+        "wood": 0,
+        "gold": 3,
+        "favor": 1
+      },
+      "notes": [
+        "Next 2 @egyptians_civilian/laborer.png@ (+@resource/repair.png@) on @resource/gold.png@ (build @egyptians_building/mining_camp.png@) | @egyptians_hero/priest.png@ on @egyptians_building/mining_camp.png@"
+      ],
+      "time": "0:45"
+    },
+    {
+      "worker_count": 12,
+      "age": 1,
+      "resources": {
+        "food": 9,
+        "wood": 0,
+        "gold": 3,
+        "favor": 1
+      },
+      "notes": [
+        "Next 6 @egyptians_civilian/laborer.png@ on @animal/giraffe.png@",
+        "Build @temple/temple.png@ (2 @resource/gold.png@@egyptians_civilian/laborer.png@ + @egyptians_hero/priest.png@) & @other/house.png@ (1 @resource/gold.png@@egyptians_civilian/laborer.png@)"
+      ],
+      "time": "2:15"
+    },
+    {
+      "worker_count": 14,
+      "age": 1,
+      "resources": {
+        "food": 9,
+        "wood": 0,
+        "gold": 5,
+        "favor": 1
+      },
+      "notes": [
+        "Next 2 @egyptians_civilian/laborer.png@ on @resource/gold.png@ | 2:40 @egyptians_minor_god/ptah.png@"
+      ],
+      "time": "2:45"
+    },
+    {
+      "worker_count": 14,
+      "age": 2,
+      "resources": {
+        "food": 3,
+        "wood": 0,
+        "gold": 11,
+        "favor": 1
+      },
+      "notes": [
+        "Before @age/classical_age.png@ | Move 6 @resource/food.png@@egyptians_civilian/laborer.png@ to @resource/gold.png@ | Swap @egyptians_hero/priest.png@ & @egyptians_hero/pharaoh.png@"
+      ],
+      "time": "3:45"
+    },
+    {
+      "worker_count": 16,
+      "age": 2,
+      "resources": {
+        "food": 3,
+        "wood": 4,
+        "gold": 2,
+        "favor": 1,
+        "builder": 7
+      },
+      "notes": [
+        "In @age/classical_age.png@ | Build @egyptians_building/town_center_egyptian.png@ on @animal/chicken.png@ with 7 @resource/gold.png@@egyptians_civilian/laborer.png@ & @egyptians_hero/pharaoh.png@ (then on @animal/chicken.png@)",
+        "Move 4 @resource/gold.png@@egyptians_civilian/laborer.png@ to @resource/wood.png@ (build @egyptians_building/lumber_camp.png@) | Next 2 @egyptians_civilian/laborer.png@ to @resource/gold.png@"
+      ],
+      "time": "4:15"
+    },
+    {
+      "worker_count": 22,
+      "age": 2,
+      "resources": {
+        "food": 8,
+        "wood": 4,
+        "gold": 9,
+        "favor": 1
+      },
+      "notes": [
+        "All next @egyptians_civilian/laborer.png@ to @resource/gold.png@ | Research @economy/pickaxe.png@, @egyptians_tech/shaduf.png@, @economy/husbandry.png@ & @economy/plow.png@",
+        "After @animal/giraffe.png@, move 3 @animal/giraffe.png@@egyptians_civilian/laborer.png@ (+@egyptians_hero/priest.png@) to @resource/gold.png@",
+        "Build @armory/armory.png@, several @other/house.png@ & @market/market.png@"
+      ],
+      "time": "5:20"
+    },
+    {
+      "worker_count": 33,
+      "age": 2,
+      "resources": {
+        "food": 14,
+        "wood": 3,
+        "gold": 15,
+        "favor": 1
+      },
+      "notes": [
+        "After @egyptians_tech/shaduf.png@, build @other/farm.png@ on 1st @egyptians_building/town_center_egyptian.png@ (also with @animal/chicken.png@@egyptians_civilian/laborer.png@)",
+        "Cast @egyptians_power/rain.png@ after @economy/plow.png@ | Build 14 @other/farm.png@ | Build @egyptians_building/monument_to_villagers.png@"
+      ],
+      "time": "6:54"
+    }
+  ]
+}

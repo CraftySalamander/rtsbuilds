@@ -1,0 +1,66 @@
+{
+  "major_god": "Oranos",
+  "name": "ORA Standard Opener",
+  "author": "Magic",
+  "source": "https://youtu.be/1LcOyzjixE4",
+  "build_order": [
+    {
+      "worker_count": 6,
+      "age": 1,
+      "resources": {
+        "food": 1,
+        "wood": 1,
+        "gold": 1,
+        "favor": 3
+      },
+      "notes": [
+        "First 2 @atlanteans_civilian/citizen.png@ on @animal/giraffe.png@ & @resource/wood.png@ | Next @atlanteans_civilian/citizen.png@ to @resource/gold.png@"
+      ],
+      "time": "0:25"
+    },
+    {
+      "worker_count": 18,
+      "age": 1,
+      "resources": {
+        "food": 7,
+        "wood": 1,
+        "gold": 1,
+        "favor": 3
+      },
+      "notes": [
+        "Next 6 @atlanteans_civilian/citizen.png@ on @resource/food.png@ | Build @atlanteans_building/manor.png@ with @resource/gold.png@@atlanteans_civilian/citizen.png@",
+        "At 150 @resource/wood.png@&@resource/gold.png@, build @temple/temple.png@ with @resource/wood.png@@atlanteans_civilian/citizen.png@ | 2:55 @age/classical_age.png@"
+      ],
+      "time": "2:55"
+    },
+    {
+      "worker_count": 18,
+      "age": 2,
+      "resources": {
+        "food": 4,
+        "wood": 3,
+        "gold": 2,
+        "favor": 4
+      },
+      "notes": [
+        "Before @age/classical_age.png@ | Move 3 @resource/food.png@@atlanteans_civilian/citizen.png@ to @resource/wood.png@(2) & @resource/gold.png@(1)",
+        "Build @atlanteans_building/economic_guild.png@ | Research @economy/hand_axe.png@ &@economy/pickaxe.png@ | Train 1 extra @atlanteans_human/oracle_unit.png@"
+      ],
+      "time": "3:55"
+    },
+    {
+      "worker_count": 20,
+      "age": 2,
+      "resources": {
+        "food": 5,
+        "wood": 3,
+        "gold": 2,
+        "favor": 4
+      },
+      "notes": [
+        "In @age/classical_age.png@ | Build @atlanteans_building/manor.png@, @atlanteans_building/military_barracks.png@ and/or @atlanteans_building/counter-barracks.png@ | Adapt"
+      ],
+      "time": "4:20"
+    }
+  ]
+}

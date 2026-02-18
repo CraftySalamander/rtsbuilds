@@ -1,0 +1,180 @@
+{
+  "name": "MON Steppes Rush",
+  "civilization": "Mongols",
+  "author": "Morley Games",
+  "source": "https://www.youtube.com/watch?v=TEpbKqK_h3M",
+  "build_order": [
+    {
+      "villager_count": 6,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build 2 @other/House_aoe2DE.png@. | Send the first 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@."
+      ],
+      "time": "1:15"
+    },
+    {
+      "villager_count": 10,
+      "age": 1,
+      "resources": {
+        "wood": 4,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Send the next 4 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)."
+      ],
+      "time": "2:55"
+    },
+    {
+      "villager_count": 11,
+      "age": 1,
+      "resources": {
+        "wood": 4,
+        "food": 7,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Lure the first @animal/Boar_aoe2DE.png@ with next @resource/MaleVillDE.jpg@."
+      ],
+      "time": "3:20"
+    },
+    {
+      "villager_count": 15,
+      "age": 1,
+      "resources": {
+        "wood": 4,
+        "food": 11,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ builds 2 @other/House_aoe2DE.png@ and 1 @mill/Mill_aoe2de.png@, then @resource/BerryBushDE.png@.",
+        "Send next 3 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@. | Push @animal/Deer_aoe2DE.png@ with @stable/Scoutcavalry_aoe2DE.png@."
+      ],
+      "time": "5:00"
+    },
+    {
+      "villager_count": 16,
+      "age": 1,
+      "resources": {
+        "wood": 4,
+        "food": 12,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Lure the second @animal/Boar_aoe2DE.png@ with next @resource/MaleVillDE.jpg@."
+      ],
+      "time": "5:25"
+    },
+    {
+      "villager_count": 17,
+      "age": 1,
+      "resources": {
+        "wood": 4,
+        "food": 13,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Send next @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@. | Build 2 @mill/FarmDE.png@ with @resource/MaleVillDE.jpg@ from @resource/Aoe2de_food.png@."
+      ],
+      "time": "5:50"
+    },
+    {
+      "villager_count": 19,
+      "age": 1,
+      "resources": {
+        "wood": 4,
+        "food": 13,
+        "gold": 2,
+        "stone": 0
+      },
+      "notes": [
+        "Send next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@."
+      ],
+      "time": "6:40"
+    },
+    {
+      "villager_count": 22,
+      "age": 1,
+      "resources": {
+        "wood": 7,
+        "food": 13,
+        "gold": 2,
+        "stone": 0
+      },
+      "notes": [
+        "Send 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@. | Research @town_center/LoomDE.png@. | Click up to @age/FeudalAgeIconDE.png@."
+      ],
+      "time": "8:20"
+    },
+    {
+      "villager_count": 22,
+      "age": 2,
+      "resources": {
+        "wood": 7,
+        "food": 13,
+        "gold": 2,
+        "stone": 0
+      },
+      "notes": [
+        "Before @age/FeudalAgeIconDE.png@. | Build @barracks/Barracks_aoe2DE.png@ at 60% up."
+      ],
+      "time": "10:30"
+    },
+    {
+      "villager_count": 24,
+      "age": 2,
+      "resources": {
+        "wood": 7,
+        "food": 13,
+        "gold": 4,
+        "stone": 0
+      },
+      "notes": [
+        "Send 2 new @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@.",
+        "Build @stable/Stable_aoe2DE.png@ and @blacksmith/Blacksmith_aoe2de.png@. Click up to @age/CastleAgeIconDE.png@."
+      ],
+      "time": "11:20"
+    },
+    {
+      "villager_count": 24,
+      "age": 3,
+      "resources": {
+        "wood": 7,
+        "food": 12,
+        "gold": 5,
+        "stone": 0
+      },
+      "notes": [
+        "Before @age/CastleAgeIconDE.png@ | Send 1 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @resource/Aoe2de_gold.png@.",
+        "Send all other @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @mill/FarmDE.png@.",
+        "Build 2 @other/House_aoe2DE.png@. | Research @stable/BloodlinesDE.png@ and @lumber_camp/DoubleBitAxe_aoe2DE.png@."
+      ],
+      "time": "14:00"
+    },
+    {
+      "villager_count": -1,
+      "age": 3,
+      "resources": {
+        "wood": -1,
+        "food": -1,
+        "gold": -1,
+        "stone": -1
+      },
+      "notes": [
+        "In @age/CastleAgeIconDE.png@ | Send new @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@. Make @stable/Steppelancericon.png@."
+      ],
+      "time": "14:01"
+    }
+  ]
+}

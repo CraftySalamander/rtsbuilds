@@ -1,0 +1,102 @@
+{
+  "major_god": [
+    "Fuxi",
+    "Nuwa",
+    "Shennong"
+  ],
+  "name": "Fast Chinese 2 TC",
+  "author": "Morley Games",
+  "source": "https://youtu.be/bOn4ASvDmvU",
+  "build_order": [
+    {
+      "worker_count": 10,
+      "age": 1,
+      "resources": {
+        "food": 7,
+        "wood": 0,
+        "gold": 1,
+        "favor": 0
+      },
+      "notes": [
+        "First 2 @chinese_civilian/peasant.png@ to @resource/food.png@ (build @chinese_building/silo.png@) | 5 next @chinese_civilian/peasant.png@ to @resource/food.png@",
+        "@chinese_civilian/kuafu.png@ builds @other/house.png@, then to @resource/gold.png@ (build @chinese_building/silo.png@)"
+      ],
+      "time": "1:15"
+    },
+    {
+      "worker_count": 13,
+      "age": 1,
+      "resources": {
+        "food": 7,
+        "wood": 4,
+        "gold": 0,
+        "favor": 0
+      },
+      "notes": [
+        "At 250 @resource/gold.png@, move @chinese_civilian/kuafu.png@ to @resource/wood.png@ (build @chinese_building/silo.png@)",
+        "Next 3 @chinese_civilian/peasant.png@ to @resource/wood.png@"
+      ],
+      "time": "2:00"
+    },
+    {
+      "worker_count": 17,
+      "age": 1,
+      "resources": {
+        "food": 7,
+        "wood": 3,
+        "gold": 3,
+        "favor": 0
+      },
+      "notes": [
+        "Build @temple/temple.png@ with @resource/wood.png@@chinese_civilian/kuafu.png@, then to @resource/gold.png@",
+        "Train 1 @chinese_civilian/kuafu.png@ & 1 @chinese_civilian/peasant.png@, both to @resource/gold.png@ | 2:45 @age/classical_age.png@ (drop @resource/food.png@)"
+      ],
+      "time": "2:45"
+    },
+    {
+      "worker_count": 17,
+      "age": 2,
+      "resources": {
+        "food": 2,
+        "wood": 8,
+        "gold": 2,
+        "favor": 0
+      },
+      "notes": [
+        "Before @age/classical_age.png@ | Move 5 @resource/food.png@@chinese_civilian/peasant.png@ to @resource/wood.png@",
+        "Send 1 @chinese_civilian/kuafu.png@ to future @town_center/town_center.png@ at 75% up"
+      ],
+      "time": "3:45"
+    },
+    {
+      "worker_count": 19,
+      "age": 2,
+      "resources": {
+        "food": 7,
+        "wood": 3,
+        "gold": 4,
+        "favor": 0
+      },
+      "notes": [
+        "In @age/classical_age.png@ | Send the 5 @resource/wood.png@@chinese_civilian/peasant.png@ back to @resource/food.png@",
+        "Build @town_center/town_center.png@ with @chinese_civilian/kuafu.png@, then to @resource/wood.png@ | Next 2 @chinese_civilian/peasant.png@ to @resource/gold.png@"
+      ],
+      "time": "4:25"
+    },
+    {
+      "worker_count": 26,
+      "age": 2,
+      "resources": {
+        "food": 9,
+        "wood": 6,
+        "gold": 5,
+        "favor": 0
+      },
+      "notes": [
+        "Build @other/house.png@ with 1 @chinese_civilian/kuafu.png@ | Add 1 @chinese_civilian/kuafu.png@ to @resource/gold.png@",
+        "Next @chinese_civilian/peasant.png@ to @resource/food.png@ & @resource/wood.png@"
+      ],
+      "time": "5:15"
+    }
+  ]
+}

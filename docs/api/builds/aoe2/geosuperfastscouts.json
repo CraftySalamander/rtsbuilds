@@ -1,0 +1,110 @@
+{
+  "name": "GEO Super Fast Scouts",
+  "civilization": "Georgians",
+  "author": "ShadowCrystallux",
+  "source": "https://youtu.be/8o7-Z2WyUxE",
+  "build_order": [
+    {
+      "villager_count": 5,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 5,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build 3 @other/House_aoe2DE.png@ | First 5 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@ | Scout with @stable/Scoutcavalry_aoe2DE.png@ & @other/MuleCart.png@"
+      ],
+      "time": "0:50"
+    },
+    {
+      "villager_count": 9,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 9,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Lure first @animal/Boar_aoe2DE.png@ | Next @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@",
+        "Start pushing 2 @animal/Deer_aoe2DE.png@ (or +) | Lure 2nd @animal/Boar_aoe2DE.png@ when needed"
+      ],
+      "time": "2:30"
+    },
+    {
+      "villager_count": 10,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 10,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@"
+      ],
+      "time": "2:55"
+    },
+    {
+      "villager_count": 14,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 14,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Add 4 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@ under @town_center/Towncenter_aoe2DE.png@"
+      ],
+      "time": "4:35"
+    },
+    {
+      "villager_count": 15,
+      "age": 1,
+      "resources": {
+        "wood": 1,
+        "food": 14,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ goes to @resource/Aoe2de_wood.png@ (with @other/MuleCart.png@)",
+        "Research @town_center/LoomDE.png@  | Research 16 pop @age/FeudalAgeIconDE.png@"
+      ],
+      "time": "5:25"
+    },
+    {
+      "villager_count": 15,
+      "age": 2,
+      "resources": {
+        "wood": 10,
+        "food": 5,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Before @age/FeudalAgeIconDE.png@ | 9 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to @resource/Aoe2de_wood.png@ (3 on straggler)",
+        "3 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to @resource/BerryBushDE.png@ | Build @barracks/Barracks_aoe2DE.png@"
+      ],
+      "time": "7:35"
+    },
+    {
+      "villager_count": 19,
+      "age": 2,
+      "resources": {
+        "wood": 7,
+        "food": 12,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "In @age/FeudalAgeIconDE.png@ | Build @stable/Stable_aoe2DE.png@ & @other/House_aoe2DE.png@ | 3 straggler @resource/MaleVillDE.jpg@ back to @resource/Aoe2de_food.png@",
+        "Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ | Produce many @stable/Scoutcavalry_aoe2DE.png@ | Next @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@/straggler"
+      ],
+      "time": "9:15"
+    }
+  ]
+}

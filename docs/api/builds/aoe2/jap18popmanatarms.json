@@ -1,0 +1,166 @@
+{
+  "name": "JAP 18 pop Man-at-Arms",
+  "civilization": "Japanese",
+  "author": "Hera",
+  "source": "https://youtu.be/HQMSlPqv62s",
+  "build_order": [
+    {
+      "villager_count": 6,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+      ],
+      "time": "1:15"
+    },
+    {
+      "villager_count": 8,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)"
+      ],
+      "time": "2:05"
+    },
+    {
+      "villager_count": 9,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 7,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ lures @animal/Boar_aoe2DE.png@ | Start luring @animal/Deer_aoe2DE.png@"
+      ],
+      "time": "2:30"
+    },
+    {
+      "villager_count": 10,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 8,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ goes to @animal/Boar_aoe2DE.png@/@animal/Deer_aoe2DE.png@/@animal/Sheep_aoe2DE.png@"
+      ],
+      "time": "2:55"
+    },
+    {
+      "villager_count": 12,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 10,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@ | Builds 1 @other/House_aoe2DE.png@ with a @resource/Aoe2de_food.png@@resource/MaleVillDE.jpg@"
+      ],
+      "time": "3:45"
+    },
+    {
+      "villager_count": 13,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 11,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Lure 2nd @animal/Boar_aoe2DE.png@"
+      ],
+      "time": "4:10"
+    },
+    {
+      "villager_count": 14,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 11,
+        "gold": 0,
+        "stone": 0,
+        "builder": 1
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ builds @barracks/Barracks_aoe2DE.png@, then to @resource/Aoe2de_wood.png@"
+      ],
+      "time": "4:35"
+    },
+    {
+      "villager_count": 17,
+      "age": 1,
+      "resources": {
+        "wood": 3,
+        "food": 14,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@ | Research @town_center/LoomDE.png@ | 18 pop @age/FeudalAgeIconDE.png@"
+      ],
+      "time": "6:15"
+    },
+    {
+      "villager_count": 17,
+      "age": 2,
+      "resources": {
+        "wood": 8,
+        "food": 7,
+        "gold": 2,
+        "stone": 0
+      },
+      "notes": [
+        "Before @age/FeudalAgeIconDE.png@ | Build 1 @other/House_aoe2DE.png@ with 2 @resource/Aoe2de_wood.png@@resource/MaleVillDE.jpg@ | Train 3 @barracks/MilitiaDE.png@",
+        "Move 7 @resource/MaleVillDE.jpg@ from @resource/Aoe2de_food.png@ to @resource/Aoe2de_wood.png@ (5) & @resource/Aoe2de_gold.png@ (2, build @mining_camp/Mining_camp_aoe2de.png@)"
+      ],
+      "time": "8:25"
+    },
+    {
+      "villager_count": 19,
+      "age": 2,
+      "resources": {
+        "wood": 8,
+        "food": 9,
+        "gold": 2,
+        "stone": 0
+      },
+      "notes": [
+        "In @age/FeudalAgeIconDE.png@ | Build 1 @archery_range/Archery_range_aoe2DE.png@, then @other/House_aoe2DE.png@ | Research @barracks/ManAtArmsUpgDE.png@ | Harass",
+        "Next @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@ | Build @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@"
+      ],
+      "time": "9:15"
+    },
+    {
+      "villager_count": 21,
+      "age": 2,
+      "resources": {
+        "wood": 10,
+        "food": 11,
+        "gold": 4,
+        "stone": 0
+      },
+      "notes": [
+        "Train @archery_range/Archer_aoe2DE.png@ | Next @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@/@resource/Aoe2de_wood.png@/@resource/Aoe2de_food.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@",
+        "Build @blacksmith/Blacksmith_aoe2de.png@ | Research @blacksmith/FletchingDE.png@ | Start @mill/FarmDE.png@"
+      ],
+      "time": "10:05"
+    }
+  ]
+}

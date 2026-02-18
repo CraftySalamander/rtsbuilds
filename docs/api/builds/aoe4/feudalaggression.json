@@ -1,0 +1,95 @@
+{
+  "description": "A heavy feudal focused build to gain experience for Jeanne. You want her to hit lvl 3 for Holy Wrath to do effective dmg. ",
+  "civilization": "Jeanne d'Arc",
+  "name": "Feudal Aggression ",
+  "author": "Valdemar1902",
+  "source": "https://aoe4guides.com/builds/wT9Oo9t8OGNbkqcgtzru",
+  "build_order": [
+    {
+      "age": 1,
+      "population_count": -1,
+      "time": "1:00",
+      "villager_count": 9,
+      "resources": {
+        "food": 8,
+        "wood": 0,
+        "gold": 1,
+        "stone": 0
+      },
+      "notes": [
+        "All @unit_worker/villager.png@ to food | @unit_jeanne/jeanne-darc-peasant-1.png@ builds @building_economy/house.png@ + @building_economy/mining-camp.png@ and gathers @resource/resource_gold.png@",
+        "@resource/rally.png@ new @unit_worker/villager.png@ to @resource/resource_food.png@ until 8"
+      ]
+    },
+    {
+      "age": 1,
+      "population_count": -1,
+      "time": "1:40",
+      "villager_count": 11,
+      "resources": {
+        "food": 8,
+        "wood": 0,
+        "gold": 3,
+        "stone": 0,
+        "builder": -1
+      },
+      "notes": [
+        "@resource/rally.png@2 new @unit_worker/villager.png@ to @resource/resource_gold.png@  | Drop @resource/sheep.png@ from @unit_cavalry/scout.png@ around 1:30"
+      ]
+    },
+    {
+      "age": 1,
+      "population_count": -1,
+      "time": "3:40",
+      "villager_count": 17,
+      "resources": {
+        "food": 8,
+        "wood": 5,
+        "gold": 2,
+        "stone": 0,
+        "builder": 2
+      },
+      "notes": [
+        "@resource/rally.png@ to @resource/gaiatreeprototypetree.png@ until 5, then back to @resource/resource_food.png@",
+        "At @resource/resource_gold.png@ 3900, drop off @resource/resource_food.png@/@resource/resource_gold.png@ and build @landmark_french/school-of-cavalry.png@ with@unit_jeanne/jeanne-darc-peasant-1.png@+1 @resource/sheep.png@ @unit_worker/villager.png@",
+        "Build @building_economy/house.png@ with 1 @resource/resource_gold.png@ @unit_worker/villager.png@ | After @landmark_french/school-of-cavalry.png@, @unit_jeanne/jeanne-darc-peasant-1.png@ will build @building_military/archery-range.png@, other to @resource/resource_gold.png@"
+      ]
+    },
+    {
+      "age": 2,
+      "population_count": -1,
+      "time": "5:00",
+      "villager_count": 21,
+      "resources": {
+        "food": 13,
+        "wood": 5,
+        "gold": 3,
+        "stone": 0
+      },
+      "notes": [
+        "@resource/rally.png@ @resource/resource_food.png@ | @unit_jeanne/jeanne-darc-peasant-1.png@ builds @building_military/archery-range.png@ then levels up with @ability_jeanne/ability-path-of-the-warrior-1.png@",
+        "@unit_jeanne/jeanne-darc-peasant-1.png@ back to @resource/sheep.png@ before leveling | Train @unit_infantry/archer-2.png@ & @unit_french/royal-knight-2.png@"
+      ]
+    },
+    {
+      "age": 2,
+      "population_count": -1,
+      "time": "6:20",
+      "villager_count": 25,
+      "resources": {
+        "food": 13,
+        "wood": 7,
+        "gold": 5,
+        "stone": 0,
+        "builder": -1
+      },
+      "notes": [
+        "Next 2 @unit_worker/villager.png@ to @resource/resource_gold.png@, then to @resource/resource_wood.png@ | @ability_jeanne/ability-path-of-the-warrior-1.png@ => @resource/boar.png@(x2) then fight",
+        "Train @unit_infantry/archer-2.png@ & @unit_french/royal-knight-2.png@ (@unit_cavalry/horseman-1.png@ ok-ish) | Build @building_economy/house.png@ | Research @technology_economy/double-broadaxe.png@"
+      ]
+    }
+  ],
+  "video": "https://youtu.be/4tPvYbswjlY",
+  "season": "Season 6",
+  "strategy": "Rush"
+}

@@ -1,0 +1,152 @@
+{
+  "name": "Scouts rush - 18 pop",
+  "civilization": "Generic",
+  "author": "Morley Games",
+  "source": "https://youtu.be/PcKxbQKlZH8",
+  "build_order": [
+    {
+      "villager_count": 6,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 6,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+      ],
+      "time": "1:15"
+    },
+    {
+      "villager_count": 7,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 7,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Lure 1st @animal/Boar_aoe2DE.png@"
+      ],
+      "time": "1:40"
+    },
+    {
+      "villager_count": 9,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 7,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@) | Start pushing @animal/Deer_aoe2DE.png@"
+      ],
+      "time": "2:30"
+    },
+    {
+      "villager_count": 11,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 9,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next 2 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@"
+      ],
+      "time": "3:20"
+    },
+    {
+      "villager_count": 12,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 10,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@, then lures 2nd @animal/Boar_aoe2DE.png@"
+      ],
+      "time": "3:45"
+    },
+    {
+      "villager_count": 13,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 11,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ builds @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@"
+      ],
+      "time": "4:10"
+    },
+    {
+      "villager_count": 16,
+      "age": 1,
+      "resources": {
+        "wood": 2,
+        "food": 14,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next 3 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@"
+      ],
+      "time": "5:25"
+    },
+    {
+      "villager_count": 17,
+      "age": 1,
+      "resources": {
+        "wood": 3,
+        "food": 14,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ | Research @town_center/LoomDE.png@ | Research 18 pop @age/FeudalAgeIconDE.png@"
+      ],
+      "time": "6:15"
+    },
+    {
+      "villager_count": 17,
+      "age": 2,
+      "resources": {
+        "wood": 10,
+        "food": 6,
+        "gold": 0,
+        "stone": 0,
+        "builder": 1
+      },
+      "notes": [
+        "Before @age/FeudalAgeIconDE.png@ | Move 1 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to build @barracks/Barracks_aoe2DE.png@ & @other/House_aoe2DE.png@",
+        "Move 7 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @resource/Aoe2de_wood.png@ (2 straggler, 5 to 1st @lumber_camp/Lumber_camp_aoe2de.png@)"
+      ],
+      "time": "8:25"
+    },
+    {
+      "villager_count": 20,
+      "age": 2,
+      "resources": {
+        "wood": 8,
+        "food": 11,
+        "gold": 0,
+        "stone": 0,
+        "builder": 1
+      },
+      "notes": [
+        "In @age/FeudalAgeIconDE.png@ | 3 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ | Build @stable/Stable_aoe2DE.png@, then @other/House_aoe2DE.png@/@defensive_structures/Palisade_wall_aoe2de.png@",
+        "Move 2 @resource/MaleVillDE.jpg@ from @resource/Aoe2de_wood.png@ (straggler) to @animal/Sheep_aoe2DE.png@ | New @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@"
+      ],
+      "time": "9:40"
+    }
+  ]
+}

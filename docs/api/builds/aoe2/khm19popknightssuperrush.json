@@ -1,0 +1,136 @@
+{
+  "name": "KHM 19 pop Knights Super Rush",
+  "civilization": "Khmer",
+  "author": "Morley Games",
+  "source": "https://youtu.be/5kr_XESWrHU",
+  "build_order": [
+    {
+      "villager_count": 5,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 5,
+        "gold": 0,
+        "stone": 0
+      },
+      "notes": [
+        "Build 2 @other/House_aoe2DE.png@ | First 5 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+      ],
+      "time": "0:50"
+    },
+    {
+      "villager_count": 6,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 5,
+        "gold": 1,
+        "stone": 0
+      },
+      "notes": [
+        "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@, then to @resource/Aoe2de_gold.png@ (no @mining_camp/Mining_camp_aoe2de.png@)"
+      ],
+      "time": "1:15"
+    },
+    {
+      "villager_count": 7,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 6,
+        "gold": 1,
+        "stone": 0
+      },
+      "notes": [
+        "Lure 1st @animal/Boar_aoe2DE.png@"
+      ],
+      "time": "1:40"
+    },
+    {
+      "villager_count": 12,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 11,
+        "gold": 1,
+        "stone": 0
+      },
+      "notes": [
+        "Next 5 @resource/MaleVillDE.jpg@ on @animal/Boar_aoe2DE.png@ (lure 2nd)"
+      ],
+      "time": "3:45"
+    },
+    {
+      "villager_count": 16,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 15,
+        "gold": 1,
+        "stone": 0
+      },
+      "notes": [
+        "Next 4 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ | Build @other/House_aoe2DE.png@ & @mill/Mill_aoe2de.png@"
+      ],
+      "time": "5:25"
+    },
+    {
+      "villager_count": 18,
+      "age": 1,
+      "resources": {
+        "wood": 0,
+        "food": 15,
+        "gold": 3,
+        "stone": 0
+      },
+      "notes": [
+        "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ (still no @mining_camp/Mining_camp_aoe2de.png@) | Research @town_center/LoomDE.png@ | 19 pop @age/FeudalAgeIconDE.png@"
+      ],
+      "time": "6:40"
+    },
+    {
+      "villager_count": 18,
+      "age": 2,
+      "resources": {
+        "wood": 0,
+        "food": 15,
+        "gold": 3,
+        "stone": 0
+      },
+      "notes": [
+        "In @age/FeudalAgeIconDE.png@ | 19 pop @age/CastleAgeIconDE.png@"
+      ],
+      "time": "8:50"
+    },
+    {
+      "villager_count": 18,
+      "age": 3,
+      "resources": {
+        "wood": 7,
+        "food": 4,
+        "gold": 7,
+        "stone": 0
+      },
+      "notes": [
+        "Before @age/CastleAgeIconDE.png@ | Build @stable/Stable_aoe2DE.png@ & @other/House_aoe2DE.png@",
+        "All @animal/Sheep_aoe2DE.png@@resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (straggler) & @resource/Aoe2de_gold.png@ (4 later, build @mining_camp/Mining_camp_aoe2de.png@)"
+      ],
+      "time": "11:30"
+    },
+    {
+      "villager_count": 20,
+      "age": 3,
+      "resources": {
+        "wood": 5,
+        "food": 8,
+        "gold": 7,
+        "stone": 0
+      },
+      "notes": [
+        "In @age/CastleAgeIconDE.png@ | Spam @stable/Knight_aoe2DE.png@ | Straggler @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)",
+        "Move 2 @resource/MaleVillDE.jpg@ from @resource/Aoe2de_wood.png@ to @resource/BerryBushDE.png@ | Add @mill/FarmDE.png@ when possible"
+      ],
+      "time": "12:20"
+    }
+  ]
+}
