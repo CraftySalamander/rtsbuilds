@@ -33,7 +33,7 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
     input_path = Path(input_path)
 
     # Create the output file path
-    output_file = Path(__file__).parent / f"docs/builds/{game}_build_orders.js"
+    output_file = Path(__file__).parent / f"docs/builds/{game}_builds.js"
 
     # Ensure the output directory exists
     output_file.parent.mkdir(parents=True, exist_ok=True)
@@ -78,7 +78,7 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
 
     # Iterate over all JSON files
     for json_file in json_files:
-        if json_file.name == f"{game}_build_orders.js":
+        if json_file.name == f"{game}_builds.js":
             continue
 
         try:
