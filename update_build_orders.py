@@ -33,7 +33,7 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
     input_path = Path(input_path)
 
     # Create the output file path
-    output_file = Path(__file__).parent / f"docs/build_orders/{game}_build_orders.js"
+    output_file = Path(__file__).parent / f"docs/builds/{game}_build_orders.js"
 
     # Ensure the output directory exists
     output_file.parent.mkdir(parents=True, exist_ok=True)
@@ -65,7 +65,7 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
             return
 
     # Initialize the list to hold build orders
-    build_orders = existing_build_orders.copy()
+    builds = existing_build_orders.copy()
 
     # Check if input_path is a file or directory
     if input_path.is_file() and input_path.suffix == '.json':
@@ -95,7 +95,7 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
                 print(f"Warning: Missing fields '{', '.join(missing_fields)}' in file {json_file}. Skipping this file.")
                 continue
 
-            # Create a new entry for build_orders.js
+            # Create a new entry for builds.js
             faction = data[game_field_mapping[game]['faction']]
 
             entry = {
@@ -110,11 +110,11 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
                 entry['opponent_faction'] = opponent_faction
 
             # Check for duplicate entries based on name (case-insensitive)
-            if any(existing_entry['name'].lower() == entry['name'].lower() for existing_entry in build_orders):
+            if any(existing_entry['name'].lower() == entry['name'].lower() for existing_entry in builds):
                 print(f"Warning: An entry with the name '{entry['name']}' already exists. Skipping this file.")
                 continue
 
-            build_orders.append(entry)
+            builds.append(entry)
 
         except Exception as e:
             print(f"Error processing file {json_file}: {e}")
@@ -123,10 +123,10 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
     # Write the JavaScript file with the build orders
     with open(output_file, 'w') as f:
         f.write(f"const {game}_build_orders = [\n")
-        for i, entry in enumerate(build_orders):
+        for i, entry in enumerate(builds):
             # Don't add comma for the last entry
             json_entry = json.dumps(entry, indent=2)
-            if i < len(build_orders) - 1:
+            if i < len(builds) - 1:
                 f.write(f"  {json_entry},\n")
             else:
                 f.write(f"  {json_entry}\n")
