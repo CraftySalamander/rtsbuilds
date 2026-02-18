@@ -227,6 +227,62 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
   htmlContent += indentSpace(2) + "body {\n";
   htmlContent += indentSpace(3) + "font-family: Arial, Helvetica, sans-serif;\n";
   htmlContent += indentSpace(3) + "background-color: rgb(176, 176, 176);\n";
+  htmlContent += indentSpace(3) + "margin: 0;\n";
+  htmlContent += indentSpace(3) + "padding: 20px;\n";
+  htmlContent += indentSpace(2) + "}\n\n";
+
+  htmlContent += indentSpace(2) + ".container {\n";
+  htmlContent += indentSpace(3) + "max-width: 1200px;\n";
+  htmlContent += indentSpace(3) + "margin: 0 auto;\n";
+  htmlContent += indentSpace(3) + "background-color: #dcdcdc;\n";
+  htmlContent += indentSpace(3) + "padding: 20px;\n";
+  htmlContent += indentSpace(3) + "border-radius: 10px;\n";
+  htmlContent += indentSpace(3) + "box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n";
+  htmlContent += indentSpace(2) + "}\n\n";
+
+  htmlContent += indentSpace(2) + ".header {\n";
+  htmlContent += indentSpace(3) + "text-align: center;\n";
+  htmlContent += indentSpace(3) + "margin-bottom: 20px;\n";
+  htmlContent += indentSpace(2) + "}\n\n";
+
+  htmlContent += indentSpace(2) + ".header img {\n";
+  htmlContent += indentSpace(3) + "max-width: 50%;\n";
+  htmlContent += indentSpace(3) + "height: auto;\n";
+  htmlContent += indentSpace(2) + "}\n\n";
+
+  htmlContent += indentSpace(2) + ".selectors {\n";
+  htmlContent += indentSpace(3) + "display: flex;\n";
+  htmlContent += indentSpace(3) + "flex-wrap: wrap;\n";
+  htmlContent += indentSpace(3) + "gap: 10px;\n";
+  htmlContent += indentSpace(3) + "margin-bottom: 20px;\n";
+  htmlContent += indentSpace(3) + "align-items: center;\n";
+  htmlContent += indentSpace(3) + "justify-content: center;\n";
+  htmlContent += indentSpace(2) + "}\n\n";
+
+  htmlContent += indentSpace(2) + ".selector-group {\n";
+  htmlContent += indentSpace(3) + "display: flex;\n";
+  htmlContent += indentSpace(3) + "flex-direction: column;\n";
+  htmlContent += indentSpace(3) + "min-width: 200px;\n";
+  htmlContent += indentSpace(2) + "}\n\n";
+
+  htmlContent += indentSpace(2) + ".selector-group label {\n";
+  htmlContent += indentSpace(3) + "margin-bottom: 5px;\n";
+  htmlContent += indentSpace(3) + "font-size: 16px;\n";
+  htmlContent += indentSpace(2) + "}\n\n";
+
+  htmlContent += indentSpace(2) + "button {\n";
+  htmlContent += indentSpace(3) + "padding: 10px;\n";
+  htmlContent += indentSpace(3) + "font-size: 16px;\n";
+  htmlContent += indentSpace(3) + "border-radius: 5px;\n";
+  htmlContent += indentSpace(3) + "border: 1px solid #ccc;\n";
+  htmlContent += indentSpace(3) + "background-color: #333;\n";
+  htmlContent += indentSpace(3) + "color: white;\n";
+  htmlContent += indentSpace(3) + "cursor: pointer;\n";
+  htmlContent += indentSpace(3) + "transition: background-color 0.3s;\n";
+  htmlContent += indentSpace(2) + "}\n\n";
+
+  htmlContent += indentSpace(2) + "button:hover {\n";
+  htmlContent += indentSpace(3) + "background-color: #555;\n";
   htmlContent += indentSpace(2) + "}\n\n";
 
   htmlContent += indentSpace(2) + "table {\n";
@@ -276,25 +332,6 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
   htmlContent += indentSpace(3) + "border: 1px solid rgb(150, 150, 150);\n";
   htmlContent += indentSpace(2) + "}\n\n";
 
-  htmlContent += indentSpace(2) + "button {\n";
-  htmlContent += indentSpace(3) + "background-color: rgb(255, 255, 255);\n";
-  htmlContent += indentSpace(3) + "border: 1px rgb(0, 0, 0) solid;\n";
-  htmlContent += indentSpace(3) + "border-radius: 5px;\n";
-  htmlContent += indentSpace(3) + "padding-top: 3px;\n";
-  htmlContent += indentSpace(3) + "padding-bottom: 3px;\n";
-  htmlContent += indentSpace(3) + "padding-left: 6px;\n";
-  htmlContent += indentSpace(3) + "padding-right: 6px;\n";
-  htmlContent += indentSpace(3) + "margin-left: 3px;\n";
-  htmlContent += indentSpace(3) + "margin-right: 3px;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + "button:hover {\n";
-  htmlContent += indentSpace(3) + "box-shadow: 2px 2px 2px rgb(0, 0, 0);\n";
-  htmlContent += indentSpace(3) + "position: relative;\n";
-  htmlContent += indentSpace(3) + "left: -2px;\n";
-  htmlContent += indentSpace(3) + "top: -2px;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
   htmlContent += indentSpace(2) + ".column-0 {\n";
   htmlContent += indentSpace(3) + "padding-left: 25px;\n";
   htmlContent += indentSpace(2) + "}\n\n";
@@ -335,6 +372,32 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
 
   // Main body
   htmlContent += "<body>\n";
+  htmlContent += indentSpace(1) + "<div class='container'>\n";
+  htmlContent += indentSpace(2) + "<div class='header'>\n";
+  htmlContent +=
+    indentSpace(3) + "<img src='assets/common/title/rts_builds.png' alt='RTS Builds Title' />\n";
+  htmlContent += indentSpace(2) + "</div>\n";
+
+  // Build order name
+  htmlContent +=
+    indentSpace(2) +
+    '<h1 style=\'text-align: center; margin-bottom: 30px; font-family: \"Book Antiqua\", Palatino, serif; font-size: 40px;\'>' +
+    dataBO["name"] +
+    "</h1>\n";
+
+  // Buttons and build order name
+  htmlContent += indentSpace(2) + "<div class='selectors'>\n";
+  htmlContent += indentSpace(3) + "<div class='selector-group'>\n";
+  htmlContent += indentSpace(4) + "<button id='open_in_rts_overlay'>Open in RTS Overlay</button>\n";
+  htmlContent += indentSpace(3) + "</div>\n";
+  htmlContent += indentSpace(3) + "<div class='selector-group'>\n";
+  htmlContent += indentSpace(4) + "<button id='copy_bo'>Copy build order to clipboard</button>\n";
+  htmlContent += indentSpace(3) + "</div>\n";
+  htmlContent += indentSpace(3) + "<div class='selector-group'>\n";
+  htmlContent += indentSpace(4) + "<button id='export_bo'>Export build order</button>\n";
+  htmlContent += indentSpace(3) + "</div>\n";
+  htmlContent += indentSpace(2) + "</div>\n";
+
   htmlContent += indentSpace(1) + "<table>\n";
 
   // Icons header
@@ -344,7 +407,7 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
     if (column.image) {
       htmlContent += indentSpace(3) + "<td>" + getBOImageHTML(column.image) + "</td>\n";
     } else {
-      indentSpace(3) + "<td></td>\n";
+      htmlContent += indentSpace(3) + "<td></td>\n";
     }
   }
   htmlContent += indentSpace(2) + "</tr>\n";
@@ -494,21 +557,42 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
   htmlContent += indentSpace(1) + "</table>\n";
 
   // Copy HTML for export
-  const htmlContentCopy = JSON.parse(JSON.stringify(htmlContent)) + "</body>\n\n</html>";
+  const htmlContentCopy = JSON.parse(JSON.stringify(htmlContent)) + "</div></body>\n\n</html>";
 
   // Name for file export
   const exportName = Object.keys(dataBO).includes("name")
     ? dataBO.name.replaceAll(/\s+/g, "_")
     : "rts_overlay";
 
-  // Buttons to export the build order
-  htmlContent += '\n<button id="copy_bo">Copy build order to clipboard</button>\n';
-  htmlContent += '\n<button id="export_bo">Export build order</button>\n';
-
   htmlContent += indentSpace(1) + "<script>\n";
 
   htmlContent += indentSpace(2) + "const dataHTML = " + JSON.stringify(htmlContentCopy) + ";\n\n";
   htmlContent += indentSpace(2) + "const dataBO = " + JSON.stringify(dataBO) + ";\n\n";
+
+  // Open in RTS Overlay
+  htmlContent +=
+    indentSpace(2) +
+    "document.getElementById('open_in_rts_overlay').addEventListener('click', function() {\n";
+  htmlContent += indentSpace(3) + "let game;\n";
+  htmlContent += indentSpace(3) + "if (dataBO.major_god) {\n";
+  htmlContent += indentSpace(4) + "game = 'aom';\n";
+  htmlContent += indentSpace(3) + "} else if (dataBO.race) {\n";
+  htmlContent += indentSpace(4) + "game = dataBO.opponent_race ? 'wc3' : 'sc2';\n";
+  htmlContent += indentSpace(3) + "} else if (dataBO.civilization) {\n";
+  htmlContent += indentSpace(4) + "game = 'aoe2';\n";
+  htmlContent += indentSpace(3) + "} else {\n";
+  htmlContent +=
+    indentSpace(4) + "console.error('Could not determine game from build order data');\n";
+  htmlContent += indentSpace(4) + "return;\n";
+  htmlContent += indentSpace(3) + "}\n";
+  htmlContent +=
+    indentSpace(3) +
+    "const buildOrderName = dataBO.name.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');\n";
+  htmlContent +=
+    indentSpace(3) +
+    "const url = `https://craftysalamander.github.io/rtsbuilds/api/builds/${game}/${buildOrderName}.json`;\n";
+  htmlContent += indentSpace(3) + "window.open(url, '_blank');\n";
+  htmlContent += indentSpace(2) + "});\n\n";
 
   // Copy BO
   htmlContent +=
@@ -537,7 +621,7 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
 
   htmlContent += indentSpace(1) + "</script>\n";
 
-  htmlContent += "</body>\n\n</html>";
+  htmlContent += "</div></body>\n\n</html>";
 
   // Update overlay HTML content
   fullPageWindow.document.open();
