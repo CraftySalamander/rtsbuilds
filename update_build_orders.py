@@ -118,8 +118,8 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
                 print(f"Warning: An entry with the name '{entry['name']}' already exists. Skipping this file.")
                 continue
 
-            # Normalize the file name (remove spaces and special characters)
-            json_file_name = re.sub(r'\s+', '', entry['name'].lower())
+            # Normalize the file name (remove all non-alphanumeric characters)
+            json_file_name = re.sub(r'[^a-zA-Z0-9]', '', entry['name'].lower())
 
             # Check if the normalized file name already exists
             if json_file_name in normalized_file_names:
