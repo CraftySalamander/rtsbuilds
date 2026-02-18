@@ -1,5 +1,3 @@
-# Update the JS file containing the build orders for a specific game.
-
 import json
 import argparse
 import re
@@ -8,7 +6,7 @@ from pathlib import Path
 
 def update_build_orders(game: str, input_path: str, update: bool = True):
     """
-    Update the JS file containing the build orders for a specific game.
+    Update the JS file containing the build orders for a specific game and generate individual JSON files.
 
     game          Acronym of the game: 'aoe2', 'aoe4', 'aom', 'sc2', 'wc3'
     input_path    Input BO JSON file or folder to process (containing the BO files).
@@ -32,11 +30,15 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
     # Define the input path
     input_path = Path(input_path)
 
-    # Create the output file path
+    # Create the output file path for the JS file
     output_file = Path(__file__).parent / f"docs/builds/{game}_builds.js"
 
-    # Ensure the output directory exists
+    # Create the output directory path for the JSON files
+    json_output_dir = Path(__file__).parent / f"docs/api/builds/{game}"
+
+    # Ensure the output directories exist
     output_file.parent.mkdir(parents=True, exist_ok=True)
+    json_output_dir.mkdir(parents=True, exist_ok=True)
 
     # Load existing build orders if the output file exists and update is True
     existing_build_orders = []
@@ -65,6 +67,9 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
 
     # Initialize the list to hold build orders
     builds = existing_build_orders.copy()
+
+    # List to keep track of normalized file names
+    normalized_file_names = set()
 
     # Check if input_path is a file or directory
     if input_path.is_file() and input_path.suffix == '.json':
@@ -113,7 +118,25 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
                 print(f"Warning: An entry with the name '{entry['name']}' already exists. Skipping this file.")
                 continue
 
+            # Normalize the file name (remove spaces and special characters)
+            json_file_name = re.sub(r'\s+', '', entry['name'].lower())
+
+            # Check if the normalized file name already exists
+            if json_file_name in normalized_file_names:
+                print(
+                    f"Warning: A file with the normalized name '{json_file_name}' already exists. Skipping this file."
+                )
+                continue
+
             builds.append(entry)
+
+            # Add the normalized file name to the set
+            normalized_file_names.add(json_file_name)
+
+            # Generate individual JSON file for the build order
+            json_file_path = json_output_dir / f"{json_file_name}.json"
+            with open(json_file_path, 'w') as json_out_file:
+                json.dump(entry['content'], json_out_file, indent=2)
 
         except Exception as e:
             print(f"Error processing file {json_file}: {e}")
