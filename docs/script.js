@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const authorFilter = document.getElementById("author-filter");
   const buildOrderFilter = document.getElementById("build-order-filter");
   const buildOrdersContainer = document.getElementById("build-orders-container");
-  const header = document.querySelector(".header");
 
   // Map game names to their build orders arrays
   const buildOrdersMap = {
