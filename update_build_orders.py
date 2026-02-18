@@ -50,7 +50,6 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
                 if match:
                     json_str = match.group(1)
                     # Clean the JSON string
-                    json_str = json_str.replace('//', '/*')  # Remove single line comments
                     json_str = re.sub(r'/\*.*?\*/', '', json_str, flags=re.DOTALL)  # Remove multi-line comments
                     # Remove trailing commas from objects and arrays
                     json_str = re.sub(r',\s*([}\]])', r'\1', json_str)
