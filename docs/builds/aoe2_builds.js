@@ -6464,6 +6464,247 @@ const aoe2_build_orders = [
   }
 },
   {
+  "name": "TUR Arena Fast Imperial",
+  "faction": "Turks",
+  "author": "Hera",
+  "content": {
+    "name": "TUR Arena Fast Imperial",
+    "civilization": "Turks",
+    "author": "Hera",
+    "source": "https://www.youtube.com/watch?v=OfgPo09zCl4",
+    "build_order": [
+      {
+        "villager_count": 6,
+        "age": 1,
+        "resources": {
+          "wood": 0,
+          "food": 6,
+          "gold": 0,
+          "stone": 0
+        },
+        "notes": [
+          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ on @animal/Sheep_aoe2DE.png@"
+        ],
+        "time": "1:15"
+      },
+      {
+        "villager_count": 10,
+        "age": 1,
+        "resources": {
+          "wood": 4,
+          "food": 6,
+          "gold": 0,
+          "stone": 0
+        },
+        "notes": [
+          "Next 4 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (@lumber_camp/Lumber_camp_aoe2de.png@)"
+        ],
+        "time": "2:55"
+      },
+      {
+        "villager_count": 11,
+        "age": 1,
+        "resources": {
+          "wood": 4,
+          "food": 7,
+          "gold": 0,
+          "stone": 0
+        },
+        "notes": [
+          "Lure 1st @animal/Boar_aoe2DE.png@"
+        ],
+        "time": "3:20"
+      },
+      {
+        "villager_count": 12,
+        "age": 1,
+        "resources": {
+          "wood": 4,
+          "food": 8,
+          "gold": 0,
+          "stone": 0
+        },
+        "notes": [
+          "Build 1 @other/House_aoe2DE.png@ + @mill/Mill_aoe2de.png@ (@resource/BerryBushDE.png@)"
+        ],
+        "time": "3:45"
+      },
+      {
+        "villager_count": 14,
+        "age": 1,
+        "resources": {
+          "wood": 4,
+          "food": 10,
+          "gold": 0,
+          "stone": 0
+        },
+        "notes": [
+          "Next 2 @resource/MaleVillDE.jpg@ on @resource/BerryBushDE.png@"
+        ],
+        "time": "4:35"
+      },
+      {
+        "villager_count": 15,
+        "age": 1,
+        "resources": {
+          "wood": 4,
+          "food": 11,
+          "gold": 0,
+          "stone": 0
+        },
+        "notes": [
+          "Lure 2nd @animal/Boar_aoe2DE.png@"
+        ],
+        "time": "5:00"
+      },
+      {
+        "villager_count": 16,
+        "age": 1,
+        "resources": {
+          "wood": 4,
+          "food": 12,
+          "gold": 0,
+          "stone": 0
+        },
+        "notes": [
+          "Build 1 @other/House_aoe2DE.png@ | Next @resource/MaleVillDE.jpg@ goes to @resource/BerryBushDE.png@"
+        ],
+        "time": "5:25"
+      },
+      {
+        "villager_count": 20,
+        "age": 1,
+        "resources": {
+          "wood": 8,
+          "food": 12,
+          "gold": 0,
+          "stone": 0
+        },
+        "notes": [
+          "Next 4 @resource/MaleVillDE.jpg@ go to @resource/Aoe2de_wood.png@ (only 1 @lumber_camp/Lumber_camp_aoe2de.png@)"
+        ],
+        "time": "7:05"
+      },
+      {
+        "villager_count": 23,
+        "age": 1,
+        "resources": {
+          "wood": 8,
+          "food": 15,
+          "gold": 0,
+          "stone": 0
+        },
+        "notes": [
+          "Send 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@ under @town_center/Towncenter_aoe2DE.png@ | Build 1 @other/House_aoe2DE.png@"
+        ],
+        "time": "8:20"
+      },
+      {
+        "villager_count": 28,
+        "age": 1,
+        "resources": {
+          "wood": 8,
+          "food": 15,
+          "gold": 5,
+          "stone": 0
+        },
+        "notes": [
+          "Seed @mill/FarmDE.png@ after @animal/Sheep_aoe2DE.png@/@animal/Deer_aoe2DE.png@ | Next 5 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ (@mining_camp/Mining_camp_aoe2de.png@) | 29 pop @age/FeudalAgeIconDE.png@"
+        ],
+        "time": "10:25"
+      },
+      {
+        "villager_count": 28,
+        "age": 2,
+        "resources": {
+          "wood": 11,
+          "food": 12,
+          "gold": 5,
+          "stone": 0
+        },
+        "notes": [
+          "Before @age/FeudalAgeIconDE.png@  | 3 @town_center/Towncenter_aoe2DE.png@@resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (straggler) when out of @resource/Aoe2de_food.png@ | Build @other/House_aoe2DE.png@"
+        ],
+        "time": "12:35"
+      },
+      {
+        "villager_count": 30,
+        "age": 2,
+        "resources": {
+          "wood": 11,
+          "food": 12,
+          "gold": 7,
+          "stone": 0
+        },
+        "notes": [
+          "In @age/FeudalAgeIconDE.png@ | 3 @resource/Aoe2de_wood.png@@resource/MaleVillDE.jpg@ build @blacksmith/Blacksmith_aoe2de.png@ (1) and @market/Market_aoe2DE.png@ (2)",
+          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ | 31 pop @age/CastleAgeIconDE.png@"
+        ],
+        "time": "13:25"
+      },
+      {
+        "villager_count": 30,
+        "age": 3,
+        "resources": {
+          "wood": 8,
+          "food": 15,
+          "gold": 7,
+          "stone": 0
+        },
+        "notes": [
+          "Before @age/CastleAgeIconDE.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ & @mining_camp/GoldMiningDE.png@ (optionally @mill/HorseCollarDE.png@)",
+          "Seed @mill/FarmDE.png@ with builders | Sell 200 @resource/Aoe2de_stone.png@"
+        ],
+        "time": "16:05"
+      },
+      {
+        "villager_count": 32,
+        "age": 3,
+        "resources": {
+          "wood": 8,
+          "food": 15,
+          "gold": 9,
+          "stone": 0
+        },
+        "notes": [
+          "In @age/CastleAgeIconDE.png@ | Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@",
+          "Build @siege_workshop/Siege_workshop_aoe2DE.png@ & @monastery/MonasteryAoe2DE.png@ with 3 @resource/Aoe2de_wood.png@@resource/MaleVillDE.jpg@ (back to @resource/Aoe2de_wood.png@) | 33 pop @age/ImperialAgeIconDE.png@"
+        ],
+        "time": "16:55"
+      },
+      {
+        "villager_count": 32,
+        "age": 4,
+        "resources": {
+          "wood": 8,
+          "food": 11,
+          "gold": 13,
+          "stone": 0
+        },
+        "notes": [
+          "Before @age/ImperialAgeIconDE.png@| @resource/BerryBushDE.png@@resource/MaleVillDE.jpg@ (when depleted) to 2nd @resource/Aoe2de_gold.png@",
+          "Build @barracks/Barracks_aoe2DE.png@ & 2 @archery_range/Archery_range_aoe2DE.png@ (buy @resource/Aoe2de_wood.png@ if needed)"
+        ],
+        "time": "20:05"
+      },
+      {
+        "villager_count": 33,
+        "age": 4,
+        "resources": {
+          "wood": 8,
+          "food": 12,
+          "gold": 13,
+          "stone": 0
+        },
+        "notes": [
+          "Produce @archery_range/Hand_cannoneer_aoe2DE.png@ & @siege_workshop/Bombard_cannon_aoe2DE.png@ | Grow economy"
+        ],
+        "time": "20:30"
+      }
+    ]
+  }
+},
+  {
   "name": "WU 5 Militia Rush Game Start",
   "faction": "Wu",
   "author": "Poop Lord",
