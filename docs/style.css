@@ -120,3 +120,16 @@ button:hover {
   font-size: 18px;
   color: #666;
 }
+
+/* Media Query for mobile */
+@media (max-width: 768px) {
+  .build-orders-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .build-order-button {
+    width: 100%;
+    max-width: 100%;
+  }
+}
