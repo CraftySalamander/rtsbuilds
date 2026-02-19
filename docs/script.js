@@ -10,6 +10,15 @@ document.addEventListener("DOMContentLoaded", function () {
   const buildOrderFilter = document.getElementById("build-order-filter");
   const buildOrdersContainer = document.getElementById("build-orders-container");
 
+  // Recover 'gameId' from URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const gameId = urlParams.get("gameId");
+
+  // Update game value if 'gameID' is set and valid
+  if (gameId && ["aoe2", "aoe4", "aom", "sc2", "wc3"].includes(gameId)) {
+    gameSelect.value = gameId;
+  }
+
   // Map game names to their build orders arrays
   const buildOrdersMap = {
     aoe2: aoe2_build_orders,
@@ -131,6 +140,11 @@ document.addEventListener("DOMContentLoaded", function () {
   opponentFactionSelect.addEventListener("change", filterBuildOrders);
   authorFilter.addEventListener("input", filterBuildOrders);
   buildOrderFilter.addEventListener("input", filterBuildOrders);
+
+  // Update faction if valid 'gameID'
+  if (gameId && ["aoe2", "aoe4", "aom", "sc2", "wc3"].includes(gameId)) {
+    updateFactionSelect();
+  }
 
   // Run initial filtering
   filterBuildOrders();
