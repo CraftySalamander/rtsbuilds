@@ -219,7 +219,7 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
   htmlContent += "<head>\n";
 
   // Title
-  htmlContent += indentSpace(1) + "<title>RTS Overlay - " + dataBO["name"] + "</title>\n";
+  htmlContent += indentSpace(1) + "<title>RTS Builds - " + dataBO["name"] + "</title>\n";
 
   // Style
   htmlContent += indentSpace(1) + "<style>\n";
@@ -381,7 +381,7 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
   // Build order name
   htmlContent +=
     indentSpace(2) +
-    '<h1 style=\'text-align: center; margin-bottom: 30px; font-family: \"Book Antiqua\", Palatino, serif; font-size: 40px;\'>' +
+    "<h1 style='text-align: center; margin-bottom: 30px; font-family: \"Book Antiqua\", Palatino, serif; font-size: 40px;'>" +
     dataBO["name"] +
     "</h1>\n";
 
@@ -590,7 +590,7 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
     "const buildOrderName = dataBO.name.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');\n";
   htmlContent +=
     indentSpace(3) +
-    "const url = `https://craftysalamander.github.io/rtsbuilds/api/builds/${game}/${buildOrderName}.json`;\n";
+    "const url = `https://rts-overlay.github.io?gameId=${game}&buildOrderId=rtsbuilds|${buildOrderName}`;\n";
   htmlContent += indentSpace(3) + "window.open(url, '_blank');\n";
   htmlContent += indentSpace(2) + "});\n\n";
 
