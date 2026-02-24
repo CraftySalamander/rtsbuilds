@@ -16,7 +16,7 @@
         "builder": -1
       },
       "notes": [
-        "Send all 5 @unit_worker/villager.png@ to @resource/sheep.png@ | Next 2 @unit_worker/villager.png@ build @building_economy/house.png@ & @building_economy/mining-camp.png@, then to @resource/resource_gold.png@"
+        "Send all 5 @unit_worker/villager.webp@ to @resource/sheep.webp@ | Next 2 @unit_worker/villager.webp@ build @building_economy/house.webp@ & @building_economy/mining-camp.webp@, then to @resource/resource_gold.webp@"
       ],
       "time": "0:48"
     },
@@ -32,7 +32,7 @@
         "builder": -1
       },
       "notes": [
-        "Rally @unit_worker/villager.png@ to @resource/sheep.png@ until you have 9"
+        "Rally @unit_worker/villager.webp@ to @resource/sheep.webp@ until you have 9"
       ],
       "time": "2:24"
     },
@@ -48,7 +48,7 @@
         "builder": 2
       },
       "notes": [
-        "Send 5 from @resource/sheep.png@ + 1 new @unit_worker/villager.png@ to build @landmark_hre/meinwerk-palace.png@ (2) and to @resource/resource_wood.png@ (4, straggler)"
+        "Send 5 from @resource/sheep.webp@ + 1 new @unit_worker/villager.webp@ to build @landmark_hre/meinwerk-palace.webp@ (2) and to @resource/resource_wood.webp@ (4, straggler)"
       ],
       "time": "2:48"
     },
@@ -64,8 +64,8 @@
         "builder": 2
       },
       "notes": [
-        "Build @building_economy/mill.png@ on @resource/berrybush.png@ with next @unit_worker/villager.png@, then next @unit_worker/villager.png@ to @resource/resource_wood.png@ (build @building_economy/lumber-camp.png@)",
-        "Research @technology_economy/wheelbarrow.png@, then @technology_economy/double-broadaxe.png@ (when possible)"
+        "Build @building_economy/mill.webp@ on @resource/berrybush.webp@ with next @unit_worker/villager.webp@, then next @unit_worker/villager.webp@ to @resource/resource_wood.webp@ (build @building_economy/lumber-camp.webp@)",
+        "Research @technology_economy/wheelbarrow.webp@, then @technology_economy/double-broadaxe.webp@ (when possible)"
       ],
       "time": "4:00"
     },
@@ -81,8 +81,8 @@
         "builder": -1
       },
       "notes": [
-        "Next @unit_worker/villager.png@  to @resource/sheep.png@ (up to 12) | Build @building_military/stable.png@ after @landmark_hre/meinwerk-palace.png@, then to @resource/sheep.png@",
-        "Build @building_economy/house.png@, later @building_military/archery-range.png@ | Train @unit_dragon/gilded-horseman-2.png@ and harass"
+        "Next @unit_worker/villager.webp@  to @resource/sheep.webp@ (up to 12) | Build @building_military/stable.webp@ after @landmark_hre/meinwerk-palace.webp@, then to @resource/sheep.webp@",
+        "Build @building_economy/house.webp@, later @building_military/archery-range.webp@ | Train @unit_dragon/gilded-horseman-2.webp@ and harass"
       ],
       "time": "6:00"
     },
@@ -98,8 +98,8 @@
         "builder": -1
       },
       "notes": [
-        "Next 3 @unit_worker/villager.png@ to @resource/resource_wood.png@  | Research @technology_military/iron-undermesh.png@, then  @technology_military/steeled-arrow.png@ | Train @unit_dragon/gilded-horseman-2.png@ & @unit_dragon/gilded-archer-2.png@",
-        "Adapt @resource/resource_food.png@ source (@resource/boar.png@ if safe) | Research @technology_economy/horticulture.png@/@technology_economy/survival-techniques.png@"
+        "Next 3 @unit_worker/villager.webp@ to @resource/resource_wood.webp@  | Research @technology_military/iron-undermesh.webp@, then  @technology_military/steeled-arrow.webp@ | Train @unit_dragon/gilded-horseman-2.webp@ & @unit_dragon/gilded-archer-2.webp@",
+        "Adapt @resource/resource_food.webp@ source (@resource/boar.webp@ if safe) | Research @technology_economy/horticulture.webp@/@technology_economy/survival-techniques.webp@"
       ],
       "time": "7:12"
     },
@@ -115,8 +115,8 @@
         "builder": -1
       },
       "notes": [
-        "Next 2 @unit_worker/villager.png@ to @resource/resource_food.png@ then again @resource/resource_wood.png@ (up to 15) | Research @technology_military/fitted-leatherwork.png@",
-        "Start building @building_economy/farm.png@ | Adapt (e.g. @unit_dragon/gilded-spearman-1.png@/@unit_siege/battering-ram.png@/...)"
+        "Next 2 @unit_worker/villager.webp@ to @resource/resource_food.webp@ then again @resource/resource_wood.webp@ (up to 15) | Research @technology_military/fitted-leatherwork.webp@",
+        "Start building @building_economy/farm.webp@ | Adapt (e.g. @unit_dragon/gilded-spearman-1.webp@/@unit_siege/battering-ram.webp@/...)"
       ],
       "time": "10:24"
     }

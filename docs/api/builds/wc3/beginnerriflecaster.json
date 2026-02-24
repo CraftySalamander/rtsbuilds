@@ -9,34 +9,34 @@
       "gold": 5,
       "lumber": 5,
       "notes": [
-        "4 @human_unit/peasant.png@ mine @resource/gold.png@ | 1 @human_unit/peasant.png@ builds @human_building/altar_of_kings.png@",
-        "Next 4 @human_unit/peasant.png@: @human_building/barracks.png@ => @human_building/farm.png@ => @resource/gold.png@ => @human_building/farm.png@",
-        "@human_hero/archmage.png@ (once @human_building/altar_of_kings.png@ is finished)"
+        "4 @human_unit/peasant.webp@ mine @resource/gold.webp@ | 1 @human_unit/peasant.webp@ builds @human_building/altar_of_kings.webp@",
+        "Next 4 @human_unit/peasant.webp@: @human_building/barracks.webp@ => @human_building/farm.webp@ => @resource/gold.webp@ => @human_building/farm.webp@",
+        "@human_hero/archmage.webp@ (once @human_building/altar_of_kings.webp@ is finished)"
       ]
     },
     {
       "food": 16,
       "notes": [
-        "Constantly produce @human_unit/footman.png@"
+        "Constantly produce @human_unit/footman.webp@"
       ]
     },
     {
       "food": 18,
       "notes": [
-        "@human_building/farm.png@"
+        "@human_building/farm.webp@"
       ]
     },
     {
       "food": 21,
       "notes": [
-        "Scout opponent with @human_unit/footman.png@ | @human_building/scout_tower.png@"
+        "Scout opponent with @human_unit/footman.webp@ | @human_building/scout_tower.webp@"
       ]
     },
     {
       "food": 22,
       "notes": [
-        "Pause @human_unit/peasant.png@ production",
-        "When @human_hero/archmage.png@ | Call 5 @human_special/militia.png@ & creep"
+        "Pause @human_unit/peasant.webp@ production",
+        "When @human_hero/archmage.webp@ | Call 5 @human_special/militia.webp@ & creep"
       ]
     },
     {
@@ -44,16 +44,16 @@
       "gold": 5,
       "lumber": 9,
       "notes": [
-        "Upgrade @human_building/scout_tower.png@ to arcane tower",
-        "Make 1 last @human_unit/peasant.png@ (14 total)"
+        "Upgrade @human_building/scout_tower.webp@ to arcane tower",
+        "Make 1 last @human_unit/peasant.webp@ (14 total)"
       ]
     },
     {
       "time": "3:10",
       "food": 29,
       "notes": [
-        "Stop making @human_unit/footman.png@ (5 total)",
-        "Upgrade @human_building/town_hall.png@ to Keep"
+        "Stop making @human_unit/footman.webp@ (5 total)",
+        "Upgrade @human_building/town_hall.webp@ to Keep"
       ]
     }
   ]

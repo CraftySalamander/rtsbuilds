@@ -14,8 +14,8 @@
         "favor": 0
       },
       "notes": [
-        "2 @norse_civilian/gatherer.png@ to @animal/giraffe.png@ with @norse_civilian/ox_cart.png@ | 3rd @norse_civilian/gatherer.png@ builds @norse_civilian/ox_cart.png@ on @resource/wood.png@",
-        "1 @norse_civilian/dwarf.png@ + 1 @norse_civilian/gatherer.png@ to @resource/gold.png@ (build @norse_civilian/ox_cart.png@ ) | Build @other/house.png@ | Cast @norse_power/great_hunt.png@"
+        "2 @norse_civilian/gatherer.webp@ to @animal/giraffe.webp@ with @norse_civilian/ox_cart.webp@ | 3rd @norse_civilian/gatherer.webp@ builds @norse_civilian/ox_cart.webp@ on @resource/wood.webp@",
+        "1 @norse_civilian/dwarf.webp@ + 1 @norse_civilian/gatherer.webp@ to @resource/gold.webp@ (build @norse_civilian/ox_cart.webp@ ) | Build @other/house.webp@ | Cast @norse_power/great_hunt.webp@"
       ],
       "time": "0:30"
     },
@@ -29,7 +29,7 @@
         "favor": 0
       },
       "notes": [
-        "Next 2 @norse_civilian/gatherer.png@ to @animal/giraffe.png@"
+        "Next 2 @norse_civilian/gatherer.webp@ to @animal/giraffe.webp@"
       ],
       "time": "1:00"
     },
@@ -43,7 +43,7 @@
         "favor": 0
       },
       "notes": [
-        "Add 1 @norse_civilian/dwarf.png@ on @resource/gold.png@"
+        "Add 1 @norse_civilian/dwarf.webp@ on @resource/gold.webp@"
       ],
       "time": "1:15"
     },
@@ -57,7 +57,7 @@
         "favor": 0
       },
       "notes": [
-        "Add 1 @norse_civilian/gatherer.png@ on @resource/wood.png@"
+        "Add 1 @norse_civilian/gatherer.webp@ on @resource/wood.webp@"
       ],
       "time": "1:30"
     },
@@ -71,7 +71,7 @@
         "favor": 0
       },
       "notes": [
-        "Add 1 @norse_civilian/dwarf.png@ on @resource/gold.png@"
+        "Add 1 @norse_civilian/dwarf.webp@ on @resource/gold.webp@"
       ],
       "time": "1:45"
     },
@@ -85,7 +85,7 @@
         "favor": 0
       },
       "notes": [
-        "Add 1 @norse_civilian/gatherer.png@ on @animal/giraffe.png@"
+        "Add 1 @norse_civilian/gatherer.webp@ on @animal/giraffe.webp@"
       ],
       "time": "2:00"
     },
@@ -99,8 +99,8 @@
         "favor": 0
       },
       "notes": [
-        "Add 1 @norse_civilian/dwarf.png@ on @resource/gold.png@, then 2 @norse_civilian/gatherer.png@ on @animal/giraffe.png@",
-        "Build @temple/temple.png@ | Move @resource/wood.png@@norse_civilian/gatherer.png@ to @animal/giraffe.png@"
+        "Add 1 @norse_civilian/dwarf.webp@ on @resource/gold.webp@, then 2 @norse_civilian/gatherer.webp@ on @animal/giraffe.webp@",
+        "Build @temple/temple.webp@ | Move @resource/wood.webp@@norse_civilian/gatherer.webp@ to @animal/giraffe.webp@"
       ],
       "time": "2:45"
     },
@@ -114,7 +114,7 @@
         "favor": 0
       },
       "notes": [
-        "Add 1 @norse_civilian/dwarf.png@ to @resource/gold.png@ | 3:00 @norse_minor_god/heimdall.png@"
+        "Add 1 @norse_civilian/dwarf.webp@ to @resource/gold.webp@ | 3:00 @norse_minor_god/heimdall.webp@"
       ],
       "time": "3:00"
     },
@@ -128,8 +128,8 @@
         "favor": 0
       },
       "notes": [
-        "Before @age/classical_age.png@ | Move 1 @resource/gold.png@@norse_civilian/gatherer.png@ + 2 @animal/giraffe.png@@norse_civilian/gatherer.png@ to @resource/wood.png@",
-        "Scout with @norse_myth/raven.png@ to find opponent @resource/wood.png@ | Build @other/house.png@"
+        "Before @age/classical_age.webp@ | Move 1 @resource/gold.webp@@norse_civilian/gatherer.webp@ + 2 @animal/giraffe.webp@@norse_civilian/gatherer.webp@ to @resource/wood.webp@",
+        "Scout with @norse_myth/raven.webp@ to find opponent @resource/wood.webp@ | Build @other/house.webp@"
       ],
       "time": "4:00"
     },
@@ -143,8 +143,8 @@
         "favor": 0
       },
       "notes": [
-        "In @age/classical_age.png@ | Add 3@norse_civilian/dwarf.png@ to @resource/gold.png@ | Build @armory/armory.png@ | All @resource/wood.png@@norse_civilian/gatherer.png@ to @resource/food.png@",
-        "Force drop @resource/food.png@ | 4:55 @norse_minor_god/njord.png@"
+        "In @age/classical_age.webp@ | Add 3@norse_civilian/dwarf.webp@ to @resource/gold.webp@ | Build @armory/armory.webp@ | All @resource/wood.webp@@norse_civilian/gatherer.webp@ to @resource/food.webp@",
+        "Force drop @resource/food.webp@ | 4:55 @norse_minor_god/njord.webp@"
       ],
       "time": "4:55"
     },
@@ -158,8 +158,8 @@
         "favor": 2
       },
       "notes": [
-        "Before @age/heroic_age.png@ | Move 5 @resource/food.png@@norse_civilian/gatherer.png@ to @resource/wood.png@",
-        "Build @other/house.png@+@norse_building/longhouse.png@ | Train @norse_hero/hersir.png@"
+        "Before @age/heroic_age.webp@ | Move 5 @resource/food.webp@@norse_civilian/gatherer.webp@ to @resource/wood.webp@",
+        "Build @other/house.webp@+@norse_building/longhouse.webp@ | Train @norse_hero/hersir.webp@"
       ],
       "time": "6:10"
     },
@@ -173,7 +173,7 @@
         "favor": -1
       },
       "notes": [
-        "In @age/heroic_age.png@ | Cast @norse_power/walking_woods_power.png@ & @norse_power/undermine.png@ (towards @norse_building/town_center_norse.png@) | Attack"
+        "In @age/heroic_age.webp@ | Cast @norse_power/walking_woods_power.webp@ & @norse_power/undermine.webp@ (towards @norse_building/town_center_norse.webp@) | Attack"
       ],
       "time": "6:11"
     }

@@ -15,7 +15,7 @@
         "stone": 0
       },
       "notes": [
-        "Build 2 @other/House_aoe2DE.png@ | First 5 @resource/villager.jpg@ to @animal/Sheep_aoe2DE.png@ | Lure 1st @animal/Boar_aoe2DE.png@"
+        "Build 2 @other/House_aoe2DE.webp@ | First 5 @resource/villager.webp@ to @animal/Sheep_aoe2DE.webp@ | Lure 1st @animal/Boar_aoe2DE.webp@"
       ]
     },
     {
@@ -29,7 +29,7 @@
         "stone": 0
       },
       "notes": [
-        "Next 2 @resource/villager.jpg@ to @animal/Boar_aoe2DE.png@"
+        "Next 2 @resource/villager.webp@ to @animal/Boar_aoe2DE.webp@"
       ]
     },
     {
@@ -43,7 +43,7 @@
         "stone": 0
       },
       "notes": [
-        "Next @resource/villager.jpg@ 2 to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)"
+        "Next @resource/villager.webp@ 2 to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@)"
       ]
     },
     {
@@ -57,7 +57,7 @@
         "stone": 0
       },
       "notes": [
-        "Next 2 @resource/villager.jpg@ to @resource/Aoe2de_food.png@ | Lure 2nd @animal/Boar_aoe2DE.png@"
+        "Next 2 @resource/villager.webp@ to @resource/Aoe2de_food.webp@ | Lure 2nd @animal/Boar_aoe2DE.webp@"
       ]
     },
     {
@@ -71,7 +71,7 @@
         "stone": 0
       },
       "notes": [
-        "Next @resource/villager.jpg@ builds a @other/House_aoe2DE.png@, then to @resource/Aoe2de_wood.png@"
+        "Next @resource/villager.webp@ builds a @other/House_aoe2DE.webp@, then to @resource/Aoe2de_wood.webp@"
       ]
     },
     {
@@ -85,7 +85,7 @@
         "stone": 0
       },
       "notes": [
-        "Next 2 @resource/villager.jpg@ to @resource/Aoe2de_food.png@"
+        "Next 2 @resource/villager.webp@ to @resource/Aoe2de_food.webp@"
       ]
     },
     {
@@ -99,8 +99,8 @@
         "stone": 0
       },
       "notes": [
-        "Next 5 @resource/villager.jpg@ to @resource/BerryBushDE.png@ (build @mill/Mill_aoe2de.png@) | Research @town_center/LoomDE.png@",
-        "Send 2 @resource/Aoe2de_food.png@@resource/villager.jpg@ to @resource/Aoe2de_gold.png@ (build @mining_camp/Mining_camp_aoe2de.png@) before clicking @age/FeudalAgeIconDE.png@"
+        "Next 5 @resource/villager.webp@ to @resource/BerryBushDE.webp@ (build @mill/Mill_aoe2de.webp@) | Research @town_center/LoomDE.webp@",
+        "Send 2 @resource/Aoe2de_food.webp@@resource/villager.webp@ to @resource/Aoe2de_gold.webp@ (build @mining_camp/Mining_camp_aoe2de.webp@) before clicking @age/FeudalAgeIconDE.webp@"
       ]
     },
     {
@@ -115,8 +115,8 @@
         "builder": 1
       },
       "notes": [
-        "Before @age/FeudalAgeIconDE.png@ | Send 7 @resource/Aoe2de_food.png@@resource/villager.jpg@ to @resource/Aoe2de_wood.png@ (2 on @lumber_camp/Lumber_camp_aoe2de.png@, 5 on @resource/tree.png@)",
-        "Build @barracks/Barracks_aoe2DE.png@ with 1 @resource/tree.png@@resource/villager.jpg@ | Build @other/House_aoe2DE.png@"
+        "Before @age/FeudalAgeIconDE.webp@ | Send 7 @resource/Aoe2de_food.webp@@resource/villager.webp@ to @resource/Aoe2de_wood.webp@ (2 on @lumber_camp/Lumber_camp_aoe2de.webp@, 5 on @resource/tree.webp@)",
+        "Build @barracks/Barracks_aoe2DE.webp@ with 1 @resource/tree.webp@@resource/villager.webp@ | Build @other/House_aoe2DE.webp@"
       ]
     },
     {
@@ -130,8 +130,8 @@
         "stone": 0
       },
       "notes": [
-        "In @age/FeudalAgeIconDE.png@ | Research @lumber_camp/BowSawDE.png@ & @mill/HorseCollarDE.png@ | Train 5 @unique_unit/Aoe2-icon-flemish-militia.png@",
-        "Build @mill/FarmDE.png@ (@resource/tree.png@ before), later @defensive_structures/Palisade_wall_aoe2de.png@ | Build @archery_range/Archery_range_aoe2DE.png@"
+        "In @age/FeudalAgeIconDE.webp@ | Research @lumber_camp/BowSawDE.webp@ & @mill/HorseCollarDE.webp@ | Train 5 @unique_unit/Aoe2-icon-flemish-militia.webp@",
+        "Build @mill/FarmDE.webp@ (@resource/tree.webp@ before), later @defensive_structures/Palisade_wall_aoe2de.webp@ | Build @archery_range/Archery_range_aoe2DE.webp@"
       ]
     }
   ]

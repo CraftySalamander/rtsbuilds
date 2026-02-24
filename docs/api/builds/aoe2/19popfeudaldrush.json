@@ -14,7 +14,7 @@
         "stone": 0
       },
       "notes": [
-        "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+        "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
       ],
       "time": "1:15"
     },
@@ -28,7 +28,7 @@
         "stone": 0
       },
       "notes": [
-        "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build 1st @lumber_camp/Lumber_camp_aoe2de.png@)"
+        "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build 1st @lumber_camp/Lumber_camp_aoe2de.webp@)"
       ],
       "time": "2:30"
     },
@@ -42,7 +42,7 @@
         "stone": 0
       },
       "notes": [
-        "Next @resource/MaleVillDE.jpg@ lures 1st @animal/Boar_aoe2DE.png@"
+        "Next @resource/MaleVillDE.webp@ lures 1st @animal/Boar_aoe2DE.webp@"
       ],
       "time": "2:55"
     },
@@ -56,7 +56,7 @@
         "stone": 0
       },
       "notes": [
-        "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@, then to @animal/Boar_aoe2DE.png@ | Lure @animal/Deer_aoe2DE.png@"
+        "Next @resource/MaleVillDE.webp@ builds 1 @other/House_aoe2DE.webp@, then to @animal/Boar_aoe2DE.webp@ | Lure @animal/Deer_aoe2DE.webp@"
       ],
       "time": "3:20"
     },
@@ -70,7 +70,7 @@
         "stone": 0
       },
       "notes": [
-        "Next 5 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@/@animal/Deer_aoe2DE.png@ | Lure 2nd @animal/Boar_aoe2DE.png@"
+        "Next 5 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@/@animal/Deer_aoe2DE.webp@ | Lure 2nd @animal/Boar_aoe2DE.webp@"
       ],
       "time": "5:25"
     },
@@ -85,7 +85,7 @@
         "builder": 1
       },
       "notes": [
-        "Next @resource/MaleVillDE.jpg@ builds @barracks/Barracks_aoe2DE.png@ + 1 @other/House_aoe2DE.png@ in front"
+        "Next @resource/MaleVillDE.webp@ builds @barracks/Barracks_aoe2DE.webp@ + 1 @other/House_aoe2DE.webp@ in front"
       ],
       "time": "5:50"
     },
@@ -100,7 +100,7 @@
         "builder": 1
       },
       "notes": [
-        "Next @resource/MaleVillDE.jpg@ goes to @resource/Aoe2de_wood.png@ | Research @town_center/LoomDE.png@ | 19 pop @age/FeudalAgeIconDE.png@"
+        "Next @resource/MaleVillDE.webp@ goes to @resource/Aoe2de_wood.webp@ | Research @town_center/LoomDE.webp@ | 19 pop @age/FeudalAgeIconDE.webp@"
       ],
       "time": "6:40"
     },
@@ -115,8 +115,8 @@
         "builder": 1
       },
       "notes": [
-        "Before @age/FeudalAgeIconDE.png@ | Scout opponent | Make 2 @barracks/MilitiaDE.png@, send forward",
-        "Move 5 @town_center/Towncenter_aoe2DE.png@@resource/MaleVillDE.jpg@ to 1st @lumber_camp/Lumber_camp_aoe2de.png@ (4) & @resource/BerryBushDE.png@ (1, build @mill/Mill_aoe2de.png@)"
+        "Before @age/FeudalAgeIconDE.webp@ | Scout opponent | Make 2 @barracks/MilitiaDE.webp@, send forward",
+        "Move 5 @town_center/Towncenter_aoe2DE.webp@@resource/MaleVillDE.webp@ to 1st @lumber_camp/Lumber_camp_aoe2de.webp@ (4) & @resource/BerryBushDE.webp@ (1, build @mill/Mill_aoe2de.webp@)"
       ],
       "time": "8:50"
     },
@@ -130,8 +130,8 @@
         "stone": -1
       },
       "notes": [
-        "In @age/FeudalAgeIconDE.png@ | Harass & adapt | Build @defensive_structures/Palisade_wall_aoe2de.png@",
-        "Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ & @mill/HorseCollarDE.png@ (optional)"
+        "In @age/FeudalAgeIconDE.webp@ | Harass & adapt | Build @defensive_structures/Palisade_wall_aoe2de.webp@",
+        "Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ & @mill/HorseCollarDE.webp@ (optional)"
       ],
       "time": "8:51"
     }

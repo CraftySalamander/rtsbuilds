@@ -16,8 +16,8 @@
         "stone": 0
       },
       "notes": [
-        "First 6 @unit_worker/villager.png@ on @resource/sheep.png@ | Send first extra @resource/sheep.png@ to @building_economy/town-center.png@",
-        "Next @unit_worker/villager.png@ builds @building_economy/house.png@, then on @resource/sheep.png@"
+        "First 6 @unit_worker/villager.webp@ on @resource/sheep.webp@ | Send first extra @resource/sheep.webp@ to @building_economy/town-center.webp@",
+        "Next @unit_worker/villager.webp@ builds @building_economy/house.webp@, then on @resource/sheep.webp@"
       ],
       "time": "0:18"
     },
@@ -32,7 +32,7 @@
         "stone": 0
       },
       "notes": [
-        "Next 3 @unit_worker/villager.png@ on @resource/resource_gold.png@."
+        "Next 3 @unit_worker/villager.webp@ on @resource/resource_gold.webp@."
       ],
       "time": "1:13"
     },
@@ -47,9 +47,9 @@
         "stone": 0
       },
       "notes": [
-        "Next @unit_worker/villager.png@ to @resource/sheep.png@ (up to 11) | Build @landmark_french/school-of-cavalry.png@ with 5 @unit_worker/villager.png@ from @resource/sheep.png@",
-        "Shift click the 5 builders to @resource/resource_wood.png@ (2 will first build @building_economy/lumber-camp.png@ & @building_economy/house.png@)",
-        "Produce @unit_french/royal-knight-2.png@ when possible"
+        "Next @unit_worker/villager.webp@ to @resource/sheep.webp@ (up to 11) | Build @landmark_french/school-of-cavalry.webp@ with 5 @unit_worker/villager.webp@ from @resource/sheep.webp@",
+        "Shift click the 5 builders to @resource/resource_wood.webp@ (2 will first build @building_economy/lumber-camp.webp@ & @building_economy/house.webp@)",
+        "Produce @unit_french/royal-knight-2.webp@ when possible"
       ],
       "time": "3:56"
     },
@@ -64,7 +64,7 @@
         "stone": 0
       },
       "notes": [
-        "Next 3 @unit_worker/villager.png@ to @resource/resource_gold.png@ | Continue @unit_french/royal-knight-2.png@ production"
+        "Next 3 @unit_worker/villager.webp@ to @resource/resource_gold.webp@ | Continue @unit_french/royal-knight-2.webp@ production"
       ],
       "time": "4:51"
     },
@@ -79,8 +79,8 @@
         "stone": 0
       },
       "notes": [
-        "Next @unit_worker/villager.png@ to @resource/sheep.png@ | Build 1 @building_military/archery-range.png@ | Look for @resource/berrybush.png@/@resource/deer.png@/@resource/boar.png@",
-        "Build @building_technology/blacksmith.png@ & research @technology_military/iron-undermesh.png@ | Train @unit_french/royal-knight-2.png@ & @unit_infantry/archer-2.png@"
+        "Next @unit_worker/villager.webp@ to @resource/sheep.webp@ | Build 1 @building_military/archery-range.webp@ | Look for @resource/berrybush.webp@/@resource/deer.webp@/@resource/boar.webp@",
+        "Build @building_technology/blacksmith.webp@ & research @technology_military/iron-undermesh.webp@ | Train @unit_french/royal-knight-2.webp@ & @unit_infantry/archer-2.webp@"
       ],
       "time": "6:40"
     },
@@ -95,7 +95,7 @@
         "stone": 0
       },
       "notes": [
-        "Next @unit_worker/villager.png@ go to @resource/resource_wood.png@/@resource/resource_gold.png@ | Have 10-11 @unit_infantry/archer-2.png@, @unit_french/royal-knight-2.png@ for the rest"
+        "Next @unit_worker/villager.webp@ go to @resource/resource_wood.webp@/@resource/resource_gold.webp@ | Have 10-11 @unit_infantry/archer-2.webp@, @unit_french/royal-knight-2.webp@ for the rest"
       ],
       "time": "7:35"
     }

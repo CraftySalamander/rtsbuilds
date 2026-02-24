@@ -14,7 +14,7 @@
         "stone": 0
       },
       "notes": [
-        "Build 2 @other/House_aoe2DE.png@ | Send the first 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+        "Build 2 @other/House_aoe2DE.webp@ | Send the first 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
       ],
       "time": "1:11"
     },
@@ -28,7 +28,7 @@
         "stone": 0
       },
       "notes": [
-        "Next @resource/MaleVillDE.jpg@ goes to @animal/Boar_aoe2DE.png@"
+        "Next @resource/MaleVillDE.webp@ goes to @animal/Boar_aoe2DE.webp@"
       ],
       "time": "1:35"
     },
@@ -42,8 +42,8 @@
         "stone": 0
       },
       "notes": [
-        "Next 4 @resource/MaleVillDE.jpg@ go to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)",
-        "Build 1 @other/House_aoe2DE.png@ | Start pushing 3 @animal/Deer_aoe2DE.png@ with @stable/Scoutcavalry_aoe2DE.png@"
+        "Next 4 @resource/MaleVillDE.webp@ go to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@)",
+        "Build 1 @other/House_aoe2DE.webp@ | Start pushing 3 @animal/Deer_aoe2DE.webp@ with @stable/Scoutcavalry_aoe2DE.webp@"
       ],
       "time": "3:10"
     },
@@ -57,7 +57,7 @@
         "stone": 0
       },
       "notes": [
-        "Next 2 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@ (lure the 2nd)"
+        "Next 2 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@ (lure the 2nd)"
       ],
       "time": "3:58"
     },
@@ -71,7 +71,7 @@
         "stone": 0
       },
       "notes": [
-        "Next 6 @resource/MaleVillDE.jpg@ go to @resource/BerryBushDE.png@ (build @mill/Mill_aoe2de.png@) | Build a @other/House_aoe2DE.png@."
+        "Next 6 @resource/MaleVillDE.webp@ go to @resource/BerryBushDE.webp@ (build @mill/Mill_aoe2de.webp@) | Build a @other/House_aoe2DE.webp@."
       ],
       "time": "6:21"
     },
@@ -85,7 +85,7 @@
         "stone": 0
       },
       "notes": [
-        "Next 2 @resource/MaleVillDE.jpg@ go to @resource/Aoe2de_wood.png@ | Research @town_center/LoomDE.png@ | Click up to @age/FeudalAgeIconDE.png@"
+        "Next 2 @resource/MaleVillDE.webp@ go to @resource/Aoe2de_wood.webp@ | Research @town_center/LoomDE.webp@ | Click up to @age/FeudalAgeIconDE.webp@"
       ],
       "time": "7:32"
     },
@@ -99,7 +99,7 @@
         "stone": 0
       },
       "notes": [
-        "Before @age/FeudalAgeIconDE.png@ | Build @barracks/Barracks_aoe2DE.png@"
+        "Before @age/FeudalAgeIconDE.webp@ | Build @barracks/Barracks_aoe2DE.webp@"
       ],
       "time": "9:36"
     },
@@ -113,8 +113,8 @@
         "stone": 0
       },
       "notes": [
-        "In @age/FeudalAgeIconDE.png@ | Build @stable/Stable_aoe2DE.png@ (2 @resource/MaleVillDE.jpg@) & @market/Market_aoe2DE.png@ (3 @resource/MaleVillDE.jpg@), all from @lumber_camp/Lumber_camp_aoe2de.png@",
-        "Next 2 @resource/MaleVillDE.jpg@ go to @resource/Aoe2de_gold.png@ | Sell 200 @resource/Aoe2de_stone.png@ | Click up to @age/CastleAgeIconDE.png@."
+        "In @age/FeudalAgeIconDE.webp@ | Build @stable/Stable_aoe2DE.webp@ (2 @resource/MaleVillDE.webp@) & @market/Market_aoe2DE.webp@ (3 @resource/MaleVillDE.webp@), all from @lumber_camp/Lumber_camp_aoe2de.webp@",
+        "Next 2 @resource/MaleVillDE.webp@ go to @resource/Aoe2de_gold.webp@ | Sell 200 @resource/Aoe2de_stone.webp@ | Click up to @age/CastleAgeIconDE.webp@."
       ],
       "time": "10:22"
     },
@@ -128,8 +128,8 @@
         "stone": 0
       },
       "notes": [
-        "Before @age/CastleAgeIconDE.png@ | Move 3 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @mining_camp/GoldMiningDE.png@ | Build @other/House_aoe2DE.png@",
-        "All other @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @mill/FarmDE.png@ | Research @stable/BloodlinesDE.png@"
+        "Before @age/CastleAgeIconDE.webp@ | Move 3 @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @mining_camp/GoldMiningDE.webp@ | Build @other/House_aoe2DE.webp@",
+        "All other @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @mill/FarmDE.webp@ | Research @stable/BloodlinesDE.webp@"
       ],
       "time": "12:47"
     },
@@ -143,7 +143,7 @@
         "stone": 0
       },
       "notes": [
-        "In @age/CastleAgeIconDE.png@ | Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ | Make 2-3 @stable/Knight_aoe2DE.png@"
+        "In @age/CastleAgeIconDE.webp@ | Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@ | Make 2-3 @stable/Knight_aoe2DE.webp@"
       ],
       "time": "13:31"
     },
@@ -157,7 +157,7 @@
         "stone": -1
       },
       "notes": [
-        "Next @resource/MaleVillDE.jpg@ forward to build @monastery/MonasteryAoe2DE.png@ | Make @stable/Knight_aoe2DE.png@ & @monastery/Monk_aoe2DE.png@"
+        "Next @resource/MaleVillDE.webp@ forward to build @monastery/MonasteryAoe2DE.webp@ | Make @stable/Knight_aoe2DE.webp@ & @monastery/Monk_aoe2DE.webp@"
       ],
       "time": "13:32"
     }

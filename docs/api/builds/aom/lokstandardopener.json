@@ -14,8 +14,8 @@
         "favor": 0
       },
       "notes": [
-        "First 2 @norse_civilian/gatherer.png@ to @animal/elk.png@ | Train 1 @norse_civilian/dwarf.png@ to @resource/gold.png@ | Build @other/house.png@",
-        "1 @norse_civilian/gatherer.png@ builds @resource/gold.png@@norse_civilian/ox_cart.png@ & @resource/wood.png@@norse_civilian/ox_cart.png@, then to @resource/wood.png@"
+        "First 2 @norse_civilian/gatherer.webp@ to @animal/elk.webp@ | Train 1 @norse_civilian/dwarf.webp@ to @resource/gold.webp@ | Build @other/house.webp@",
+        "1 @norse_civilian/gatherer.webp@ builds @resource/gold.webp@@norse_civilian/ox_cart.webp@ & @resource/wood.webp@@norse_civilian/ox_cart.webp@, then to @resource/wood.webp@"
       ],
       "time": "0:15"
     },
@@ -29,7 +29,7 @@
         "favor": 0
       },
       "notes": [
-        "Next 2 @norse_civilian/gatherer.png@ go to @resource/food.png@"
+        "Next 2 @norse_civilian/gatherer.webp@ go to @resource/food.webp@"
       ],
       "time": "0:45"
     },
@@ -43,7 +43,7 @@
         "favor": 0
       },
       "notes": [
-        "Next @norse_civilian/dwarf.png@ goes to @resource/gold.png@"
+        "Next @norse_civilian/dwarf.webp@ goes to @resource/gold.webp@"
       ],
       "time": "1:00"
     },
@@ -57,7 +57,7 @@
         "favor": 0
       },
       "notes": [
-        "Next @norse_civilian/gatherer.png@ goes to @resource/food.png@"
+        "Next @norse_civilian/gatherer.webp@ goes to @resource/food.webp@"
       ],
       "time": "1:15"
     },
@@ -71,7 +71,7 @@
         "favor": 0
       },
       "notes": [
-        "Next @norse_civilian/gatherer.png@ goes to @resource/gold.png@"
+        "Next @norse_civilian/gatherer.webp@ goes to @resource/gold.webp@"
       ],
       "time": "1:30"
     },
@@ -85,7 +85,7 @@
         "favor": 0
       },
       "notes": [
-        "Next @norse_civilian/dwarf.png@ goes to @resource/gold.png@"
+        "Next @norse_civilian/dwarf.webp@ goes to @resource/gold.webp@"
       ],
       "time": "1:45"
     },
@@ -99,7 +99,7 @@
         "favor": 0
       },
       "notes": [
-        "Next 2 @norse_civilian/gatherer.png@ go to @resource/food.png@ | Build @temple/temple.png@"
+        "Next 2 @norse_civilian/gatherer.webp@ go to @resource/food.webp@ | Build @temple/temple.webp@"
       ],
       "time": "2:15"
     },
@@ -113,7 +113,7 @@
         "favor": 0
       },
       "notes": [
-        "Next @norse_civilian/gatherer.png@ goes to @resource/wood.png@ | @resource/gold.png@@norse_civilian/gatherer.png@ to @resource/wood.png@"
+        "Next @norse_civilian/gatherer.webp@ goes to @resource/wood.webp@ | @resource/gold.webp@@norse_civilian/gatherer.webp@ to @resource/wood.webp@"
       ],
       "time": "2:30"
     },
@@ -127,7 +127,7 @@
         "favor": 0
       },
       "notes": [
-        "Next @norse_civilian/dwarf.png@ goes to @resource/gold.png@ | 2:50@age/classical_age.png@"
+        "Next @norse_civilian/dwarf.webp@ goes to @resource/gold.webp@ | 2:50@age/classical_age.webp@"
       ],
       "time": "2:45"
     },
@@ -141,7 +141,7 @@
         "favor": 2
       },
       "notes": [
-        "Before @age/classical_age.png@ | Move 1 @resource/food.png@@norse_civilian/gatherer.png@ to @resource/wood.png@ | Build @other/house.png@ | Train @norse_hero/hersir.png@"
+        "Before @age/classical_age.webp@ | Move 1 @resource/food.webp@@norse_civilian/gatherer.webp@ to @resource/wood.webp@ | Build @other/house.webp@ | Train @norse_hero/hersir.webp@"
       ],
       "time": "3:45"
     },
@@ -155,7 +155,7 @@
         "favor": 3
       },
       "notes": [
-        "In @age/classical_age.png@ | Next 3 @norse_civilian/dwarf.png@ to @resource/gold.png@ | Build @norse_building/great_hall.png@ & @norse_building/longhouse.png@"
+        "In @age/classical_age.webp@ | Next 3 @norse_civilian/dwarf.webp@ to @resource/gold.webp@ | Build @norse_building/great_hall.webp@ & @norse_building/longhouse.webp@"
       ],
       "time": "4:30"
     }

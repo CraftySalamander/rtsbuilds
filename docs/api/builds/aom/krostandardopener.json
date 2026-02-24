@@ -14,7 +14,7 @@
         "favor": 3
       },
       "notes": [
-        "First 2 @atlanteans_civilian/citizen.png@ to @animal/elk.png@ & @resource/wood.png@ | 3rd @atlanteans_civilian/citizen.png@ to @resource/gold.png@"
+        "First 2 @atlanteans_civilian/citizen.webp@ to @animal/elk.webp@ & @resource/wood.webp@ | 3rd @atlanteans_civilian/citizen.webp@ to @resource/gold.webp@"
       ],
       "time": "0:25"
     },
@@ -28,8 +28,8 @@
         "favor": 3
       },
       "notes": [
-        "Next 5 @atlanteans_civilian/citizen.png@ to @animal/elk.png@ | Build @atlanteans_building/manor.png@ (with @resource/gold.png@@atlanteans_civilian/citizen.png@)",
-        "Build @temple/temple.png@ when 150 @resource/wood.png@ & @resource/gold.png@ (with @resource/wood.png@@atlanteans_civilian/citizen.png@)"
+        "Next 5 @atlanteans_civilian/citizen.webp@ to @animal/elk.webp@ | Build @atlanteans_building/manor.webp@ (with @resource/gold.webp@@atlanteans_civilian/citizen.webp@)",
+        "Build @temple/temple.webp@ when 150 @resource/wood.webp@ & @resource/gold.webp@ (with @resource/wood.webp@@atlanteans_civilian/citizen.webp@)"
       ],
       "time": "2:30"
     },
@@ -43,7 +43,7 @@
         "favor": 3
       },
       "notes": [
-        "Next @atlanteans_civilian/citizen.png@ goes to @resource/gold.png@ | 2:55 @atlanteans_minor_god/prometheus.png@"
+        "Next @atlanteans_civilian/citizen.webp@ goes to @resource/gold.webp@ | 2:55 @atlanteans_minor_god/prometheus.webp@"
       ],
       "time": "2:55"
     },
@@ -57,8 +57,8 @@
         "favor": 3
       },
       "notes": [
-        "Before @age/classical_age.png@ | Move 2 @atlanteans_civilian/citizen.png@ from @resource/food.png@ to @resource/wood.png@",
-        "Research @economy/hand_axe.png@ & @economy/pickaxe.png@"
+        "Before @age/classical_age.webp@ | Move 2 @atlanteans_civilian/citizen.webp@ from @resource/food.webp@ to @resource/wood.webp@",
+        "Research @economy/hand_axe.webp@ & @economy/pickaxe.webp@"
       ],
       "time": "3:55"
     },
@@ -72,7 +72,7 @@
         "favor": 3
       },
       "notes": [
-        "In @age/classical_age.png@ | Build @atlanteans_building/military_barracks.png@ & train @atlanteans_human/murmillo.png@ | New @atlanteans_civilian/citizen.png@ to @animal/chicken.png@"
+        "In @age/classical_age.webp@ | Build @atlanteans_building/military_barracks.webp@ & train @atlanteans_human/murmillo.webp@ | New @atlanteans_civilian/citizen.webp@ to @animal/chicken.webp@"
       ],
       "time": "5:10"
     }

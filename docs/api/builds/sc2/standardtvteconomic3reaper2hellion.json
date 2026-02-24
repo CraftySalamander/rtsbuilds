@@ -10,203 +10,203 @@
       "supply": 14,
       "time": "0:18",
       "notes": [
-        "@terran_buildings/SupplyDepot.png@"
+        "@terran_buildings/SupplyDepot.webp@"
       ]
     },
     {
       "supply": 15,
       "time": "0:41",
       "notes": [
-        "@terran_buildings/Barracks.png@"
+        "@terran_buildings/Barracks.webp@"
       ]
     },
     {
       "supply": 16,
       "time": "0:45",
       "notes": [
-        "@terran_buildings/Refinery.png@"
+        "@terran_buildings/Refinery.webp@"
       ]
     },
     {
       "supply": 16,
       "time": "0:54",
       "notes": [
-        "@terran_buildings/Refinery.png@"
+        "@terran_buildings/Refinery.webp@"
       ]
     },
     {
       "supply": 19,
       "time": "1:28",
       "notes": [
-        "@terran_units/Reaper.png@, @terran_buildings/OrbitalCommand.png@"
+        "@terran_units/Reaper.webp@, @terran_buildings/OrbitalCommand.webp@"
       ]
     },
     {
       "supply": 19,
       "time": "1:31",
       "notes": [
-        "@terran_buildings/SupplyDepot.png@"
+        "@terran_buildings/SupplyDepot.webp@"
       ]
     },
     {
       "supply": 20,
       "time": "1:42",
       "notes": [
-        "@terran_buildings/Factory.png@"
+        "@terran_buildings/Factory.webp@"
       ]
     },
     {
       "supply": 21,
       "time": "2:03",
       "notes": [
-        "@terran_units/Reaper.png@"
+        "@terran_units/Reaper.webp@"
       ]
     },
     {
       "supply": 23,
       "time": "2:21",
       "notes": [
-        "@terran_buildings/CommandCenter.png@"
+        "@terran_buildings/CommandCenter.webp@"
       ]
     },
     {
       "supply": 24,
       "time": "2:28",
       "notes": [
-        "@terran_units/Hellion.png@"
+        "@terran_units/Hellion.webp@"
       ]
     },
     {
       "supply": 26,
       "time": "2:32",
       "notes": [
-        "@terran_buildings/SupplyDepot.png@"
+        "@terran_buildings/SupplyDepot.webp@"
       ]
     },
     {
       "supply": 26,
       "time": "2:35",
       "notes": [
-        "@terran_units/Reaper.png@"
+        "@terran_units/Reaper.webp@"
       ]
     },
     {
       "supply": 28,
       "time": "2:47",
       "notes": [
-        "@terran_buildings/Starport.png@"
+        "@terran_buildings/Starport.webp@"
       ]
     },
     {
       "supply": 29,
       "time": "2:53",
       "notes": [
-        "@terran_units/Hellion.png@"
+        "@terran_units/Hellion.webp@"
       ]
     },
     {
       "supply": 32,
       "time": "3:07",
       "notes": [
-        "@terran_buildings/Barracks.png@ @terran_buildings/Reactor.png@, @terran_buildings/Refinery.png@"
+        "@terran_buildings/Barracks.webp@ @terran_buildings/Reactor.webp@, @terran_buildings/Refinery.webp@"
       ]
     },
     {
       "supply": 33,
       "time": "3:14",
       "notes": [
-        "@terran_buildings/Factory.png@ @terran_techs/Build_Tech_Lab.png@"
+        "@terran_buildings/Factory.webp@ @terran_techs/Build_Tech_Lab.webp@"
       ]
     },
     {
       "supply": 33,
       "time": "3:24",
       "notes": [
-        "@terran_buildings/Starport.png@ @terran_techs/Build_Tech_Lab.png@"
+        "@terran_buildings/Starport.webp@ @terran_techs/Build_Tech_Lab.webp@"
       ]
     },
     {
       "supply": 34,
       "time": "3:33",
       "notes": [
-        "@terran_buildings/OrbitalCommand.png@"
+        "@terran_buildings/OrbitalCommand.webp@"
       ]
     },
     {
       "supply": 34,
       "time": "3:35",
       "notes": [
-        "@terran_units/Cyclone.png@"
+        "@terran_units/Cyclone.webp@"
       ]
     },
     {
       "supply": 38,
       "time": "3:43",
       "notes": [
-        "@terran_units/Marine.png@ x2"
+        "@terran_units/Marine.webp@ x2"
       ]
     },
     {
       "supply": 40,
       "time": "3:49",
       "notes": [
-        "@terran_units/Raven.png@"
+        "@terran_units/Raven.webp@"
       ]
     },
     {
       "supply": 43,
       "time": "3:56",
       "notes": [
-        "@terran_buildings/SupplyDepot.png@"
+        "@terran_buildings/SupplyDepot.webp@"
       ]
     },
     {
       "supply": 43,
       "time": "4:01",
       "notes": [
-        "@terran_units/Marine.png@ x2"
+        "@terran_units/Marine.webp@ x2"
       ]
     },
     {
       "supply": 46,
       "time": "4:08",
       "notes": [
-        "@terran_units/SiegeTank.png@"
+        "@terran_units/SiegeTank.webp@"
       ]
     },
     {
       "supply": 52,
       "time": "4:19",
       "notes": [
-        "@terran_buildings/SupplyDepot.png@, @terran_units/Marine.png@ x2"
+        "@terran_buildings/SupplyDepot.webp@, @terran_units/Marine.webp@ x2"
       ]
     },
     {
       "supply": 56,
       "time": "4:32",
       "notes": [
-        "@terran_units/Raven.png@"
+        "@terran_units/Raven.webp@"
       ]
     },
     {
       "supply": 59,
       "time": "4:39",
       "notes": [
-        "@terran_units/Marine.png@ x2"
+        "@terran_units/Marine.webp@ x2"
       ]
     },
     {
       "supply": 59,
       "time": "4:45",
       "notes": [
-        "@terran_units/SiegeTank.png@"
+        "@terran_units/SiegeTank.webp@"
       ]
     },
     {
       "supply": 67,
       "time": "4:57",
       "notes": [
-        "@terran_units/Marine.png@ x2"
+        "@terran_units/Marine.webp@ x2"
       ]
     }
   ]

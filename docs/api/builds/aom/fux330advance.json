@@ -14,10 +14,10 @@
         "favor": 0
       },
       "notes": [
-        "First 2 @chinese_civilian/peasant.png@ on @resource/food.png@ | 1st @chinese_civilian/kuafu.png@ on @resource/gold.png@ (build 2 @chinese_building/silo.png@)",
-        "Next 7 @chinese_civilian/peasant.png@ on @resource/food.png@ | Scout with @chinese_hero/pioneer.png@ | Cast @chinese_power/peachblossomspring_power.png@",
-        "At 150 @resource/gold.png@, move @chinese_civilian/kuafu.png@ to @resource/wood.png@ (straggler) & build 1 @other/house.png@",
-        "At 150 @resource/wood.png@, build @temple/temple.png@ with @chinese_civilian/kuafu.png@, then back to @resource/wood.png@"
+        "First 2 @chinese_civilian/peasant.webp@ on @resource/food.webp@ | 1st @chinese_civilian/kuafu.webp@ on @resource/gold.webp@ (build 2 @chinese_building/silo.webp@)",
+        "Next 7 @chinese_civilian/peasant.webp@ on @resource/food.webp@ | Scout with @chinese_hero/pioneer.webp@ | Cast @chinese_power/peachblossomspring_power.webp@",
+        "At 150 @resource/gold.webp@, move @chinese_civilian/kuafu.webp@ to @resource/wood.webp@ (straggler) & build 1 @other/house.webp@",
+        "At 150 @resource/wood.webp@, build @temple/temple.webp@ with @chinese_civilian/kuafu.webp@, then back to @resource/wood.webp@"
       ],
       "time": "1:45"
     },
@@ -31,7 +31,7 @@
         "favor": 0
       },
       "notes": [
-        "Next 3 @chinese_civilian/peasant.png@ to @resource/wood.png@ (straggler) | 2:30@chinese_minor_god/chiyou.png@"
+        "Next 3 @chinese_civilian/peasant.webp@ to @resource/wood.webp@ (straggler) | 2:30@chinese_minor_god/chiyou.webp@"
       ],
       "time": "2:30"
     },
@@ -45,7 +45,7 @@
         "favor": 0
       },
       "notes": [
-        "Before @age/classical_age.png@ | Build @chinese_building/silo.png@ on @resource/wood.png@ | Move 5 @resource/food.png@@chinese_civilian/peasant.png@ to @resource/gold.png@"
+        "Before @age/classical_age.webp@ | Build @chinese_building/silo.webp@ on @resource/wood.webp@ | Move 5 @resource/food.webp@@chinese_civilian/peasant.webp@ to @resource/gold.webp@"
       ],
       "time": "3:30"
     },
@@ -59,9 +59,9 @@
         "favor": 0
       },
       "notes": [
-        "In @age/classical_age.png@ | Next @chinese_civilian/peasant.png@ to @resource/berry.png@ (build @chinese_building/silo.png@)",
-        "Train 2nd @chinese_myth/yazi.png@ to raid | Always build with @chinese_civilian/kuafu.png@ (@other/house.png@, @chinese_building/military_camp.png@...)",
-        "Adapt your eco for game plan | Train @chinese_civilian/kuafu.png@ when possible"
+        "In @age/classical_age.webp@ | Next @chinese_civilian/peasant.webp@ to @resource/berry.webp@ (build @chinese_building/silo.webp@)",
+        "Train 2nd @chinese_myth/yazi.webp@ to raid | Always build with @chinese_civilian/kuafu.webp@ (@other/house.webp@, @chinese_building/military_camp.webp@...)",
+        "Adapt your eco for game plan | Train @chinese_civilian/kuafu.webp@ when possible"
       ],
       "time": "4:15"
     }

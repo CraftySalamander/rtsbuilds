@@ -58,10 +58,10 @@ function splitNoteLine(noteLine) {
  * @returns Image with its path, 'null' if not found.
  */
 function getImagePath(imageSearch) {
-  const extensions = [".png", ".jpg", ".webp"]; // different extensions to try
+  const extensions = [".webp", ".png", ".jpg"]; // different extensions to try
 
   // Extract current extension (if any)
-  const currentExtMatch = imageSearch.match(/\.(png|jpg|webp)$/);
+  const currentExtMatch = imageSearch.match(/\.(webp|png|jpg)$/);
   const currentExt = currentExtMatch ? currentExtMatch[0] : null;
 
   // Get base path without extension
@@ -375,7 +375,7 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
   htmlContent += indentSpace(1) + "<div class='container'>\n";
   htmlContent += indentSpace(2) + "<div class='header'>\n";
   htmlContent +=
-    indentSpace(3) + "<img src='assets/common/title/rts_builds.png' alt='RTS Builds Title' />\n";
+    indentSpace(3) + "<img src='assets/common/title/rts_builds.webp' alt='RTS Builds Title' />\n";
   htmlContent += indentSpace(2) + "</div>\n";
 
   // Build order name
@@ -713,7 +713,7 @@ function getImageHTML(
   argsInQuotes = true,
 ) {
   // Image to display when the requested image can not be loaded
-  const ERROR_IMAGE = "assets/common/icon/question_mark.png";
+  const ERROR_IMAGE = "assets/common/icon/question_mark.webp";
 
   let imageHTML = "";
 
@@ -782,13 +782,13 @@ function displayBuildOrderAoE2(dataBO) {
 
   // Description for each column
   let columnsDescription = [
-    new SinglePanelColumn("time", common + "icon/time.png"),
-    new SinglePanelColumn("villager_count", resource + "MaleVillDE_alpha.png"),
-    new SinglePanelColumn("resources/builder", resource + "Aoe2de_hammer.png"),
-    new SinglePanelColumn("resources/wood", resource + "Aoe2de_wood.png"),
-    new SinglePanelColumn("resources/food", resource + "Aoe2de_food.png"),
-    new SinglePanelColumn("resources/gold", resource + "Aoe2de_gold.png"),
-    new SinglePanelColumn("resources/stone", resource + "Aoe2de_stone.png"),
+    new SinglePanelColumn("time", common + "icon/time.webp"),
+    new SinglePanelColumn("villager_count", resource + "MaleVillDE_alpha.webp"),
+    new SinglePanelColumn("resources/builder", resource + "Aoe2de_hammer.webp"),
+    new SinglePanelColumn("resources/wood", resource + "Aoe2de_wood.webp"),
+    new SinglePanelColumn("resources/food", resource + "Aoe2de_food.webp"),
+    new SinglePanelColumn("resources/gold", resource + "Aoe2de_gold.webp"),
+    new SinglePanelColumn("resources/stone", resource + "Aoe2de_stone.webp"),
   ];
 
   columnsDescription[0].italic = true; // time
@@ -807,7 +807,7 @@ function displayBuildOrderAoE2(dataBO) {
   }
 
   // Sections Header
-  const topArrow = getBOImageHTML(common + "icon/top_arrow.png");
+  const topArrow = getBOImageHTML(common + "icon/top_arrow.webp");
   const sectionsHeader = {
     key: "age", // Key to look for
     // Header before the current row
@@ -818,10 +818,10 @@ function displayBuildOrderAoE2(dataBO) {
     },
     // Header after the current row
     after: {
-      1: getBOImageHTML(game + "age/DarkAgeIconDE_alpha.png") + "Dark Age",
-      2: getBOImageHTML(game + "age/FeudalAgeIconDE_alpha.png") + "Feudal Age",
-      3: getBOImageHTML(game + "age/CastleAgeIconDE_alpha.png") + "Castle Age",
-      4: getBOImageHTML(game + "age/ImperialAgeIconDE_alpha.png") + "Imperial Age",
+      1: getBOImageHTML(game + "age/DarkAgeIconDE_alpha.webp") + "Dark Age",
+      2: getBOImageHTML(game + "age/FeudalAgeIconDE_alpha.webp") + "Feudal Age",
+      3: getBOImageHTML(game + "age/CastleAgeIconDE_alpha.webp") + "Castle Age",
+      4: getBOImageHTML(game + "age/ImperialAgeIconDE_alpha.webp") + "Imperial Age",
     },
   };
   // Header for first line
@@ -844,7 +844,7 @@ function displayBuildOrderAoE4(dataBO) {
 
   // Description for each column
   let columnsDescription = [
-    new SinglePanelColumn("time", common + "icon/time.png"),
+    new SinglePanelColumn("time", common + "icon/time.webp"),
     new SinglePanelColumn("population_count", game + "building_economy/house.webp"),
     new SinglePanelColumn("villager_count", game + "unit_worker/villager.webp"),
     new SinglePanelColumn("resources/builder", resource + "repair.webp"),
@@ -901,13 +901,13 @@ function displayBuildOrderAoM(dataBO) {
 
   // Description for each column
   let columnsDescription = [
-    new SinglePanelColumn("time", common + "icon/time.png"),
-    new SinglePanelColumn("worker_count", resource + "worker.png"),
-    new SinglePanelColumn("resources/builder", resource + "repair.png"),
-    new SinglePanelColumn("resources/food", resource + "food.png"),
-    new SinglePanelColumn("resources/wood", resource + "wood.png"),
-    new SinglePanelColumn("resources/gold", resource + "gold.png"),
-    new SinglePanelColumn("resources/favor", resource + "favor.png"),
+    new SinglePanelColumn("time", common + "icon/time.webp"),
+    new SinglePanelColumn("worker_count", resource + "worker.webp"),
+    new SinglePanelColumn("resources/builder", resource + "repair.webp"),
+    new SinglePanelColumn("resources/food", resource + "food.webp"),
+    new SinglePanelColumn("resources/wood", resource + "wood.webp"),
+    new SinglePanelColumn("resources/gold", resource + "gold.webp"),
+    new SinglePanelColumn("resources/favor", resource + "favor.webp"),
   ];
 
   columnsDescription[0].italic = true; // time
@@ -926,7 +926,7 @@ function displayBuildOrderAoM(dataBO) {
   }
 
   // Sections Header
-  const topArrow = getBOImageHTML(common + "icon/top_arrow.png");
+  const topArrow = getBOImageHTML(common + "icon/top_arrow.webp");
   const sectionsHeader = {
     key: "age", // Key to look for
     // Header before the current row
@@ -938,11 +938,11 @@ function displayBuildOrderAoM(dataBO) {
     },
     // Header after the current row
     after: {
-      1: getBOImageHTML(game + "age/archaic_age.png") + "Archaic Age",
-      2: getBOImageHTML(game + "age/classical_age.png") + "Classical Age",
-      3: getBOImageHTML(game + "age/heroic_age.png") + "Heroic Age",
-      4: getBOImageHTML(game + "age/mythic_age.png") + "Mythic Age",
-      5: getBOImageHTML(game + "age/wonder_age.png") + "Wonder Age",
+      1: getBOImageHTML(game + "age/archaic_age.webp") + "Archaic Age",
+      2: getBOImageHTML(game + "age/classical_age.webp") + "Classical Age",
+      3: getBOImageHTML(game + "age/heroic_age.webp") + "Heroic Age",
+      4: getBOImageHTML(game + "age/mythic_age.webp") + "Mythic Age",
+      5: getBOImageHTML(game + "age/wonder_age.webp") + "Wonder Age",
     },
   };
   // Header for first line
@@ -965,10 +965,10 @@ function displayBuildOrderSC2(dataBO) {
 
   // Description for each column
   let columnsDescription = [
-    new SinglePanelColumn("time", common + "icon/time.png"),
-    new SinglePanelColumn("supply", common + "icon/house.png"),
-    new SinglePanelColumn("minerals", resource + "minerals.png"),
-    new SinglePanelColumn("vespene_gas", resource + "vespene_gas.png"),
+    new SinglePanelColumn("time", common + "icon/time.webp"),
+    new SinglePanelColumn("supply", common + "icon/house.webp"),
+    new SinglePanelColumn("minerals", resource + "minerals.webp"),
+    new SinglePanelColumn("vespene_gas", resource + "vespene_gas.webp"),
   ];
 
   columnsDescription[0].italic = true; // time
@@ -1004,10 +1004,10 @@ function displayBuildOrderWC3(dataBO) {
 
   // Description for each column
   let columnsDescription = [
-    new SinglePanelColumn("time", common + "icon/time.png"),
-    new SinglePanelColumn("food", resource + "food.png"),
-    new SinglePanelColumn("gold", resource + "gold.png"),
-    new SinglePanelColumn("lumber", resource + "lumber.png"),
+    new SinglePanelColumn("time", common + "icon/time.webp"),
+    new SinglePanelColumn("food", resource + "food.webp"),
+    new SinglePanelColumn("gold", resource + "gold.webp"),
+    new SinglePanelColumn("lumber", resource + "lumber.webp"),
   ];
 
   columnsDescription[0].italic = true; // time

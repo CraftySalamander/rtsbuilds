@@ -16,9 +16,9 @@
         "stone": 0
       },
       "notes": [
-        "5 @unit_worker/villager-ottomans.png@ on @resource/resource_stone.png@, then @resource/gaiatreeprototypetree.png@ (no @building_economy/mining-camp.png@, no @building_economy/lumber-camp.png@, single trip)",
-        "All other @unit_worker/villager-ottomans.png@ on @resource/sheep.png@ (5 first too after @resource/resource_stone.png@ & @resource/resource_wood.png@)",
-        "Build @building_ottomans/military-school-1.png@ with 2 @unit_worker/villager-ottomans.png@ from @resource/sheep.png@ (except >< @civilization_flag/CivIcon-EnglishAoE4_spacing.png@)"
+        "5 @unit_worker/villager-ottomans.webp@ on @resource/resource_stone.webp@, then @resource/gaiatreeprototypetree.webp@ (no @building_economy/mining-camp.webp@, no @building_economy/lumber-camp.webp@, single trip)",
+        "All other @unit_worker/villager-ottomans.webp@ on @resource/sheep.webp@ (5 first too after @resource/resource_stone.webp@ & @resource/resource_wood.webp@)",
+        "Build @building_ottomans/military-school-1.webp@ with 2 @unit_worker/villager-ottomans.webp@ from @resource/sheep.webp@ (except >< @civilization_flag/CivIcon-EnglishAoE4_spacing.webp@)"
       ],
       "time": "1:00"
     },
@@ -33,7 +33,7 @@
         "stone": 0
       },
       "notes": [
-        "Next 3 @unit_worker/villager-ottomans.png@ on @resource/resource_gold.png@ | Build 1 @building_economy/house.png@ | Harass with @unit_infantry/spearman-1.png@"
+        "Next 3 @unit_worker/villager-ottomans.webp@ on @resource/resource_gold.webp@ | Build 1 @building_economy/house.webp@ | Harass with @unit_infantry/spearman-1.webp@"
       ],
       "time": "2:00"
     },
@@ -48,7 +48,7 @@
         "stone": 0
       },
       "notes": [
-        "Next 2 @unit_worker/villager-ottomans.png@ to @resource/sheep.png@"
+        "Next 2 @unit_worker/villager-ottomans.webp@ to @resource/sheep.webp@"
       ],
       "time": "2:40"
     },
@@ -64,8 +64,8 @@
         "builder": 4
       },
       "notes": [
-        "Move 3 from @resource/resource_gold.png@ (> 200) to @resource/gaiatreeprototypetree.png@ | Build @landmark_ottomans/twin-minaret-medrese-1.png@ (+@building_economy/house.png@) with 4 @unit_worker/villager-ottomans.png@",
-        "Keep 4 on @resource/sheep.png@ | All other @unit_worker/villager-ottomans.png@ to @resource/gaiatreeprototypetree.png@/@resource/resource_wood.png@ (@building_economy/lumber-camp.png@ when possible)"
+        "Move 3 from @resource/resource_gold.webp@ (> 200) to @resource/gaiatreeprototypetree.webp@ | Build @landmark_ottomans/twin-minaret-medrese-1.webp@ (+@building_economy/house.webp@) with 4 @unit_worker/villager-ottomans.webp@",
+        "Keep 4 on @resource/sheep.webp@ | All other @unit_worker/villager-ottomans.webp@ to @resource/gaiatreeprototypetree.webp@/@resource/resource_wood.webp@ (@building_economy/lumber-camp.webp@ when possible)"
       ],
       "time": "3:40"
     },
@@ -81,7 +81,7 @@
         "builder": 4
       },
       "notes": [
-        "Keep 5 on @resource/resource_wood.png@, add new @unit_worker/villager-ottomans.png@ (+4 from @resource/resource_wood.png@) to @resource/resource_stone.png@ (up to 6)"
+        "Keep 5 on @resource/resource_wood.webp@, add new @unit_worker/villager-ottomans.webp@ (+4 from @resource/resource_wood.webp@) to @resource/resource_stone.webp@ (up to 6)"
       ],
       "time": "4:20"
     },
@@ -96,7 +96,7 @@
         "stone": 6
       },
       "notes": [
-        "5 @unit_worker/villager-ottomans.png@ on @resource/berrybush.png@ from @landmark_ottomans/twin-minaret-medrese-1.png@ (in @age/age_2.png@) | Others to @resource/resource_wood.png@ | @building_ottomans/military-school-1.png@ on @unit_ottomans/sipahi-2.png@"
+        "5 @unit_worker/villager-ottomans.webp@ on @resource/berrybush.webp@ from @landmark_ottomans/twin-minaret-medrese-1.webp@ (in @age/age_2.webp@) | Others to @resource/resource_wood.webp@ | @building_ottomans/military-school-1.webp@ on @unit_ottomans/sipahi-2.webp@"
       ],
       "time": "5:00"
     },
@@ -112,7 +112,7 @@
         "builder": 8
       },
       "notes": [
-        "Add 3 to @resource/resource_stone.png@ | Build 2nd @building_economy/town-center.png@ (on @resource/resource_gold.png@) with 8 @unit_worker/villager-ottomans.png@ from @resource/resource_wood.png@"
+        "Add 3 to @resource/resource_stone.webp@ | Build 2nd @building_economy/town-center.webp@ (on @resource/resource_gold.webp@) with 8 @unit_worker/villager-ottomans.webp@ from @resource/resource_wood.webp@"
       ],
       "time": "6:00"
     },
@@ -127,8 +127,8 @@
         "stone": 0
       },
       "notes": [
-        "Next @unit_worker/villager-ottomans.png@ on @resource/resource_wood.png@ | Get @technology_ottomans/anatolian-hills-1.png@ | Build @building_military/barracks.png@ (@unit_infantry/spearman-1.png@) >< @unit_cavalry/knight-2.png@ civs",
-        "@building_economy/town-center.png@ builders to @resource/resource_gold.png@ | At 300 @resource/resource_stone.png@, move @unit_worker/villager-ottomans.png@ on @resource/resource_food.png@/@resource/resource_wood.png@"
+        "Next @unit_worker/villager-ottomans.webp@ on @resource/resource_wood.webp@ | Get @technology_ottomans/anatolian-hills-1.webp@ | Build @building_military/barracks.webp@ (@unit_infantry/spearman-1.webp@) >< @unit_cavalry/knight-2.webp@ civs",
+        "@building_economy/town-center.webp@ builders to @resource/resource_gold.webp@ | At 300 @resource/resource_stone.webp@, move @unit_worker/villager-ottomans.webp@ on @resource/resource_food.webp@/@resource/resource_wood.webp@"
       ],
       "time": "7:20"
     },
@@ -143,7 +143,7 @@
         "stone": 0
       },
       "notes": [
-        "Add @building_ottomans/military-school-1.png@, then @building_technology/blacksmith.png@, then @building_ottomans/military-school-1.png@ | Research @technology_economy/double-broadaxe.png@, @technology_economy/horticulture.png@, @technology_economy/specialized-pick.png@, @technology_economy/wheelbarrow.png@..."
+        "Add @building_ottomans/military-school-1.webp@, then @building_technology/blacksmith.webp@, then @building_ottomans/military-school-1.webp@ | Research @technology_economy/double-broadaxe.webp@, @technology_economy/horticulture.webp@, @technology_economy/specialized-pick.webp@, @technology_economy/wheelbarrow.webp@..."
       ],
       "time": "10:00"
     }

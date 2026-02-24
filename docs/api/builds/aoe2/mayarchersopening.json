@@ -15,7 +15,7 @@
         "stone": 0
       },
       "notes": [
-        "Research @town_center/LoomDE.png@ | Build 2 @other/House_aoe2DE.png@ | 6 on @animal/Sheep_aoe2DE.png@"
+        "Research @town_center/LoomDE.webp@ | Build 2 @other/House_aoe2DE.webp@ | 6 on @animal/Sheep_aoe2DE.webp@"
       ],
       "time": "1:15"
     },
@@ -29,7 +29,7 @@
         "stone": 0
       },
       "notes": [
-        "1 Lures @animal/Boar_aoe2DE.png@"
+        "1 Lures @animal/Boar_aoe2DE.webp@"
       ],
       "time": "1:40"
     },
@@ -43,7 +43,7 @@
         "stone": 0
       },
       "notes": [
-        "@lumber_camp/Lumber_camp_aoe2de.png@ + 4 on @resource/Aoe2de_wood.png@"
+        "@lumber_camp/Lumber_camp_aoe2de.webp@ + 4 on @resource/Aoe2de_wood.webp@"
       ],
       "time": "3:20"
     },
@@ -57,7 +57,7 @@
         "stone": 0
       },
       "notes": [
-        "1 Lures @animal/Boar_aoe2DE.png@ + 1 More on @animal/Boar_aoe2DE.png@ | Build @other/House_aoe2DE.png@"
+        "1 Lures @animal/Boar_aoe2DE.webp@ + 1 More on @animal/Boar_aoe2DE.webp@ | Build @other/House_aoe2DE.webp@"
       ],
       "time": "4:10"
     },
@@ -71,7 +71,7 @@
         "stone": 0
       },
       "notes": [
-        "@mill/Mill_aoe2de.png@ + 4 on @resource/BerryBushDE.png@"
+        "@mill/Mill_aoe2de.webp@ + 4 on @resource/BerryBushDE.webp@"
       ],
       "time": "5:50"
     },
@@ -85,7 +85,7 @@
         "stone": 0
       },
       "notes": [
-        "@other/House_aoe2DE.png@ (immediately) + 3 on @resource/Aoe2de_wood.png@ | Research 21 Pop @age/FeudalAgeIconDE_alpha.png@"
+        "@other/House_aoe2DE.webp@ (immediately) + 3 on @resource/Aoe2de_wood.webp@ | Research 21 Pop @age/FeudalAgeIconDE_alpha.webp@"
       ],
       "time": "7:05"
     },
@@ -100,8 +100,8 @@
         "builder": 1
       },
       "notes": [
-        "Before @age/FeudalAgeIconDE_alpha.png@ | 5 @animal/Sheep_aoe2DE.png@ \u2192 5 Straggler",
-        "2 @animal/Sheep_aoe2DE.png@ \u2192 2 @resource/Aoe2de_gold.png@ + @mining_camp/Mining_camp_aoe2de.png@ | 1 @animal/Sheep_aoe2DE.png@ \u2192 @other/House_aoe2DE.png@ + @barracks/Barracks_aoe2DE.png@"
+        "Before @age/FeudalAgeIconDE_alpha.webp@ | 5 @animal/Sheep_aoe2DE.webp@ \u2192 5 Straggler",
+        "2 @animal/Sheep_aoe2DE.webp@ \u2192 2 @resource/Aoe2de_gold.webp@ + @mining_camp/Mining_camp_aoe2de.webp@ | 1 @animal/Sheep_aoe2DE.webp@ \u2192 @other/House_aoe2DE.webp@ + @barracks/Barracks_aoe2DE.webp@"
       ],
       "time": "9:15"
     },
@@ -115,10 +115,10 @@
         "stone": 0
       },
       "notes": [
-        "In @age/FeudalAgeIconDE_alpha.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ | 6 on @resource/Aoe2de_gold.png@",
-        "1 Straggler \u2192 Build 2 @archery_range/Archery_range_aoe2DE.png@ + @blacksmith/Blacksmith_aoe2de.png@ + @defensive_structures/Palisade_wall_aoe2de.png@ + @other/House_aoe2DE.png@",
-        "Research @blacksmith/FletchingDE.png@ + @mill/HorseCollarDE.png@ | Start Training @archery_range/Archer_aoe2DE.png@",
-        "1 Builder \u2192 1 @resource/Aoe2de_gold.png@ | @market/Market_aoe2DE.png@"
+        "In @age/FeudalAgeIconDE_alpha.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ | 6 on @resource/Aoe2de_gold.webp@",
+        "1 Straggler \u2192 Build 2 @archery_range/Archery_range_aoe2DE.webp@ + @blacksmith/Blacksmith_aoe2de.webp@ + @defensive_structures/Palisade_wall_aoe2de.webp@ + @other/House_aoe2DE.webp@",
+        "Research @blacksmith/FletchingDE.webp@ + @mill/HorseCollarDE.webp@ | Start Training @archery_range/Archer_aoe2DE.webp@",
+        "1 Builder \u2192 1 @resource/Aoe2de_gold.webp@ | @market/Market_aoe2DE.webp@"
       ],
       "time": "11:45"
     },
@@ -132,8 +132,8 @@
         "stone": 0
       },
       "notes": [
-        "7 on @resource/Aoe2de_wood.png@",
-        "Seed 8 @mill/FarmDE.png@ with @resource/MaleVillDE.jpg@ on Straggler and @resource/BerryBushDE.png@"
+        "7 on @resource/Aoe2de_wood.webp@",
+        "Seed 8 @mill/FarmDE.webp@ with @resource/MaleVillDE.webp@ on Straggler and @resource/BerryBushDE.webp@"
       ],
       "time": "14:40"
     },
@@ -147,7 +147,7 @@
         "stone": 0
       },
       "notes": [
-        "Seed 3 @mill/FarmDE.png@ with @resource/MaleVillDE.jpg@ on @resource/Aoe2de_wood.png@ | Research @town_center/WheelbarrowDE.png@ | Research @age/CastleAgeIconDE_alpha.png@"
+        "Seed 3 @mill/FarmDE.webp@ with @resource/MaleVillDE.webp@ on @resource/Aoe2de_wood.webp@ | Research @town_center/WheelbarrowDE.webp@ | Research @age/CastleAgeIconDE_alpha.webp@"
       ],
       "time": "15:55"
     },
@@ -161,7 +161,7 @@
         "stone": 0
       },
       "notes": [
-        "Before @age/CastleAgeIconDE_alpha.png@ | Research @mining_camp/GoldMiningDE.png@"
+        "Before @age/CastleAgeIconDE_alpha.webp@ | Research @mining_camp/GoldMiningDE.webp@"
       ],
       "time": "18:35"
     },
@@ -175,8 +175,8 @@
         "stone": 0
       },
       "notes": [
-        "In @age/CastleAgeIconDE_alpha.png@ | @university/University_AoE2_DE.png@ + @monastery/MonasteryAoe2DE.png@ | Research @blacksmith/BodkinArrowDE.png@ + @archery_range/Crossbowman_aoe2DE.png@ + @town_center/HandcartDE.png@",
-        "Research @university/BallisticsDE.png@ + @archery_range/ThumbRingDE.png@ + @lumber_camp/BowSawDE.png@ | Train 2 @monastery/Monk_aoe2DE.png@"
+        "In @age/CastleAgeIconDE_alpha.webp@ | @university/University_AoE2_DE.webp@ + @monastery/MonasteryAoe2DE.webp@ | Research @blacksmith/BodkinArrowDE.webp@ + @archery_range/Crossbowman_aoe2DE.webp@ + @town_center/HandcartDE.webp@",
+        "Research @university/BallisticsDE.webp@ + @archery_range/ThumbRingDE.webp@ + @lumber_camp/BowSawDE.webp@ | Train 2 @monastery/Monk_aoe2DE.webp@"
       ],
       "time": "19:30"
     }

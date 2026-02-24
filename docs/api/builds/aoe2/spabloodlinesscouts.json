@@ -15,7 +15,7 @@
         "stone": 0
       },
       "notes": [
-        "2 @other/House_aoe2DE.png@ + 6 on @animal/Sheep_aoe2DE.png@"
+        "2 @other/House_aoe2DE.webp@ + 6 on @animal/Sheep_aoe2DE.webp@"
       ],
       "time": "1:15"
     },
@@ -29,7 +29,7 @@
         "stone": 0
       },
       "notes": [
-        "3 on @resource/Aoe2de_wood.png@"
+        "3 on @resource/Aoe2de_wood.webp@"
       ],
       "time": "2:30"
     },
@@ -43,7 +43,7 @@
         "stone": 0
       },
       "notes": [
-        "1 Lures @animal/Boar_aoe2DE.png@ | Push 3 @animal/Deer_aoe2DE.png@"
+        "1 Lures @animal/Boar_aoe2DE.webp@ | Push 3 @animal/Deer_aoe2DE.webp@"
       ],
       "time": "2:55"
     },
@@ -57,7 +57,7 @@
         "stone": 0
       },
       "notes": [
-        "@other/House_aoe2DE.png@ + 2 on @animal/Sheep_aoe2DE.png@"
+        "@other/House_aoe2DE.webp@ + 2 on @animal/Sheep_aoe2DE.webp@"
       ],
       "time": "3:45"
     },
@@ -71,7 +71,7 @@
         "stone": 0
       },
       "notes": [
-        "@mill/Mill_aoe2de.png@ + 2 on @resource/BerryBushDE.png@"
+        "@mill/Mill_aoe2de.webp@ + 2 on @resource/BerryBushDE.webp@"
       ],
       "time": "4:35"
     },
@@ -85,7 +85,7 @@
         "stone": 0
       },
       "notes": [
-        "1 Lures @animal/Boar_aoe2DE.png@ + 1 More on @animal/Boar_aoe2DE.png@"
+        "1 Lures @animal/Boar_aoe2DE.webp@ + 1 More on @animal/Boar_aoe2DE.webp@"
       ],
       "time": "5:25"
     },
@@ -99,7 +99,7 @@
         "stone": 0
       },
       "notes": [
-        "2 on @resource/Aoe2de_wood.png@ | Research @town_center/LoomDE.png@ | 19 Pop @age/FeudalAgeIconDE_alpha.png@"
+        "2 on @resource/Aoe2de_wood.webp@ | Research @town_center/LoomDE.webp@ | 19 Pop @age/FeudalAgeIconDE_alpha.webp@"
       ],
       "time": "6:40"
     },
@@ -113,7 +113,7 @@
         "stone": 0
       },
       "notes": [
-        "Before @age/FeudalAgeIconDE_alpha.png@ | 4 @animal/Sheep_aoe2DE.png@ \u2192 @resource/Aoe2de_wood.png@ (2) & @resource/BerryBushDE.png@ (2) | @barracks/Barracks_aoe2DE.png@ + @other/House_aoe2DE.png@"
+        "Before @age/FeudalAgeIconDE_alpha.webp@ | 4 @animal/Sheep_aoe2DE.webp@ \u2192 @resource/Aoe2de_wood.webp@ (2) & @resource/BerryBushDE.webp@ (2) | @barracks/Barracks_aoe2DE.webp@ + @other/House_aoe2DE.webp@"
       ],
       "time": "8:50"
     },
@@ -127,8 +127,8 @@
         "stone": 0
       },
       "notes": [
-        "In @age/FeudalAgeIconDE_alpha.png@ | Build @stable/Stable_aoe2DE.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ | 1 @animal/Sheep_aoe2DE.png@ \u2192 1 @resource/Aoe2de_wood.png@",
-        "1 on @resource/Aoe2de_wood.png@ | Start Training @stable/Scoutcavalry_aoe2DE.png@ (@barracks/Spearman_aoe2DE.png@ if needed)"
+        "In @age/FeudalAgeIconDE_alpha.webp@ | Build @stable/Stable_aoe2DE.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ | 1 @animal/Sheep_aoe2DE.webp@ \u2192 1 @resource/Aoe2de_wood.webp@",
+        "1 on @resource/Aoe2de_wood.webp@ | Start Training @stable/Scoutcavalry_aoe2DE.webp@ (@barracks/Spearman_aoe2DE.webp@ if needed)"
       ],
       "time": "9:15"
     },
@@ -142,7 +142,7 @@
         "stone": 2
       },
       "notes": [
-        "2 on @resource/Aoe2de_stone.png@ | Research @mill/HorseCollarDE.png@"
+        "2 on @resource/Aoe2de_stone.webp@ | Research @mill/HorseCollarDE.webp@"
       ],
       "time": "10:05"
     },
@@ -156,8 +156,8 @@
         "stone": 2
       },
       "notes": [
-        "2 on @mill/FarmDE.png@ | next @resource/MaleVillDE.jpg@ on @mill/FarmDE.png@ & @resource/Aoe2de_gold.png@",
-        "Research @stable/BloodlinesDE.png@ | Add @defensive_structures/Tower_aoe2de.png@ if needed"
+        "2 on @mill/FarmDE.webp@ | next @resource/MaleVillDE.webp@ on @mill/FarmDE.webp@ & @resource/Aoe2de_gold.webp@",
+        "Research @stable/BloodlinesDE.webp@ | Add @defensive_structures/Tower_aoe2de.webp@ if needed"
       ],
       "time": "10:55"
     }

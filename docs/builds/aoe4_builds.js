@@ -21,8 +21,8 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "First 6 @unit_worker/villager.png@ on @resource/sheep.png@ | Send first extra @resource/sheep.png@ to @building_economy/town-center.png@",
-          "Next @unit_worker/villager.png@ builds @building_economy/house.png@, then on @resource/sheep.png@"
+          "First 6 @unit_worker/villager.webp@ on @resource/sheep.webp@ | Send first extra @resource/sheep.webp@ to @building_economy/town-center.webp@",
+          "Next @unit_worker/villager.webp@ builds @building_economy/house.webp@, then on @resource/sheep.webp@"
         ],
         "time": "0:18"
       },
@@ -37,7 +37,7 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @unit_worker/villager.png@ on @resource/resource_gold.png@."
+          "Next 3 @unit_worker/villager.webp@ on @resource/resource_gold.webp@."
         ],
         "time": "1:13"
       },
@@ -52,9 +52,9 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @unit_worker/villager.png@ to @resource/sheep.png@ (up to 11) | Build @landmark_french/school-of-cavalry.png@ with 5 @unit_worker/villager.png@ from @resource/sheep.png@",
-          "Shift click the 5 builders to @resource/resource_wood.png@ (2 will first build @building_economy/lumber-camp.png@ & @building_economy/house.png@)",
-          "Produce @unit_french/royal-knight-2.png@ when possible"
+          "Next @unit_worker/villager.webp@ to @resource/sheep.webp@ (up to 11) | Build @landmark_french/school-of-cavalry.webp@ with 5 @unit_worker/villager.webp@ from @resource/sheep.webp@",
+          "Shift click the 5 builders to @resource/resource_wood.webp@ (2 will first build @building_economy/lumber-camp.webp@ & @building_economy/house.webp@)",
+          "Produce @unit_french/royal-knight-2.webp@ when possible"
         ],
         "time": "3:56"
       },
@@ -69,7 +69,7 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @unit_worker/villager.png@ to @resource/resource_gold.png@ | Continue @unit_french/royal-knight-2.png@ production"
+          "Next 3 @unit_worker/villager.webp@ to @resource/resource_gold.webp@ | Continue @unit_french/royal-knight-2.webp@ production"
         ],
         "time": "4:51"
       },
@@ -84,8 +84,8 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @unit_worker/villager.png@ to @resource/sheep.png@ | Build 1 @building_military/archery-range.png@ | Look for @resource/berrybush.png@/@resource/deer.png@/@resource/boar.png@",
-          "Build @building_technology/blacksmith.png@ & research @technology_military/iron-undermesh.png@ | Train @unit_french/royal-knight-2.png@ & @unit_infantry/archer-2.png@"
+          "Next @unit_worker/villager.webp@ to @resource/sheep.webp@ | Build 1 @building_military/archery-range.webp@ | Look for @resource/berrybush.webp@/@resource/deer.webp@/@resource/boar.webp@",
+          "Build @building_technology/blacksmith.webp@ & research @technology_military/iron-undermesh.webp@ | Train @unit_french/royal-knight-2.webp@ & @unit_infantry/archer-2.webp@"
         ],
         "time": "6:40"
       },
@@ -100,7 +100,7 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @unit_worker/villager.png@ go to @resource/resource_wood.png@/@resource/resource_gold.png@ | Have 10-11 @unit_infantry/archer-2.png@, @unit_french/royal-knight-2.png@ for the rest"
+          "Next @unit_worker/villager.webp@ go to @resource/resource_wood.webp@/@resource/resource_gold.webp@ | Have 10-11 @unit_infantry/archer-2.webp@, @unit_french/royal-knight-2.webp@ for the rest"
         ],
         "time": "7:35"
       }
@@ -130,8 +130,8 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "All @unit_worker/villager.png@ to food | @unit_jeanne/jeanne-darc-peasant-1.png@ builds @building_economy/house.png@ + @building_economy/mining-camp.png@ and gathers @resource/resource_gold.png@",
-          "@resource/rally.png@ new @unit_worker/villager.png@ to @resource/resource_food.png@ until 8"
+          "All @unit_worker/villager.webp@ to food | @unit_jeanne/jeanne-darc-peasant-1.webp@ builds @building_economy/house.webp@ + @building_economy/mining-camp.webp@ and gathers @resource/resource_gold.webp@",
+          "@resource/rally.webp@ new @unit_worker/villager.webp@ to @resource/resource_food.webp@ until 8"
         ]
       },
       {
@@ -147,7 +147,7 @@ const aoe4_build_orders = [
           "builder": -1
         },
         "notes": [
-          "@resource/rally.png@2 new @unit_worker/villager.png@ to @resource/resource_gold.png@  | Drop @resource/sheep.png@ from @unit_cavalry/scout.png@ around 1:30"
+          "@resource/rally.webp@2 new @unit_worker/villager.webp@ to @resource/resource_gold.webp@  | Drop @resource/sheep.webp@ from @unit_cavalry/scout.webp@ around 1:30"
         ]
       },
       {
@@ -163,9 +163,9 @@ const aoe4_build_orders = [
           "builder": 2
         },
         "notes": [
-          "@resource/rally.png@ to @resource/gaiatreeprototypetree.png@ until 5, then back to @resource/resource_food.png@",
-          "At @resource/resource_gold.png@ 3900, drop off @resource/resource_food.png@/@resource/resource_gold.png@ and build @landmark_french/school-of-cavalry.png@ with@unit_jeanne/jeanne-darc-peasant-1.png@+1 @resource/sheep.png@ @unit_worker/villager.png@",
-          "Build @building_economy/house.png@ with 1 @resource/resource_gold.png@ @unit_worker/villager.png@ | After @landmark_french/school-of-cavalry.png@, @unit_jeanne/jeanne-darc-peasant-1.png@ will build @building_military/archery-range.png@, other to @resource/resource_gold.png@"
+          "@resource/rally.webp@ to @resource/gaiatreeprototypetree.webp@ until 5, then back to @resource/resource_food.webp@",
+          "At @resource/resource_gold.webp@ 3900, drop off @resource/resource_food.webp@/@resource/resource_gold.webp@ and build @landmark_french/school-of-cavalry.webp@ with@unit_jeanne/jeanne-darc-peasant-1.webp@+1 @resource/sheep.webp@ @unit_worker/villager.webp@",
+          "Build @building_economy/house.webp@ with 1 @resource/resource_gold.webp@ @unit_worker/villager.webp@ | After @landmark_french/school-of-cavalry.webp@, @unit_jeanne/jeanne-darc-peasant-1.webp@ will build @building_military/archery-range.webp@, other to @resource/resource_gold.webp@"
         ]
       },
       {
@@ -180,8 +180,8 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "@resource/rally.png@ @resource/resource_food.png@ | @unit_jeanne/jeanne-darc-peasant-1.png@ builds @building_military/archery-range.png@ then levels up with @ability_jeanne/ability-path-of-the-warrior-1.png@",
-          "@unit_jeanne/jeanne-darc-peasant-1.png@ back to @resource/sheep.png@ before leveling | Train @unit_infantry/archer-2.png@ & @unit_french/royal-knight-2.png@"
+          "@resource/rally.webp@ @resource/resource_food.webp@ | @unit_jeanne/jeanne-darc-peasant-1.webp@ builds @building_military/archery-range.webp@ then levels up with @ability_jeanne/ability-path-of-the-warrior-1.webp@",
+          "@unit_jeanne/jeanne-darc-peasant-1.webp@ back to @resource/sheep.webp@ before leveling | Train @unit_infantry/archer-2.webp@ & @unit_french/royal-knight-2.webp@"
         ]
       },
       {
@@ -197,8 +197,8 @@ const aoe4_build_orders = [
           "builder": -1
         },
         "notes": [
-          "Next 2 @unit_worker/villager.png@ to @resource/resource_gold.png@, then to @resource/resource_wood.png@ | @ability_jeanne/ability-path-of-the-warrior-1.png@ => @resource/boar.png@(x2) then fight",
-          "Train @unit_infantry/archer-2.png@ & @unit_french/royal-knight-2.png@ (@unit_cavalry/horseman-1.png@ ok-ish) | Build @building_economy/house.png@ | Research @technology_economy/double-broadaxe.png@"
+          "Next 2 @unit_worker/villager.webp@ to @resource/resource_gold.webp@, then to @resource/resource_wood.webp@ | @ability_jeanne/ability-path-of-the-warrior-1.webp@ => @resource/boar.webp@(x2) then fight",
+          "Train @unit_infantry/archer-2.webp@ & @unit_french/royal-knight-2.webp@ (@unit_cavalry/horseman-1.webp@ ok-ish) | Build @building_economy/house.webp@ | Research @technology_economy/double-broadaxe.webp@"
         ]
       }
     ],
@@ -229,7 +229,7 @@ const aoe4_build_orders = [
           "builder": -1
         },
         "notes": [
-          "Send all 5 @unit_worker/villager.png@ to @resource/sheep.png@ | Next 2 @unit_worker/villager.png@ build @building_economy/house.png@ & @building_economy/mining-camp.png@, then to @resource/resource_gold.png@"
+          "Send all 5 @unit_worker/villager.webp@ to @resource/sheep.webp@ | Next 2 @unit_worker/villager.webp@ build @building_economy/house.webp@ & @building_economy/mining-camp.webp@, then to @resource/resource_gold.webp@"
         ],
         "time": "0:48"
       },
@@ -245,7 +245,7 @@ const aoe4_build_orders = [
           "builder": -1
         },
         "notes": [
-          "Rally @unit_worker/villager.png@ to @resource/sheep.png@ until you have 9"
+          "Rally @unit_worker/villager.webp@ to @resource/sheep.webp@ until you have 9"
         ],
         "time": "2:24"
       },
@@ -261,7 +261,7 @@ const aoe4_build_orders = [
           "builder": 2
         },
         "notes": [
-          "Send 5 from @resource/sheep.png@ + 1 new @unit_worker/villager.png@ to build @landmark_hre/meinwerk-palace.png@ (2) and to @resource/resource_wood.png@ (4, straggler)"
+          "Send 5 from @resource/sheep.webp@ + 1 new @unit_worker/villager.webp@ to build @landmark_hre/meinwerk-palace.webp@ (2) and to @resource/resource_wood.webp@ (4, straggler)"
         ],
         "time": "2:48"
       },
@@ -277,8 +277,8 @@ const aoe4_build_orders = [
           "builder": 2
         },
         "notes": [
-          "Build @building_economy/mill.png@ on @resource/berrybush.png@ with next @unit_worker/villager.png@, then next @unit_worker/villager.png@ to @resource/resource_wood.png@ (build @building_economy/lumber-camp.png@)",
-          "Research @technology_economy/wheelbarrow.png@, then @technology_economy/double-broadaxe.png@ (when possible)"
+          "Build @building_economy/mill.webp@ on @resource/berrybush.webp@ with next @unit_worker/villager.webp@, then next @unit_worker/villager.webp@ to @resource/resource_wood.webp@ (build @building_economy/lumber-camp.webp@)",
+          "Research @technology_economy/wheelbarrow.webp@, then @technology_economy/double-broadaxe.webp@ (when possible)"
         ],
         "time": "4:00"
       },
@@ -294,8 +294,8 @@ const aoe4_build_orders = [
           "builder": -1
         },
         "notes": [
-          "Next @unit_worker/villager.png@  to @resource/sheep.png@ (up to 12) | Build @building_military/stable.png@ after @landmark_hre/meinwerk-palace.png@, then to @resource/sheep.png@",
-          "Build @building_economy/house.png@, later @building_military/archery-range.png@ | Train @unit_dragon/gilded-horseman-2.png@ and harass"
+          "Next @unit_worker/villager.webp@  to @resource/sheep.webp@ (up to 12) | Build @building_military/stable.webp@ after @landmark_hre/meinwerk-palace.webp@, then to @resource/sheep.webp@",
+          "Build @building_economy/house.webp@, later @building_military/archery-range.webp@ | Train @unit_dragon/gilded-horseman-2.webp@ and harass"
         ],
         "time": "6:00"
       },
@@ -311,8 +311,8 @@ const aoe4_build_orders = [
           "builder": -1
         },
         "notes": [
-          "Next 3 @unit_worker/villager.png@ to @resource/resource_wood.png@  | Research @technology_military/iron-undermesh.png@, then  @technology_military/steeled-arrow.png@ | Train @unit_dragon/gilded-horseman-2.png@ & @unit_dragon/gilded-archer-2.png@",
-          "Adapt @resource/resource_food.png@ source (@resource/boar.png@ if safe) | Research @technology_economy/horticulture.png@/@technology_economy/survival-techniques.png@"
+          "Next 3 @unit_worker/villager.webp@ to @resource/resource_wood.webp@  | Research @technology_military/iron-undermesh.webp@, then  @technology_military/steeled-arrow.webp@ | Train @unit_dragon/gilded-horseman-2.webp@ & @unit_dragon/gilded-archer-2.webp@",
+          "Adapt @resource/resource_food.webp@ source (@resource/boar.webp@ if safe) | Research @technology_economy/horticulture.webp@/@technology_economy/survival-techniques.webp@"
         ],
         "time": "7:12"
       },
@@ -328,8 +328,8 @@ const aoe4_build_orders = [
           "builder": -1
         },
         "notes": [
-          "Next 2 @unit_worker/villager.png@ to @resource/resource_food.png@ then again @resource/resource_wood.png@ (up to 15) | Research @technology_military/fitted-leatherwork.png@",
-          "Start building @building_economy/farm.png@ | Adapt (e.g. @unit_dragon/gilded-spearman-1.png@/@unit_siege/battering-ram.png@/...)"
+          "Next 2 @unit_worker/villager.webp@ to @resource/resource_food.webp@ then again @resource/resource_wood.webp@ (up to 15) | Research @technology_military/fitted-leatherwork.webp@",
+          "Start building @building_economy/farm.webp@ | Adapt (e.g. @unit_dragon/gilded-spearman-1.webp@/@unit_siege/battering-ram.webp@/...)"
         ],
         "time": "10:24"
       }
@@ -360,9 +360,9 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "5 @unit_worker/villager-ottomans.png@ on @resource/resource_stone.png@, then @resource/gaiatreeprototypetree.png@ (no @building_economy/mining-camp.png@, no @building_economy/lumber-camp.png@, single trip)",
-          "All other @unit_worker/villager-ottomans.png@ on @resource/sheep.png@ (5 first too after @resource/resource_stone.png@ & @resource/resource_wood.png@)",
-          "Build @building_ottomans/military-school-1.png@ with 2 @unit_worker/villager-ottomans.png@ from @resource/sheep.png@ (except >< @civilization_flag/CivIcon-EnglishAoE4_spacing.png@)"
+          "5 @unit_worker/villager-ottomans.webp@ on @resource/resource_stone.webp@, then @resource/gaiatreeprototypetree.webp@ (no @building_economy/mining-camp.webp@, no @building_economy/lumber-camp.webp@, single trip)",
+          "All other @unit_worker/villager-ottomans.webp@ on @resource/sheep.webp@ (5 first too after @resource/resource_stone.webp@ & @resource/resource_wood.webp@)",
+          "Build @building_ottomans/military-school-1.webp@ with 2 @unit_worker/villager-ottomans.webp@ from @resource/sheep.webp@ (except >< @civilization_flag/CivIcon-EnglishAoE4_spacing.webp@)"
         ],
         "time": "1:00"
       },
@@ -377,7 +377,7 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @unit_worker/villager-ottomans.png@ on @resource/resource_gold.png@ | Build 1 @building_economy/house.png@ | Harass with @unit_infantry/spearman-1.png@"
+          "Next 3 @unit_worker/villager-ottomans.webp@ on @resource/resource_gold.webp@ | Build 1 @building_economy/house.webp@ | Harass with @unit_infantry/spearman-1.webp@"
         ],
         "time": "2:00"
       },
@@ -392,7 +392,7 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @unit_worker/villager-ottomans.png@ to @resource/sheep.png@"
+          "Next 2 @unit_worker/villager-ottomans.webp@ to @resource/sheep.webp@"
         ],
         "time": "2:40"
       },
@@ -408,8 +408,8 @@ const aoe4_build_orders = [
           "builder": 4
         },
         "notes": [
-          "Move 3 from @resource/resource_gold.png@ (> 200) to @resource/gaiatreeprototypetree.png@ | Build @landmark_ottomans/twin-minaret-medrese-1.png@ (+@building_economy/house.png@) with 4 @unit_worker/villager-ottomans.png@",
-          "Keep 4 on @resource/sheep.png@ | All other @unit_worker/villager-ottomans.png@ to @resource/gaiatreeprototypetree.png@/@resource/resource_wood.png@ (@building_economy/lumber-camp.png@ when possible)"
+          "Move 3 from @resource/resource_gold.webp@ (> 200) to @resource/gaiatreeprototypetree.webp@ | Build @landmark_ottomans/twin-minaret-medrese-1.webp@ (+@building_economy/house.webp@) with 4 @unit_worker/villager-ottomans.webp@",
+          "Keep 4 on @resource/sheep.webp@ | All other @unit_worker/villager-ottomans.webp@ to @resource/gaiatreeprototypetree.webp@/@resource/resource_wood.webp@ (@building_economy/lumber-camp.webp@ when possible)"
         ],
         "time": "3:40"
       },
@@ -425,7 +425,7 @@ const aoe4_build_orders = [
           "builder": 4
         },
         "notes": [
-          "Keep 5 on @resource/resource_wood.png@, add new @unit_worker/villager-ottomans.png@ (+4 from @resource/resource_wood.png@) to @resource/resource_stone.png@ (up to 6)"
+          "Keep 5 on @resource/resource_wood.webp@, add new @unit_worker/villager-ottomans.webp@ (+4 from @resource/resource_wood.webp@) to @resource/resource_stone.webp@ (up to 6)"
         ],
         "time": "4:20"
       },
@@ -440,7 +440,7 @@ const aoe4_build_orders = [
           "stone": 6
         },
         "notes": [
-          "5 @unit_worker/villager-ottomans.png@ on @resource/berrybush.png@ from @landmark_ottomans/twin-minaret-medrese-1.png@ (in @age/age_2.png@) | Others to @resource/resource_wood.png@ | @building_ottomans/military-school-1.png@ on @unit_ottomans/sipahi-2.png@"
+          "5 @unit_worker/villager-ottomans.webp@ on @resource/berrybush.webp@ from @landmark_ottomans/twin-minaret-medrese-1.webp@ (in @age/age_2.webp@) | Others to @resource/resource_wood.webp@ | @building_ottomans/military-school-1.webp@ on @unit_ottomans/sipahi-2.webp@"
         ],
         "time": "5:00"
       },
@@ -456,7 +456,7 @@ const aoe4_build_orders = [
           "builder": 8
         },
         "notes": [
-          "Add 3 to @resource/resource_stone.png@ | Build 2nd @building_economy/town-center.png@ (on @resource/resource_gold.png@) with 8 @unit_worker/villager-ottomans.png@ from @resource/resource_wood.png@"
+          "Add 3 to @resource/resource_stone.webp@ | Build 2nd @building_economy/town-center.webp@ (on @resource/resource_gold.webp@) with 8 @unit_worker/villager-ottomans.webp@ from @resource/resource_wood.webp@"
         ],
         "time": "6:00"
       },
@@ -471,8 +471,8 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @unit_worker/villager-ottomans.png@ on @resource/resource_wood.png@ | Get @technology_ottomans/anatolian-hills-1.png@ | Build @building_military/barracks.png@ (@unit_infantry/spearman-1.png@) >< @unit_cavalry/knight-2.png@ civs",
-          "@building_economy/town-center.png@ builders to @resource/resource_gold.png@ | At 300 @resource/resource_stone.png@, move @unit_worker/villager-ottomans.png@ on @resource/resource_food.png@/@resource/resource_wood.png@"
+          "Next @unit_worker/villager-ottomans.webp@ on @resource/resource_wood.webp@ | Get @technology_ottomans/anatolian-hills-1.webp@ | Build @building_military/barracks.webp@ (@unit_infantry/spearman-1.webp@) >< @unit_cavalry/knight-2.webp@ civs",
+          "@building_economy/town-center.webp@ builders to @resource/resource_gold.webp@ | At 300 @resource/resource_stone.webp@, move @unit_worker/villager-ottomans.webp@ on @resource/resource_food.webp@/@resource/resource_wood.webp@"
         ],
         "time": "7:20"
       },
@@ -487,7 +487,7 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add @building_ottomans/military-school-1.png@, then @building_technology/blacksmith.png@, then @building_ottomans/military-school-1.png@ | Research @technology_economy/double-broadaxe.png@, @technology_economy/horticulture.png@, @technology_economy/specialized-pick.png@, @technology_economy/wheelbarrow.png@..."
+          "Add @building_ottomans/military-school-1.webp@, then @building_technology/blacksmith.webp@, then @building_ottomans/military-school-1.webp@ | Research @technology_economy/double-broadaxe.webp@, @technology_economy/horticulture.webp@, @technology_economy/specialized-pick.webp@, @technology_economy/wheelbarrow.webp@..."
         ],
         "time": "10:00"
       }
@@ -517,8 +517,8 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "5 @unit_worker/villager-ottomans.png@ gather 50 @resource/resource_stone.png@, then 50 @resource/resource_wood.png@ (@resource/gaiatreeprototypetree.png@) | 1 builds 1 @building_economy/house.png@",
-          "Then all (+new) @unit_worker/villager-ottomans.png@ on @resource/sheep.png@ (until 8) | Build @building_ottomans/military-school-1.png@"
+          "5 @unit_worker/villager-ottomans.webp@ gather 50 @resource/resource_stone.webp@, then 50 @resource/resource_wood.webp@ (@resource/gaiatreeprototypetree.webp@) | 1 builds 1 @building_economy/house.webp@",
+          "Then all (+new) @unit_worker/villager-ottomans.webp@ on @resource/sheep.webp@ (until 8) | Build @building_ottomans/military-school-1.webp@"
         ]
       },
       {
@@ -533,7 +533,7 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3@unit_worker/villager-ottomans.png@ to @resource/resource_gold.png@ (build @building_economy/mining-camp.png@)"
+          "Next 3@unit_worker/villager-ottomans.webp@ to @resource/resource_gold.webp@ (build @building_economy/mining-camp.webp@)"
         ]
       },
       {
@@ -549,8 +549,8 @@ const aoe4_build_orders = [
           "builder": -1
         },
         "notes": [
-          "New @unit_worker/villager-ottomans.png@ on@resource/sheep.png@ | When -100 in @resource/resource_gold.png@-vein, all @resource/resource_gold.png@@unit_worker/villager-ottomans.png@ to @resource/gaiatreeprototypetree.png@",
-          "Build @landmark_ottomans/twin-minaret-medrese-1.png@ with 4 @unit_worker/villager-ottomans.png@ from @resource/resource_food.png@"
+          "New @unit_worker/villager-ottomans.webp@ on@resource/sheep.webp@ | When -100 in @resource/resource_gold.webp@-vein, all @resource/resource_gold.webp@@unit_worker/villager-ottomans.webp@ to @resource/gaiatreeprototypetree.webp@",
+          "Build @landmark_ottomans/twin-minaret-medrese-1.webp@ with 4 @unit_worker/villager-ottomans.webp@ from @resource/resource_food.webp@"
         ]
       },
       {
@@ -566,7 +566,7 @@ const aoe4_build_orders = [
           "builder": 4
         },
         "notes": [
-          "Split according to macro tab. Gather @resource/gaiatreeprototypetree.png@ (build @building_economy/lumber-camp.png@ when possible)"
+          "Split according to macro tab. Gather @resource/gaiatreeprototypetree.webp@ (build @building_economy/lumber-camp.webp@ when possible)"
         ]
       },
       {
@@ -582,7 +582,7 @@ const aoe4_build_orders = [
           "builder": 5
         },
         "notes": [
-          "Next @unit_worker/villager-ottomans.png@ builds @building_economy/house.png@, then to @resource/resource_wood.png@"
+          "Next @unit_worker/villager-ottomans.webp@ builds @building_economy/house.webp@, then to @resource/resource_wood.webp@"
         ]
       },
       {
@@ -598,9 +598,9 @@ const aoe4_build_orders = [
           "builder": -1
         },
         "notes": [
-          "Send 3 @unit_worker/villager-ottomans.png@ from @resource/gaiatreeprototypetree.png@ to @building_economy/mining-camp.png@@resource/resource_stone.png@ and gather 200@resource/resource_stone.png@",
-          "Keep @resource/rally.png@ on @resource/resource_wood.png@ until @age/age_2.png@. 4 age-up-@unit_worker/villager-ottomans.png@ go on @landmark_ottomans/twin-minaret-medrese-1.png@-@resource/berrybush.png@",
-          "Switch @building_ottomans/military-school-1.png@ to @unit_ottomans/sipahi-2.png@"
+          "Send 3 @unit_worker/villager-ottomans.webp@ from @resource/gaiatreeprototypetree.webp@ to @building_economy/mining-camp.webp@@resource/resource_stone.webp@ and gather 200@resource/resource_stone.webp@",
+          "Keep @resource/rally.webp@ on @resource/resource_wood.webp@ until @age/age_2.webp@. 4 age-up-@unit_worker/villager-ottomans.webp@ go on @landmark_ottomans/twin-minaret-medrese-1.webp@-@resource/berrybush.webp@",
+          "Switch @building_ottomans/military-school-1.webp@ to @unit_ottomans/sipahi-2.webp@"
         ]
       },
       {
@@ -616,8 +616,8 @@ const aoe4_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Build @building_technology/blacksmith.png@, then @building_military/stable.png@, then 2nd @building_ottomans/military-school-1.png@, then @building_military/archery-range.png@ (1 @resource/resource_food.png@@unit_worker/villager-ottomans.png@)",
-          "Produce @unit_ottomans/sipahi-2.png@ from @building_military/stable.png@ | Research @technology_ottomans/anatolian-hills-1.png@ | Pull @resource/resource_stone.png@@unit_worker/villager-ottomans.png@ to @resource/resource_wood.png@"
+          "Build @building_technology/blacksmith.webp@, then @building_military/stable.webp@, then 2nd @building_ottomans/military-school-1.webp@, then @building_military/archery-range.webp@ (1 @resource/resource_food.webp@@unit_worker/villager-ottomans.webp@)",
+          "Produce @unit_ottomans/sipahi-2.webp@ from @building_military/stable.webp@ | Research @technology_ottomans/anatolian-hills-1.webp@ | Pull @resource/resource_stone.webp@@unit_worker/villager-ottomans.webp@ to @resource/resource_wood.webp@"
         ]
       },
       {
@@ -632,7 +632,7 @@ const aoe4_build_orders = [
           "stone": 0
         },
         "notes": [
-          "New @unit_worker/villager-ottomans.png@ to @resource/resource_food.png@/@resource/resource_gold.png@ | Mass units | Research techs"
+          "New @unit_worker/villager-ottomans.webp@ to @resource/resource_food.webp@/@resource/resource_gold.webp@ | Mass units | Research techs"
         ]
       }
     ],

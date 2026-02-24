@@ -15,7 +15,7 @@
         "stone": 0
       },
       "notes": [
-        "Create 6 @resource/MaleVillDE.jpg@ on @animal/Sheep_aoe2DE.png@"
+        "Create 6 @resource/MaleVillDE.webp@ on @animal/Sheep_aoe2DE.webp@"
       ]
     },
     {
@@ -28,7 +28,7 @@
         "stone": 0
       },
       "notes": [
-        "Create 3 @resource/MaleVillDE.jpg@ on @resource/Aoe2de_wood.png@"
+        "Create 3 @resource/MaleVillDE.webp@ on @resource/Aoe2de_wood.webp@"
       ]
     },
     {
@@ -41,7 +41,7 @@
         "stone": 0
       },
       "notes": [
-        "Create 1 @resource/MaleVillDE.jpg@ on @animal/Boar_aoe2DE.png@"
+        "Create 1 @resource/MaleVillDE.webp@ on @animal/Boar_aoe2DE.webp@"
       ]
     },
     {
@@ -54,7 +54,7 @@
         "stone": 0
       },
       "notes": [
-        "Create 7 @resource/MaleVillDE.jpg@ on @animal/Sheep_aoe2DE.png@"
+        "Create 7 @resource/MaleVillDE.webp@ on @animal/Sheep_aoe2DE.webp@"
       ]
     },
     {
@@ -67,7 +67,7 @@
         "stone": 0
       },
       "notes": [
-        "Move 3 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @resource/Aoe2de_gold.png@"
+        "Move 3 @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @resource/Aoe2de_gold.webp@"
       ]
     },
     {
@@ -80,8 +80,8 @@
         "stone": 0
       },
       "notes": [
-        "Create 2 @resource/MaleVillDE.jpg@ on @animal/Sheep_aoe2DE.png@",
-        "Research @town_center/LoomDE.png@",
+        "Create 2 @resource/MaleVillDE.webp@ on @animal/Sheep_aoe2DE.webp@",
+        "Research @town_center/LoomDE.webp@",
         "Click up to feudalAge"
       ]
     },
@@ -96,11 +96,11 @@
         "builder": 2
       },
       "notes": [
-        "Before @age/FeudalAgeIconDE_alpha.png@",
-        "Move 9 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @resource/Aoe2de_wood.png@",
-        "Move 2 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @resource/Aoe2de_gold.png@",
-        "Move 2 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to forward",
-        "@resource/Aoe2de_hammer.png@ 1 @barracks/Barracks_aoe2DE.png@"
+        "Before @age/FeudalAgeIconDE_alpha.webp@",
+        "Move 9 @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @resource/Aoe2de_wood.webp@",
+        "Move 2 @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @resource/Aoe2de_gold.webp@",
+        "Move 2 @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to forward",
+        "@resource/Aoe2de_hammer.webp@ 1 @barracks/Barracks_aoe2DE.webp@"
       ]
     },
     {
@@ -114,11 +114,11 @@
         "builder": 2
       },
       "notes": [
-        "In @age/FeudalAgeIconDE_alpha.png@",
-        "@resource/Aoe2de_hammer.png@ 2 archeryRange",
-        "@resource/Aoe2de_hammer.png@ 1 @blacksmith/Blacksmith_aoe2de.png@",
-        "Research @blacksmith/FletchingDE.png@",
-        "@resource/Aoe2de_hammer.png@ 1 archeryRange"
+        "In @age/FeudalAgeIconDE_alpha.webp@",
+        "@resource/Aoe2de_hammer.webp@ 2 archeryRange",
+        "@resource/Aoe2de_hammer.webp@ 1 @blacksmith/Blacksmith_aoe2de.webp@",
+        "Research @blacksmith/FletchingDE.webp@",
+        "@resource/Aoe2de_hammer.webp@ 1 archeryRange"
       ]
     },
     {
@@ -132,7 +132,7 @@
         "builder": 2
       },
       "notes": [
-        "Move 5 @resource/MaleVillDE.jpg@ from @resource/Aoe2de_wood.png@ to @resource/Aoe2de_gold.png@"
+        "Move 5 @resource/MaleVillDE.webp@ from @resource/Aoe2de_wood.webp@ to @resource/Aoe2de_gold.webp@"
       ]
     }
   ]

@@ -10,147 +10,147 @@
       "supply": 13,
       "time": "0:12",
       "notes": [
-        "@zerg_units/Overlord.png@"
+        "@zerg_units/Overlord.webp@"
       ]
     },
     {
       "supply": 16,
       "time": "0:48",
       "notes": [
-        "@zerg_buildings/Hatchery.png@"
+        "@zerg_buildings/Hatchery.webp@"
       ]
     },
     {
       "supply": 18,
       "time": "1:10",
       "notes": [
-        "@zerg_buildings/Extractor.png@"
+        "@zerg_buildings/Extractor.webp@"
       ]
     },
     {
       "supply": 17,
       "time": "1:14",
       "notes": [
-        "@zerg_buildings/Spawning_Pool.png@"
+        "@zerg_buildings/Spawning_Pool.webp@"
       ]
     },
     {
       "supply": 20,
       "time": "1:53",
       "notes": [
-        "@zerg_units/Overlord.png@"
+        "@zerg_units/Overlord.webp@"
       ]
     },
     {
       "supply": 20,
       "time": "2:01",
       "notes": [
-        "@zerg_units/Queen.png@ x2"
+        "@zerg_units/Queen.webp@ x2"
       ]
     },
     {
       "supply": 20,
       "time": "2:02",
       "notes": [
-        "@zerg_units/Zergling.png@ x4"
+        "@zerg_units/Zergling.webp@ x4"
       ]
     },
     {
       "supply": 32,
       "time": "2:43",
       "notes": [
-        "@zerg_units/Overlord.png@"
+        "@zerg_units/Overlord.webp@"
       ]
     },
     {
       "supply": 32,
       "time": "2:48",
       "notes": [
-        "@zerg_buildings/Lair.png@"
+        "@zerg_buildings/Lair.webp@"
       ]
     },
     {
       "supply": 36,
       "time": "3:06",
       "notes": [
-        "@zerg_units/Overlord.png@"
+        "@zerg_units/Overlord.webp@"
       ]
     },
     {
       "supply": 42,
       "time": "3:14",
       "notes": [
-        "@zerg_buildings/Extractor.png@ x2"
+        "@zerg_buildings/Extractor.webp@ x2"
       ]
     },
     {
       "supply": 42,
       "time": "3:16",
       "notes": [
-        "@zerg_buildings/Spore_Crawler.png@"
+        "@zerg_buildings/Spore_Crawler.webp@"
       ]
     },
     {
       "supply": 42,
       "time": "3:18",
       "notes": [
-        "@zerg_buildings/Roach_Warren.png@"
+        "@zerg_buildings/Roach_Warren.webp@"
       ]
     },
     {
       "supply": 38,
       "time": "3:26",
       "notes": [
-        "@zerg_buildings/Spore_Crawler.png@"
+        "@zerg_buildings/Spore_Crawler.webp@"
       ]
     },
     {
       "supply": 47,
       "time": "3:54",
       "notes": [
-        "@zerg_units/Overlord.png@"
+        "@zerg_units/Overlord.webp@"
       ]
     },
     {
       "supply": 48,
       "time": "3:55",
       "notes": [
-        "@zerg_buildings/Hatchery.png@"
+        "@zerg_buildings/Hatchery.webp@"
       ]
     },
     {
       "supply": 48,
       "time": "4:00",
       "notes": [
-        "@zerg_techs/Glial_reconstitution.png@"
+        "@zerg_techs/Glial_reconstitution.webp@"
       ]
     },
     {
       "supply": 47,
       "time": "4:15",
       "notes": [
-        "@zerg_units/Roach.png@ x7"
+        "@zerg_units/Roach.webp@ x7"
       ]
     },
     {
       "supply": 59,
       "time": "4:21",
       "notes": [
-        "@zerg_units/Roach.png@"
+        "@zerg_units/Roach.webp@"
       ]
     },
     {
       "supply": 59,
       "time": "4:22",
       "notes": [
-        "@zerg_units/Overseer.png@"
+        "@zerg_units/Overseer.webp@"
       ]
     },
     {
       "supply": 63,
       "time": "4:46",
       "notes": [
-        "@zerg_units/Roach.png@ x2"
+        "@zerg_units/Roach.webp@ x2"
       ]
     }
   ]

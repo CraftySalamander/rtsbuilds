@@ -17,8 +17,8 @@
         "stone": 0
       },
       "notes": [
-        "All @unit_worker/villager.png@ to food | @unit_jeanne/jeanne-darc-peasant-1.png@ builds @building_economy/house.png@ + @building_economy/mining-camp.png@ and gathers @resource/resource_gold.png@",
-        "@resource/rally.png@ new @unit_worker/villager.png@ to @resource/resource_food.png@ until 8"
+        "All @unit_worker/villager.webp@ to food | @unit_jeanne/jeanne-darc-peasant-1.webp@ builds @building_economy/house.webp@ + @building_economy/mining-camp.webp@ and gathers @resource/resource_gold.webp@",
+        "@resource/rally.webp@ new @unit_worker/villager.webp@ to @resource/resource_food.webp@ until 8"
       ]
     },
     {
@@ -34,7 +34,7 @@
         "builder": -1
       },
       "notes": [
-        "@resource/rally.png@2 new @unit_worker/villager.png@ to @resource/resource_gold.png@  | Drop @resource/sheep.png@ from @unit_cavalry/scout.png@ around 1:30"
+        "@resource/rally.webp@2 new @unit_worker/villager.webp@ to @resource/resource_gold.webp@  | Drop @resource/sheep.webp@ from @unit_cavalry/scout.webp@ around 1:30"
       ]
     },
     {
@@ -50,9 +50,9 @@
         "builder": 2
       },
       "notes": [
-        "@resource/rally.png@ to @resource/gaiatreeprototypetree.png@ until 5, then back to @resource/resource_food.png@",
-        "At @resource/resource_gold.png@ 3900, drop off @resource/resource_food.png@/@resource/resource_gold.png@ and build @landmark_french/school-of-cavalry.png@ with@unit_jeanne/jeanne-darc-peasant-1.png@+1 @resource/sheep.png@ @unit_worker/villager.png@",
-        "Build @building_economy/house.png@ with 1 @resource/resource_gold.png@ @unit_worker/villager.png@ | After @landmark_french/school-of-cavalry.png@, @unit_jeanne/jeanne-darc-peasant-1.png@ will build @building_military/archery-range.png@, other to @resource/resource_gold.png@"
+        "@resource/rally.webp@ to @resource/gaiatreeprototypetree.webp@ until 5, then back to @resource/resource_food.webp@",
+        "At @resource/resource_gold.webp@ 3900, drop off @resource/resource_food.webp@/@resource/resource_gold.webp@ and build @landmark_french/school-of-cavalry.webp@ with@unit_jeanne/jeanne-darc-peasant-1.webp@+1 @resource/sheep.webp@ @unit_worker/villager.webp@",
+        "Build @building_economy/house.webp@ with 1 @resource/resource_gold.webp@ @unit_worker/villager.webp@ | After @landmark_french/school-of-cavalry.webp@, @unit_jeanne/jeanne-darc-peasant-1.webp@ will build @building_military/archery-range.webp@, other to @resource/resource_gold.webp@"
       ]
     },
     {
@@ -67,8 +67,8 @@
         "stone": 0
       },
       "notes": [
-        "@resource/rally.png@ @resource/resource_food.png@ | @unit_jeanne/jeanne-darc-peasant-1.png@ builds @building_military/archery-range.png@ then levels up with @ability_jeanne/ability-path-of-the-warrior-1.png@",
-        "@unit_jeanne/jeanne-darc-peasant-1.png@ back to @resource/sheep.png@ before leveling | Train @unit_infantry/archer-2.png@ & @unit_french/royal-knight-2.png@"
+        "@resource/rally.webp@ @resource/resource_food.webp@ | @unit_jeanne/jeanne-darc-peasant-1.webp@ builds @building_military/archery-range.webp@ then levels up with @ability_jeanne/ability-path-of-the-warrior-1.webp@",
+        "@unit_jeanne/jeanne-darc-peasant-1.webp@ back to @resource/sheep.webp@ before leveling | Train @unit_infantry/archer-2.webp@ & @unit_french/royal-knight-2.webp@"
       ]
     },
     {
@@ -84,8 +84,8 @@
         "builder": -1
       },
       "notes": [
-        "Next 2 @unit_worker/villager.png@ to @resource/resource_gold.png@, then to @resource/resource_wood.png@ | @ability_jeanne/ability-path-of-the-warrior-1.png@ => @resource/boar.png@(x2) then fight",
-        "Train @unit_infantry/archer-2.png@ & @unit_french/royal-knight-2.png@ (@unit_cavalry/horseman-1.png@ ok-ish) | Build @building_economy/house.png@ | Research @technology_economy/double-broadaxe.png@"
+        "Next 2 @unit_worker/villager.webp@ to @resource/resource_gold.webp@, then to @resource/resource_wood.webp@ | @ability_jeanne/ability-path-of-the-warrior-1.webp@ => @resource/boar.webp@(x2) then fight",
+        "Train @unit_infantry/archer-2.webp@ & @unit_french/royal-knight-2.webp@ (@unit_cavalry/horseman-1.webp@ ok-ish) | Build @building_economy/house.webp@ | Research @technology_economy/double-broadaxe.webp@"
       ]
     }
   ],

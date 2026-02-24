@@ -15,8 +15,8 @@
         "builder": 1
       },
       "notes": [
-        "First 3 @egyptians_civilian/laborer.png@ to @animal/giraffe.png@ (build @egyptians_building/granary.png@) | Next @egyptians_civilian/laborer.png@ builds @egyptians_building/monument_to_villagers.png@",
-        "@egyptians_hero/pharaoh.png@ on @egyptians_building/granary.png@, @egyptians_hero/priest.png@ on @egyptians_building/monument_to_villagers.png@"
+        "First 3 @egyptians_civilian/laborer.webp@ to @animal/giraffe.webp@ (build @egyptians_building/granary.webp@) | Next @egyptians_civilian/laborer.webp@ builds @egyptians_building/monument_to_villagers.webp@",
+        "@egyptians_hero/pharaoh.webp@ on @egyptians_building/granary.webp@, @egyptians_hero/priest.webp@ on @egyptians_building/monument_to_villagers.webp@"
       ],
       "time": "0:15"
     },
@@ -30,7 +30,7 @@
         "favor": 1
       },
       "notes": [
-        "Next 2 @egyptians_civilian/laborer.png@ (+@resource/repair.png@) on @resource/gold.png@ (build @egyptians_building/mining_camp.png@) | @egyptians_hero/priest.png@ on @egyptians_building/mining_camp.png@"
+        "Next 2 @egyptians_civilian/laborer.webp@ (+@resource/repair.webp@) on @resource/gold.webp@ (build @egyptians_building/mining_camp.webp@) | @egyptians_hero/priest.webp@ on @egyptians_building/mining_camp.webp@"
       ],
       "time": "0:45"
     },
@@ -44,8 +44,8 @@
         "favor": 1
       },
       "notes": [
-        "Next 6 @egyptians_civilian/laborer.png@ on @animal/giraffe.png@",
-        "Build @temple/temple.png@ (2 @resource/gold.png@@egyptians_civilian/laborer.png@ + @egyptians_hero/priest.png@) & @other/house.png@ (1 @resource/gold.png@@egyptians_civilian/laborer.png@)"
+        "Next 6 @egyptians_civilian/laborer.webp@ on @animal/giraffe.webp@",
+        "Build @temple/temple.webp@ (2 @resource/gold.webp@@egyptians_civilian/laborer.webp@ + @egyptians_hero/priest.webp@) & @other/house.webp@ (1 @resource/gold.webp@@egyptians_civilian/laborer.webp@)"
       ],
       "time": "2:15"
     },
@@ -59,7 +59,7 @@
         "favor": 1
       },
       "notes": [
-        "Next 2 @egyptians_civilian/laborer.png@ on @resource/gold.png@ | 2:40 @egyptians_minor_god/ptah.png@"
+        "Next 2 @egyptians_civilian/laborer.webp@ on @resource/gold.webp@ | 2:40 @egyptians_minor_god/ptah.webp@"
       ],
       "time": "2:45"
     },
@@ -73,7 +73,7 @@
         "favor": 1
       },
       "notes": [
-        "Before @age/classical_age.png@ | Move 6 @resource/food.png@@egyptians_civilian/laborer.png@ to @resource/gold.png@ | Swap @egyptians_hero/priest.png@ & @egyptians_hero/pharaoh.png@"
+        "Before @age/classical_age.webp@ | Move 6 @resource/food.webp@@egyptians_civilian/laborer.webp@ to @resource/gold.webp@ | Swap @egyptians_hero/priest.webp@ & @egyptians_hero/pharaoh.webp@"
       ],
       "time": "3:45"
     },
@@ -88,8 +88,8 @@
         "builder": 7
       },
       "notes": [
-        "In @age/classical_age.png@ | Build @egyptians_building/town_center_egyptian.png@ on @animal/chicken.png@ with 7 @resource/gold.png@@egyptians_civilian/laborer.png@ & @egyptians_hero/pharaoh.png@ (then on @animal/chicken.png@)",
-        "Move 4 @resource/gold.png@@egyptians_civilian/laborer.png@ to @resource/wood.png@ (build @egyptians_building/lumber_camp.png@) | Next 2 @egyptians_civilian/laborer.png@ to @resource/gold.png@"
+        "In @age/classical_age.webp@ | Build @egyptians_building/town_center_egyptian.webp@ on @animal/chicken.webp@ with 7 @resource/gold.webp@@egyptians_civilian/laborer.webp@ & @egyptians_hero/pharaoh.webp@ (then on @animal/chicken.webp@)",
+        "Move 4 @resource/gold.webp@@egyptians_civilian/laborer.webp@ to @resource/wood.webp@ (build @egyptians_building/lumber_camp.webp@) | Next 2 @egyptians_civilian/laborer.webp@ to @resource/gold.webp@"
       ],
       "time": "4:15"
     },
@@ -103,9 +103,9 @@
         "favor": 1
       },
       "notes": [
-        "All next @egyptians_civilian/laborer.png@ to @resource/gold.png@ | Research @economy/pickaxe.png@, @egyptians_tech/shaduf.png@, @economy/husbandry.png@ & @economy/plow.png@",
-        "After @animal/giraffe.png@, move 3 @animal/giraffe.png@@egyptians_civilian/laborer.png@ (+@egyptians_hero/priest.png@) to @resource/gold.png@",
-        "Build @armory/armory.png@, several @other/house.png@ & @market/market.png@"
+        "All next @egyptians_civilian/laborer.webp@ to @resource/gold.webp@ | Research @economy/pickaxe.webp@, @egyptians_tech/shaduf.webp@, @economy/husbandry.webp@ & @economy/plow.webp@",
+        "After @animal/giraffe.webp@, move 3 @animal/giraffe.webp@@egyptians_civilian/laborer.webp@ (+@egyptians_hero/priest.webp@) to @resource/gold.webp@",
+        "Build @armory/armory.webp@, several @other/house.webp@ & @market/market.webp@"
       ],
       "time": "5:20"
     },
@@ -119,8 +119,8 @@
         "favor": 1
       },
       "notes": [
-        "After @egyptians_tech/shaduf.png@, build @other/farm.png@ on 1st @egyptians_building/town_center_egyptian.png@ (also with @animal/chicken.png@@egyptians_civilian/laborer.png@)",
-        "Cast @egyptians_power/rain.png@ after @economy/plow.png@ | Build 14 @other/farm.png@ | Build @egyptians_building/monument_to_villagers.png@"
+        "After @egyptians_tech/shaduf.webp@, build @other/farm.webp@ on 1st @egyptians_building/town_center_egyptian.webp@ (also with @animal/chicken.webp@@egyptians_civilian/laborer.webp@)",
+        "Cast @egyptians_power/rain.webp@ after @economy/plow.webp@ | Build 14 @other/farm.webp@ | Build @egyptians_building/monument_to_villagers.webp@"
       ],
       "time": "6:54"
     }

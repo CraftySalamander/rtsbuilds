@@ -15,7 +15,7 @@
         "stone": 0
       },
       "notes": [
-        "Build 2 @other/House_aoe2DE.png@ | 6 on @animal/Sheep_aoe2DE.png@"
+        "Build 2 @other/House_aoe2DE.webp@ | 6 on @animal/Sheep_aoe2DE.webp@"
       ],
       "time": "1:15"
     },
@@ -29,7 +29,7 @@
         "stone": 0
       },
       "notes": [
-        "Build 1 @other/House_aoe2DE.png@ | 5 on @resource/Aoe2de_wood.png@ | Start luring @animal/Deer_aoe2DE.png@"
+        "Build 1 @other/House_aoe2DE.webp@ | 5 on @resource/Aoe2de_wood.webp@ | Start luring @animal/Deer_aoe2DE.webp@"
       ],
       "time": "3:20"
     },
@@ -43,7 +43,7 @@
         "stone": 0
       },
       "notes": [
-        "Lure 1st @animal/Boar_aoe2DE.png@"
+        "Lure 1st @animal/Boar_aoe2DE.webp@"
       ],
       "time": "3:45"
     },
@@ -57,7 +57,7 @@
         "stone": 0
       },
       "notes": [
-        "3 More on @animal/Boar_aoe2DE.png@ (lure 2nd)"
+        "3 More on @animal/Boar_aoe2DE.webp@ (lure 2nd)"
       ],
       "time": "5:00"
     },
@@ -71,7 +71,7 @@
         "stone": 0
       },
       "notes": [
-        "Build 1 @other/House_aoe2DE.png@ | 4 on @resource/Aoe2de_wood.png@"
+        "Build 1 @other/House_aoe2DE.webp@ | 4 on @resource/Aoe2de_wood.webp@"
       ],
       "time": "6:40"
     },
@@ -85,7 +85,7 @@
         "stone": 0
       },
       "notes": [
-        "Build 2 @other/House_aoe2DE.png@ | 6 on @resource/BerryBushDE.png@ (@mill/Mill_aoe2de.png@)"
+        "Build 2 @other/House_aoe2DE.webp@ | 6 on @resource/BerryBushDE.webp@ (@mill/Mill_aoe2de.webp@)"
       ],
       "time": "9:10"
     },
@@ -99,7 +99,7 @@
         "stone": 0
       },
       "notes": [
-        "4 on @resource/Aoe2de_wood.png@"
+        "4 on @resource/Aoe2de_wood.webp@"
       ],
       "time": "10:50"
     },
@@ -113,7 +113,7 @@
         "stone": 0
       },
       "notes": [
-        "3 on @resource/Aoe2de_gold.png@ | 33 Pop @age/FeudalAgeIconDE_alpha.png@"
+        "3 on @resource/Aoe2de_gold.webp@ | 33 Pop @age/FeudalAgeIconDE_alpha.webp@"
       ],
       "time": "12:05"
     },
@@ -127,7 +127,7 @@
         "stone": 0
       },
       "notes": [
-        "Before @age/FeudalAgeIconDE_alpha.png@ | Build @barracks/Barracks_aoe2DE.png@ + @other/House_aoe2DE.png@ | Start @mill/FarmDE.png@"
+        "Before @age/FeudalAgeIconDE_alpha.webp@ | Build @barracks/Barracks_aoe2DE.webp@ + @other/House_aoe2DE.webp@ | Start @mill/FarmDE.webp@"
       ],
       "time": "13:23"
     },
@@ -141,8 +141,8 @@
         "stone": 0
       },
       "notes": [
-        "In @age/FeudalAgeIconDE_alpha.png@ | 2 on @mill/FarmDE.png@ | Build 2 @stable/Stable_aoe2DE.png@ + @blacksmith/Blacksmith_aoe2de.png@ | Seed 1 @mill/FarmDE.png@ with @resource/Aoe2de_wood.png@@resource/MaleVillDE.jpg@",
-        "4 @resource/Aoe2de_wood.png@ \u2192 4 @resource/Aoe2de_gold.png@ | 2 @resource/BerryBushDE.png@ \u2192 2 @resource/Aoe2de_gold.png@ | 35 pop @age/CastleAgeIconDE_alpha.png@"
+        "In @age/FeudalAgeIconDE_alpha.webp@ | 2 on @mill/FarmDE.webp@ | Build 2 @stable/Stable_aoe2DE.webp@ + @blacksmith/Blacksmith_aoe2de.webp@ | Seed 1 @mill/FarmDE.webp@ with @resource/Aoe2de_wood.webp@@resource/MaleVillDE.webp@",
+        "4 @resource/Aoe2de_wood.webp@ \u2192 4 @resource/Aoe2de_gold.webp@ | 2 @resource/BerryBushDE.webp@ \u2192 2 @resource/Aoe2de_gold.webp@ | 35 pop @age/CastleAgeIconDE_alpha.webp@"
       ],
       "time": "14:13"
     },
@@ -156,7 +156,7 @@
         "stone": 0
       },
       "notes": [
-        "In @age/CastleAgeIconDE_alpha.png@ | New @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@ | Train 20 @stable/Battle_elephant_aoe2DE.png@ | Research @stable/HusbandryDE.png@ + @blacksmith/ScaleBardingArmorDE.png@"
+        "In @age/CastleAgeIconDE_alpha.webp@ | New @resource/MaleVillDE.webp@ to @mill/FarmDE.webp@ | Train 20 @stable/Battle_elephant_aoe2DE.webp@ | Research @stable/HusbandryDE.webp@ + @blacksmith/ScaleBardingArmorDE.webp@"
       ],
       "time": "15:50"
     }

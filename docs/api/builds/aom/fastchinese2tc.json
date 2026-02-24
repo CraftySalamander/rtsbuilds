@@ -18,8 +18,8 @@
         "favor": 0
       },
       "notes": [
-        "First 2 @chinese_civilian/peasant.png@ to @resource/food.png@ (build @chinese_building/silo.png@) | 5 next @chinese_civilian/peasant.png@ to @resource/food.png@",
-        "@chinese_civilian/kuafu.png@ builds @other/house.png@, then to @resource/gold.png@ (build @chinese_building/silo.png@)"
+        "First 2 @chinese_civilian/peasant.webp@ to @resource/food.webp@ (build @chinese_building/silo.webp@) | 5 next @chinese_civilian/peasant.webp@ to @resource/food.webp@",
+        "@chinese_civilian/kuafu.webp@ builds @other/house.webp@, then to @resource/gold.webp@ (build @chinese_building/silo.webp@)"
       ],
       "time": "1:15"
     },
@@ -33,8 +33,8 @@
         "favor": 0
       },
       "notes": [
-        "At 250 @resource/gold.png@, move @chinese_civilian/kuafu.png@ to @resource/wood.png@ (build @chinese_building/silo.png@)",
-        "Next 3 @chinese_civilian/peasant.png@ to @resource/wood.png@"
+        "At 250 @resource/gold.webp@, move @chinese_civilian/kuafu.webp@ to @resource/wood.webp@ (build @chinese_building/silo.webp@)",
+        "Next 3 @chinese_civilian/peasant.webp@ to @resource/wood.webp@"
       ],
       "time": "2:00"
     },
@@ -48,8 +48,8 @@
         "favor": 0
       },
       "notes": [
-        "Build @temple/temple.png@ with @resource/wood.png@@chinese_civilian/kuafu.png@, then to @resource/gold.png@",
-        "Train 1 @chinese_civilian/kuafu.png@ & 1 @chinese_civilian/peasant.png@, both to @resource/gold.png@ | 2:45 @age/classical_age.png@ (drop @resource/food.png@)"
+        "Build @temple/temple.webp@ with @resource/wood.webp@@chinese_civilian/kuafu.webp@, then to @resource/gold.webp@",
+        "Train 1 @chinese_civilian/kuafu.webp@ & 1 @chinese_civilian/peasant.webp@, both to @resource/gold.webp@ | 2:45 @age/classical_age.webp@ (drop @resource/food.webp@)"
       ],
       "time": "2:45"
     },
@@ -63,8 +63,8 @@
         "favor": 0
       },
       "notes": [
-        "Before @age/classical_age.png@ | Move 5 @resource/food.png@@chinese_civilian/peasant.png@ to @resource/wood.png@",
-        "Send 1 @chinese_civilian/kuafu.png@ to future @town_center/town_center.png@ at 75% up"
+        "Before @age/classical_age.webp@ | Move 5 @resource/food.webp@@chinese_civilian/peasant.webp@ to @resource/wood.webp@",
+        "Send 1 @chinese_civilian/kuafu.webp@ to future @town_center/town_center.webp@ at 75% up"
       ],
       "time": "3:45"
     },
@@ -78,8 +78,8 @@
         "favor": 0
       },
       "notes": [
-        "In @age/classical_age.png@ | Send the 5 @resource/wood.png@@chinese_civilian/peasant.png@ back to @resource/food.png@",
-        "Build @town_center/town_center.png@ with @chinese_civilian/kuafu.png@, then to @resource/wood.png@ | Next 2 @chinese_civilian/peasant.png@ to @resource/gold.png@"
+        "In @age/classical_age.webp@ | Send the 5 @resource/wood.webp@@chinese_civilian/peasant.webp@ back to @resource/food.webp@",
+        "Build @town_center/town_center.webp@ with @chinese_civilian/kuafu.webp@, then to @resource/wood.webp@ | Next 2 @chinese_civilian/peasant.webp@ to @resource/gold.webp@"
       ],
       "time": "4:25"
     },
@@ -93,8 +93,8 @@
         "favor": 0
       },
       "notes": [
-        "Build @other/house.png@ with 1 @chinese_civilian/kuafu.png@ | Add 1 @chinese_civilian/kuafu.png@ to @resource/gold.png@",
-        "Next @chinese_civilian/peasant.png@ to @resource/food.png@ & @resource/wood.png@"
+        "Build @other/house.webp@ with 1 @chinese_civilian/kuafu.webp@ | Add 1 @chinese_civilian/kuafu.webp@ to @resource/gold.webp@",
+        "Next @chinese_civilian/peasant.webp@ to @resource/food.webp@ & @resource/wood.webp@"
       ],
       "time": "5:15"
     }

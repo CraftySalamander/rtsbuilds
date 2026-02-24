@@ -19,8 +19,8 @@ const aom_build_orders = [
           "favor": 1
         },
         "notes": [
-          "5 @japanese_civilian/commoner.png@ on @animal/giraffe.png@ (build @japanese_building/watermill.png@)",
-          "Build @japanese_building/shrine.png@ with @japanese_hero/miko.png@ | Scout with @japanese_myth/kitsune.png@"
+          "5 @japanese_civilian/commoner.webp@ on @animal/giraffe.webp@ (build @japanese_building/watermill.webp@)",
+          "Build @japanese_building/shrine.webp@ with @japanese_hero/miko.webp@ | Scout with @japanese_myth/kitsune.webp@"
         ]
       },
       {
@@ -33,7 +33,7 @@ const aom_build_orders = [
           "favor": 1
         },
         "notes": [
-          "Next 2 @japanese_civilian/commoner.png@ on @resource/wood.png@ (build @japanese_building/watermill.png@)"
+          "Next 2 @japanese_civilian/commoner.webp@ on @resource/wood.webp@ (build @japanese_building/watermill.webp@)"
         ]
       },
       {
@@ -46,7 +46,7 @@ const aom_build_orders = [
           "favor": 1
         },
         "notes": [
-          "Next 2 @japanese_civilian/commoner.png@ on @resource/food.png@ | Pre-queue @japanese_tech/kagura.png@ | Build @temple/temple.png@"
+          "Next 2 @japanese_civilian/commoner.webp@ on @resource/food.webp@ | Pre-queue @japanese_tech/kagura.webp@ | Build @temple/temple.webp@"
         ]
       },
       {
@@ -59,8 +59,8 @@ const aom_build_orders = [
           "favor": 1
         },
         "notes": [
-          "2nd @japanese_hero/miko.png@ search @other/relic.png@| Add 3 @japanese_civilian/commoner.png@ on @resource/wood.png@ | Upgrade @japanese_tech/sacred_custodians.png@",
-          "Build @japanese_building/shrine.png@ with 2nd @japanese_hero/miko.png@ | Age up with @japanese_minor_god/ame-no-uzume.png@ | Build @other/house.png@"
+          "2nd @japanese_hero/miko.webp@ search @other/relic.webp@| Add 3 @japanese_civilian/commoner.webp@ on @resource/wood.webp@ | Upgrade @japanese_tech/sacred_custodians.webp@",
+          "Build @japanese_building/shrine.webp@ with 2nd @japanese_hero/miko.webp@ | Age up with @japanese_minor_god/ame-no-uzume.webp@ | Build @other/house.webp@"
         ]
       }
     ]
@@ -94,8 +94,8 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "First 2 @chinese_civilian/peasant.png@ to @resource/food.png@ (build @chinese_building/silo.png@) | 5 next @chinese_civilian/peasant.png@ to @resource/food.png@",
-          "@chinese_civilian/kuafu.png@ builds @other/house.png@, then to @resource/gold.png@ (build @chinese_building/silo.png@)"
+          "First 2 @chinese_civilian/peasant.webp@ to @resource/food.webp@ (build @chinese_building/silo.webp@) | 5 next @chinese_civilian/peasant.webp@ to @resource/food.webp@",
+          "@chinese_civilian/kuafu.webp@ builds @other/house.webp@, then to @resource/gold.webp@ (build @chinese_building/silo.webp@)"
         ],
         "time": "1:15"
       },
@@ -109,8 +109,8 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "At 250 @resource/gold.png@, move @chinese_civilian/kuafu.png@ to @resource/wood.png@ (build @chinese_building/silo.png@)",
-          "Next 3 @chinese_civilian/peasant.png@ to @resource/wood.png@"
+          "At 250 @resource/gold.webp@, move @chinese_civilian/kuafu.webp@ to @resource/wood.webp@ (build @chinese_building/silo.webp@)",
+          "Next 3 @chinese_civilian/peasant.webp@ to @resource/wood.webp@"
         ],
         "time": "2:00"
       },
@@ -124,8 +124,8 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Build @temple/temple.png@ with @resource/wood.png@@chinese_civilian/kuafu.png@, then to @resource/gold.png@",
-          "Train 1 @chinese_civilian/kuafu.png@ & 1 @chinese_civilian/peasant.png@, both to @resource/gold.png@ | 2:45 @age/classical_age.png@ (drop @resource/food.png@)"
+          "Build @temple/temple.webp@ with @resource/wood.webp@@chinese_civilian/kuafu.webp@, then to @resource/gold.webp@",
+          "Train 1 @chinese_civilian/kuafu.webp@ & 1 @chinese_civilian/peasant.webp@, both to @resource/gold.webp@ | 2:45 @age/classical_age.webp@ (drop @resource/food.webp@)"
         ],
         "time": "2:45"
       },
@@ -139,8 +139,8 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Before @age/classical_age.png@ | Move 5 @resource/food.png@@chinese_civilian/peasant.png@ to @resource/wood.png@",
-          "Send 1 @chinese_civilian/kuafu.png@ to future @town_center/town_center.png@ at 75% up"
+          "Before @age/classical_age.webp@ | Move 5 @resource/food.webp@@chinese_civilian/peasant.webp@ to @resource/wood.webp@",
+          "Send 1 @chinese_civilian/kuafu.webp@ to future @town_center/town_center.webp@ at 75% up"
         ],
         "time": "3:45"
       },
@@ -154,8 +154,8 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "In @age/classical_age.png@ | Send the 5 @resource/wood.png@@chinese_civilian/peasant.png@ back to @resource/food.png@",
-          "Build @town_center/town_center.png@ with @chinese_civilian/kuafu.png@, then to @resource/wood.png@ | Next 2 @chinese_civilian/peasant.png@ to @resource/gold.png@"
+          "In @age/classical_age.webp@ | Send the 5 @resource/wood.webp@@chinese_civilian/peasant.webp@ back to @resource/food.webp@",
+          "Build @town_center/town_center.webp@ with @chinese_civilian/kuafu.webp@, then to @resource/wood.webp@ | Next 2 @chinese_civilian/peasant.webp@ to @resource/gold.webp@"
         ],
         "time": "4:25"
       },
@@ -169,8 +169,8 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Build @other/house.png@ with 1 @chinese_civilian/kuafu.png@ | Add 1 @chinese_civilian/kuafu.png@ to @resource/gold.png@",
-          "Next @chinese_civilian/peasant.png@ to @resource/food.png@ & @resource/wood.png@"
+          "Build @other/house.webp@ with 1 @chinese_civilian/kuafu.webp@ | Add 1 @chinese_civilian/kuafu.webp@ to @resource/gold.webp@",
+          "Next @chinese_civilian/peasant.webp@ to @resource/food.webp@ & @resource/wood.webp@"
         ],
         "time": "5:15"
       }
@@ -197,10 +197,10 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "First 2 @chinese_civilian/peasant.png@ on @resource/food.png@ | 1st @chinese_civilian/kuafu.png@ on @resource/gold.png@ (build 2 @chinese_building/silo.png@)",
-          "Next 7 @chinese_civilian/peasant.png@ on @resource/food.png@ | Scout with @chinese_hero/pioneer.png@ | Cast @chinese_power/peachblossomspring_power.png@",
-          "At 150 @resource/gold.png@, move @chinese_civilian/kuafu.png@ to @resource/wood.png@ (straggler) & build 1 @other/house.png@",
-          "At 150 @resource/wood.png@, build @temple/temple.png@ with @chinese_civilian/kuafu.png@, then back to @resource/wood.png@"
+          "First 2 @chinese_civilian/peasant.webp@ on @resource/food.webp@ | 1st @chinese_civilian/kuafu.webp@ on @resource/gold.webp@ (build 2 @chinese_building/silo.webp@)",
+          "Next 7 @chinese_civilian/peasant.webp@ on @resource/food.webp@ | Scout with @chinese_hero/pioneer.webp@ | Cast @chinese_power/peachblossomspring_power.webp@",
+          "At 150 @resource/gold.webp@, move @chinese_civilian/kuafu.webp@ to @resource/wood.webp@ (straggler) & build 1 @other/house.webp@",
+          "At 150 @resource/wood.webp@, build @temple/temple.webp@ with @chinese_civilian/kuafu.webp@, then back to @resource/wood.webp@"
         ],
         "time": "1:45"
       },
@@ -214,7 +214,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Next 3 @chinese_civilian/peasant.png@ to @resource/wood.png@ (straggler) | 2:30@chinese_minor_god/chiyou.png@"
+          "Next 3 @chinese_civilian/peasant.webp@ to @resource/wood.webp@ (straggler) | 2:30@chinese_minor_god/chiyou.webp@"
         ],
         "time": "2:30"
       },
@@ -228,7 +228,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Before @age/classical_age.png@ | Build @chinese_building/silo.png@ on @resource/wood.png@ | Move 5 @resource/food.png@@chinese_civilian/peasant.png@ to @resource/gold.png@"
+          "Before @age/classical_age.webp@ | Build @chinese_building/silo.webp@ on @resource/wood.webp@ | Move 5 @resource/food.webp@@chinese_civilian/peasant.webp@ to @resource/gold.webp@"
         ],
         "time": "3:30"
       },
@@ -242,9 +242,9 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "In @age/classical_age.png@ | Next @chinese_civilian/peasant.png@ to @resource/berry.png@ (build @chinese_building/silo.png@)",
-          "Train 2nd @chinese_myth/yazi.png@ to raid | Always build with @chinese_civilian/kuafu.png@ (@other/house.png@, @chinese_building/military_camp.png@...)",
-          "Adapt your eco for game plan | Train @chinese_civilian/kuafu.png@ when possible"
+          "In @age/classical_age.webp@ | Next @chinese_civilian/peasant.webp@ to @resource/berry.webp@ (build @chinese_building/silo.webp@)",
+          "Train 2nd @chinese_myth/yazi.webp@ to raid | Always build with @chinese_civilian/kuafu.webp@ (@other/house.webp@, @chinese_building/military_camp.webp@...)",
+          "Adapt your eco for game plan | Train @chinese_civilian/kuafu.webp@ when possible"
         ],
         "time": "4:15"
       }
@@ -271,7 +271,7 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "First 2 @atlanteans_civilian/citizen.png@ to @animal/giraffe.png@ | 3rd @atlanteans_civilian/citizen.png@ to @resource/gold.png@"
+          "First 2 @atlanteans_civilian/citizen.webp@ to @animal/giraffe.webp@ | 3rd @atlanteans_civilian/citizen.webp@ to @resource/gold.webp@"
         ],
         "time": "0:25"
       },
@@ -285,7 +285,7 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "Next 2 @atlanteans_civilian/citizen.png@ to @resource/wood.png@ | Build @atlanteans_building/manor.png@ with @resource/wood.png@@atlanteans_civilian/citizen.png@"
+          "Next 2 @atlanteans_civilian/citizen.webp@ to @resource/wood.webp@ | Build @atlanteans_building/manor.webp@ with @resource/wood.webp@@atlanteans_civilian/citizen.webp@"
         ],
         "time": "1:15"
       },
@@ -300,7 +300,7 @@ const aom_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Next @atlanteans_civilian/citizen.png@ goes to @animal/giraffe.png@ | Build @temple/temple.png@ with @resource/gold.png@@atlanteans_civilian/citizen.png@, then to @resource/berry.png@"
+          "Next @atlanteans_civilian/citizen.webp@ goes to @animal/giraffe.webp@ | Build @temple/temple.webp@ with @resource/gold.webp@@atlanteans_civilian/citizen.webp@, then to @resource/berry.webp@"
         ],
         "time": "1:40"
       },
@@ -314,8 +314,8 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "Next 2 @atlanteans_civilian/citizen.png@ go to @animal/giraffe.png@ | @atlanteans_building/time_shift.png@@temple/temple.png@",
-          "At 30 @resource/wood.png@, move 2 @resource/wood.png@@atlanteans_civilian/citizen.png@ to @animal/chicken.png@"
+          "Next 2 @atlanteans_civilian/citizen.webp@ go to @animal/giraffe.webp@ | @atlanteans_building/time_shift.webp@@temple/temple.webp@",
+          "At 30 @resource/wood.webp@, move 2 @resource/wood.webp@@atlanteans_civilian/citizen.webp@ to @animal/chicken.webp@"
         ],
         "time": "2:30"
       },
@@ -329,7 +329,7 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "Next @atlanteans_civilian/citizen.png@ goes to @resource/gold.png@ | 2:55 @atlanteans_minor_god/prometheus.png@"
+          "Next @atlanteans_civilian/citizen.webp@ goes to @resource/gold.webp@ | 2:55 @atlanteans_minor_god/prometheus.webp@"
         ],
         "time": "2:55"
       },
@@ -343,8 +343,8 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "Before @age/classical_age.png@ | Move 6 @resource/food.png@@atlanteans_civilian/citizen.png@ to @resource/wood.png@(4) & @resource/gold.png@(2)",
-          "Build 2 @atlanteans_building/manor.png@ & @atlanteans_building/time_shift.png@ all @atlanteans_building/manor.png@ next to @atlanteans_building/town_center_atlantean.png@"
+          "Before @age/classical_age.webp@ | Move 6 @resource/food.webp@@atlanteans_civilian/citizen.webp@ to @resource/wood.webp@(4) & @resource/gold.webp@(2)",
+          "Build 2 @atlanteans_building/manor.webp@ & @atlanteans_building/time_shift.webp@ all @atlanteans_building/manor.webp@ next to @atlanteans_building/town_center_atlantean.webp@"
         ],
         "time": "3:55"
       },
@@ -358,7 +358,7 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "In @age/classical_age.png@ | Attack with 2@atlanteans_myth/promethean.png@ | Next @atlanteans_civilian/citizen.png@ (as @atlanteans_hero/citizen_hero.png@) to @resource/gold.png@"
+          "In @age/classical_age.webp@ | Attack with 2@atlanteans_myth/promethean.webp@ | Next @atlanteans_civilian/citizen.webp@ (as @atlanteans_hero/citizen_hero.webp@) to @resource/gold.webp@"
         ],
         "time": "4:20"
       },
@@ -373,8 +373,8 @@ const aom_build_orders = [
           "builder": 2
         },
         "notes": [
-          "Next @atlanteans_civilian/citizen.png@ (as @atlanteans_hero/citizen_hero.png@) and @resource/gold.png@@atlanteans_hero/citizen_hero.png@ build 2nd @atlanteans_building/town_center_atlantean.png@",
-          "@atlanteans_building/time_shift.png@@temple/temple.png@ to@atlanteans_building/town_center_atlantean.png@ | Move 2 @resource/wood.png@@atlanteans_civilian/citizen.png@ + 1 @resource/gold.png@@atlanteans_civilian/citizen.png@ to @resource/food.png@"
+          "Next @atlanteans_civilian/citizen.webp@ (as @atlanteans_hero/citizen_hero.webp@) and @resource/gold.webp@@atlanteans_hero/citizen_hero.webp@ build 2nd @atlanteans_building/town_center_atlantean.webp@",
+          "@atlanteans_building/time_shift.webp@@temple/temple.webp@ to@atlanteans_building/town_center_atlantean.webp@ | Move 2 @resource/wood.webp@@atlanteans_civilian/citizen.webp@ + 1 @resource/gold.webp@@atlanteans_civilian/citizen.webp@ to @resource/food.webp@"
         ],
         "time": "4:45"
       },
@@ -388,7 +388,7 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "Next @atlanteans_civilian/citizen.png@ (+ @resource/repair.png@) to @resource/food.png@ | Bring back @other/relic.png@ with @atlanteans_hero/oracle_hero.png@"
+          "Next @atlanteans_civilian/citizen.webp@ (+ @resource/repair.webp@) to @resource/food.webp@ | Bring back @other/relic.webp@ with @atlanteans_hero/oracle_hero.webp@"
         ],
         "time": "5:35"
       }
@@ -421,7 +421,7 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "First 2 @atlanteans_civilian/citizen.png@ to @resource/wood.png@ & @resource/gold.png@ (build @atlanteans_building/manor.png@) | Next 3 @atlanteans_civilian/citizen.png@ to @animal/giraffe.png@"
+          "First 2 @atlanteans_civilian/citizen.webp@ to @resource/wood.webp@ & @resource/gold.webp@ (build @atlanteans_building/manor.webp@) | Next 3 @atlanteans_civilian/citizen.webp@ to @animal/giraffe.webp@"
         ],
         "time": "1:15"
       },
@@ -435,8 +435,8 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "Next 3 @atlanteans_civilian/citizen.png@ to @animal/giraffe.png@ | At 180 @resource/wood.png@, @resource/wood.png@@atlanteans_civilian/citizen.png@ to @animal/giraffe.png@",
-          "At 150 @resource/gold.png@, @resource/gold.png@@atlanteans_civilian/citizen.png@ builds @temple/temple.png@, then @animal/giraffe.png@ | 2:35 @age/classical_age.png@"
+          "Next 3 @atlanteans_civilian/citizen.webp@ to @animal/giraffe.webp@ | At 180 @resource/wood.webp@, @resource/wood.webp@@atlanteans_civilian/citizen.webp@ to @animal/giraffe.webp@",
+          "At 150 @resource/gold.webp@, @resource/gold.webp@@atlanteans_civilian/citizen.webp@ builds @temple/temple.webp@, then @animal/giraffe.webp@ | 2:35 @age/classical_age.webp@"
         ],
         "time": "2:30"
       },
@@ -450,8 +450,8 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "Before @age/classical_age.png@ | Move 6 @resource/food.png@@atlanteans_civilian/citizen.png@ to @resource/wood.png@ (4) & @resource/gold.png@ (2)",
-          "@atlanteans_building/time_shift.png@ @temple/temple.png@ forward (for @major_god/kronos.png@) | Build @atlanteans_building/manor.png@ on new @animal/giraffe.png@"
+          "Before @age/classical_age.webp@ | Move 6 @resource/food.webp@@atlanteans_civilian/citizen.webp@ to @resource/wood.webp@ (4) & @resource/gold.webp@ (2)",
+          "@atlanteans_building/time_shift.webp@ @temple/temple.webp@ forward (for @major_god/kronos.webp@) | Build @atlanteans_building/manor.webp@ on new @animal/giraffe.webp@"
         ],
         "time": "3:30"
       },
@@ -465,7 +465,7 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "In @age/classical_age.png@ | Build @atlanteans_building/military_barracks.png@ & @atlanteans_building/counter-barracks.png@ | Train units & adapt"
+          "In @age/classical_age.webp@ | Build @atlanteans_building/military_barracks.webp@ & @atlanteans_building/counter-barracks.webp@ | Train units & adapt"
         ],
         "time": "3:55"
       }
@@ -492,7 +492,7 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "First 2 @atlanteans_civilian/citizen.png@ to @animal/elk.png@ & @resource/wood.png@ | 3rd @atlanteans_civilian/citizen.png@ to @resource/gold.png@"
+          "First 2 @atlanteans_civilian/citizen.webp@ to @animal/elk.webp@ & @resource/wood.webp@ | 3rd @atlanteans_civilian/citizen.webp@ to @resource/gold.webp@"
         ],
         "time": "0:25"
       },
@@ -506,8 +506,8 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "Next 5 @atlanteans_civilian/citizen.png@ to @animal/elk.png@ | Build @atlanteans_building/manor.png@ (with @resource/gold.png@@atlanteans_civilian/citizen.png@)",
-          "Build @temple/temple.png@ when 150 @resource/wood.png@ & @resource/gold.png@ (with @resource/wood.png@@atlanteans_civilian/citizen.png@)"
+          "Next 5 @atlanteans_civilian/citizen.webp@ to @animal/elk.webp@ | Build @atlanteans_building/manor.webp@ (with @resource/gold.webp@@atlanteans_civilian/citizen.webp@)",
+          "Build @temple/temple.webp@ when 150 @resource/wood.webp@ & @resource/gold.webp@ (with @resource/wood.webp@@atlanteans_civilian/citizen.webp@)"
         ],
         "time": "2:30"
       },
@@ -521,7 +521,7 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "Next @atlanteans_civilian/citizen.png@ goes to @resource/gold.png@ | 2:55 @atlanteans_minor_god/prometheus.png@"
+          "Next @atlanteans_civilian/citizen.webp@ goes to @resource/gold.webp@ | 2:55 @atlanteans_minor_god/prometheus.webp@"
         ],
         "time": "2:55"
       },
@@ -535,8 +535,8 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "Before @age/classical_age.png@ | Move 2 @atlanteans_civilian/citizen.png@ from @resource/food.png@ to @resource/wood.png@",
-          "Research @economy/hand_axe.png@ & @economy/pickaxe.png@"
+          "Before @age/classical_age.webp@ | Move 2 @atlanteans_civilian/citizen.webp@ from @resource/food.webp@ to @resource/wood.webp@",
+          "Research @economy/hand_axe.webp@ & @economy/pickaxe.webp@"
         ],
         "time": "3:55"
       },
@@ -550,7 +550,7 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "In @age/classical_age.png@ | Build @atlanteans_building/military_barracks.png@ & train @atlanteans_human/murmillo.png@ | New @atlanteans_civilian/citizen.png@ to @animal/chicken.png@"
+          "In @age/classical_age.webp@ | Build @atlanteans_building/military_barracks.webp@ & train @atlanteans_human/murmillo.webp@ | New @atlanteans_civilian/citizen.webp@ to @animal/chicken.webp@"
         ],
         "time": "5:10"
       }
@@ -577,8 +577,8 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "First 2 @norse_civilian/gatherer.png@ to @animal/elk.png@ | Train 1 @norse_civilian/dwarf.png@ to @resource/gold.png@ | Build @other/house.png@",
-          "1 @norse_civilian/gatherer.png@ builds @resource/gold.png@@norse_civilian/ox_cart.png@ & @resource/wood.png@@norse_civilian/ox_cart.png@, then to @resource/wood.png@"
+          "First 2 @norse_civilian/gatherer.webp@ to @animal/elk.webp@ | Train 1 @norse_civilian/dwarf.webp@ to @resource/gold.webp@ | Build @other/house.webp@",
+          "1 @norse_civilian/gatherer.webp@ builds @resource/gold.webp@@norse_civilian/ox_cart.webp@ & @resource/wood.webp@@norse_civilian/ox_cart.webp@, then to @resource/wood.webp@"
         ],
         "time": "0:15"
       },
@@ -592,7 +592,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Next 2 @norse_civilian/gatherer.png@ go to @resource/food.png@"
+          "Next 2 @norse_civilian/gatherer.webp@ go to @resource/food.webp@"
         ],
         "time": "0:45"
       },
@@ -606,7 +606,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Next @norse_civilian/dwarf.png@ goes to @resource/gold.png@"
+          "Next @norse_civilian/dwarf.webp@ goes to @resource/gold.webp@"
         ],
         "time": "1:00"
       },
@@ -620,7 +620,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Next @norse_civilian/gatherer.png@ goes to @resource/food.png@"
+          "Next @norse_civilian/gatherer.webp@ goes to @resource/food.webp@"
         ],
         "time": "1:15"
       },
@@ -634,7 +634,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Next @norse_civilian/gatherer.png@ goes to @resource/gold.png@"
+          "Next @norse_civilian/gatherer.webp@ goes to @resource/gold.webp@"
         ],
         "time": "1:30"
       },
@@ -648,7 +648,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Next @norse_civilian/dwarf.png@ goes to @resource/gold.png@"
+          "Next @norse_civilian/dwarf.webp@ goes to @resource/gold.webp@"
         ],
         "time": "1:45"
       },
@@ -662,7 +662,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Next 2 @norse_civilian/gatherer.png@ go to @resource/food.png@ | Build @temple/temple.png@"
+          "Next 2 @norse_civilian/gatherer.webp@ go to @resource/food.webp@ | Build @temple/temple.webp@"
         ],
         "time": "2:15"
       },
@@ -676,7 +676,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Next @norse_civilian/gatherer.png@ goes to @resource/wood.png@ | @resource/gold.png@@norse_civilian/gatherer.png@ to @resource/wood.png@"
+          "Next @norse_civilian/gatherer.webp@ goes to @resource/wood.webp@ | @resource/gold.webp@@norse_civilian/gatherer.webp@ to @resource/wood.webp@"
         ],
         "time": "2:30"
       },
@@ -690,7 +690,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Next @norse_civilian/dwarf.png@ goes to @resource/gold.png@ | 2:50@age/classical_age.png@"
+          "Next @norse_civilian/dwarf.webp@ goes to @resource/gold.webp@ | 2:50@age/classical_age.webp@"
         ],
         "time": "2:45"
       },
@@ -704,7 +704,7 @@ const aom_build_orders = [
           "favor": 2
         },
         "notes": [
-          "Before @age/classical_age.png@ | Move 1 @resource/food.png@@norse_civilian/gatherer.png@ to @resource/wood.png@ | Build @other/house.png@ | Train @norse_hero/hersir.png@"
+          "Before @age/classical_age.webp@ | Move 1 @resource/food.webp@@norse_civilian/gatherer.webp@ to @resource/wood.webp@ | Build @other/house.webp@ | Train @norse_hero/hersir.webp@"
         ],
         "time": "3:45"
       },
@@ -718,7 +718,7 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "In @age/classical_age.png@ | Next 3 @norse_civilian/dwarf.png@ to @resource/gold.png@ | Build @norse_building/great_hall.png@ & @norse_building/longhouse.png@"
+          "In @age/classical_age.webp@ | Next 3 @norse_civilian/dwarf.webp@ to @resource/gold.webp@ | Build @norse_building/great_hall.webp@ & @norse_building/longhouse.webp@"
         ],
         "time": "4:30"
       }
@@ -745,8 +745,8 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "2 @norse_civilian/gatherer.png@ to @animal/giraffe.png@ with @norse_civilian/ox_cart.png@ | 3rd @norse_civilian/gatherer.png@ builds @norse_civilian/ox_cart.png@ on @resource/wood.png@",
-          "1 @norse_civilian/dwarf.png@ + 1 @norse_civilian/gatherer.png@ to @resource/gold.png@ (build @norse_civilian/ox_cart.png@ ) | Build @other/house.png@ | Cast @norse_power/great_hunt.png@"
+          "2 @norse_civilian/gatherer.webp@ to @animal/giraffe.webp@ with @norse_civilian/ox_cart.webp@ | 3rd @norse_civilian/gatherer.webp@ builds @norse_civilian/ox_cart.webp@ on @resource/wood.webp@",
+          "1 @norse_civilian/dwarf.webp@ + 1 @norse_civilian/gatherer.webp@ to @resource/gold.webp@ (build @norse_civilian/ox_cart.webp@ ) | Build @other/house.webp@ | Cast @norse_power/great_hunt.webp@"
         ],
         "time": "0:30"
       },
@@ -760,7 +760,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Next 2 @norse_civilian/gatherer.png@ to @animal/giraffe.png@"
+          "Next 2 @norse_civilian/gatherer.webp@ to @animal/giraffe.webp@"
         ],
         "time": "1:00"
       },
@@ -774,7 +774,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Add 1 @norse_civilian/dwarf.png@ on @resource/gold.png@"
+          "Add 1 @norse_civilian/dwarf.webp@ on @resource/gold.webp@"
         ],
         "time": "1:15"
       },
@@ -788,7 +788,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Add 1 @norse_civilian/gatherer.png@ on @resource/wood.png@"
+          "Add 1 @norse_civilian/gatherer.webp@ on @resource/wood.webp@"
         ],
         "time": "1:30"
       },
@@ -802,7 +802,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Add 1 @norse_civilian/dwarf.png@ on @resource/gold.png@"
+          "Add 1 @norse_civilian/dwarf.webp@ on @resource/gold.webp@"
         ],
         "time": "1:45"
       },
@@ -816,7 +816,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Add 1 @norse_civilian/gatherer.png@ on @animal/giraffe.png@"
+          "Add 1 @norse_civilian/gatherer.webp@ on @animal/giraffe.webp@"
         ],
         "time": "2:00"
       },
@@ -830,8 +830,8 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Add 1 @norse_civilian/dwarf.png@ on @resource/gold.png@, then 2 @norse_civilian/gatherer.png@ on @animal/giraffe.png@",
-          "Build @temple/temple.png@ | Move @resource/wood.png@@norse_civilian/gatherer.png@ to @animal/giraffe.png@"
+          "Add 1 @norse_civilian/dwarf.webp@ on @resource/gold.webp@, then 2 @norse_civilian/gatherer.webp@ on @animal/giraffe.webp@",
+          "Build @temple/temple.webp@ | Move @resource/wood.webp@@norse_civilian/gatherer.webp@ to @animal/giraffe.webp@"
         ],
         "time": "2:45"
       },
@@ -845,7 +845,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Add 1 @norse_civilian/dwarf.png@ to @resource/gold.png@ | 3:00 @norse_minor_god/heimdall.png@"
+          "Add 1 @norse_civilian/dwarf.webp@ to @resource/gold.webp@ | 3:00 @norse_minor_god/heimdall.webp@"
         ],
         "time": "3:00"
       },
@@ -859,8 +859,8 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Before @age/classical_age.png@ | Move 1 @resource/gold.png@@norse_civilian/gatherer.png@ + 2 @animal/giraffe.png@@norse_civilian/gatherer.png@ to @resource/wood.png@",
-          "Scout with @norse_myth/raven.png@ to find opponent @resource/wood.png@ | Build @other/house.png@"
+          "Before @age/classical_age.webp@ | Move 1 @resource/gold.webp@@norse_civilian/gatherer.webp@ + 2 @animal/giraffe.webp@@norse_civilian/gatherer.webp@ to @resource/wood.webp@",
+          "Scout with @norse_myth/raven.webp@ to find opponent @resource/wood.webp@ | Build @other/house.webp@"
         ],
         "time": "4:00"
       },
@@ -874,8 +874,8 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "In @age/classical_age.png@ | Add 3@norse_civilian/dwarf.png@ to @resource/gold.png@ | Build @armory/armory.png@ | All @resource/wood.png@@norse_civilian/gatherer.png@ to @resource/food.png@",
-          "Force drop @resource/food.png@ | 4:55 @norse_minor_god/njord.png@"
+          "In @age/classical_age.webp@ | Add 3@norse_civilian/dwarf.webp@ to @resource/gold.webp@ | Build @armory/armory.webp@ | All @resource/wood.webp@@norse_civilian/gatherer.webp@ to @resource/food.webp@",
+          "Force drop @resource/food.webp@ | 4:55 @norse_minor_god/njord.webp@"
         ],
         "time": "4:55"
       },
@@ -889,8 +889,8 @@ const aom_build_orders = [
           "favor": 2
         },
         "notes": [
-          "Before @age/heroic_age.png@ | Move 5 @resource/food.png@@norse_civilian/gatherer.png@ to @resource/wood.png@",
-          "Build @other/house.png@+@norse_building/longhouse.png@ | Train @norse_hero/hersir.png@"
+          "Before @age/heroic_age.webp@ | Move 5 @resource/food.webp@@norse_civilian/gatherer.webp@ to @resource/wood.webp@",
+          "Build @other/house.webp@+@norse_building/longhouse.webp@ | Train @norse_hero/hersir.webp@"
         ],
         "time": "6:10"
       },
@@ -904,7 +904,7 @@ const aom_build_orders = [
           "favor": -1
         },
         "notes": [
-          "In @age/heroic_age.png@ | Cast @norse_power/walking_woods_power.png@ & @norse_power/undermine.png@ (towards @norse_building/town_center_norse.png@) | Attack"
+          "In @age/heroic_age.webp@ | Cast @norse_power/walking_woods_power.webp@ & @norse_power/undermine.webp@ (towards @norse_building/town_center_norse.webp@) | Attack"
         ],
         "time": "6:11"
       }
@@ -931,7 +931,7 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "First 2 @atlanteans_civilian/citizen.png@ on @animal/giraffe.png@ & @resource/wood.png@ | Next @atlanteans_civilian/citizen.png@ to @resource/gold.png@"
+          "First 2 @atlanteans_civilian/citizen.webp@ on @animal/giraffe.webp@ & @resource/wood.webp@ | Next @atlanteans_civilian/citizen.webp@ to @resource/gold.webp@"
         ],
         "time": "0:25"
       },
@@ -945,8 +945,8 @@ const aom_build_orders = [
           "favor": 3
         },
         "notes": [
-          "Next 6 @atlanteans_civilian/citizen.png@ on @resource/food.png@ | Build @atlanteans_building/manor.png@ with @resource/gold.png@@atlanteans_civilian/citizen.png@",
-          "At 150 @resource/wood.png@&@resource/gold.png@, build @temple/temple.png@ with @resource/wood.png@@atlanteans_civilian/citizen.png@ | 2:55 @age/classical_age.png@"
+          "Next 6 @atlanteans_civilian/citizen.webp@ on @resource/food.webp@ | Build @atlanteans_building/manor.webp@ with @resource/gold.webp@@atlanteans_civilian/citizen.webp@",
+          "At 150 @resource/wood.webp@&@resource/gold.webp@, build @temple/temple.webp@ with @resource/wood.webp@@atlanteans_civilian/citizen.webp@ | 2:55 @age/classical_age.webp@"
         ],
         "time": "2:55"
       },
@@ -960,8 +960,8 @@ const aom_build_orders = [
           "favor": 4
         },
         "notes": [
-          "Before @age/classical_age.png@ | Move 3 @resource/food.png@@atlanteans_civilian/citizen.png@ to @resource/wood.png@(2) & @resource/gold.png@(1)",
-          "Build @atlanteans_building/economic_guild.png@ | Research @economy/hand_axe.png@ &@economy/pickaxe.png@ | Train 1 extra @atlanteans_human/oracle_unit.png@"
+          "Before @age/classical_age.webp@ | Move 3 @resource/food.webp@@atlanteans_civilian/citizen.webp@ to @resource/wood.webp@(2) & @resource/gold.webp@(1)",
+          "Build @atlanteans_building/economic_guild.webp@ | Research @economy/hand_axe.webp@ &@economy/pickaxe.webp@ | Train 1 extra @atlanteans_human/oracle_unit.webp@"
         ],
         "time": "3:55"
       },
@@ -975,7 +975,7 @@ const aom_build_orders = [
           "favor": 4
         },
         "notes": [
-          "In @age/classical_age.png@ | Build @atlanteans_building/manor.png@, @atlanteans_building/military_barracks.png@ and/or @atlanteans_building/counter-barracks.png@ | Adapt"
+          "In @age/classical_age.webp@ | Build @atlanteans_building/manor.webp@, @atlanteans_building/military_barracks.webp@ and/or @atlanteans_building/counter-barracks.webp@ | Adapt"
         ],
         "time": "4:20"
       }
@@ -1003,8 +1003,8 @@ const aom_build_orders = [
           "builder": 1
         },
         "notes": [
-          "First 3 @egyptians_civilian/laborer.png@ to @animal/giraffe.png@ (build @egyptians_building/granary.png@) | Next @egyptians_civilian/laborer.png@ builds @egyptians_building/monument_to_villagers.png@",
-          "@egyptians_hero/pharaoh.png@ on @egyptians_building/granary.png@, @egyptians_hero/priest.png@ on @egyptians_building/monument_to_villagers.png@"
+          "First 3 @egyptians_civilian/laborer.webp@ to @animal/giraffe.webp@ (build @egyptians_building/granary.webp@) | Next @egyptians_civilian/laborer.webp@ builds @egyptians_building/monument_to_villagers.webp@",
+          "@egyptians_hero/pharaoh.webp@ on @egyptians_building/granary.webp@, @egyptians_hero/priest.webp@ on @egyptians_building/monument_to_villagers.webp@"
         ],
         "time": "0:15"
       },
@@ -1018,7 +1018,7 @@ const aom_build_orders = [
           "favor": 1
         },
         "notes": [
-          "Next 2 @egyptians_civilian/laborer.png@ (+@resource/repair.png@) on @resource/gold.png@ (build @egyptians_building/mining_camp.png@) | @egyptians_hero/priest.png@ on @egyptians_building/mining_camp.png@"
+          "Next 2 @egyptians_civilian/laborer.webp@ (+@resource/repair.webp@) on @resource/gold.webp@ (build @egyptians_building/mining_camp.webp@) | @egyptians_hero/priest.webp@ on @egyptians_building/mining_camp.webp@"
         ],
         "time": "0:45"
       },
@@ -1032,8 +1032,8 @@ const aom_build_orders = [
           "favor": 1
         },
         "notes": [
-          "Next 6 @egyptians_civilian/laborer.png@ on @animal/giraffe.png@",
-          "Build @temple/temple.png@ (2 @resource/gold.png@@egyptians_civilian/laborer.png@ + @egyptians_hero/priest.png@) & @other/house.png@ (1 @resource/gold.png@@egyptians_civilian/laborer.png@)"
+          "Next 6 @egyptians_civilian/laborer.webp@ on @animal/giraffe.webp@",
+          "Build @temple/temple.webp@ (2 @resource/gold.webp@@egyptians_civilian/laborer.webp@ + @egyptians_hero/priest.webp@) & @other/house.webp@ (1 @resource/gold.webp@@egyptians_civilian/laborer.webp@)"
         ],
         "time": "2:15"
       },
@@ -1047,7 +1047,7 @@ const aom_build_orders = [
           "favor": 1
         },
         "notes": [
-          "Next 2 @egyptians_civilian/laborer.png@ on @resource/gold.png@ | 2:40 @egyptians_minor_god/ptah.png@"
+          "Next 2 @egyptians_civilian/laborer.webp@ on @resource/gold.webp@ | 2:40 @egyptians_minor_god/ptah.webp@"
         ],
         "time": "2:45"
       },
@@ -1061,7 +1061,7 @@ const aom_build_orders = [
           "favor": 1
         },
         "notes": [
-          "Before @age/classical_age.png@ | Move 6 @resource/food.png@@egyptians_civilian/laborer.png@ to @resource/gold.png@ | Swap @egyptians_hero/priest.png@ & @egyptians_hero/pharaoh.png@"
+          "Before @age/classical_age.webp@ | Move 6 @resource/food.webp@@egyptians_civilian/laborer.webp@ to @resource/gold.webp@ | Swap @egyptians_hero/priest.webp@ & @egyptians_hero/pharaoh.webp@"
         ],
         "time": "3:45"
       },
@@ -1076,8 +1076,8 @@ const aom_build_orders = [
           "builder": 7
         },
         "notes": [
-          "In @age/classical_age.png@ | Build @egyptians_building/town_center_egyptian.png@ on @animal/chicken.png@ with 7 @resource/gold.png@@egyptians_civilian/laborer.png@ & @egyptians_hero/pharaoh.png@ (then on @animal/chicken.png@)",
-          "Move 4 @resource/gold.png@@egyptians_civilian/laborer.png@ to @resource/wood.png@ (build @egyptians_building/lumber_camp.png@) | Next 2 @egyptians_civilian/laborer.png@ to @resource/gold.png@"
+          "In @age/classical_age.webp@ | Build @egyptians_building/town_center_egyptian.webp@ on @animal/chicken.webp@ with 7 @resource/gold.webp@@egyptians_civilian/laborer.webp@ & @egyptians_hero/pharaoh.webp@ (then on @animal/chicken.webp@)",
+          "Move 4 @resource/gold.webp@@egyptians_civilian/laborer.webp@ to @resource/wood.webp@ (build @egyptians_building/lumber_camp.webp@) | Next 2 @egyptians_civilian/laborer.webp@ to @resource/gold.webp@"
         ],
         "time": "4:15"
       },
@@ -1091,9 +1091,9 @@ const aom_build_orders = [
           "favor": 1
         },
         "notes": [
-          "All next @egyptians_civilian/laborer.png@ to @resource/gold.png@ | Research @economy/pickaxe.png@, @egyptians_tech/shaduf.png@, @economy/husbandry.png@ & @economy/plow.png@",
-          "After @animal/giraffe.png@, move 3 @animal/giraffe.png@@egyptians_civilian/laborer.png@ (+@egyptians_hero/priest.png@) to @resource/gold.png@",
-          "Build @armory/armory.png@, several @other/house.png@ & @market/market.png@"
+          "All next @egyptians_civilian/laborer.webp@ to @resource/gold.webp@ | Research @economy/pickaxe.webp@, @egyptians_tech/shaduf.webp@, @economy/husbandry.webp@ & @economy/plow.webp@",
+          "After @animal/giraffe.webp@, move 3 @animal/giraffe.webp@@egyptians_civilian/laborer.webp@ (+@egyptians_hero/priest.webp@) to @resource/gold.webp@",
+          "Build @armory/armory.webp@, several @other/house.webp@ & @market/market.webp@"
         ],
         "time": "5:20"
       },
@@ -1107,8 +1107,8 @@ const aom_build_orders = [
           "favor": 1
         },
         "notes": [
-          "After @egyptians_tech/shaduf.png@, build @other/farm.png@ on 1st @egyptians_building/town_center_egyptian.png@ (also with @animal/chicken.png@@egyptians_civilian/laborer.png@)",
-          "Cast @egyptians_power/rain.png@ after @economy/plow.png@ | Build 14 @other/farm.png@ | Build @egyptians_building/monument_to_villagers.png@"
+          "After @egyptians_tech/shaduf.webp@, build @other/farm.webp@ on 1st @egyptians_building/town_center_egyptian.webp@ (also with @animal/chicken.webp@@egyptians_civilian/laborer.webp@)",
+          "Cast @egyptians_power/rain.webp@ after @economy/plow.webp@ | Build 14 @other/farm.webp@ | Build @egyptians_building/monument_to_villagers.webp@"
         ],
         "time": "6:54"
       }
@@ -1135,8 +1135,8 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "First 4 @greeks_civilian/villager_greek.png@ to @animal/giraffe.png@ (build @greeks_building/granary.png@)",
-          "Next @greeks_civilian/villager_greek.png@ goes to @resource/wood.png@ (build @greeks_building/storehouse.png@)"
+          "First 4 @greeks_civilian/villager_greek.webp@ to @animal/giraffe.webp@ (build @greeks_building/granary.webp@)",
+          "Next @greeks_civilian/villager_greek.webp@ goes to @resource/wood.webp@ (build @greeks_building/storehouse.webp@)"
         ],
         "time": "0:15"
       },
@@ -1150,7 +1150,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Next 2 @greeks_civilian/villager_greek.png@ to @resource/gold.png@ (build @greeks_building/storehouse.png@)"
+          "Next 2 @greeks_civilian/villager_greek.webp@ to @resource/gold.webp@ (build @greeks_building/storehouse.webp@)"
         ],
         "time": "0:45"
       },
@@ -1164,7 +1164,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Next 4 @greeks_civilian/villager_greek.png@ to @animal/giraffe.png@"
+          "Next 4 @greeks_civilian/villager_greek.webp@ to @animal/giraffe.webp@"
         ],
         "time": "1:45"
       },
@@ -1178,7 +1178,7 @@ const aom_build_orders = [
           "favor": 0
         },
         "notes": [
-          "Next 2 @greeks_civilian/villager_greek.png@ to @resource/gold.png@ | Build @temple/temple.png@ with @resource/gold.png@@greeks_civilian/villager_greek.png@"
+          "Next 2 @greeks_civilian/villager_greek.webp@ to @resource/gold.webp@ | Build @temple/temple.webp@ with @resource/gold.webp@@greeks_civilian/villager_greek.webp@"
         ],
         "time": "2:15"
       },
@@ -1192,8 +1192,8 @@ const aom_build_orders = [
           "favor": 2
         },
         "notes": [
-          "Build 1 @other/house.png@ with @resource/food.png@@greeks_civilian/villager_greek.png@ | Next 2 @greeks_civilian/villager_greek.png@ to @resource/favor.png@",
-          "Drop off @resource/food.png@ | 2:45 @greeks_minor_god/athena.png@"
+          "Build 1 @other/house.webp@ with @resource/food.webp@@greeks_civilian/villager_greek.webp@ | Next 2 @greeks_civilian/villager_greek.webp@ to @resource/favor.webp@",
+          "Drop off @resource/food.webp@ | 2:45 @greeks_minor_god/athena.webp@"
         ],
         "time": "2:45"
       },
@@ -1207,7 +1207,7 @@ const aom_build_orders = [
           "favor": 2
         },
         "notes": [
-          "Before @age/classical_age.png@ | Move 3 @resource/food.png@@greeks_civilian/villager_greek.png@ to @resource/wood.png@ | Train @greeks_hero/jason.png@"
+          "Before @age/classical_age.webp@ | Move 3 @resource/food.webp@@greeks_civilian/villager_greek.webp@ to @resource/wood.webp@ | Train @greeks_hero/jason.webp@"
         ],
         "time": "3:45"
       },
@@ -1221,8 +1221,8 @@ const aom_build_orders = [
           "favor": 2
         },
         "notes": [
-          "In @age/classical_age.png@ | Build @greeks_building/military_academy.png@ + 2 @other/house.png@ | Train 3 extra @greeks_myth/minotaur.png@",
-          "Next 3@greeks_civilian/villager_greek.png@ to @resource/food.png@"
+          "In @age/classical_age.webp@ | Build @greeks_building/military_academy.webp@ + 2 @other/house.webp@ | Train 3 extra @greeks_myth/minotaur.webp@",
+          "Next 3@greeks_civilian/villager_greek.webp@ to @resource/food.webp@"
         ],
         "time": "4:30"
       },
@@ -1236,7 +1236,7 @@ const aom_build_orders = [
           "favor": 4
         },
         "notes": [
-          "Next 2 @greeks_civilian/villager_greek.png@ to @temple/temple.png@ | Train @greeks_human/hoplite.png@ +@greeks_hero/heracles.png@"
+          "Next 2 @greeks_civilian/villager_greek.webp@ to @temple/temple.webp@ | Train @greeks_human/hoplite.webp@ +@greeks_hero/heracles.webp@"
         ],
         "time": "5:00"
       },
@@ -1250,7 +1250,7 @@ const aom_build_orders = [
           "favor": 4
         },
         "notes": [
-          "Add 1 @greeks_civilian/villager_greek.png@ to @resource/wood.png@ & 6 @greeks_civilian/villager_greek.png@ to @resource/gold.png@ | Research @greeks_tech/labyrinth_of_minos.png@ + @greeks_tech/sarissa.png@"
+          "Add 1 @greeks_civilian/villager_greek.webp@ to @resource/wood.webp@ & 6 @greeks_civilian/villager_greek.webp@ to @resource/gold.webp@ | Research @greeks_tech/labyrinth_of_minos.webp@ + @greeks_tech/sarissa.webp@"
         ],
         "time": "6:45"
       }

@@ -15,7 +15,7 @@
         "stone": 0
       },
       "notes": [
-        "2 @other/House_aoe2DE.png@ + 6 on @animal/Sheep_aoe2DE.png@"
+        "2 @other/House_aoe2DE.webp@ + 6 on @animal/Sheep_aoe2DE.webp@"
       ],
       "time": "1:15"
     },
@@ -29,7 +29,7 @@
         "stone": 0
       },
       "notes": [
-        "4 on @resource/Aoe2de_wood.png@ | Push 3 @animal/Deer_aoe2DE.png@"
+        "4 on @resource/Aoe2de_wood.webp@ | Push 3 @animal/Deer_aoe2DE.webp@"
       ],
       "time": "2:55"
     },
@@ -43,7 +43,7 @@
         "stone": 0
       },
       "notes": [
-        "1 on @animal/Deer_aoe2DE.png@"
+        "1 on @animal/Deer_aoe2DE.webp@"
       ],
       "time": "3:20"
     },
@@ -57,7 +57,7 @@
         "stone": 0
       },
       "notes": [
-        "2 @other/House_aoe2DE.png@ + @mill/Mill_aoe2de.png@ + 4 on @resource/BerryBushDE.png@"
+        "2 @other/House_aoe2DE.webp@ + @mill/Mill_aoe2de.webp@ + 4 on @resource/BerryBushDE.webp@"
       ],
       "time": "5:00"
     },
@@ -71,7 +71,7 @@
         "stone": 0
       },
       "notes": [
-        "1 Lures @animal/Boar_aoe2DE.png@ + 3 More on @animal/Boar_aoe2DE.png@"
+        "1 Lures @animal/Boar_aoe2DE.webp@ + 3 More on @animal/Boar_aoe2DE.webp@"
       ],
       "time": "6:40"
     },
@@ -85,7 +85,7 @@
         "stone": 0
       },
       "notes": [
-        "3 on @resource/Aoe2de_wood.png@"
+        "3 on @resource/Aoe2de_wood.webp@"
       ],
       "time": "7:55"
     },
@@ -99,7 +99,7 @@
         "stone": 0
       },
       "notes": [
-        "2 on @resource/Aoe2de_gold.png@ | Research 25 Pop @age/FeudalAgeIconDE_alpha.png@"
+        "2 on @resource/Aoe2de_gold.webp@ | Research 25 Pop @age/FeudalAgeIconDE_alpha.webp@"
       ],
       "time": "8:45"
     },
@@ -113,7 +113,7 @@
         "stone": 0
       },
       "notes": [
-        "Before @age/FeudalAgeIconDE_alpha.png@ | Build @barracks/Barracks_aoe2DE.png@ & @other/House_aoe2DE.png@ | Seed 3 @mill/FarmDE.png@"
+        "Before @age/FeudalAgeIconDE_alpha.webp@ | Build @barracks/Barracks_aoe2DE.webp@ & @other/House_aoe2DE.webp@ | Seed 3 @mill/FarmDE.webp@"
       ],
       "time": "10:55"
     },
@@ -127,7 +127,7 @@
         "stone": 0
       },
       "notes": [
-        "In @age/FeudalAgeIconDE_alpha.png@ | Build @archery_range/Archery_range_aoe2DE.png@ + @blacksmith/Blacksmith_aoe2de.png@ | 1 on @resource/Aoe2de_wood.png@"
+        "In @age/FeudalAgeIconDE_alpha.webp@ | Build @archery_range/Archery_range_aoe2DE.webp@ + @blacksmith/Blacksmith_aoe2de.webp@ | 1 on @resource/Aoe2de_wood.webp@"
       ],
       "time": "11:20"
     },
@@ -141,7 +141,7 @@
         "stone": 0
       },
       "notes": [
-        "1 on @resource/Aoe2de_gold.png@ | Research @age/CastleAgeIconDE_alpha.png@"
+        "1 on @resource/Aoe2de_gold.webp@ | Research @age/CastleAgeIconDE_alpha.webp@"
       ],
       "time": "11:45"
     },
@@ -155,7 +155,7 @@
         "stone": 0
       },
       "notes": [
-        "Before @age/CastleAgeIconDE_alpha.png@ | @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to straggler/@mill/FarmDE.png@"
+        "Before @age/CastleAgeIconDE_alpha.webp@ | @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to straggler/@mill/FarmDE.webp@"
       ],
       "time": "14:25"
     },
@@ -169,8 +169,8 @@
         "stone": 0
       },
       "notes": [
-        "In @age/CastleAgeIconDE_alpha.png@ | 1 @resource/Aoe2de_wood.png@ \u2192 1 @resource/Aoe2de_gold.png@ | 3 on @resource/Aoe2de_gold.png@ | Continue @mill/FarmDE.png@ & @resource/Aoe2de_wood.png@",
-        "Build @archery_range/Archery_range_aoe2DE.png@ + @other/House_aoe2DE.png@ + @university/University_AoE2_DE.png@ (research @university/ChemistryDE.png@) | Train @archery_range/Hand_cannoneer_aoe2DE.png@"
+        "In @age/CastleAgeIconDE_alpha.webp@ | 1 @resource/Aoe2de_wood.webp@ \u2192 1 @resource/Aoe2de_gold.webp@ | 3 on @resource/Aoe2de_gold.webp@ | Continue @mill/FarmDE.webp@ & @resource/Aoe2de_wood.webp@",
+        "Build @archery_range/Archery_range_aoe2DE.webp@ + @other/House_aoe2DE.webp@ + @university/University_AoE2_DE.webp@ (research @university/ChemistryDE.webp@) | Train @archery_range/Hand_cannoneer_aoe2DE.webp@"
       ],
       "time": "15:40"
     }

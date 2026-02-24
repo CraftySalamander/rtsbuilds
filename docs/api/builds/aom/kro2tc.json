@@ -14,7 +14,7 @@
         "favor": 3
       },
       "notes": [
-        "First 2 @atlanteans_civilian/citizen.png@ to @animal/giraffe.png@ | 3rd @atlanteans_civilian/citizen.png@ to @resource/gold.png@"
+        "First 2 @atlanteans_civilian/citizen.webp@ to @animal/giraffe.webp@ | 3rd @atlanteans_civilian/citizen.webp@ to @resource/gold.webp@"
       ],
       "time": "0:25"
     },
@@ -28,7 +28,7 @@
         "favor": 3
       },
       "notes": [
-        "Next 2 @atlanteans_civilian/citizen.png@ to @resource/wood.png@ | Build @atlanteans_building/manor.png@ with @resource/wood.png@@atlanteans_civilian/citizen.png@"
+        "Next 2 @atlanteans_civilian/citizen.webp@ to @resource/wood.webp@ | Build @atlanteans_building/manor.webp@ with @resource/wood.webp@@atlanteans_civilian/citizen.webp@"
       ],
       "time": "1:15"
     },
@@ -43,7 +43,7 @@
         "builder": 1
       },
       "notes": [
-        "Next @atlanteans_civilian/citizen.png@ goes to @animal/giraffe.png@ | Build @temple/temple.png@ with @resource/gold.png@@atlanteans_civilian/citizen.png@, then to @resource/berry.png@"
+        "Next @atlanteans_civilian/citizen.webp@ goes to @animal/giraffe.webp@ | Build @temple/temple.webp@ with @resource/gold.webp@@atlanteans_civilian/citizen.webp@, then to @resource/berry.webp@"
       ],
       "time": "1:40"
     },
@@ -57,8 +57,8 @@
         "favor": 3
       },
       "notes": [
-        "Next 2 @atlanteans_civilian/citizen.png@ go to @animal/giraffe.png@ | @atlanteans_building/time_shift.png@@temple/temple.png@",
-        "At 30 @resource/wood.png@, move 2 @resource/wood.png@@atlanteans_civilian/citizen.png@ to @animal/chicken.png@"
+        "Next 2 @atlanteans_civilian/citizen.webp@ go to @animal/giraffe.webp@ | @atlanteans_building/time_shift.webp@@temple/temple.webp@",
+        "At 30 @resource/wood.webp@, move 2 @resource/wood.webp@@atlanteans_civilian/citizen.webp@ to @animal/chicken.webp@"
       ],
       "time": "2:30"
     },
@@ -72,7 +72,7 @@
         "favor": 3
       },
       "notes": [
-        "Next @atlanteans_civilian/citizen.png@ goes to @resource/gold.png@ | 2:55 @atlanteans_minor_god/prometheus.png@"
+        "Next @atlanteans_civilian/citizen.webp@ goes to @resource/gold.webp@ | 2:55 @atlanteans_minor_god/prometheus.webp@"
       ],
       "time": "2:55"
     },
@@ -86,8 +86,8 @@
         "favor": 3
       },
       "notes": [
-        "Before @age/classical_age.png@ | Move 6 @resource/food.png@@atlanteans_civilian/citizen.png@ to @resource/wood.png@(4) & @resource/gold.png@(2)",
-        "Build 2 @atlanteans_building/manor.png@ & @atlanteans_building/time_shift.png@ all @atlanteans_building/manor.png@ next to @atlanteans_building/town_center_atlantean.png@"
+        "Before @age/classical_age.webp@ | Move 6 @resource/food.webp@@atlanteans_civilian/citizen.webp@ to @resource/wood.webp@(4) & @resource/gold.webp@(2)",
+        "Build 2 @atlanteans_building/manor.webp@ & @atlanteans_building/time_shift.webp@ all @atlanteans_building/manor.webp@ next to @atlanteans_building/town_center_atlantean.webp@"
       ],
       "time": "3:55"
     },
@@ -101,7 +101,7 @@
         "favor": 3
       },
       "notes": [
-        "In @age/classical_age.png@ | Attack with 2@atlanteans_myth/promethean.png@ | Next @atlanteans_civilian/citizen.png@ (as @atlanteans_hero/citizen_hero.png@) to @resource/gold.png@"
+        "In @age/classical_age.webp@ | Attack with 2@atlanteans_myth/promethean.webp@ | Next @atlanteans_civilian/citizen.webp@ (as @atlanteans_hero/citizen_hero.webp@) to @resource/gold.webp@"
       ],
       "time": "4:20"
     },
@@ -116,8 +116,8 @@
         "builder": 2
       },
       "notes": [
-        "Next @atlanteans_civilian/citizen.png@ (as @atlanteans_hero/citizen_hero.png@) and @resource/gold.png@@atlanteans_hero/citizen_hero.png@ build 2nd @atlanteans_building/town_center_atlantean.png@",
-        "@atlanteans_building/time_shift.png@@temple/temple.png@ to@atlanteans_building/town_center_atlantean.png@ | Move 2 @resource/wood.png@@atlanteans_civilian/citizen.png@ + 1 @resource/gold.png@@atlanteans_civilian/citizen.png@ to @resource/food.png@"
+        "Next @atlanteans_civilian/citizen.webp@ (as @atlanteans_hero/citizen_hero.webp@) and @resource/gold.webp@@atlanteans_hero/citizen_hero.webp@ build 2nd @atlanteans_building/town_center_atlantean.webp@",
+        "@atlanteans_building/time_shift.webp@@temple/temple.webp@ to@atlanteans_building/town_center_atlantean.webp@ | Move 2 @resource/wood.webp@@atlanteans_civilian/citizen.webp@ + 1 @resource/gold.webp@@atlanteans_civilian/citizen.webp@ to @resource/food.webp@"
       ],
       "time": "4:45"
     },
@@ -131,7 +131,7 @@
         "favor": 3
       },
       "notes": [
-        "Next @atlanteans_civilian/citizen.png@ (+ @resource/repair.png@) to @resource/food.png@ | Bring back @other/relic.png@ with @atlanteans_hero/oracle_hero.png@"
+        "Next @atlanteans_civilian/citizen.webp@ (+ @resource/repair.webp@) to @resource/food.webp@ | Bring back @other/relic.webp@ with @atlanteans_hero/oracle_hero.webp@"
       ],
       "time": "5:35"
     }

@@ -17,7 +17,7 @@
         "favor": 3
       },
       "notes": [
-        "First 2 @atlanteans_civilian/citizen.png@ to @resource/wood.png@ & @resource/gold.png@ (build @atlanteans_building/manor.png@) | Next 3 @atlanteans_civilian/citizen.png@ to @animal/giraffe.png@"
+        "First 2 @atlanteans_civilian/citizen.webp@ to @resource/wood.webp@ & @resource/gold.webp@ (build @atlanteans_building/manor.webp@) | Next 3 @atlanteans_civilian/citizen.webp@ to @animal/giraffe.webp@"
       ],
       "time": "1:15"
     },
@@ -31,8 +31,8 @@
         "favor": 3
       },
       "notes": [
-        "Next 3 @atlanteans_civilian/citizen.png@ to @animal/giraffe.png@ | At 180 @resource/wood.png@, @resource/wood.png@@atlanteans_civilian/citizen.png@ to @animal/giraffe.png@",
-        "At 150 @resource/gold.png@, @resource/gold.png@@atlanteans_civilian/citizen.png@ builds @temple/temple.png@, then @animal/giraffe.png@ | 2:35 @age/classical_age.png@"
+        "Next 3 @atlanteans_civilian/citizen.webp@ to @animal/giraffe.webp@ | At 180 @resource/wood.webp@, @resource/wood.webp@@atlanteans_civilian/citizen.webp@ to @animal/giraffe.webp@",
+        "At 150 @resource/gold.webp@, @resource/gold.webp@@atlanteans_civilian/citizen.webp@ builds @temple/temple.webp@, then @animal/giraffe.webp@ | 2:35 @age/classical_age.webp@"
       ],
       "time": "2:30"
     },
@@ -46,8 +46,8 @@
         "favor": 3
       },
       "notes": [
-        "Before @age/classical_age.png@ | Move 6 @resource/food.png@@atlanteans_civilian/citizen.png@ to @resource/wood.png@ (4) & @resource/gold.png@ (2)",
-        "@atlanteans_building/time_shift.png@ @temple/temple.png@ forward (for @major_god/kronos.png@) | Build @atlanteans_building/manor.png@ on new @animal/giraffe.png@"
+        "Before @age/classical_age.webp@ | Move 6 @resource/food.webp@@atlanteans_civilian/citizen.webp@ to @resource/wood.webp@ (4) & @resource/gold.webp@ (2)",
+        "@atlanteans_building/time_shift.webp@ @temple/temple.webp@ forward (for @major_god/kronos.webp@) | Build @atlanteans_building/manor.webp@ on new @animal/giraffe.webp@"
       ],
       "time": "3:30"
     },
@@ -61,7 +61,7 @@
         "favor": 3
       },
       "notes": [
-        "In @age/classical_age.png@ | Build @atlanteans_building/military_barracks.png@ & @atlanteans_building/counter-barracks.png@ | Train units & adapt"
+        "In @age/classical_age.webp@ | Build @atlanteans_building/military_barracks.webp@ & @atlanteans_building/counter-barracks.webp@ | Train units & adapt"
       ],
       "time": "3:55"
     }

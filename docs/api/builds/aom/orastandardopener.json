@@ -14,7 +14,7 @@
         "favor": 3
       },
       "notes": [
-        "First 2 @atlanteans_civilian/citizen.png@ on @animal/giraffe.png@ & @resource/wood.png@ | Next @atlanteans_civilian/citizen.png@ to @resource/gold.png@"
+        "First 2 @atlanteans_civilian/citizen.webp@ on @animal/giraffe.webp@ & @resource/wood.webp@ | Next @atlanteans_civilian/citizen.webp@ to @resource/gold.webp@"
       ],
       "time": "0:25"
     },
@@ -28,8 +28,8 @@
         "favor": 3
       },
       "notes": [
-        "Next 6 @atlanteans_civilian/citizen.png@ on @resource/food.png@ | Build @atlanteans_building/manor.png@ with @resource/gold.png@@atlanteans_civilian/citizen.png@",
-        "At 150 @resource/wood.png@&@resource/gold.png@, build @temple/temple.png@ with @resource/wood.png@@atlanteans_civilian/citizen.png@ | 2:55 @age/classical_age.png@"
+        "Next 6 @atlanteans_civilian/citizen.webp@ on @resource/food.webp@ | Build @atlanteans_building/manor.webp@ with @resource/gold.webp@@atlanteans_civilian/citizen.webp@",
+        "At 150 @resource/wood.webp@&@resource/gold.webp@, build @temple/temple.webp@ with @resource/wood.webp@@atlanteans_civilian/citizen.webp@ | 2:55 @age/classical_age.webp@"
       ],
       "time": "2:55"
     },
@@ -43,8 +43,8 @@
         "favor": 4
       },
       "notes": [
-        "Before @age/classical_age.png@ | Move 3 @resource/food.png@@atlanteans_civilian/citizen.png@ to @resource/wood.png@(2) & @resource/gold.png@(1)",
-        "Build @atlanteans_building/economic_guild.png@ | Research @economy/hand_axe.png@ &@economy/pickaxe.png@ | Train 1 extra @atlanteans_human/oracle_unit.png@"
+        "Before @age/classical_age.webp@ | Move 3 @resource/food.webp@@atlanteans_civilian/citizen.webp@ to @resource/wood.webp@(2) & @resource/gold.webp@(1)",
+        "Build @atlanteans_building/economic_guild.webp@ | Research @economy/hand_axe.webp@ &@economy/pickaxe.webp@ | Train 1 extra @atlanteans_human/oracle_unit.webp@"
       ],
       "time": "3:55"
     },
@@ -58,7 +58,7 @@
         "favor": 4
       },
       "notes": [
-        "In @age/classical_age.png@ | Build @atlanteans_building/manor.png@, @atlanteans_building/military_barracks.png@ and/or @atlanteans_building/counter-barracks.png@ | Adapt"
+        "In @age/classical_age.webp@ | Build @atlanteans_building/manor.webp@, @atlanteans_building/military_barracks.webp@ and/or @atlanteans_building/counter-barracks.webp@ | Adapt"
       ],
       "time": "4:20"
     }

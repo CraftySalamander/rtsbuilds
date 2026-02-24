@@ -14,8 +14,8 @@
         "favor": 1
       },
       "notes": [
-        "5 @japanese_civilian/commoner.png@ on @animal/giraffe.png@ (build @japanese_building/watermill.png@)",
-        "Build @japanese_building/shrine.png@ with @japanese_hero/miko.png@ | Scout with @japanese_myth/kitsune.png@"
+        "5 @japanese_civilian/commoner.webp@ on @animal/giraffe.webp@ (build @japanese_building/watermill.webp@)",
+        "Build @japanese_building/shrine.webp@ with @japanese_hero/miko.webp@ | Scout with @japanese_myth/kitsune.webp@"
       ]
     },
     {
@@ -28,7 +28,7 @@
         "favor": 1
       },
       "notes": [
-        "Next 2 @japanese_civilian/commoner.png@ on @resource/wood.png@ (build @japanese_building/watermill.png@)"
+        "Next 2 @japanese_civilian/commoner.webp@ on @resource/wood.webp@ (build @japanese_building/watermill.webp@)"
       ]
     },
     {
@@ -41,7 +41,7 @@
         "favor": 1
       },
       "notes": [
-        "Next 2 @japanese_civilian/commoner.png@ on @resource/food.png@ | Pre-queue @japanese_tech/kagura.png@ | Build @temple/temple.png@"
+        "Next 2 @japanese_civilian/commoner.webp@ on @resource/food.webp@ | Pre-queue @japanese_tech/kagura.webp@ | Build @temple/temple.webp@"
       ]
     },
     {
@@ -54,8 +54,8 @@
         "favor": 1
       },
       "notes": [
-        "2nd @japanese_hero/miko.png@ search @other/relic.png@| Add 3 @japanese_civilian/commoner.png@ on @resource/wood.png@ | Upgrade @japanese_tech/sacred_custodians.png@",
-        "Build @japanese_building/shrine.png@ with 2nd @japanese_hero/miko.png@ | Age up with @japanese_minor_god/ame-no-uzume.png@ | Build @other/house.png@"
+        "2nd @japanese_hero/miko.webp@ search @other/relic.webp@| Add 3 @japanese_civilian/commoner.webp@ on @resource/wood.webp@ | Upgrade @japanese_tech/sacred_custodians.webp@",
+        "Build @japanese_building/shrine.webp@ with 2nd @japanese_hero/miko.webp@ | Age up with @japanese_minor_god/ame-no-uzume.webp@ | Build @other/house.webp@"
       ]
     }
   ]

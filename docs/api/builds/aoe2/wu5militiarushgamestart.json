@@ -15,9 +15,9 @@
         "stone": 0
       },
       "notes": [
-        "Build @barracks/Barracks_aoe2DE.png@ with 2 @resource/villager.jpg@, then to @resource/Aoe2de_wood.png@ (@resource/tree.png@)",
-        "Build 1 @other/House_aoe2DE.png@ with 1 @resource/villager.jpg@, then to @animal/Sheep_aoe2DE.png@ | Train 2 @barracks/MilitiaDE.png@",
-        "Next 3 @resource/villager.jpg@ to @animal/Sheep_aoe2DE.png@ (stop @resource/villager.jpg@ production)"
+        "Build @barracks/Barracks_aoe2DE.webp@ with 2 @resource/villager.webp@, then to @resource/Aoe2de_wood.webp@ (@resource/tree.webp@)",
+        "Build 1 @other/House_aoe2DE.webp@ with 1 @resource/villager.webp@, then to @animal/Sheep_aoe2DE.webp@ | Train 2 @barracks/MilitiaDE.webp@",
+        "Next 3 @resource/villager.webp@ to @animal/Sheep_aoe2DE.webp@ (stop @resource/villager.webp@ production)"
       ]
     },
     {
@@ -31,8 +31,8 @@
         "stone": 0
       },
       "notes": [
-        "At 30 @resource/Aoe2de_wood.png@, build 1 @other/House_aoe2DE.png@ with @resource/Aoe2de_wood.png@@resource/villager.jpg@, then to @animal/Sheep_aoe2DE.png@",
-        "Train 3 additional @barracks/MilitiaDE.png@ | Attack as soon as possible"
+        "At 30 @resource/Aoe2de_wood.webp@, build 1 @other/House_aoe2DE.webp@ with @resource/Aoe2de_wood.webp@@resource/villager.webp@, then to @animal/Sheep_aoe2DE.webp@",
+        "Train 3 additional @barracks/MilitiaDE.webp@ | Attack as soon as possible"
       ]
     },
     {
@@ -46,7 +46,7 @@
         "stone": 0
       },
       "notes": [
-        "At 5 @barracks/MilitiaDE.png@ | Re-train @resource/villager.jpg@ | Next @resource/villager.jpg@ forward (lame)"
+        "At 5 @barracks/MilitiaDE.webp@ | Re-train @resource/villager.webp@ | Next @resource/villager.webp@ forward (lame)"
       ]
     },
     {
@@ -60,7 +60,7 @@
         "stone": 0
       },
       "notes": [
-        "Next @resource/villager.jpg@ goes to  @resource/Aoe2de_wood.png@ (@resource/tree.png@)"
+        "Next @resource/villager.webp@ goes to  @resource/Aoe2de_wood.webp@ (@resource/tree.webp@)"
       ]
     },
     {
@@ -74,7 +74,7 @@
         "stone": 0
       },
       "notes": [
-        "Next @resource/villager.jpg@ to @resource/Aoe2de_food.png@ (lure @animal/Boar_aoe2DE.png@) | Build 1 @other/House_aoe2DE.png@"
+        "Next @resource/villager.webp@ to @resource/Aoe2de_food.webp@ (lure @animal/Boar_aoe2DE.webp@) | Build 1 @other/House_aoe2DE.webp@"
       ]
     }
   ]

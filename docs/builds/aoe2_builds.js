@@ -19,7 +19,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -33,7 +33,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build 1st @lumber_camp/Lumber_camp_aoe2de.png@)"
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build 1st @lumber_camp/Lumber_camp_aoe2de.webp@)"
         ],
         "time": "2:30"
       },
@@ -47,7 +47,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ lures 1st @animal/Boar_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ lures 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "2:55"
       },
@@ -61,7 +61,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@, then to @animal/Boar_aoe2DE.png@ | Lure @animal/Deer_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ builds 1 @other/House_aoe2DE.webp@, then to @animal/Boar_aoe2DE.webp@ | Lure @animal/Deer_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -75,7 +75,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 5 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@/@animal/Deer_aoe2DE.png@ | Lure 2nd @animal/Boar_aoe2DE.png@"
+          "Next 5 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@/@animal/Deer_aoe2DE.webp@ | Lure 2nd @animal/Boar_aoe2DE.webp@"
         ],
         "time": "5:25"
       },
@@ -90,7 +90,7 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds @barracks/Barracks_aoe2DE.png@ + 1 @other/House_aoe2DE.png@ in front"
+          "Next @resource/MaleVillDE.webp@ builds @barracks/Barracks_aoe2DE.webp@ + 1 @other/House_aoe2DE.webp@ in front"
         ],
         "time": "5:50"
       },
@@ -105,7 +105,7 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ goes to @resource/Aoe2de_wood.png@ | Research @town_center/LoomDE.png@ | 19 pop @age/FeudalAgeIconDE.png@"
+          "Next @resource/MaleVillDE.webp@ goes to @resource/Aoe2de_wood.webp@ | Research @town_center/LoomDE.webp@ | 19 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "6:40"
       },
@@ -120,8 +120,8 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Scout opponent | Make 2 @barracks/MilitiaDE.png@, send forward",
-          "Move 5 @town_center/Towncenter_aoe2DE.png@@resource/MaleVillDE.jpg@ to 1st @lumber_camp/Lumber_camp_aoe2de.png@ (4) & @resource/BerryBushDE.png@ (1, build @mill/Mill_aoe2de.png@)"
+          "Before @age/FeudalAgeIconDE.webp@ | Scout opponent | Make 2 @barracks/MilitiaDE.webp@, send forward",
+          "Move 5 @town_center/Towncenter_aoe2DE.webp@@resource/MaleVillDE.webp@ to 1st @lumber_camp/Lumber_camp_aoe2de.webp@ (4) & @resource/BerryBushDE.webp@ (1, build @mill/Mill_aoe2de.webp@)"
         ],
         "time": "8:50"
       },
@@ -135,8 +135,8 @@ const aoe2_build_orders = [
           "stone": -1
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Harass & adapt | Build @defensive_structures/Palisade_wall_aoe2de.png@",
-          "Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ & @mill/HorseCollarDE.png@ (optional)"
+          "In @age/FeudalAgeIconDE.webp@ | Harass & adapt | Build @defensive_structures/Palisade_wall_aoe2de.webp@",
+          "Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ & @mill/HorseCollarDE.webp@ (optional)"
         ],
         "time": "8:51"
       }
@@ -163,7 +163,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | Send 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | Send 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -177,7 +177,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lures 1st @animal/Boar_aoe2DE.png@"
+          "Lures 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "1:40"
       },
@@ -191,7 +191,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@) | Start pushing @animal/Deer_aoe2DE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@) | Start pushing @animal/Deer_aoe2DE.webp@"
         ],
         "time": "2:55"
       },
@@ -205,7 +205,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@, then lures 2nd @animal/Boar_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ builds 1 @other/House_aoe2DE.webp@, then lures 2nd @animal/Boar_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -219,7 +219,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@"
         ],
         "time": "4:10"
       },
@@ -233,7 +233,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@"
+          "Next @resource/MaleVillDE.webp@ builds @mill/Mill_aoe2de.webp@ on @resource/BerryBushDE.webp@"
         ],
         "time": "4:35"
       },
@@ -247,7 +247,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@"
         ],
         "time": "5:25"
       },
@@ -261,7 +261,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ | Research @town_center/LoomDE.png@ | 19 pop @age/FeudalAgeIconDE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ | Research @town_center/LoomDE.webp@ | 19 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "6:40"
       },
@@ -276,8 +276,8 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Move 5 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to @resource/Aoe2de_wood.png@ (2 on straggler)",
-          "Move 3 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to @resource/Aoe2de_gold.png@ (2) & @other/House_aoe2DE.png@ + @barracks/Barracks_aoe2DE.png@ building (1)"
+          "Before @age/FeudalAgeIconDE.webp@ | Move 5 @resource/MaleVillDE.webp@ from @town_center/Towncenter_aoe2DE.webp@ to @resource/Aoe2de_wood.webp@ (2 on straggler)",
+          "Move 3 @resource/MaleVillDE.webp@ from @town_center/Towncenter_aoe2DE.webp@ to @resource/Aoe2de_gold.webp@ (2) & @other/House_aoe2DE.webp@ + @barracks/Barracks_aoe2DE.webp@ building (1)"
         ],
         "time": "8:50"
       },
@@ -292,7 +292,7 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | 1 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ | Build @archery_range/Archery_range_aoe2DE.png@, @other/House_aoe2DE.png@/@defensive_structures/Palisade_wall_aoe2de.png@"
+          "In @age/FeudalAgeIconDE.webp@ | 1 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ | Build @archery_range/Archery_range_aoe2DE.webp@, @other/House_aoe2DE.webp@/@defensive_structures/Palisade_wall_aoe2de.webp@"
         ],
         "time": "9:15"
       },
@@ -306,9 +306,9 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Move 2 @resource/MaleVillDE.jpg@ from straggler to @resource/BerryBushDE.png@ | Build @blacksmith/Blacksmith_aoe2de.png@",
-          "Add 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ | Builder back to @resource/Aoe2de_food.png@",
-          "Research @blacksmith/FletchingDE.png@ | Build 1 @other/House_aoe2DE.png@ | Train @archery_range/Archer_aoe2DE.png@"
+          "Move 2 @resource/MaleVillDE.webp@ from straggler to @resource/BerryBushDE.webp@ | Build @blacksmith/Blacksmith_aoe2de.webp@",
+          "Add 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@ | Builder back to @resource/Aoe2de_food.webp@",
+          "Research @blacksmith/FletchingDE.webp@ | Build 1 @other/House_aoe2DE.webp@ | Train @archery_range/Archer_aoe2DE.webp@"
         ],
         "time": "10:05"
       },
@@ -322,7 +322,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build 2nd @lumber_camp/Lumber_camp_aoe2de.png@)"
+          "Add 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build 2nd @lumber_camp/Lumber_camp_aoe2de.webp@)"
         ],
         "time": "10:55"
       }
@@ -350,7 +350,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "2 @other/House_aoe2DE.png@ + 6 on @animal/Sheep_aoe2DE.png@"
+          "2 @other/House_aoe2DE.webp@ + 6 on @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -364,7 +364,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "3 on @resource/Aoe2de_wood.png@"
+          "3 on @resource/Aoe2de_wood.webp@"
         ],
         "time": "2:30"
       },
@@ -378,7 +378,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "1 Lures @animal/Boar_aoe2DE.png@"
+          "1 Lures @animal/Boar_aoe2DE.webp@"
         ],
         "time": "2:55"
       },
@@ -392,8 +392,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "1 Builds @other/House_aoe2DE.png@ + @mill/Mill_aoe2de.png@, then @resource/BerryBushDE.png@",
-          "Lure @animal/Deer_aoe2DE.png@ with @stable/Scoutcavalry_aoe2DE.png@, once all @animal/Sheep_aoe2DE.png@ are found"
+          "1 Builds @other/House_aoe2DE.webp@ + @mill/Mill_aoe2de.webp@, then @resource/BerryBushDE.webp@",
+          "Lure @animal/Deer_aoe2DE.webp@ with @stable/Scoutcavalry_aoe2DE.webp@, once all @animal/Sheep_aoe2DE.webp@ are found"
         ],
         "time": "3:20"
       },
@@ -407,7 +407,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 6 on @animal/Boar_aoe2DE.png@ (lure 2nd)"
+          "Next 6 on @animal/Boar_aoe2DE.webp@ (lure 2nd)"
         ],
         "time": "5:50"
       },
@@ -422,7 +422,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "2 on @resource/Aoe2de_wood.png@ | Research @town_center/LoomDE.png@ | Research 20 Pop @age/FeudalAgeIconDE_alpha.png@"
+          "2 on @resource/Aoe2de_wood.webp@ | Research @town_center/LoomDE.webp@ | Research 20 Pop @age/FeudalAgeIconDE_alpha.webp@"
         ]
       },
       {
@@ -436,9 +436,9 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE_alpha.png@",
-          "7 from @town_center/Towncenter_aoe2DE.png@ \u2192 @resource/Aoe2de_wood.png@ (5 on 2nd @lumber_camp/Lumber_camp_aoe2de.png@; 2 on straggler)",
-          "1 from @town_center/Towncenter_aoe2DE.png@ \u2192 @other/House_aoe2DE.png@ + @barracks/Barracks_aoe2DE.png@ | 2 from @town_center/Towncenter_aoe2DE.png@ \u2192 @resource/Aoe2de_gold.png@ (@mining_camp/Mining_camp_aoe2de.png@)"
+          "Before @age/FeudalAgeIconDE_alpha.webp@",
+          "7 from @town_center/Towncenter_aoe2DE.webp@ \u2192 @resource/Aoe2de_wood.webp@ (5 on 2nd @lumber_camp/Lumber_camp_aoe2de.webp@; 2 on straggler)",
+          "1 from @town_center/Towncenter_aoe2DE.webp@ \u2192 @other/House_aoe2DE.webp@ + @barracks/Barracks_aoe2DE.webp@ | 2 from @town_center/Towncenter_aoe2DE.webp@ \u2192 @resource/Aoe2de_gold.webp@ (@mining_camp/Mining_camp_aoe2de.webp@)"
         ],
         "time": "9:15"
       },
@@ -452,8 +452,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE_alpha.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@",
-          "Build @archery_range/Archery_range_aoe2DE.png@, produce @archery_range/Archer_aoe2DE.png@ | 2 on @resource/Aoe2de_gold.png@"
+          "In @age/FeudalAgeIconDE_alpha.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@",
+          "Build @archery_range/Archery_range_aoe2DE.webp@, produce @archery_range/Archer_aoe2DE.webp@ | 2 on @resource/Aoe2de_gold.webp@"
         ],
         "time": "10:05"
       },
@@ -467,8 +467,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "@blacksmith/Blacksmith_aoe2de.png@ and @blacksmith/FletchingDE.png@ (when possible) | [Opt] 1-4 @barracks/Spearman_aoe2DE.png@ (against @stable/Scoutcavalry_aoe2DE.png@)",
-          "4 from @town_center/Towncenter_aoe2DE.png@ \u2192 @resource/BerryBushDE.png@ (5 in total) | Start @mill/FarmDE.png@ & @defensive_structures/Palisade_wall_aoe2de.png@"
+          "@blacksmith/Blacksmith_aoe2de.webp@ and @blacksmith/FletchingDE.webp@ (when possible) | [Opt] 1-4 @barracks/Spearman_aoe2DE.webp@ (against @stable/Scoutcavalry_aoe2DE.webp@)",
+          "4 from @town_center/Towncenter_aoe2DE.webp@ \u2192 @resource/BerryBushDE.webp@ (5 in total) | Start @mill/FarmDE.webp@ & @defensive_structures/Palisade_wall_aoe2de.webp@"
         ],
         "time": "10:06"
       }
@@ -495,7 +495,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -509,7 +509,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)"
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@)"
         ],
         "time": "2:30"
       },
@@ -523,7 +523,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "2:55"
       },
@@ -537,7 +537,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 1 @other/House_aoe2DE.png@, then @mill/Mill_aoe2de.png@ (@resource/BerryBushDE.png@) | Start pushing @animal/Deer_aoe2DE.png@"
+          "Build 1 @other/House_aoe2DE.webp@, then @mill/Mill_aoe2de.webp@ (@resource/BerryBushDE.webp@) | Start pushing @animal/Deer_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -551,7 +551,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ on @animal/Boar_aoe2DE.png@/@animal/Deer_aoe2DE.png@ | Lure 2nd @animal/Boar_aoe2DE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ on @animal/Boar_aoe2DE.webp@/@animal/Deer_aoe2DE.webp@ | Lure 2nd @animal/Boar_aoe2DE.webp@"
         ],
         "time": "4:10"
       },
@@ -565,7 +565,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ | Seed 4 @mill/FarmDE.png@ after @animal/Boar_aoe2DE.png@"
+          "Next 4 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@ | Seed 4 @mill/FarmDE.webp@ after @animal/Boar_aoe2DE.webp@"
         ],
         "time": "5:50"
       },
@@ -579,7 +579,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (same @lumber_camp/Lumber_camp_aoe2de.png@) | Build 1 @other/House_aoe2DE.png@"
+          "Next 4 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (same @lumber_camp/Lumber_camp_aoe2de.webp@) | Build 1 @other/House_aoe2DE.webp@"
         ],
         "time": "7:30"
       },
@@ -594,7 +594,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Send 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ (build @mining_camp/Mining_camp_aoe2de.png@) | 24 pop @age/FeudalAgeIconDE.png@"
+          "Send 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@ (build @mining_camp/Mining_camp_aoe2de.webp@) | 24 pop @age/FeudalAgeIconDE.webp@"
         ]
       },
       {
@@ -607,7 +607,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Build 1 @other/House_aoe2DE.png@ | Straggler after @animal/Sheep_aoe2DE.png@/@animal/Deer_aoe2DE.png@/@animal/Boar_aoe2DE.png@"
+          "Before @age/FeudalAgeIconDE.webp@ | Build 1 @other/House_aoe2DE.webp@ | Straggler after @animal/Sheep_aoe2DE.webp@/@animal/Deer_aoe2DE.webp@/@animal/Boar_aoe2DE.webp@"
         ],
         "time": "10:30"
       },
@@ -622,8 +622,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (still only 1 @lumber_camp/Lumber_camp_aoe2de.png@) | Build @blacksmith/Blacksmith_aoe2de.png@ (1 @resource/MaleVillDE.jpg@)",
-          "Build @market/Market_aoe2DE.png@ (2 @resource/MaleVillDE.jpg@, e.g. from straggler) | 26 pop @age/CastleAgeIconDE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (still only 1 @lumber_camp/Lumber_camp_aoe2de.webp@) | Build @blacksmith/Blacksmith_aoe2de.webp@ (1 @resource/MaleVillDE.webp@)",
+          "Build @market/Market_aoe2DE.webp@ (2 @resource/MaleVillDE.webp@, e.g. from straggler) | 26 pop @age/CastleAgeIconDE.webp@"
         ]
       },
       {
@@ -636,8 +636,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | @lumber_camp/DoubleBitAxe_aoe2DE.png@ & @mill/HorseCollarDE.png@ | 1 straggler @resource/MaleVillDE.jpg@ to 1st @lumber_camp/Lumber_camp_aoe2de.png@",
-          "Seed @mill/FarmDE.png@ with remaining straggler @resource/MaleVillDE.jpg@"
+          "Before @age/CastleAgeIconDE.webp@ | @lumber_camp/DoubleBitAxe_aoe2DE.webp@ & @mill/HorseCollarDE.webp@ | 1 straggler @resource/MaleVillDE.webp@ to 1st @lumber_camp/Lumber_camp_aoe2de.webp@",
+          "Seed @mill/FarmDE.webp@ with remaining straggler @resource/MaleVillDE.webp@"
         ],
         "time": "14:00"
       },
@@ -651,8 +651,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/CastleAgeIconDE.png@ | Build 1 @town_center/Towncenter_aoe2DE.png@ on @resource/Aoe2de_wood.png@, far from @lumber_camp/Lumber_camp_aoe2de.png@ | Research @lumber_camp/BowSawDE.png@",
-          "Build 1 @town_center/Towncenter_aoe2DE.png@ on @resource/Aoe2de_gold.png@/@resource/Aoe2de_stone.png@ | Use @market/Market_aoe2DE.png@ if needed | Get @mill/HeavyPlowDE.png@ later"
+          "In @age/CastleAgeIconDE.webp@ | Build 1 @town_center/Towncenter_aoe2DE.webp@ on @resource/Aoe2de_wood.webp@, far from @lumber_camp/Lumber_camp_aoe2de.webp@ | Research @lumber_camp/BowSawDE.webp@",
+          "Build 1 @town_center/Towncenter_aoe2DE.webp@ on @resource/Aoe2de_gold.webp@/@resource/Aoe2de_stone.webp@ | Use @market/Market_aoe2DE.webp@ if needed | Get @mill/HeavyPlowDE.webp@ later"
         ],
         "time": "14:25"
       }
@@ -681,7 +681,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | 6 on @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | 6 on @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -695,7 +695,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "4 on @resource/Aoe2de_wood.png@ (build 1st @lumber_camp/Lumber_camp_aoe2de.png@)"
+          "4 on @resource/Aoe2de_wood.webp@ (build 1st @lumber_camp/Lumber_camp_aoe2de.webp@)"
         ],
         "time": "2:55"
       },
@@ -709,7 +709,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ lures 1st @animal/Boar_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ lures 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -723,7 +723,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 2 @other/House_aoe2DE.png@ + @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@ | Push 3 @animal/Deer_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ builds 2 @other/House_aoe2DE.webp@ + @mill/Mill_aoe2de.webp@ on @resource/BerryBushDE.webp@ | Push 3 @animal/Deer_aoe2DE.webp@"
         ],
         "time": "3:45"
       },
@@ -737,7 +737,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 6 @resource/MaleVillDE.jpg@ on @resource/Aoe2de_food.png@ under @town_center/Towncenter_aoe2DE.png@ | Lure 2nd @animal/Boar_aoe2DE.png@"
+          "Next 6 @resource/MaleVillDE.webp@ on @resource/Aoe2de_food.webp@ under @town_center/Towncenter_aoe2DE.webp@ | Lure 2nd @animal/Boar_aoe2DE.webp@"
         ],
         "time": "6:15"
       },
@@ -751,7 +751,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "4 on @resource/Aoe2de_wood.png@ | 3 @animal/Sheep_aoe2DE.png@ \u2192 3 @resource/BerryBushDE.png@"
+          "4 on @resource/Aoe2de_wood.webp@ | 3 @animal/Sheep_aoe2DE.webp@ \u2192 3 @resource/BerryBushDE.webp@"
         ],
         "time": "7:55"
       },
@@ -765,7 +765,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "2 on @resource/Aoe2de_gold.png@ | Research 25 Pop @age/FeudalAgeIconDE_alpha.png@"
+          "2 on @resource/Aoe2de_gold.webp@ | Research 25 Pop @age/FeudalAgeIconDE_alpha.webp@"
         ],
         "time": "8:45"
       },
@@ -779,7 +779,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE_alpha.png@ | 2 @animal/Sheep_aoe2DE.png@ \u2192 straggler | Seed 3 @mill/FarmDE.png@ | Build 1 @other/House_aoe2DE.png@"
+          "Before @age/FeudalAgeIconDE_alpha.webp@ | 2 @animal/Sheep_aoe2DE.webp@ \u2192 straggler | Seed 3 @mill/FarmDE.webp@ | Build 1 @other/House_aoe2DE.webp@"
         ],
         "time": "10:55"
       },
@@ -793,7 +793,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE_alpha.png@ | Build @blacksmith/Blacksmith_aoe2de.png@ + @market/Market_aoe2DE.png@ | 2 on @resource/Aoe2de_gold.png@ | Research @age/CastleAgeIconDE_alpha.png@"
+          "In @age/FeudalAgeIconDE_alpha.webp@ | Build @blacksmith/Blacksmith_aoe2de.webp@ + @market/Market_aoe2DE.webp@ | 2 on @resource/Aoe2de_gold.webp@ | Research @age/CastleAgeIconDE_alpha.webp@"
         ],
         "time": "11:45"
       },
@@ -807,8 +807,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/CastleAgeIconDE_alpha.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ | Build @barracks/Barracks_aoe2DE.png@ | Train @barracks/Eaglescout_aoe2DE.png@",
-          "3 @resource/BerryBushDE.png@ \u2192 3 @resource/Aoe2de_gold.png@ | Seed 2 @mill/FarmDE.png@ | Build @other/House_aoe2DE.png@"
+          "Before @age/CastleAgeIconDE_alpha.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ | Build @barracks/Barracks_aoe2DE.webp@ | Train @barracks/Eaglescout_aoe2DE.webp@",
+          "3 @resource/BerryBushDE.webp@ \u2192 3 @resource/Aoe2de_gold.webp@ | Seed 2 @mill/FarmDE.webp@ | Build @other/House_aoe2DE.webp@"
         ],
         "time": "14:25"
       },
@@ -822,8 +822,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/CastleAgeIconDE_alpha.png@ | 9 on @resource/Aoe2de_gold.png@ | Build @monastery/MonasteryAoe2DE.png@ + @siege_workshop/Siege_workshop_aoe2DE.png@ | Optional: Sell 200 @resource/Aoe2de_stone.png@",
-          "Train 10 @barracks/Eaglescout_aoe2DE.png@ + 3 @monastery/Monk_aoe2DE.png@ + 3 @siege_workshop/Battering_ram_aoe2DE.png@ | Research @barracks/Eaglewarrior_aoe2DE.png@ & @monastery/RedemptionDE.png@"
+          "In @age/CastleAgeIconDE_alpha.webp@ | 9 on @resource/Aoe2de_gold.webp@ | Build @monastery/MonasteryAoe2DE.webp@ + @siege_workshop/Siege_workshop_aoe2DE.webp@ | Optional: Sell 200 @resource/Aoe2de_stone.webp@",
+          "Train 10 @barracks/Eaglescout_aoe2DE.webp@ + 3 @monastery/Monk_aoe2DE.webp@ + 3 @siege_workshop/Battering_ram_aoe2DE.webp@ | Research @barracks/Eaglewarrior_aoe2DE.webp@ & @monastery/RedemptionDE.webp@"
         ],
         "time": "18:10"
       },
@@ -837,7 +837,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "10 on @resource/Aoe2de_wood.png@"
+          "10 on @resource/Aoe2de_wood.webp@"
         ],
         "time": "22:20"
       }
@@ -864,7 +864,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -878,7 +878,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)"
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@)"
         ],
         "time": "2:30"
       },
@@ -892,7 +892,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@ (lure 1st)"
+          "Next 2 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@ (lure 1st)"
         ],
         "time": "3:20"
       },
@@ -906,7 +906,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ build 1 @other/House_aoe2DE.png@ and @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ build 1 @other/House_aoe2DE.webp@ and @mill/Mill_aoe2de.webp@ on @resource/BerryBushDE.webp@"
         ],
         "time": "4:10"
       },
@@ -920,7 +920,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 2nd @animal/Boar_aoe2DE.png@"
+          "Lure 2nd @animal/Boar_aoe2DE.webp@"
         ],
         "time": "4:35"
       },
@@ -934,7 +934,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ goes to @resource/BerryBushDE.png@ | Push @animal/Deer_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ goes to @resource/BerryBushDE.webp@ | Push @animal/Deer_aoe2DE.webp@"
         ],
         "time": "5:00"
       },
@@ -948,7 +948,7 @@ const aoe2_build_orders = [
           "stone": 1
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@, then @mining_camp/Mining_camp_aoe2de.png@ on @resource/Aoe2de_stone.png@"
+          "Next @resource/MaleVillDE.webp@ builds 1 @other/House_aoe2DE.webp@, then @mining_camp/Mining_camp_aoe2de.webp@ on @resource/Aoe2de_stone.webp@"
         ],
         "time": "5:25"
       },
@@ -962,7 +962,7 @@ const aoe2_build_orders = [
           "stone": 1
         },
         "notes": [
-          "Add 2 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@"
+          "Add 2 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@"
         ],
         "time": "6:15"
       },
@@ -976,7 +976,7 @@ const aoe2_build_orders = [
           "stone": 2
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ goes to @resource/Aoe2de_stone.png@"
+          "Next @resource/MaleVillDE.webp@ goes to @resource/Aoe2de_stone.webp@"
         ],
         "time": "6:40"
       },
@@ -990,7 +990,7 @@ const aoe2_build_orders = [
           "stone": 2
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@ | Research @town_center/LoomDE.png@ | 22 pop @age/FeudalAgeIconDE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_food.webp@ | Research @town_center/LoomDE.webp@ | 22 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "7:55"
       },
@@ -1004,7 +1004,7 @@ const aoe2_build_orders = [
           "stone": 2
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Build 1 @other/House_aoe2DE.png@ | 2 from @resource/Aoe2de_food.png@ to @resource/Aoe2de_wood.png@ (straggler)"
+          "Before @age/FeudalAgeIconDE.webp@ | Build 1 @other/House_aoe2DE.webp@ | 2 from @resource/Aoe2de_food.webp@ to @resource/Aoe2de_wood.webp@ (straggler)"
         ],
         "time": "10:05"
       },
@@ -1018,8 +1018,8 @@ const aoe2_build_orders = [
           "stone": 6
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Make 2 @resource/MaleVillDE.jpg@ | Build @market/Market_aoe2DE.png@ & @blacksmith/Blacksmith_aoe2de.png@ | Sell @resource/Aoe2de_food.png@/@resource/Aoe2de_stone.png@",
-          "Some @resource/Aoe2de_food.png@@resource/MaleVillDE.jpg@ to @resource/Aoe2de_stone.png@ & @resource/Aoe2de_wood.png@ (straggler) | 26 pop @age/CastleAgeIconDE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Make 2 @resource/MaleVillDE.webp@ | Build @market/Market_aoe2DE.webp@ & @blacksmith/Blacksmith_aoe2de.webp@ | Sell @resource/Aoe2de_food.webp@/@resource/Aoe2de_stone.webp@",
+          "Some @resource/Aoe2de_food.webp@@resource/MaleVillDE.webp@ to @resource/Aoe2de_stone.webp@ & @resource/Aoe2de_wood.webp@ (straggler) | 26 pop @age/CastleAgeIconDE.webp@"
         ],
         "time": "10:55"
       },
@@ -1033,7 +1033,7 @@ const aoe2_build_orders = [
           "stone": 17
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | Build @defensive_structures/Tower_aoe2de.png@ if needed | Adapt economy"
+          "Before @age/CastleAgeIconDE.webp@ | Build @defensive_structures/Tower_aoe2de.webp@ if needed | Adapt economy"
         ],
         "time": "13:35"
       },
@@ -1047,7 +1047,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/CastleAgeIconDE.png@ | Build @castle/Castle_aoe2DE.png@ | Build @mining_camp/Mining_camp_aoe2de.png@ on @resource/Aoe2de_gold.png@ | Produce @unique_unit/Aoe2de_ratha_ranged.png@"
+          "In @age/CastleAgeIconDE.webp@ | Build @castle/Castle_aoe2DE.webp@ | Build @mining_camp/Mining_camp_aoe2de.webp@ on @resource/Aoe2de_gold.webp@ | Produce @unique_unit/Aoe2de_ratha_ranged.webp@"
         ],
         "time": "14:50"
       }
@@ -1074,7 +1074,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | 6 on @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | 6 on @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -1088,7 +1088,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add 3 on @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)"
+          "Add 3 on @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@)"
         ],
         "time": "2:30"
       },
@@ -1102,7 +1102,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@, then lures @animal/Boar_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ builds 1 @other/House_aoe2DE.webp@, then lures @animal/Boar_aoe2DE.webp@"
         ],
         "time": "2:55"
       },
@@ -1116,7 +1116,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ on @resource/BerryBushDE.png@ | Build @mill/Mill_aoe2de.png@ & 1 @other/House_aoe2DE.png@"
+          "Next 4 @resource/MaleVillDE.webp@ on @resource/BerryBushDE.webp@ | Build @mill/Mill_aoe2de.webp@ & 1 @other/House_aoe2DE.webp@"
         ],
         "time": "4:35"
       },
@@ -1130,7 +1130,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ lures 2nd @animal/Boar_aoe2DE.png@ | Lure @animal/Deer_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ lures 2nd @animal/Boar_aoe2DE.webp@ | Lure @animal/Deer_aoe2DE.webp@"
         ],
         "time": "5:00"
       },
@@ -1144,7 +1144,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add 3 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@"
+          "Add 3 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@"
         ],
         "time": "6:15"
       },
@@ -1158,7 +1158,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@"
         ],
         "time": "7:05"
       },
@@ -1172,7 +1172,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next to 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ (build @mining_camp/Mining_camp_aoe2de.png@) | 23 pop @age/FeudalAgeIconDE.png@"
+          "Next to 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@ (build @mining_camp/Mining_camp_aoe2de.webp@) | 23 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "7:55"
       },
@@ -1186,7 +1186,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | 2 from @animal/Sheep_aoe2DE.png@ to straggler"
+          "Before @age/FeudalAgeIconDE.webp@ | 2 from @animal/Sheep_aoe2DE.webp@ to straggler"
         ],
         "time": "10:05"
       },
@@ -1200,8 +1200,8 @@ const aoe2_build_orders = [
           "stone": 11
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_stone.png@ (build @mining_camp/Mining_camp_aoe2de.png@)",
-          "Build @blacksmith/Forging_aoe2de.png@ & @market/Market_aoe2DE.png@ | @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @resource/Aoe2de_stone.png@ | 25 pop @age/CastleAgeIconDE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_stone.webp@ (build @mining_camp/Mining_camp_aoe2de.webp@)",
+          "Build @blacksmith/Forging_aoe2de.webp@ & @market/Market_aoe2DE.webp@ | @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @resource/Aoe2de_stone.webp@ | 25 pop @age/CastleAgeIconDE.webp@"
         ],
         "time": "10:55"
       },
@@ -1215,8 +1215,8 @@ const aoe2_build_orders = [
           "stone": 10
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | Build @other/House_aoe2DE.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ | 2 @resource/Aoe2de_gold.png@ to @resource/Aoe2de_wood.png@",
-          "Straggler @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ | 7 @resource/MaleVillDE.jpg@ forward (1 @resource/Aoe2de_stone.png@ & 6 @resource/BerryBushDE.png@)"
+          "Before @age/CastleAgeIconDE.webp@ | Build @other/House_aoe2DE.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ | 2 @resource/Aoe2de_gold.webp@ to @resource/Aoe2de_wood.webp@",
+          "Straggler @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@ | 7 @resource/MaleVillDE.webp@ forward (1 @resource/Aoe2de_stone.webp@ & 6 @resource/BerryBushDE.webp@)"
         ],
         "time": "13:35"
       },
@@ -1230,7 +1230,7 @@ const aoe2_build_orders = [
           "stone": 3
         },
         "notes": [
-          "In @age/CastleAgeIconDE.png@ | Research @town_center/LoomDE.png@ | Build @castle/Castle_aoe2DE.png@ | 7 from @resource/Aoe2de_stone.png@ to @resource/Aoe2de_wood.png@ (6) & @mill/FarmDE.png@ (1)"
+          "In @age/CastleAgeIconDE.webp@ | Research @town_center/LoomDE.webp@ | Build @castle/Castle_aoe2DE.webp@ | 7 from @resource/Aoe2de_stone.webp@ to @resource/Aoe2de_wood.webp@ (6) & @mill/FarmDE.webp@ (1)"
         ],
         "time": "14:00"
       },
@@ -1244,7 +1244,7 @@ const aoe2_build_orders = [
           "stone": 5
         },
         "notes": [
-          "Make 6-7 @mill/FarmDE.png@ | New @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ | Make @unique_unit/Aoe2-icon-hussite-wagon.png@ | Steal @resource/Aoe2de_gold.png@/@resource/Aoe2de_stone.png@"
+          "Make 6-7 @mill/FarmDE.webp@ | New @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ | Make @unique_unit/Aoe2-icon-hussite-wagon.webp@ | Steal @resource/Aoe2de_gold.webp@/@resource/Aoe2de_stone.webp@"
         ],
         "time": "24:25"
       }
@@ -1272,7 +1272,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "2 @other/House_aoe2DE.png@ + 6 on @animal/Sheep_aoe2DE.png@"
+          "2 @other/House_aoe2DE.webp@ + 6 on @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -1286,7 +1286,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "4 on @resource/Aoe2de_wood.png@ | Push 3 @animal/Deer_aoe2DE.png@"
+          "4 on @resource/Aoe2de_wood.webp@ | Push 3 @animal/Deer_aoe2DE.webp@"
         ],
         "time": "2:55"
       },
@@ -1300,7 +1300,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "1 on @animal/Deer_aoe2DE.png@"
+          "1 on @animal/Deer_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -1314,7 +1314,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "2 @other/House_aoe2DE.png@ + @mill/Mill_aoe2de.png@ + 4 on @resource/BerryBushDE.png@"
+          "2 @other/House_aoe2DE.webp@ + @mill/Mill_aoe2de.webp@ + 4 on @resource/BerryBushDE.webp@"
         ],
         "time": "5:00"
       },
@@ -1328,7 +1328,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "1 Lures @animal/Boar_aoe2DE.png@ + 3 More on @animal/Boar_aoe2DE.png@"
+          "1 Lures @animal/Boar_aoe2DE.webp@ + 3 More on @animal/Boar_aoe2DE.webp@"
         ],
         "time": "6:40"
       },
@@ -1342,7 +1342,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "3 on @resource/Aoe2de_wood.png@"
+          "3 on @resource/Aoe2de_wood.webp@"
         ],
         "time": "7:55"
       },
@@ -1356,7 +1356,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "2 on @resource/Aoe2de_gold.png@ | Research 25 Pop @age/FeudalAgeIconDE_alpha.png@"
+          "2 on @resource/Aoe2de_gold.webp@ | Research 25 Pop @age/FeudalAgeIconDE_alpha.webp@"
         ],
         "time": "8:45"
       },
@@ -1370,7 +1370,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE_alpha.png@ | Build @barracks/Barracks_aoe2DE.png@ & @other/House_aoe2DE.png@ | Seed 3 @mill/FarmDE.png@"
+          "Before @age/FeudalAgeIconDE_alpha.webp@ | Build @barracks/Barracks_aoe2DE.webp@ & @other/House_aoe2DE.webp@ | Seed 3 @mill/FarmDE.webp@"
         ],
         "time": "10:55"
       },
@@ -1384,7 +1384,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE_alpha.png@ | Build @archery_range/Archery_range_aoe2DE.png@ + @blacksmith/Blacksmith_aoe2de.png@ | 1 on @resource/Aoe2de_wood.png@"
+          "In @age/FeudalAgeIconDE_alpha.webp@ | Build @archery_range/Archery_range_aoe2DE.webp@ + @blacksmith/Blacksmith_aoe2de.webp@ | 1 on @resource/Aoe2de_wood.webp@"
         ],
         "time": "11:20"
       },
@@ -1398,7 +1398,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "1 on @resource/Aoe2de_gold.png@ | Research @age/CastleAgeIconDE_alpha.png@"
+          "1 on @resource/Aoe2de_gold.webp@ | Research @age/CastleAgeIconDE_alpha.webp@"
         ],
         "time": "11:45"
       },
@@ -1412,7 +1412,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/CastleAgeIconDE_alpha.png@ | @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to straggler/@mill/FarmDE.png@"
+          "Before @age/CastleAgeIconDE_alpha.webp@ | @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to straggler/@mill/FarmDE.webp@"
         ],
         "time": "14:25"
       },
@@ -1426,8 +1426,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/CastleAgeIconDE_alpha.png@ | 1 @resource/Aoe2de_wood.png@ \u2192 1 @resource/Aoe2de_gold.png@ | 3 on @resource/Aoe2de_gold.png@ | Continue @mill/FarmDE.png@ & @resource/Aoe2de_wood.png@",
-          "Build @archery_range/Archery_range_aoe2DE.png@ + @other/House_aoe2DE.png@ + @university/University_AoE2_DE.png@ (research @university/ChemistryDE.png@) | Train @archery_range/Hand_cannoneer_aoe2DE.png@"
+          "In @age/CastleAgeIconDE_alpha.webp@ | 1 @resource/Aoe2de_wood.webp@ \u2192 1 @resource/Aoe2de_gold.webp@ | 3 on @resource/Aoe2de_gold.webp@ | Continue @mill/FarmDE.webp@ & @resource/Aoe2de_wood.webp@",
+          "Build @archery_range/Archery_range_aoe2DE.webp@ + @other/House_aoe2DE.webp@ + @university/University_AoE2_DE.webp@ (research @university/ChemistryDE.webp@) | Train @archery_range/Hand_cannoneer_aoe2DE.webp@"
         ],
         "time": "15:40"
       }
@@ -1454,7 +1454,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@. | Send the first 5 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@."
+          "Build 2 @other/House_aoe2DE.webp@. | Send the first 5 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@."
         ],
         "time": "0:50"
       },
@@ -1468,7 +1468,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure the first @animal/Boar_aoe2DE.png@."
+          "Lure the first @animal/Boar_aoe2DE.webp@."
         ],
         "time": "1:15"
       },
@@ -1482,7 +1482,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build the first @lumber_camp/Lumber_camp_aoe2de.png@. | Send the next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@."
+          "Build the first @lumber_camp/Lumber_camp_aoe2de.webp@. | Send the next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@."
         ],
         "time": "2:05"
       },
@@ -1496,7 +1496,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add 1 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@."
+          "Add 1 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@."
         ],
         "time": "2:30"
       },
@@ -1510,7 +1510,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@, then lures 2nd @animal/Boar_aoe2DE.png@."
+          "Next @resource/MaleVillDE.webp@ builds 1 @other/House_aoe2DE.webp@, then lures 2nd @animal/Boar_aoe2DE.webp@."
         ],
         "time": "2:55"
       },
@@ -1524,7 +1524,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add 3 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@."
+          "Add 3 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@."
         ],
         "time": "4:10"
       },
@@ -1538,7 +1538,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build a @mill/Mill_aoe2de.png@ and gather @resource/BerryBushDE.png@."
+          "Build a @mill/Mill_aoe2de.webp@ and gather @resource/BerryBushDE.webp@."
         ],
         "time": "4:35"
       },
@@ -1552,7 +1552,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@. | Research @town_center/LoomDE.png@. | click up to @age/FeudalAgeIconDE.png@."
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@. | Research @town_center/LoomDE.webp@. | click up to @age/FeudalAgeIconDE.webp@."
         ],
         "time": "6:15"
       },
@@ -1567,8 +1567,8 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | 1 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to @other/House_aoe2DE.png@ & @barracks/Barracks_aoe2DE.png@. | 1 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@.",
-          "5 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to @resource/Aoe2de_wood.png@ on Straggler (2) & @lumber_camp/Lumber_camp_aoe2de.png@ (3)."
+          "Before @age/FeudalAgeIconDE.webp@ | 1 @resource/MaleVillDE.webp@ from @town_center/Towncenter_aoe2DE.webp@ to @other/House_aoe2DE.webp@ & @barracks/Barracks_aoe2DE.webp@. | 1 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@.",
+          "5 @resource/MaleVillDE.webp@ from @town_center/Towncenter_aoe2DE.webp@ to @resource/Aoe2de_wood.webp@ on Straggler (2) & @lumber_camp/Lumber_camp_aoe2de.webp@ (3)."
         ],
         "time": "8:25"
       },
@@ -1583,9 +1583,9 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | 2 @resource/MaleVillDE.jpg@ from Straggler (+ @animal/Sheep_aoe2DE.png@ when done) to @resource/BerryBushDE.png@.",
-          "Build @archery_range/Archery_range_aoe2DE.png@ + @other/House_aoe2DE.png@. | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@.",
-          "Next 4 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@. | Build @blacksmith/Blacksmith_aoe2de.png@ & research @blacksmith/FletchingDE.png@."
+          "In @age/FeudalAgeIconDE.webp@ | 2 @resource/MaleVillDE.webp@ from Straggler (+ @animal/Sheep_aoe2DE.webp@ when done) to @resource/BerryBushDE.webp@.",
+          "Build @archery_range/Archery_range_aoe2DE.webp@ + @other/House_aoe2DE.webp@. | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@.",
+          "Next 4 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@. | Build @blacksmith/Blacksmith_aoe2de.webp@ & research @blacksmith/FletchingDE.webp@."
         ],
         "time": "10:05"
       },
@@ -1599,7 +1599,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add 4 @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@ (+ builder). | Start @archery_range/Archer_aoe2DE.png@. | Build @other/House_aoe2DE.png@."
+          "Add 4 @resource/MaleVillDE.webp@ to @mill/FarmDE.webp@ (+ builder). | Start @archery_range/Archer_aoe2DE.webp@. | Build @other/House_aoe2DE.webp@."
         ],
         "time": "11:45"
       },
@@ -1613,7 +1613,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Send the next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build 2nd @lumber_camp/Lumber_camp_aoe2de.png@)."
+          "Send the next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build 2nd @lumber_camp/Lumber_camp_aoe2de.webp@)."
         ],
         "time": "12:35"
       }
@@ -1640,7 +1640,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -1654,7 +1654,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)"
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@)"
         ],
         "time": "2:30"
       },
@@ -1668,7 +1668,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "2:55"
       },
@@ -1682,7 +1682,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ on @resource/BerryBushDE.png@ | Build @mill/Mill_aoe2de.png@ + 1 @other/House_aoe2DE.png@ | Lure 2nd @animal/Boar_aoe2DE.png@"
+          "Next 4 @resource/MaleVillDE.webp@ on @resource/BerryBushDE.webp@ | Build @mill/Mill_aoe2de.webp@ + 1 @other/House_aoe2DE.webp@ | Lure 2nd @animal/Boar_aoe2DE.webp@"
         ],
         "time": "4:35"
       },
@@ -1696,7 +1696,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ on @animal/Boar_aoe2DE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ on @animal/Boar_aoe2DE.webp@"
         ],
         "time": "5:50"
       },
@@ -1710,7 +1710,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds @barracks/Barracks_aoe2DE.png@, then @resource/Aoe2de_food.png@"
+          "Next @resource/MaleVillDE.webp@ builds @barracks/Barracks_aoe2DE.webp@, then @resource/Aoe2de_food.webp@"
         ],
         "time": "6:15"
       },
@@ -1724,8 +1724,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@, then gathers 10 @resource/Aoe2de_gold.png@ (no @mining_camp/Mining_camp_aoe2de.png@)",
-          "Research @town_center/LoomDE.png@ | 20 pop @age/FeudalAgeIconDE.png@"
+          "Next @resource/MaleVillDE.webp@ builds 1 @other/House_aoe2DE.webp@, then gathers 10 @resource/Aoe2de_gold.webp@ (no @mining_camp/Mining_camp_aoe2de.webp@)",
+          "Research @town_center/LoomDE.webp@ | 20 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "7:05"
       },
@@ -1739,8 +1739,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | 5 from @resource/Aoe2de_food.png@ to @resource/Aoe2de_wood.png@ | Seed 2 @mill/FarmDE.png@",
-          "Straggler after @animal/Sheep_aoe2DE.png@ | @resource/Aoe2de_gold.png@@resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@ | Train 3 @barracks/MilitiaDE.png@"
+          "Before @age/FeudalAgeIconDE.webp@ | 5 from @resource/Aoe2de_food.webp@ to @resource/Aoe2de_wood.webp@ | Seed 2 @mill/FarmDE.webp@",
+          "Straggler after @animal/Sheep_aoe2DE.webp@ | @resource/Aoe2de_gold.webp@@resource/MaleVillDE.webp@ to @resource/Aoe2de_food.webp@ | Train 3 @barracks/MilitiaDE.webp@"
         ],
         "time": "9:15"
       },
@@ -1754,8 +1754,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ & @mill/HorseCollarDE.png@",
-          "New @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@ | Build @stable/Stable_aoe2DE.png@ & @blacksmith/Forging_aoe2de.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ & @mill/HorseCollarDE.webp@",
+          "New @resource/MaleVillDE.webp@ to @mill/FarmDE.webp@ | Build @stable/Stable_aoe2DE.webp@ & @blacksmith/Forging_aoe2de.webp@"
         ],
         "time": "9:40"
       }
@@ -1783,7 +1783,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 5 @resource/villager.jpg@ to @animal/Sheep_aoe2DE.png@ | Lure 1st @animal/Boar_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 5 @resource/villager.webp@ to @animal/Sheep_aoe2DE.webp@ | Lure 1st @animal/Boar_aoe2DE.webp@"
         ]
       },
       {
@@ -1797,7 +1797,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/villager.jpg@ to @animal/Boar_aoe2DE.png@"
+          "Next 2 @resource/villager.webp@ to @animal/Boar_aoe2DE.webp@"
         ]
       },
       {
@@ -1811,7 +1811,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/villager.jpg@ 2 to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)"
+          "Next @resource/villager.webp@ 2 to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@)"
         ]
       },
       {
@@ -1825,7 +1825,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/villager.jpg@ to @resource/Aoe2de_food.png@ | Lure 2nd @animal/Boar_aoe2DE.png@"
+          "Next 2 @resource/villager.webp@ to @resource/Aoe2de_food.webp@ | Lure 2nd @animal/Boar_aoe2DE.webp@"
         ]
       },
       {
@@ -1839,7 +1839,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/villager.jpg@ builds a @other/House_aoe2DE.png@, then to @resource/Aoe2de_wood.png@"
+          "Next @resource/villager.webp@ builds a @other/House_aoe2DE.webp@, then to @resource/Aoe2de_wood.webp@"
         ]
       },
       {
@@ -1853,7 +1853,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/villager.jpg@ to @resource/Aoe2de_food.png@"
+          "Next 2 @resource/villager.webp@ to @resource/Aoe2de_food.webp@"
         ]
       },
       {
@@ -1867,8 +1867,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 5 @resource/villager.jpg@ to @resource/BerryBushDE.png@ (build @mill/Mill_aoe2de.png@) | Research @town_center/LoomDE.png@",
-          "Send 2 @resource/Aoe2de_food.png@@resource/villager.jpg@ to @resource/Aoe2de_gold.png@ (build @mining_camp/Mining_camp_aoe2de.png@) before clicking @age/FeudalAgeIconDE.png@"
+          "Next 5 @resource/villager.webp@ to @resource/BerryBushDE.webp@ (build @mill/Mill_aoe2de.webp@) | Research @town_center/LoomDE.webp@",
+          "Send 2 @resource/Aoe2de_food.webp@@resource/villager.webp@ to @resource/Aoe2de_gold.webp@ (build @mining_camp/Mining_camp_aoe2de.webp@) before clicking @age/FeudalAgeIconDE.webp@"
         ]
       },
       {
@@ -1883,8 +1883,8 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Send 7 @resource/Aoe2de_food.png@@resource/villager.jpg@ to @resource/Aoe2de_wood.png@ (2 on @lumber_camp/Lumber_camp_aoe2de.png@, 5 on @resource/tree.png@)",
-          "Build @barracks/Barracks_aoe2DE.png@ with 1 @resource/tree.png@@resource/villager.jpg@ | Build @other/House_aoe2DE.png@"
+          "Before @age/FeudalAgeIconDE.webp@ | Send 7 @resource/Aoe2de_food.webp@@resource/villager.webp@ to @resource/Aoe2de_wood.webp@ (2 on @lumber_camp/Lumber_camp_aoe2de.webp@, 5 on @resource/tree.webp@)",
+          "Build @barracks/Barracks_aoe2DE.webp@ with 1 @resource/tree.webp@@resource/villager.webp@ | Build @other/House_aoe2DE.webp@"
         ]
       },
       {
@@ -1898,8 +1898,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Research @lumber_camp/BowSawDE.png@ & @mill/HorseCollarDE.png@ | Train 5 @unique_unit/Aoe2-icon-flemish-militia.png@",
-          "Build @mill/FarmDE.png@ (@resource/tree.png@ before), later @defensive_structures/Palisade_wall_aoe2de.png@ | Build @archery_range/Archery_range_aoe2DE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Research @lumber_camp/BowSawDE.webp@ & @mill/HorseCollarDE.webp@ | Train 5 @unique_unit/Aoe2-icon-flemish-militia.webp@",
+          "Build @mill/FarmDE.webp@ (@resource/tree.webp@ before), later @defensive_structures/Palisade_wall_aoe2de.webp@ | Build @archery_range/Archery_range_aoe2DE.webp@"
         ]
       }
     ]
@@ -1925,8 +1925,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Send all @resource/MaleVillDE.jpg@ (+1) to @animal/Sheep_aoe2DE.png@ (no @other/House_aoe2DE.png@).",
-          "Research @town_center/LoomDE.png@."
+          "Send all @resource/MaleVillDE.webp@ (+1) to @animal/Sheep_aoe2DE.webp@ (no @other/House_aoe2DE.webp@).",
+          "Research @town_center/LoomDE.webp@."
         ],
         "time": "1:12"
       },
@@ -1940,7 +1940,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)."
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@)."
         ],
         "time": "2:27"
       },
@@ -1954,7 +1954,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ lures @animal/Boar_aoe2DE.png@."
+          "Next @resource/MaleVillDE.webp@ lures @animal/Boar_aoe2DE.webp@."
         ],
         "time": "2:52"
       },
@@ -1968,8 +1968,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 2 @other/House_aoe2DE.png@, then @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@.",
-          "Start luring @animal/Deer_aoe2DE.png@ with @stable/Scoutcavalry_aoe2DE.png@."
+          "Next @resource/MaleVillDE.webp@ builds 2 @other/House_aoe2DE.webp@, then @mill/Mill_aoe2de.webp@ on @resource/BerryBushDE.webp@.",
+          "Start luring @animal/Deer_aoe2DE.webp@ with @stable/Scoutcavalry_aoe2DE.webp@."
         ],
         "time": "3:17"
       },
@@ -1983,7 +1983,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@ (lure 2nd one)."
+          "Next 4 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@ (lure 2nd one)."
         ],
         "time": "4:57"
       },
@@ -1997,7 +1997,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@. | Research @age/FeudalAgeIconDE.png@."
+          "Next 4 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@. | Research @age/FeudalAgeIconDE.webp@."
         ],
         "time": "6:37"
       },
@@ -2011,8 +2011,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Build @barracks/Barracks_aoe2DE.png@ when possible.",
-          "Move 7 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to @resource/Aoe2de_wood.png@ (5 on 2nd @lumber_camp/Lumber_camp_aoe2de.png@)."
+          "Before @age/FeudalAgeIconDE.webp@ | Build @barracks/Barracks_aoe2DE.webp@ when possible.",
+          "Move 7 @resource/MaleVillDE.webp@ from @town_center/Towncenter_aoe2DE.webp@ to @resource/Aoe2de_wood.webp@ (5 on 2nd @lumber_camp/Lumber_camp_aoe2de.webp@)."
         ],
         "time": "8:47"
       }
@@ -2039,7 +2039,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -2053,7 +2053,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "1:40"
       },
@@ -2067,7 +2067,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@) | Start pushing @animal/Deer_aoe2DE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@) | Start pushing @animal/Deer_aoe2DE.webp@"
         ],
         "time": "2:30"
       },
@@ -2081,7 +2081,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@ | Lure 2nd @animal/Boar_aoe2DE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@ | Lure 2nd @animal/Boar_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -2095,7 +2095,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@ then to @resource/Aoe2de_wood.png@"
+          "Next @resource/MaleVillDE.webp@ builds 1 @other/House_aoe2DE.webp@ then to @resource/Aoe2de_wood.webp@"
         ],
         "time": "3:45"
       },
@@ -2109,7 +2109,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add 1 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@"
+          "Add 1 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@"
         ],
         "time": "4:10"
       },
@@ -2123,7 +2123,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ (build @mill/Mill_aoe2de.png@) | Research @town_center/LoomDE.png@ | 18 pop @age/FeudalAgeIconDE.png@"
+          "Next 4 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@ (build @mill/Mill_aoe2de.webp@) | Research @town_center/LoomDE.webp@ | 18 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "6:15"
       },
@@ -2138,7 +2138,7 @@ const aoe2_build_orders = [
           "builder": 2
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Move 7 @resource/MaleVillDE.jpg@ from @resource/Aoe2de_food.png@ to @resource/Aoe2de_wood.png@ (5) & @defensive_structures/Palisade_wall_aoe2de.png@ (2)"
+          "Before @age/FeudalAgeIconDE.webp@ | Move 7 @resource/MaleVillDE.webp@ from @resource/Aoe2de_food.webp@ to @resource/Aoe2de_wood.webp@ (5) & @defensive_structures/Palisade_wall_aoe2de.webp@ (2)"
         ],
         "time": "8:25"
       },
@@ -2153,8 +2153,8 @@ const aoe2_build_orders = [
           "builder": 2
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Build @town_center/Towncenter_aoe2DE.png@ on @resource/Aoe2de_wood.png@ & @resource/Aoe2de_gold.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@",
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (straggler) | New @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@ & @resource/Aoe2de_wood.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Build @town_center/Towncenter_aoe2DE.webp@ on @resource/Aoe2de_wood.webp@ & @resource/Aoe2de_gold.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@",
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (straggler) | New @resource/MaleVillDE.webp@ to @mill/FarmDE.webp@ & @resource/Aoe2de_wood.webp@"
         ],
         "time": "9:15"
       }
@@ -2182,7 +2182,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "2 @other/House_aoe2DE.png@ + 6 on @animal/Sheep_aoe2DE.png@"
+          "2 @other/House_aoe2DE.webp@ + 6 on @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -2196,7 +2196,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "2 on @resource/Aoe2de_wood.png@"
+          "2 on @resource/Aoe2de_wood.webp@"
         ],
         "time": "2:05"
       },
@@ -2210,8 +2210,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "7 on @resource/Aoe2de_food.png@ under @town_center/Towncenter_aoe2DE.png@. Build @other/House_aoe2DE.png@.",
-          "Get 2 @animal/Boar_aoe2DE.png@, push @animal/Deer_aoe2DE.png@ if you have time."
+          "7 on @resource/Aoe2de_food.webp@ under @town_center/Towncenter_aoe2DE.webp@. Build @other/House_aoe2DE.webp@.",
+          "Get 2 @animal/Boar_aoe2DE.webp@, push @animal/Deer_aoe2DE.webp@ if you have time."
         ],
         "time": "5:00"
       },
@@ -2225,7 +2225,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "1 on @resource/Aoe2de_gold.png@"
+          "1 on @resource/Aoe2de_gold.webp@"
         ],
         "time": "5:25"
       },
@@ -2239,8 +2239,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "2 on @resource/Aoe2de_food.png@ under @town_center/Towncenter_aoe2DE.png@ | Research @town_center/LoomDE.png@",
-          "Research 19 Pop @age/FeudalAgeIconDE_alpha.png@"
+          "2 on @resource/Aoe2de_food.webp@ under @town_center/Towncenter_aoe2DE.webp@ | Research @town_center/LoomDE.webp@",
+          "Research 19 Pop @age/FeudalAgeIconDE_alpha.webp@"
         ],
         "time": "6:40"
       },
@@ -2255,8 +2255,8 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE_alpha.png@ | 12 @resource/Aoe2de_food.png@ from @town_center/Towncenter_aoe2DE.png@ \u2192 9 @resource/Aoe2de_wood.png@ (3 straggler)",
-          "2 @resource/Aoe2de_food.png@ from @town_center/Towncenter_aoe2DE.png@ \u2192  @barracks/Barracks_aoe2DE.png@ & @other/House_aoe2DE.png@. Then, to @defensive_structures/Palisade_wall_aoe2de.png@/@resource/Aoe2de_gold.png@"
+          "Before @age/FeudalAgeIconDE_alpha.webp@ | 12 @resource/Aoe2de_food.webp@ from @town_center/Towncenter_aoe2DE.webp@ \u2192 9 @resource/Aoe2de_wood.webp@ (3 straggler)",
+          "2 @resource/Aoe2de_food.webp@ from @town_center/Towncenter_aoe2DE.webp@ \u2192  @barracks/Barracks_aoe2DE.webp@ & @other/House_aoe2DE.webp@. Then, to @defensive_structures/Palisade_wall_aoe2de.webp@/@resource/Aoe2de_gold.webp@"
         ],
         "time": "8:50"
       },
@@ -2270,7 +2270,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE_alpha.png@ | Build 2 @archery_range/Archery_range_aoe2DE.png@. Research @lumber_camp/DoubleBitAxe_aoe2DE.png@. | 2 on @resource/Aoe2de_gold.png@"
+          "In @age/FeudalAgeIconDE_alpha.webp@ | Build 2 @archery_range/Archery_range_aoe2DE.webp@. Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@. | 2 on @resource/Aoe2de_gold.webp@"
         ],
         "time": "9:40"
       },
@@ -2284,8 +2284,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "5 on Straggler | Build @blacksmith/Blacksmith_aoe2de.png@ | Research @blacksmith/FletchingDE.png@",
-          "@mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@ | Seed @mill/FarmDE.png@ with straggler @resource/MaleVillDE_alpha.png@ | Build @other/House_aoe2DE.png@"
+          "5 on Straggler | Build @blacksmith/Blacksmith_aoe2de.webp@ | Research @blacksmith/FletchingDE.webp@",
+          "@mill/Mill_aoe2de.webp@ on @resource/BerryBushDE.webp@ | Seed @mill/FarmDE.webp@ with straggler @resource/MaleVillDE_alpha.webp@ | Build @other/House_aoe2DE.webp@"
         ],
         "time": "11:45"
       },
@@ -2299,7 +2299,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "3 on @resource/Aoe2de_gold.png@"
+          "3 on @resource/Aoe2de_gold.webp@"
         ],
         "time": "13:00"
       },
@@ -2313,7 +2313,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "9 on @mill/FarmDE.png@ | Research @town_center/WheelbarrowDE.png@ | Research @age/CastleAgeIconDE_alpha.png@"
+          "9 on @mill/FarmDE.webp@ | Research @town_center/WheelbarrowDE.webp@ | Research @age/CastleAgeIconDE_alpha.webp@"
         ],
         "time": "18:00"
       }
@@ -2340,7 +2340,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | Scout with @stable/Scoutcavalry_aoe2DE.png@ & @other/MuleCart.png@ | 4 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | Scout with @stable/Scoutcavalry_aoe2DE.webp@ & @other/MuleCart.webp@ | 4 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "0:25"
       },
@@ -2354,7 +2354,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@ | Start pushing @animal/Deer_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@ | Start pushing @animal/Deer_aoe2DE.webp@"
         ],
         "time": "0:50"
       },
@@ -2368,7 +2368,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@/@animal/Deer_aoe2DE.png@ | Grab 2nd @animal/Boar_aoe2DE.png@ when needed"
+          "Next 2 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@/@animal/Deer_aoe2DE.webp@ | Grab 2nd @animal/Boar_aoe2DE.webp@ when needed"
         ],
         "time": "1:40"
       },
@@ -2382,7 +2382,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@ | 2 extra @resource/MaleVillDE.jpg@ on @resource/BerryBushDE.png@"
+          "Build @mill/Mill_aoe2de.webp@ on @resource/BerryBushDE.webp@ | 2 extra @resource/MaleVillDE.webp@ on @resource/BerryBushDE.webp@"
         ],
         "time": "2:55"
       },
@@ -2396,7 +2396,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 1 @other/House_aoe2DE.png@ | 5 to @resource/Aoe2de_wood.png@ (with @other/MuleCart.png@ close to @resource/Aoe2de_gold.png@)"
+          "Build 1 @other/House_aoe2DE.webp@ | 5 to @resource/Aoe2de_wood.webp@ (with @other/MuleCart.webp@ close to @resource/Aoe2de_gold.webp@)"
         ],
         "time": "5:00"
       },
@@ -2410,7 +2410,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@/@animal/Deer_aoe2DE.png@/@animal/Sheep_aoe2DE.png@ | Research @town_center/LoomDE.png@ | 19 pop @age/FeudalAgeIconDE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@/@animal/Deer_aoe2DE.webp@/@animal/Sheep_aoe2DE.webp@ | Research @town_center/LoomDE.webp@ | 19 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "6:40"
       },
@@ -2424,8 +2424,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | 1 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to @barracks/Barracks_aoe2DE.png@, then back to @resource/Aoe2de_food.png@",
-          "Move 3 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to straggler, back to @resource/Aoe2de_food.png@ when 350 @resource/Aoe2de_wood.png@"
+          "Before @age/FeudalAgeIconDE.webp@ | 1 @resource/MaleVillDE.webp@ from @town_center/Towncenter_aoe2DE.webp@ to @barracks/Barracks_aoe2DE.webp@, then back to @resource/Aoe2de_food.webp@",
+          "Move 3 @resource/MaleVillDE.webp@ from @town_center/Towncenter_aoe2DE.webp@ to straggler, back to @resource/Aoe2de_food.webp@ when 350 @resource/Aoe2de_wood.webp@"
         ],
         "time": "8:50"
       },
@@ -2439,8 +2439,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | 5 from @lumber_camp/Lumber_camp_aoe2de.png@ to @stable/Stable_aoe2DE.png@ (1), @market/Market_aoe2DE.png@ (3) & @resource/Aoe2de_gold.png@ (1 with @other/MuleCart.png@)",
-          "Sell 200 @resource/Aoe2de_stone.png@ | Builders to @resource/Aoe2de_gold.png@ | No new @resource/MaleVillDE.jpg@ | Research @age/CastleAgeIconDE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | 5 from @lumber_camp/Lumber_camp_aoe2de.webp@ to @stable/Stable_aoe2DE.webp@ (1), @market/Market_aoe2DE.webp@ (3) & @resource/Aoe2de_gold.webp@ (1 with @other/MuleCart.webp@)",
+          "Sell 200 @resource/Aoe2de_stone.webp@ | Builders to @resource/Aoe2de_gold.webp@ | No new @resource/MaleVillDE.webp@ | Research @age/CastleAgeIconDE.webp@"
         ],
         "time": "10:34"
       },
@@ -2454,8 +2454,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | Build 1 @other/House_aoe2DE.png@ | Research @stable/BloodlinesDE.png@ | 4 from @resource/Aoe2de_food.png@ to @resource/Aoe2de_gold.png@",
-          "All @resource/Aoe2de_food.png@ @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ (no @mill/FarmDE.png@) | In @age/CastleAgeIconDE.png@ | Harass with @stable/Knight_aoe2DE.png@ & adapt"
+          "Before @age/CastleAgeIconDE.webp@ | Build 1 @other/House_aoe2DE.webp@ | Research @stable/BloodlinesDE.webp@ | 4 from @resource/Aoe2de_food.webp@ to @resource/Aoe2de_gold.webp@",
+          "All @resource/Aoe2de_food.webp@ @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@ (no @mill/FarmDE.webp@) | In @age/CastleAgeIconDE.webp@ | Harass with @stable/Knight_aoe2DE.webp@ & adapt"
         ],
         "time": "13:13"
       }
@@ -2482,7 +2482,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 3 @other/House_aoe2DE.png@ | First 5 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@ | Scout with @stable/Scoutcavalry_aoe2DE.png@ & @other/MuleCart.png@"
+          "Build 3 @other/House_aoe2DE.webp@ | First 5 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@ | Scout with @stable/Scoutcavalry_aoe2DE.webp@ & @other/MuleCart.webp@"
         ],
         "time": "0:50"
       },
@@ -2496,8 +2496,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure first @animal/Boar_aoe2DE.png@ | Next @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@",
-          "Start pushing 2 @animal/Deer_aoe2DE.png@ (or +) | Lure 2nd @animal/Boar_aoe2DE.png@ when needed"
+          "Lure first @animal/Boar_aoe2DE.webp@ | Next @resource/MaleVillDE.webp@ to @resource/Aoe2de_food.webp@",
+          "Start pushing 2 @animal/Deer_aoe2DE.webp@ (or +) | Lure 2nd @animal/Boar_aoe2DE.webp@ when needed"
         ],
         "time": "2:30"
       },
@@ -2511,7 +2511,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@"
+          "Build @mill/Mill_aoe2de.webp@ on @resource/BerryBushDE.webp@"
         ],
         "time": "2:55"
       },
@@ -2525,7 +2525,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add 4 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@ under @town_center/Towncenter_aoe2DE.png@"
+          "Add 4 @resource/MaleVillDE.webp@ to @resource/Aoe2de_food.webp@ under @town_center/Towncenter_aoe2DE.webp@"
         ],
         "time": "4:35"
       },
@@ -2539,8 +2539,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ goes to @resource/Aoe2de_wood.png@ (with @other/MuleCart.png@)",
-          "Research @town_center/LoomDE.png@  | Research 16 pop @age/FeudalAgeIconDE.png@"
+          "Next @resource/MaleVillDE.webp@ goes to @resource/Aoe2de_wood.webp@ (with @other/MuleCart.webp@)",
+          "Research @town_center/LoomDE.webp@  | Research 16 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "5:25"
       },
@@ -2554,8 +2554,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | 9 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to @resource/Aoe2de_wood.png@ (3 on straggler)",
-          "3 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to @resource/BerryBushDE.png@ | Build @barracks/Barracks_aoe2DE.png@"
+          "Before @age/FeudalAgeIconDE.webp@ | 9 @resource/MaleVillDE.webp@ from @town_center/Towncenter_aoe2DE.webp@ to @resource/Aoe2de_wood.webp@ (3 on straggler)",
+          "3 @resource/MaleVillDE.webp@ from @town_center/Towncenter_aoe2DE.webp@ to @resource/BerryBushDE.webp@ | Build @barracks/Barracks_aoe2DE.webp@"
         ],
         "time": "7:35"
       },
@@ -2569,8 +2569,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Build @stable/Stable_aoe2DE.png@ & @other/House_aoe2DE.png@ | 3 straggler @resource/MaleVillDE.jpg@ back to @resource/Aoe2de_food.png@",
-          "Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ | Produce many @stable/Scoutcavalry_aoe2DE.png@ | Next @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@/straggler"
+          "In @age/FeudalAgeIconDE.webp@ | Build @stable/Stable_aoe2DE.webp@ & @other/House_aoe2DE.webp@ | 3 straggler @resource/MaleVillDE.webp@ back to @resource/Aoe2de_food.webp@",
+          "Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ | Produce many @stable/Scoutcavalry_aoe2DE.webp@ | Next @resource/MaleVillDE.webp@ to @mill/FarmDE.webp@/straggler"
         ],
         "time": "9:15"
       }
@@ -2597,7 +2597,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 4 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 4 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "0:25"
       },
@@ -2611,7 +2611,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@ | Research @town_center/LoomDE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@ | Research @town_center/LoomDE.webp@"
         ],
         "time": "0:50"
       },
@@ -2625,7 +2625,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@/@animal/Sheep_aoe2DE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@/@animal/Sheep_aoe2DE.webp@"
         ],
         "time": "2:05"
       },
@@ -2639,7 +2639,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@)"
         ],
         "time": "2:55"
       },
@@ -2653,7 +2653,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@ and lures 2nd @animal/Boar_aoe2DE.png@ | Start pushing @animal/Deer_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ builds 1 @other/House_aoe2DE.webp@ and lures 2nd @animal/Boar_aoe2DE.webp@ | Start pushing @animal/Deer_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -2667,7 +2667,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@"
         ],
         "time": "4:35"
       },
@@ -2681,7 +2681,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@"
+          "Next @resource/MaleVillDE.webp@ builds @mill/Mill_aoe2de.webp@ on @resource/BerryBushDE.webp@"
         ],
         "time": "5:00"
       },
@@ -2695,7 +2695,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ goes to @animal/Boar_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ goes to @animal/Boar_aoe2DE.webp@"
         ],
         "time": "5:25"
       },
@@ -2709,7 +2709,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ goes to @resource/Aoe2de_wood.png@ | 18 pop @age/FeudalAgeIconDE.png@"
+          "Next @resource/MaleVillDE.webp@ goes to @resource/Aoe2de_wood.webp@ | 18 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "5:50"
       },
@@ -2724,7 +2724,7 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | 8 from @animal/Sheep_aoe2DE.png@ to @resource/Aoe2de_wood.png@ (7, straggler) & @other/House_aoe2DE.png@+@barracks/Barracks_aoe2DE.png@ (1)"
+          "Before @age/FeudalAgeIconDE.webp@ | 8 from @animal/Sheep_aoe2DE.webp@ to @resource/Aoe2de_wood.webp@ (7, straggler) & @other/House_aoe2DE.webp@+@barracks/Barracks_aoe2DE.webp@ (1)"
         ],
         "time": "8:00"
       },
@@ -2739,8 +2739,8 @@ const aoe2_build_orders = [
           "builder": 2
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Next 5 @resource/MaleVillDE.jpg@ on @resource/BerryBushDE.png@ | Build @stable/Stable_aoe2DE.png@ (@resource/Aoe2de_hammer.png@ + straggler)",
-          "Move 6 from straggler to @resource/Aoe2de_wood.png@ (3) & @animal/Sheep_aoe2DE.png@ (3) | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Next 5 @resource/MaleVillDE.webp@ on @resource/BerryBushDE.webp@ | Build @stable/Stable_aoe2DE.webp@ (@resource/Aoe2de_hammer.webp@ + straggler)",
+          "Move 6 from straggler to @resource/Aoe2de_wood.webp@ (3) & @animal/Sheep_aoe2DE.webp@ (3) | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@"
         ],
         "time": "10:05"
       },
@@ -2755,7 +2755,7 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Builders to @resource/Aoe2de_wood.png@/@defensive_structures/Palisade_wall_aoe2de.png@ | Next 3 @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@"
+          "Builders to @resource/Aoe2de_wood.webp@/@defensive_structures/Palisade_wall_aoe2de.webp@ | Next 3 @resource/MaleVillDE.webp@ to @mill/FarmDE.webp@"
         ],
         "time": "11:20"
       },
@@ -2770,7 +2770,7 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (2nd @lumber_camp/Lumber_camp_aoe2de.png@)"
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (2nd @lumber_camp/Lumber_camp_aoe2de.webp@)"
         ],
         "time": "12:35"
       }
@@ -2797,7 +2797,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -2811,7 +2811,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@)"
         ],
         "time": "2:05"
       },
@@ -2825,7 +2825,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ lures @animal/Boar_aoe2DE.png@ | Start luring @animal/Deer_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ lures @animal/Boar_aoe2DE.webp@ | Start luring @animal/Deer_aoe2DE.webp@"
         ],
         "time": "2:30"
       },
@@ -2839,7 +2839,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ goes to @animal/Boar_aoe2DE.png@/@animal/Deer_aoe2DE.png@/@animal/Sheep_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ goes to @animal/Boar_aoe2DE.webp@/@animal/Deer_aoe2DE.webp@/@animal/Sheep_aoe2DE.webp@"
         ],
         "time": "2:55"
       },
@@ -2853,7 +2853,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@ | Builds 1 @other/House_aoe2DE.png@ with a @resource/Aoe2de_food.png@@resource/MaleVillDE.jpg@"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_food.webp@ | Builds 1 @other/House_aoe2DE.webp@ with a @resource/Aoe2de_food.webp@@resource/MaleVillDE.webp@"
         ],
         "time": "3:45"
       },
@@ -2867,7 +2867,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 2nd @animal/Boar_aoe2DE.png@"
+          "Lure 2nd @animal/Boar_aoe2DE.webp@"
         ],
         "time": "4:10"
       },
@@ -2882,7 +2882,7 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds @barracks/Barracks_aoe2DE.png@, then to @resource/Aoe2de_wood.png@"
+          "Next @resource/MaleVillDE.webp@ builds @barracks/Barracks_aoe2DE.webp@, then to @resource/Aoe2de_wood.webp@"
         ],
         "time": "4:35"
       },
@@ -2896,7 +2896,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@ | Research @town_center/LoomDE.png@ | 18 pop @age/FeudalAgeIconDE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_food.webp@ | Research @town_center/LoomDE.webp@ | 18 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "6:15"
       },
@@ -2910,8 +2910,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Build 1 @other/House_aoe2DE.png@ with 2 @resource/Aoe2de_wood.png@@resource/MaleVillDE.jpg@ | Train 3 @barracks/MilitiaDE.png@",
-          "Move 7 @resource/MaleVillDE.jpg@ from @resource/Aoe2de_food.png@ to @resource/Aoe2de_wood.png@ (5) & @resource/Aoe2de_gold.png@ (2, build @mining_camp/Mining_camp_aoe2de.png@)"
+          "Before @age/FeudalAgeIconDE.webp@ | Build 1 @other/House_aoe2DE.webp@ with 2 @resource/Aoe2de_wood.webp@@resource/MaleVillDE.webp@ | Train 3 @barracks/MilitiaDE.webp@",
+          "Move 7 @resource/MaleVillDE.webp@ from @resource/Aoe2de_food.webp@ to @resource/Aoe2de_wood.webp@ (5) & @resource/Aoe2de_gold.webp@ (2, build @mining_camp/Mining_camp_aoe2de.webp@)"
         ],
         "time": "8:25"
       },
@@ -2925,8 +2925,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Build 1 @archery_range/Archery_range_aoe2DE.png@, then @other/House_aoe2DE.png@ | Research @barracks/ManAtArmsUpgDE.png@ | Harass",
-          "Next @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@ | Build @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Build 1 @archery_range/Archery_range_aoe2DE.webp@, then @other/House_aoe2DE.webp@ | Research @barracks/ManAtArmsUpgDE.webp@ | Harass",
+          "Next @resource/MaleVillDE.webp@ to @resource/Aoe2de_food.webp@ | Build @mill/Mill_aoe2de.webp@ on @resource/BerryBushDE.webp@"
         ],
         "time": "9:15"
       },
@@ -2940,8 +2940,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Train @archery_range/Archer_aoe2DE.png@ | Next @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@/@resource/Aoe2de_wood.png@/@resource/Aoe2de_food.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@",
-          "Build @blacksmith/Blacksmith_aoe2de.png@ | Research @blacksmith/FletchingDE.png@ | Start @mill/FarmDE.png@"
+          "Train @archery_range/Archer_aoe2DE.webp@ | Next @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@/@resource/Aoe2de_wood.webp@/@resource/Aoe2de_food.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@",
+          "Build @blacksmith/Blacksmith_aoe2de.webp@ | Research @blacksmith/FletchingDE.webp@ | Start @mill/FarmDE.webp@"
         ],
         "time": "10:05"
       }
@@ -2969,7 +2969,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | Send the first 6 @resource/villager.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | Send the first 6 @resource/villager.webp@ to @animal/Sheep_aoe2DE.webp@"
         ]
       },
       {
@@ -2983,7 +2983,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/villager.jpg@ lures 1st @animal/Boar_aoe2DE.png@"
+          "Next @resource/villager.webp@ lures 1st @animal/Boar_aoe2DE.webp@"
         ]
       },
       {
@@ -2997,8 +2997,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/villager.jpg@ go to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@) | Build 2 @other/House_aoe2DE.png@",
-          "Start pushing @animal/Deer_aoe2DE.png@ with @stable/Scoutcavalry_aoe2DE.png@"
+          "Next 4 @resource/villager.webp@ go to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@) | Build 2 @other/House_aoe2DE.webp@",
+          "Start pushing @animal/Deer_aoe2DE.webp@ with @stable/Scoutcavalry_aoe2DE.webp@"
         ]
       },
       {
@@ -3012,7 +3012,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/villager.jpg@ to @animal/Boar_aoe2DE.png@ | Lure 2nd @animal/Boar_aoe2DE.png@"
+          "Next 2 @resource/villager.webp@ to @animal/Boar_aoe2DE.webp@ | Lure 2nd @animal/Boar_aoe2DE.webp@"
         ]
       },
       {
@@ -3026,7 +3026,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/villager.jpg@ go to @resource/BerryBushDE.png@ (build @mill/Mill_aoe2de.png@)"
+          "Next 2 @resource/villager.webp@ go to @resource/BerryBushDE.webp@ (build @mill/Mill_aoe2de.webp@)"
         ]
       },
       {
@@ -3040,7 +3040,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add 1 @resource/villager.jpg@ on @animal/Boar_aoe2DE.png@"
+          "Add 1 @resource/villager.webp@ on @animal/Boar_aoe2DE.webp@"
         ]
       },
       {
@@ -3054,7 +3054,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/villager.jpg@ go to @resource/Aoe2de_gold.png@ (build @mining_camp/Mining_camp_aoe2de.png@)"
+          "Next 2 @resource/villager.webp@ go to @resource/Aoe2de_gold.webp@ (build @mining_camp/Mining_camp_aoe2de.webp@)"
         ]
       },
       {
@@ -3068,7 +3068,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/villager.jpg@ go to @resource/Aoe2de_wood.png@ | Research @town_center/LoomDE.png@ | 22 pop @age/FeudalAgeIconDE.png@"
+          "Next 3 @resource/villager.webp@ go to @resource/Aoe2de_wood.webp@ | Research @town_center/LoomDE.webp@ | 22 pop @age/FeudalAgeIconDE.webp@"
         ]
       },
       {
@@ -3082,7 +3082,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Build @barracks/Barracks_aoe2DE.png@"
+          "Before @age/FeudalAgeIconDE.webp@ | Build @barracks/Barracks_aoe2DE.webp@"
         ]
       },
       {
@@ -3096,8 +3096,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Next 2 @resource/villager.jpg@ to @resource/Aoe2de_gold.png@",
-          "Build @stable/Stable_aoe2DE.png@ & @blacksmith/Blacksmith_aoe2de.png@ | 24 pop @age/CastleAgeIconDE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Next 2 @resource/villager.webp@ to @resource/Aoe2de_gold.webp@",
+          "Build @stable/Stable_aoe2DE.webp@ & @blacksmith/Blacksmith_aoe2de.webp@ | 24 pop @age/CastleAgeIconDE.webp@"
         ]
       },
       {
@@ -3111,8 +3111,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | Research @stable/BloodlinesDE.png@",
-          "Move 10 @animal/Sheep_aoe2DE.png@@resource/villager.jpg@ to @resource/BerryBushDE.png@ (4) & @mill/FarmDE.png@ (6)"
+          "Before @age/CastleAgeIconDE.webp@ | Research @stable/BloodlinesDE.webp@",
+          "Move 10 @animal/Sheep_aoe2DE.webp@@resource/villager.webp@ to @resource/BerryBushDE.webp@ (4) & @mill/FarmDE.webp@ (6)"
         ]
       },
       {
@@ -3126,7 +3126,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/CastleAgeIconDE.png@ | Next 3 @resource/villager.jpg@ to @mill/FarmDE.png@ | Make @stable/Steppelancericon.png@"
+          "In @age/CastleAgeIconDE.webp@ | Next 3 @resource/villager.webp@ to @mill/FarmDE.webp@ | Make @stable/Steppelancericon.webp@"
         ]
       },
       {
@@ -3140,7 +3140,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add 1 @resource/villager.jpg@ to @resource/Aoe2de_gold.png@"
+          "Add 1 @resource/villager.webp@ to @resource/Aoe2de_gold.webp@"
         ]
       },
       {
@@ -3154,7 +3154,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add 3 @resource/villager.jpg@ to @mill/FarmDE.png@"
+          "Add 3 @resource/villager.webp@ to @mill/FarmDE.webp@"
         ]
       }
     ]
@@ -3180,7 +3180,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 5 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 5 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "0:50"
       },
@@ -3194,7 +3194,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@, then to @resource/Aoe2de_gold.png@ (no @mining_camp/Mining_camp_aoe2de.png@)"
+          "Next @resource/MaleVillDE.webp@ builds 1 @other/House_aoe2DE.webp@, then to @resource/Aoe2de_gold.webp@ (no @mining_camp/Mining_camp_aoe2de.webp@)"
         ],
         "time": "1:15"
       },
@@ -3208,7 +3208,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "1:40"
       },
@@ -3222,7 +3222,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 5 @resource/MaleVillDE.jpg@ on @animal/Boar_aoe2DE.png@ (lure 2nd)"
+          "Next 5 @resource/MaleVillDE.webp@ on @animal/Boar_aoe2DE.webp@ (lure 2nd)"
         ],
         "time": "3:45"
       },
@@ -3236,7 +3236,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ | Build @other/House_aoe2DE.png@ & @mill/Mill_aoe2de.png@"
+          "Next 4 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@ | Build @other/House_aoe2DE.webp@ & @mill/Mill_aoe2de.webp@"
         ],
         "time": "5:25"
       },
@@ -3250,7 +3250,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ (still no @mining_camp/Mining_camp_aoe2de.png@) | Research @town_center/LoomDE.png@ | 19 pop @age/FeudalAgeIconDE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@ (still no @mining_camp/Mining_camp_aoe2de.webp@) | Research @town_center/LoomDE.webp@ | 19 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "6:40"
       },
@@ -3264,7 +3264,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | 19 pop @age/CastleAgeIconDE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | 19 pop @age/CastleAgeIconDE.webp@"
         ],
         "time": "8:50"
       },
@@ -3278,8 +3278,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | Build @stable/Stable_aoe2DE.png@ & @other/House_aoe2DE.png@",
-          "All @animal/Sheep_aoe2DE.png@@resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (straggler) & @resource/Aoe2de_gold.png@ (4 later, build @mining_camp/Mining_camp_aoe2de.png@)"
+          "Before @age/CastleAgeIconDE.webp@ | Build @stable/Stable_aoe2DE.webp@ & @other/House_aoe2DE.webp@",
+          "All @animal/Sheep_aoe2DE.webp@@resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (straggler) & @resource/Aoe2de_gold.webp@ (4 later, build @mining_camp/Mining_camp_aoe2de.webp@)"
         ],
         "time": "11:30"
       },
@@ -3293,8 +3293,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/CastleAgeIconDE.png@ | Spam @stable/Knight_aoe2DE.png@ | Straggler @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)",
-          "Move 2 @resource/MaleVillDE.jpg@ from @resource/Aoe2de_wood.png@ to @resource/BerryBushDE.png@ | Add @mill/FarmDE.png@ when possible"
+          "In @age/CastleAgeIconDE.webp@ | Spam @stable/Knight_aoe2DE.webp@ | Straggler @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@)",
+          "Move 2 @resource/MaleVillDE.webp@ from @resource/Aoe2de_wood.webp@ to @resource/BerryBushDE.webp@ | Add @mill/FarmDE.webp@ when possible"
         ],
         "time": "12:20"
       }
@@ -3321,7 +3321,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -3335,7 +3335,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (@lumber_camp/Lumber_camp_aoe2de.png@) | Lure 1st @animal/Boar_aoe2DE.png@ with a @animal/Sheep_aoe2DE.png@@resource/MaleVillDE.jpg@"
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (@lumber_camp/Lumber_camp_aoe2de.webp@) | Lure 1st @animal/Boar_aoe2DE.webp@ with a @animal/Sheep_aoe2DE.webp@@resource/MaleVillDE.webp@"
         ],
         "time": "2:30"
       },
@@ -3349,7 +3349,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Send 2 more @resource/MaleVillDE.jpg@ on @animal/Boar_aoe2DE.png@"
+          "Send 2 more @resource/MaleVillDE.webp@ on @animal/Boar_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -3363,7 +3363,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds a @other/House_aoe2DE.png@, then @mill/Mill_aoe2de.png@ (@resource/BerryBushDE.png@) | Start pushing @animal/Deer_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ builds a @other/House_aoe2DE.webp@, then @mill/Mill_aoe2de.webp@ (@resource/BerryBushDE.webp@) | Start pushing @animal/Deer_aoe2DE.webp@"
         ],
         "time": "3:45"
       },
@@ -3377,7 +3377,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ | Lure 2nd @animal/Boar_aoe2DE.png@ with a @resource/Aoe2de_food.png@@resource/MaleVillDE.jpg@"
+          "Next 4 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@ | Lure 2nd @animal/Boar_aoe2DE.webp@ with a @resource/Aoe2de_food.webp@@resource/MaleVillDE.webp@"
         ],
         "time": "5:25"
       },
@@ -3391,7 +3391,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@ | Build a @other/House_aoe2DE.png@ with a @resource/Aoe2de_wood.png@@resource/MaleVillDE.jpg@"
+          "Next 3 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@ | Build a @other/House_aoe2DE.webp@ with a @resource/Aoe2de_wood.webp@@resource/MaleVillDE.webp@"
         ],
         "time": "6:40"
       },
@@ -3405,7 +3405,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ | Research @town_center/LoomDE.png@ | 23 pop @age/FeudalAgeIconDE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@ | Research @town_center/LoomDE.webp@ | 23 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "8:20"
       },
@@ -3419,7 +3419,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Send 4 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @resource/Aoe2de_wood.png@ (2) & @mill/FarmDE.png@ (2) | 23 pop @age/CastleAgeIconDE.png@"
+          "Send 4 @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @resource/Aoe2de_wood.webp@ (2) & @mill/FarmDE.webp@ (2) | 23 pop @age/CastleAgeIconDE.webp@"
         ],
         "time": "10:30"
       },
@@ -3433,8 +3433,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | 7 @animal/Sheep_aoe2DE.png@@resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ straggler/@mill/FarmDE.png@ (5) & @resource/Aoe2de_gold.png@ (2)",
-          "Build @stable/Stable_aoe2DE.png@ & @other/House_aoe2DE.png@ with a @animal/Sheep_aoe2DE.png@@resource/MaleVillDE.jpg@, then @mill/FarmDE.png@ | @lumber_camp/DoubleBitAxe_aoe2DE.png@ & @stable/BloodlinesDE.png@"
+          "Before @age/CastleAgeIconDE.webp@ | 7 @animal/Sheep_aoe2DE.webp@@resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ straggler/@mill/FarmDE.webp@ (5) & @resource/Aoe2de_gold.webp@ (2)",
+          "Build @stable/Stable_aoe2DE.webp@ & @other/House_aoe2DE.webp@ with a @animal/Sheep_aoe2DE.webp@@resource/MaleVillDE.webp@, then @mill/FarmDE.webp@ | @lumber_camp/DoubleBitAxe_aoe2DE.webp@ & @stable/BloodlinesDE.webp@"
         ],
         "time": "13:10"
       },
@@ -3448,8 +3448,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/CastleAgeIconDE.png@ | Spam @stable/Knight_aoe2DE.png@ | 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ | 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@",
-          "Send 5 @resource/MaleVillDE.jpg@ from @resource/BerryBushDE.png@ to @resource/Aoe2de_gold.png@ (1) and @mill/FarmDE.png@ (4)"
+          "In @age/CastleAgeIconDE.webp@ | Spam @stable/Knight_aoe2DE.webp@ | 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ | 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@",
+          "Send 5 @resource/MaleVillDE.webp@ from @resource/BerryBushDE.webp@ to @resource/Aoe2de_gold.webp@ (1) and @mill/FarmDE.webp@ (4)"
         ],
         "time": "14:50"
       }
@@ -3477,7 +3477,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "2 @other/House_aoe2DE.png@ + 6 on @animal/Sheep_aoe2DE.png@"
+          "2 @other/House_aoe2DE.webp@ + 6 on @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -3491,7 +3491,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "4 on @resource/Aoe2de_wood.png@"
+          "4 on @resource/Aoe2de_wood.webp@"
         ],
         "time": "2:55"
       },
@@ -3505,7 +3505,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "1 Lures @animal/Boar_aoe2DE.png@"
+          "1 Lures @animal/Boar_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -3519,7 +3519,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "2 @other/House_aoe2DE.png@ + @mill/Mill_aoe2de.png@ + 6 on @resource/BerryBushDE.png@ | Lure @animal/Boar_aoe2DE.png@ with @resource/MaleVillDE.jpg@ Under @town_center/Towncenter_aoe2DE.png@"
+          "2 @other/House_aoe2DE.webp@ + @mill/Mill_aoe2de.webp@ + 6 on @resource/BerryBushDE.webp@ | Lure @animal/Boar_aoe2DE.webp@ with @resource/MaleVillDE.webp@ Under @town_center/Towncenter_aoe2DE.webp@"
         ],
         "time": "5:50"
       },
@@ -3533,7 +3533,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "4 on @animal/Sheep_aoe2DE.png@ | Push 4 @animal/Deer_aoe2DE.png@"
+          "4 on @animal/Sheep_aoe2DE.webp@ | Push 4 @animal/Deer_aoe2DE.webp@"
         ],
         "time": "7:30"
       },
@@ -3547,7 +3547,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "3 on @resource/Aoe2de_gold.png@ | Research 25 Pop @age/FeudalAgeIconDE_alpha.png@"
+          "3 on @resource/Aoe2de_gold.webp@ | Research 25 Pop @age/FeudalAgeIconDE_alpha.webp@"
         ],
         "time": "8:45"
       },
@@ -3561,7 +3561,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE_alpha.png@ | Research @age/CastleAgeIconDE_alpha.png@"
+          "In @age/FeudalAgeIconDE_alpha.webp@ | Research @age/CastleAgeIconDE_alpha.webp@"
         ],
         "time": "10:55"
       },
@@ -3576,9 +3576,9 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Before @age/CastleAgeIconDE_alpha.png@ | Seed 4 @mill/FarmDE.png@ | 2 @animal/Sheep_aoe2DE.png@ \u2192 2 @resource/Aoe2de_wood.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ + @mill/HorseCollarDE.png@",
-          "5 @animal/Deer_aoe2DE.png@ \u2192 5 @resource/Aoe2de_wood.png@ | 5 @resource/BerryBushDE.png@ \u2192 5 @resource/Aoe2de_gold.png@",
-          "1 @resource/BerryBushDE.png@ \u2192 1 Forward | Build @other/House_aoe2DE.png@ & @stable/Stable_aoe2DE.png@"
+          "Before @age/CastleAgeIconDE_alpha.webp@ | Seed 4 @mill/FarmDE.webp@ | 2 @animal/Sheep_aoe2DE.webp@ \u2192 2 @resource/Aoe2de_wood.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ + @mill/HorseCollarDE.webp@",
+          "5 @animal/Deer_aoe2DE.webp@ \u2192 5 @resource/Aoe2de_wood.webp@ | 5 @resource/BerryBushDE.webp@ \u2192 5 @resource/Aoe2de_gold.webp@",
+          "1 @resource/BerryBushDE.webp@ \u2192 1 Forward | Build @other/House_aoe2DE.webp@ & @stable/Stable_aoe2DE.webp@"
         ],
         "time": "13:35"
       },
@@ -3593,8 +3593,8 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "In @age/CastleAgeIconDE_alpha.png@ | Build @siege_workshop/Siege_workshop_aoe2DE.png@ | Train 1 @siege_workshop/Battering_ram_aoe2DE.png@, 1 @siege_workshop/Scorpion_aoe2DE.png@ & 1 @siege_workshop/Mangonel_aoe2DE.png@",
-          "Start Training @stable/Knight_aoe2DE.png@ (+ other) | New @resource/MaleVillDE.jpg@ mainly to @resource/Aoe2de_gold.png@"
+          "In @age/CastleAgeIconDE_alpha.webp@ | Build @siege_workshop/Siege_workshop_aoe2DE.webp@ | Train 1 @siege_workshop/Battering_ram_aoe2DE.webp@, 1 @siege_workshop/Scorpion_aoe2DE.webp@ & 1 @siege_workshop/Mangonel_aoe2DE.webp@",
+          "Start Training @stable/Knight_aoe2DE.webp@ (+ other) | New @resource/MaleVillDE.webp@ mainly to @resource/Aoe2de_gold.webp@"
         ],
         "time": "13:36"
       }
@@ -3621,7 +3621,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | 6 first @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | 6 first @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -3635,7 +3635,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "1:40"
       },
@@ -3649,7 +3649,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@) | Start pushing @animal/Deer_aoe2DE.png@ (3+)"
+          "Next 4 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@) | Start pushing @animal/Deer_aoe2DE.webp@ (3+)"
         ],
         "time": "3:20"
       },
@@ -3663,7 +3663,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@ then lures 2nd @animal/Boar_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ builds 1 @other/House_aoe2DE.webp@ then lures 2nd @animal/Boar_aoe2DE.webp@"
         ],
         "time": "3:45"
       },
@@ -3677,7 +3677,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add 1 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@"
+          "Add 1 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@"
         ],
         "time": "4:10"
       },
@@ -3691,7 +3691,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds @other/House_aoe2DE.png@ & @mill/Mill_aoe2de.png@ (@resource/BerryBushDE.png@) | 4 extra to @resource/BerryBushDE.png@"
+          "Next @resource/MaleVillDE.webp@ builds @other/House_aoe2DE.webp@ & @mill/Mill_aoe2de.webp@ (@resource/BerryBushDE.webp@) | 4 extra to @resource/BerryBushDE.webp@"
         ],
         "time": "6:15"
       },
@@ -3705,7 +3705,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ seeds @mill/FarmDE.png@"
+          "Next @resource/MaleVillDE.webp@ seeds @mill/FarmDE.webp@"
         ],
         "time": "6:40"
       },
@@ -3719,8 +3719,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 to @resource/Aoe2de_wood.png@ (1st @lumber_camp/Lumber_camp_aoe2de.png@) | Move 2 from @animal/Sheep_aoe2DE.png@ to @mill/FarmDE.png@",
-          "Resarch 23 pop @age/FeudalAgeIconDE.png@ (no loom)"
+          "Next 3 to @resource/Aoe2de_wood.webp@ (1st @lumber_camp/Lumber_camp_aoe2de.webp@) | Move 2 from @animal/Sheep_aoe2DE.webp@ to @mill/FarmDE.webp@",
+          "Resarch 23 pop @age/FeudalAgeIconDE.webp@ (no loom)"
         ],
         "time": "7:55"
       },
@@ -3734,7 +3734,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Build @barracks/Barracks_aoe2DE.png@"
+          "Before @age/FeudalAgeIconDE.webp@ | Build @barracks/Barracks_aoe2DE.webp@"
         ],
         "time": "10:05"
       },
@@ -3748,8 +3748,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Research @town_center/LoomDE.png@ | Build @stable/Stable_aoe2DE.png@ (2@resource/MaleVillDE.jpg@) & @market/Market_aoe2DE.png@ (3@resource/MaleVillDE.jpg@)",
-          "1 new @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ | Sell 200 @resource/Aoe2de_stone.png@ | Click 24 pop @age/CastleAgeIconDE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Research @town_center/LoomDE.webp@ | Build @stable/Stable_aoe2DE.webp@ (2@resource/MaleVillDE.webp@) & @market/Market_aoe2DE.webp@ (3@resource/MaleVillDE.webp@)",
+          "1 new @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@ | Sell 200 @resource/Aoe2de_stone.webp@ | Click 24 pop @age/CastleAgeIconDE.webp@"
         ],
         "time": "10:55"
       },
@@ -3763,8 +3763,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | 5 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @resource/Aoe2de_gold.png@ (4) & @resource/Aoe2de_wood.png@ (1)",
-          "Research @stable/BloodlinesDE.png@ | Seed @mill/FarmDE.png@ after @animal/Sheep_aoe2DE.png@ | Build 1 @other/House_aoe2DE.png@"
+          "Before @age/CastleAgeIconDE.webp@ | 5 @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @resource/Aoe2de_gold.webp@ (4) & @resource/Aoe2de_wood.webp@ (1)",
+          "Research @stable/BloodlinesDE.webp@ | Seed @mill/FarmDE.webp@ after @animal/Sheep_aoe2DE.webp@ | Build 1 @other/House_aoe2DE.webp@"
         ],
         "time": "13:35"
       },
@@ -3778,8 +3778,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/CastleAgeIconDE.png@ | 2 new @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@, next @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@",
-          "Make 4-6 @stable/Knight_aoe2DE.png@ | Use @market/Market_aoe2DE.png@ to build 2nd @town_center/Towncenter_aoe2DE.png@ when possible"
+          "In @age/CastleAgeIconDE.webp@ | 2 new @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@, next @resource/MaleVillDE.webp@ to @mill/FarmDE.webp@",
+          "Make 4-6 @stable/Knight_aoe2DE.webp@ | Use @market/Market_aoe2DE.webp@ to build 2nd @town_center/Towncenter_aoe2DE.webp@ when possible"
         ],
         "time": "15:40"
       }
@@ -3807,7 +3807,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/villager.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/villager.webp@ to @animal/Sheep_aoe2DE.webp@"
         ]
       },
       {
@@ -3821,7 +3821,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/villager.jpg@ lures 1st @animal/Boar_aoe2DE.png@"
+          "Next @resource/villager.webp@ lures 1st @animal/Boar_aoe2DE.webp@"
         ]
       },
       {
@@ -3835,7 +3835,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/villager.jpg@ to @resource/Aoe2de_wood.png@ (build 1st @lumber_camp/Lumber_camp_aoe2de.png@) | Build @other/House_aoe2DE.png@<br>"
+          "Next 4 @resource/villager.webp@ to @resource/Aoe2de_wood.webp@ (build 1st @lumber_camp/Lumber_camp_aoe2de.webp@) | Build @other/House_aoe2DE.webp@<br>"
         ]
       },
       {
@@ -3849,8 +3849,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/villager.jpg@ go to @resource/BerryBushDE.png@ (build @mill/Mill_aoe2de.png@)",
-          "Lure 2nd @animal/Boar_aoe2DE.png@ with existing @resource/villager.jpg@"
+          "Next 3 @resource/villager.webp@ go to @resource/BerryBushDE.webp@ (build @mill/Mill_aoe2de.webp@)",
+          "Lure 2nd @animal/Boar_aoe2DE.webp@ with existing @resource/villager.webp@"
         ]
       },
       {
@@ -3864,8 +3864,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add 2 @resource/villager.jpg@ to @animal/Boar_aoe2DE.png@ | Build @other/House_aoe2DE.png@ with @resource/Aoe2de_wood.png@@resource/villager.jpg@",
-          "Move 4 @animal/Boar_aoe2DE.png@@resource/villager.jpg@ to @animal/Wild_Chicken.png@ (build @mill/Mill_aoe2de.png@ after 2 @animal/Wild_Chicken.png@)"
+          "Add 2 @resource/villager.webp@ to @animal/Boar_aoe2DE.webp@ | Build @other/House_aoe2DE.webp@ with @resource/Aoe2de_wood.webp@@resource/villager.webp@",
+          "Move 4 @animal/Boar_aoe2DE.webp@@resource/villager.webp@ to @animal/Wild_Chicken.webp@ (build @mill/Mill_aoe2de.webp@ after 2 @animal/Wild_Chicken.webp@)"
         ]
       },
       {
@@ -3879,7 +3879,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/villager.jpg@ to @resource/BerryBushDE.png@ | Build 1 @other/House_aoe2DE.png@"
+          "Next 2 @resource/villager.webp@ to @resource/BerryBushDE.webp@ | Build 1 @other/House_aoe2DE.webp@"
         ]
       },
       {
@@ -3893,7 +3893,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/villager.jpg@ to @resource/Aoe2de_gold.png@"
+          "Next 2 @resource/villager.webp@ to @resource/Aoe2de_gold.webp@"
         ]
       },
       {
@@ -3907,7 +3907,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/villager.jpg@ to @resource/Aoe2de_wood.png@ | Research @town_center/LoomDE.png@ | 23 pop @age/FeudalAgeIconDE.png@"
+          "Next 2 @resource/villager.webp@ to @resource/Aoe2de_wood.webp@ | Research @town_center/LoomDE.webp@ | 23 pop @age/FeudalAgeIconDE.webp@"
         ]
       },
       {
@@ -3921,7 +3921,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Move 1 @animal/Sheep_aoe2DE.png@@resource/villager.jpg@ to @mill/FarmDE.png@ & 4 @animal/Wild_Chicken.png@@resource/villager.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Before @age/FeudalAgeIconDE.webp@ | Move 1 @animal/Sheep_aoe2DE.webp@@resource/villager.webp@ to @mill/FarmDE.webp@ & 4 @animal/Wild_Chicken.webp@@resource/villager.webp@ to @animal/Sheep_aoe2DE.webp@"
         ]
       },
       {
@@ -3935,7 +3935,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Next 2 @resource/villager.jpg@ to @animal/Sheep_aoe2DE.png@ | Build @market/Market_aoe2DE.png@ & @blacksmith/Blacksmith_aoe2de.png@ | 25 pop @age/CastleAgeIconDE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Next 2 @resource/villager.webp@ to @animal/Sheep_aoe2DE.webp@ | Build @market/Market_aoe2DE.webp@ & @blacksmith/Blacksmith_aoe2de.webp@ | 25 pop @age/CastleAgeIconDE.webp@"
         ]
       },
       {
@@ -3949,9 +3949,9 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | Move 4 @animal/Sheep_aoe2DE.png@@resource/villager.jpg@ to @resource/Aoe2de_gold.png@",
-          "Send all @animal/Sheep_aoe2DE.png@@resource/villager.jpg@ to @resource/Aoe2de_wood.png@ | Move 5 @resource/BerryBushDE.png@@resource/villager.jpg@ to @mill/FarmDE.png@",
-          "Build 1 @defensive_structures/Tower_aoe2de.png@ & 2 @barracks/Barracks_aoe2DE.png@ "
+          "Before @age/CastleAgeIconDE.webp@ | Move 4 @animal/Sheep_aoe2DE.webp@@resource/villager.webp@ to @resource/Aoe2de_gold.webp@",
+          "Send all @animal/Sheep_aoe2DE.webp@@resource/villager.webp@ to @resource/Aoe2de_wood.webp@ | Move 5 @resource/BerryBushDE.webp@@resource/villager.webp@ to @mill/FarmDE.webp@",
+          "Build 1 @defensive_structures/Tower_aoe2de.webp@ & 2 @barracks/Barracks_aoe2DE.webp@ "
         ]
       },
       {
@@ -3965,7 +3965,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/CastleAgeIconDE.png@ | Next 4 @resource/villager.jpg@ to @resource/Aoe2de_gold.png@ | Build @siege_workshop/Siege_workshop_aoe2DE.png@ | Make @barracks/Fire_Lancer.png@ & @siege_workshop/Rocket_Cart.png@"
+          "In @age/CastleAgeIconDE.webp@ | Next 4 @resource/villager.webp@ to @resource/Aoe2de_gold.webp@ | Build @siege_workshop/Siege_workshop_aoe2DE.webp@ | Make @barracks/Fire_Lancer.webp@ & @siege_workshop/Rocket_Cart.webp@"
         ]
       }
     ]
@@ -3992,7 +3992,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Research @town_center/LoomDE.png@ | Build 2 @other/House_aoe2DE.png@ | 6 on @animal/Sheep_aoe2DE.png@"
+          "Research @town_center/LoomDE.webp@ | Build 2 @other/House_aoe2DE.webp@ | 6 on @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -4006,7 +4006,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "1 Lures @animal/Boar_aoe2DE.png@"
+          "1 Lures @animal/Boar_aoe2DE.webp@"
         ],
         "time": "1:40"
       },
@@ -4020,7 +4020,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "@lumber_camp/Lumber_camp_aoe2de.png@ + 4 on @resource/Aoe2de_wood.png@"
+          "@lumber_camp/Lumber_camp_aoe2de.webp@ + 4 on @resource/Aoe2de_wood.webp@"
         ],
         "time": "3:20"
       },
@@ -4034,7 +4034,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "1 Lures @animal/Boar_aoe2DE.png@ + 1 More on @animal/Boar_aoe2DE.png@ | Build @other/House_aoe2DE.png@"
+          "1 Lures @animal/Boar_aoe2DE.webp@ + 1 More on @animal/Boar_aoe2DE.webp@ | Build @other/House_aoe2DE.webp@"
         ],
         "time": "4:10"
       },
@@ -4048,7 +4048,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "@mill/Mill_aoe2de.png@ + 4 on @resource/BerryBushDE.png@"
+          "@mill/Mill_aoe2de.webp@ + 4 on @resource/BerryBushDE.webp@"
         ],
         "time": "5:50"
       },
@@ -4062,7 +4062,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "@other/House_aoe2DE.png@ (immediately) + 3 on @resource/Aoe2de_wood.png@ | Research 21 Pop @age/FeudalAgeIconDE_alpha.png@"
+          "@other/House_aoe2DE.webp@ (immediately) + 3 on @resource/Aoe2de_wood.webp@ | Research 21 Pop @age/FeudalAgeIconDE_alpha.webp@"
         ],
         "time": "7:05"
       },
@@ -4077,8 +4077,8 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE_alpha.png@ | 5 @animal/Sheep_aoe2DE.png@ \u2192 5 Straggler",
-          "2 @animal/Sheep_aoe2DE.png@ \u2192 2 @resource/Aoe2de_gold.png@ + @mining_camp/Mining_camp_aoe2de.png@ | 1 @animal/Sheep_aoe2DE.png@ \u2192 @other/House_aoe2DE.png@ + @barracks/Barracks_aoe2DE.png@"
+          "Before @age/FeudalAgeIconDE_alpha.webp@ | 5 @animal/Sheep_aoe2DE.webp@ \u2192 5 Straggler",
+          "2 @animal/Sheep_aoe2DE.webp@ \u2192 2 @resource/Aoe2de_gold.webp@ + @mining_camp/Mining_camp_aoe2de.webp@ | 1 @animal/Sheep_aoe2DE.webp@ \u2192 @other/House_aoe2DE.webp@ + @barracks/Barracks_aoe2DE.webp@"
         ],
         "time": "9:15"
       },
@@ -4092,10 +4092,10 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE_alpha.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ | 6 on @resource/Aoe2de_gold.png@",
-          "1 Straggler \u2192 Build 2 @archery_range/Archery_range_aoe2DE.png@ + @blacksmith/Blacksmith_aoe2de.png@ + @defensive_structures/Palisade_wall_aoe2de.png@ + @other/House_aoe2DE.png@",
-          "Research @blacksmith/FletchingDE.png@ + @mill/HorseCollarDE.png@ | Start Training @archery_range/Archer_aoe2DE.png@",
-          "1 Builder \u2192 1 @resource/Aoe2de_gold.png@ | @market/Market_aoe2DE.png@"
+          "In @age/FeudalAgeIconDE_alpha.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ | 6 on @resource/Aoe2de_gold.webp@",
+          "1 Straggler \u2192 Build 2 @archery_range/Archery_range_aoe2DE.webp@ + @blacksmith/Blacksmith_aoe2de.webp@ + @defensive_structures/Palisade_wall_aoe2de.webp@ + @other/House_aoe2DE.webp@",
+          "Research @blacksmith/FletchingDE.webp@ + @mill/HorseCollarDE.webp@ | Start Training @archery_range/Archer_aoe2DE.webp@",
+          "1 Builder \u2192 1 @resource/Aoe2de_gold.webp@ | @market/Market_aoe2DE.webp@"
         ],
         "time": "11:45"
       },
@@ -4109,8 +4109,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "7 on @resource/Aoe2de_wood.png@",
-          "Seed 8 @mill/FarmDE.png@ with @resource/MaleVillDE.jpg@ on Straggler and @resource/BerryBushDE.png@"
+          "7 on @resource/Aoe2de_wood.webp@",
+          "Seed 8 @mill/FarmDE.webp@ with @resource/MaleVillDE.webp@ on Straggler and @resource/BerryBushDE.webp@"
         ],
         "time": "14:40"
       },
@@ -4124,7 +4124,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Seed 3 @mill/FarmDE.png@ with @resource/MaleVillDE.jpg@ on @resource/Aoe2de_wood.png@ | Research @town_center/WheelbarrowDE.png@ | Research @age/CastleAgeIconDE_alpha.png@"
+          "Seed 3 @mill/FarmDE.webp@ with @resource/MaleVillDE.webp@ on @resource/Aoe2de_wood.webp@ | Research @town_center/WheelbarrowDE.webp@ | Research @age/CastleAgeIconDE_alpha.webp@"
         ],
         "time": "15:55"
       },
@@ -4138,7 +4138,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/CastleAgeIconDE_alpha.png@ | Research @mining_camp/GoldMiningDE.png@"
+          "Before @age/CastleAgeIconDE_alpha.webp@ | Research @mining_camp/GoldMiningDE.webp@"
         ],
         "time": "18:35"
       },
@@ -4152,8 +4152,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/CastleAgeIconDE_alpha.png@ | @university/University_AoE2_DE.png@ + @monastery/MonasteryAoe2DE.png@ | Research @blacksmith/BodkinArrowDE.png@ + @archery_range/Crossbowman_aoe2DE.png@ + @town_center/HandcartDE.png@",
-          "Research @university/BallisticsDE.png@ + @archery_range/ThumbRingDE.png@ + @lumber_camp/BowSawDE.png@ | Train 2 @monastery/Monk_aoe2DE.png@"
+          "In @age/CastleAgeIconDE_alpha.webp@ | @university/University_AoE2_DE.webp@ + @monastery/MonasteryAoe2DE.webp@ | Research @blacksmith/BodkinArrowDE.webp@ + @archery_range/Crossbowman_aoe2DE.webp@ + @town_center/HandcartDE.webp@",
+          "Research @university/BallisticsDE.webp@ + @archery_range/ThumbRingDE.webp@ + @lumber_camp/BowSawDE.webp@ | Train 2 @monastery/Monk_aoe2DE.webp@"
         ],
         "time": "19:30"
       }
@@ -4181,7 +4181,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | 6 on @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | 6 on @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -4195,7 +4195,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 1 @other/House_aoe2DE.png@ | 5 on @resource/Aoe2de_wood.png@ | Start luring @animal/Deer_aoe2DE.png@"
+          "Build 1 @other/House_aoe2DE.webp@ | 5 on @resource/Aoe2de_wood.webp@ | Start luring @animal/Deer_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -4209,7 +4209,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "3:45"
       },
@@ -4223,7 +4223,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "3 More on @animal/Boar_aoe2DE.png@ (lure 2nd)"
+          "3 More on @animal/Boar_aoe2DE.webp@ (lure 2nd)"
         ],
         "time": "5:00"
       },
@@ -4237,7 +4237,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 1 @other/House_aoe2DE.png@ | 4 on @resource/Aoe2de_wood.png@"
+          "Build 1 @other/House_aoe2DE.webp@ | 4 on @resource/Aoe2de_wood.webp@"
         ],
         "time": "6:40"
       },
@@ -4251,7 +4251,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | 6 on @resource/BerryBushDE.png@ (@mill/Mill_aoe2de.png@)"
+          "Build 2 @other/House_aoe2DE.webp@ | 6 on @resource/BerryBushDE.webp@ (@mill/Mill_aoe2de.webp@)"
         ],
         "time": "9:10"
       },
@@ -4265,7 +4265,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "4 on @resource/Aoe2de_wood.png@"
+          "4 on @resource/Aoe2de_wood.webp@"
         ],
         "time": "10:50"
       },
@@ -4279,7 +4279,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "3 on @resource/Aoe2de_gold.png@ | 33 Pop @age/FeudalAgeIconDE_alpha.png@"
+          "3 on @resource/Aoe2de_gold.webp@ | 33 Pop @age/FeudalAgeIconDE_alpha.webp@"
         ],
         "time": "12:05"
       },
@@ -4293,7 +4293,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE_alpha.png@ | Build @barracks/Barracks_aoe2DE.png@ + @other/House_aoe2DE.png@ | Start @mill/FarmDE.png@"
+          "Before @age/FeudalAgeIconDE_alpha.webp@ | Build @barracks/Barracks_aoe2DE.webp@ + @other/House_aoe2DE.webp@ | Start @mill/FarmDE.webp@"
         ],
         "time": "13:23"
       },
@@ -4307,8 +4307,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE_alpha.png@ | 2 on @mill/FarmDE.png@ | Build 2 @stable/Stable_aoe2DE.png@ + @blacksmith/Blacksmith_aoe2de.png@ | Seed 1 @mill/FarmDE.png@ with @resource/Aoe2de_wood.png@@resource/MaleVillDE.jpg@",
-          "4 @resource/Aoe2de_wood.png@ \u2192 4 @resource/Aoe2de_gold.png@ | 2 @resource/BerryBushDE.png@ \u2192 2 @resource/Aoe2de_gold.png@ | 35 pop @age/CastleAgeIconDE_alpha.png@"
+          "In @age/FeudalAgeIconDE_alpha.webp@ | 2 on @mill/FarmDE.webp@ | Build 2 @stable/Stable_aoe2DE.webp@ + @blacksmith/Blacksmith_aoe2de.webp@ | Seed 1 @mill/FarmDE.webp@ with @resource/Aoe2de_wood.webp@@resource/MaleVillDE.webp@",
+          "4 @resource/Aoe2de_wood.webp@ \u2192 4 @resource/Aoe2de_gold.webp@ | 2 @resource/BerryBushDE.webp@ \u2192 2 @resource/Aoe2de_gold.webp@ | 35 pop @age/CastleAgeIconDE_alpha.webp@"
         ],
         "time": "14:13"
       },
@@ -4322,7 +4322,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/CastleAgeIconDE_alpha.png@ | New @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@ | Train 20 @stable/Battle_elephant_aoe2DE.png@ | Research @stable/HusbandryDE.png@ + @blacksmith/ScaleBardingArmorDE.png@"
+          "In @age/CastleAgeIconDE_alpha.webp@ | New @resource/MaleVillDE.webp@ to @mill/FarmDE.webp@ | Train 20 @stable/Battle_elephant_aoe2DE.webp@ | Research @stable/HusbandryDE.webp@ + @blacksmith/ScaleBardingArmorDE.webp@"
         ],
         "time": "15:50"
       }
@@ -4349,7 +4349,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 4 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 4 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "0:25"
       },
@@ -4363,7 +4363,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "0:50"
       },
@@ -4377,7 +4377,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@) | Start pushing @animal/Deer_aoe2DE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@) | Start pushing @animal/Deer_aoe2DE.webp@"
         ],
         "time": "1:40"
       },
@@ -4391,7 +4391,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@ | Lure 2nd @animal/Boar_aoe2DE.png@"
+          "Next 4 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@ | Lure 2nd @animal/Boar_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -4405,7 +4405,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@"
+          "Next @resource/MaleVillDE.webp@ builds @mill/Mill_aoe2de.webp@ on @resource/BerryBushDE.webp@"
         ],
         "time": "3:45"
       },
@@ -4419,7 +4419,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@ | Research @town_center/LoomDE.png@ | 15 pop @age/FeudalAgeIconDE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@ | Research @town_center/LoomDE.webp@ | 15 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "5:00"
       },
@@ -4434,8 +4434,8 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | 8 from @resource/Aoe2de_food.png@ to @resource/Aoe2de_wood.png@ (4 + 3 straggler) & @other/House_aoe2DE.png@+@barracks/Barracks_aoe2DE.png@ (1)",
-          "At 175 @resource/Aoe2de_wood.png@, send 2 @resource/Aoe2de_wood.png@@resource/MaleVillDE.jpg@ (straggler) back to @resource/Aoe2de_food.png@"
+          "Before @age/FeudalAgeIconDE.webp@ | 8 from @resource/Aoe2de_food.webp@ to @resource/Aoe2de_wood.webp@ (4 + 3 straggler) & @other/House_aoe2DE.webp@+@barracks/Barracks_aoe2DE.webp@ (1)",
+          "At 175 @resource/Aoe2de_wood.webp@, send 2 @resource/Aoe2de_wood.webp@@resource/MaleVillDE.webp@ (straggler) back to @resource/Aoe2de_food.webp@"
         ],
         "time": "7:10"
       },
@@ -4449,8 +4449,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Build @stable/Stable_aoe2DE.png@ with 2 @resource/MaleVillDE.jpg@ (@resource/Aoe2de_hammer.png@ + @resource/Aoe2de_wood.png@), then to @resource/BerryBushDE.png@",
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ | Reach 15 @mill/FarmDE.png@ | Train @stable/Scoutcavalry_aoe2DE.png@ | Build @other/House_aoe2DE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Build @stable/Stable_aoe2DE.webp@ with 2 @resource/MaleVillDE.webp@ (@resource/Aoe2de_hammer.webp@ + @resource/Aoe2de_wood.webp@), then to @resource/BerryBushDE.webp@",
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@ | Reach 15 @mill/FarmDE.webp@ | Train @stable/Scoutcavalry_aoe2DE.webp@ | Build @other/House_aoe2DE.webp@"
         ],
         "time": "8:25"
       }
@@ -4477,7 +4477,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@. | Send the first 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@."
+          "Build 2 @other/House_aoe2DE.webp@. | Send the first 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@."
         ],
         "time": "1:15"
       },
@@ -4491,7 +4491,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Send the next 4 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)."
+          "Send the next 4 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@)."
         ],
         "time": "2:55"
       },
@@ -4505,7 +4505,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure the first @animal/Boar_aoe2DE.png@ with next @resource/MaleVillDE.jpg@."
+          "Lure the first @animal/Boar_aoe2DE.webp@ with next @resource/MaleVillDE.webp@."
         ],
         "time": "3:20"
       },
@@ -4519,8 +4519,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 2 @other/House_aoe2DE.png@ and 1 @mill/Mill_aoe2de.png@, then @resource/BerryBushDE.png@.",
-          "Send next 3 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@. | Push @animal/Deer_aoe2DE.png@ with @stable/Scoutcavalry_aoe2DE.png@."
+          "Next @resource/MaleVillDE.webp@ builds 2 @other/House_aoe2DE.webp@ and 1 @mill/Mill_aoe2de.webp@, then @resource/BerryBushDE.webp@.",
+          "Send next 3 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@. | Push @animal/Deer_aoe2DE.webp@ with @stable/Scoutcavalry_aoe2DE.webp@."
         ],
         "time": "5:00"
       },
@@ -4534,7 +4534,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure the second @animal/Boar_aoe2DE.png@ with next @resource/MaleVillDE.jpg@."
+          "Lure the second @animal/Boar_aoe2DE.webp@ with next @resource/MaleVillDE.webp@."
         ],
         "time": "5:25"
       },
@@ -4548,7 +4548,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Send next @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@. | Build 2 @mill/FarmDE.png@ with @resource/MaleVillDE.jpg@ from @resource/Aoe2de_food.png@."
+          "Send next @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@. | Build 2 @mill/FarmDE.webp@ with @resource/MaleVillDE.webp@ from @resource/Aoe2de_food.webp@."
         ],
         "time": "5:50"
       },
@@ -4562,7 +4562,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Send next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@."
+          "Send next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@."
         ],
         "time": "6:40"
       },
@@ -4576,7 +4576,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Send 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@. | Research @town_center/LoomDE.png@. | Click up to @age/FeudalAgeIconDE.png@."
+          "Send 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@. | Research @town_center/LoomDE.webp@. | Click up to @age/FeudalAgeIconDE.webp@."
         ],
         "time": "8:20"
       },
@@ -4590,7 +4590,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@. | Build @barracks/Barracks_aoe2DE.png@ at 60% up."
+          "Before @age/FeudalAgeIconDE.webp@. | Build @barracks/Barracks_aoe2DE.webp@ at 60% up."
         ],
         "time": "10:30"
       },
@@ -4604,8 +4604,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Send 2 new @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@.",
-          "Build @stable/Stable_aoe2DE.png@ and @blacksmith/Blacksmith_aoe2de.png@. Click up to @age/CastleAgeIconDE.png@."
+          "Send 2 new @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@.",
+          "Build @stable/Stable_aoe2DE.webp@ and @blacksmith/Blacksmith_aoe2de.webp@. Click up to @age/CastleAgeIconDE.webp@."
         ],
         "time": "11:20"
       },
@@ -4619,9 +4619,9 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | Send 1 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @resource/Aoe2de_gold.png@.",
-          "Send all other @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @mill/FarmDE.png@.",
-          "Build 2 @other/House_aoe2DE.png@. | Research @stable/BloodlinesDE.png@ and @lumber_camp/DoubleBitAxe_aoe2DE.png@."
+          "Before @age/CastleAgeIconDE.webp@ | Send 1 @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @resource/Aoe2de_gold.webp@.",
+          "Send all other @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @mill/FarmDE.webp@.",
+          "Build 2 @other/House_aoe2DE.webp@. | Research @stable/BloodlinesDE.webp@ and @lumber_camp/DoubleBitAxe_aoe2DE.webp@."
         ],
         "time": "14:00"
       },
@@ -4635,7 +4635,7 @@ const aoe2_build_orders = [
           "stone": -1
         },
         "notes": [
-          "In @age/CastleAgeIconDE.png@ | Send new @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@. Make @stable/Steppelancericon.png@."
+          "In @age/CastleAgeIconDE.webp@ | Send new @resource/MaleVillDE.webp@ to @mill/FarmDE.webp@. Make @stable/Steppelancericon.webp@."
         ],
         "time": "14:01"
       }
@@ -4662,7 +4662,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | Send the first 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | Send the first 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:11"
       },
@@ -4676,7 +4676,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ goes to @animal/Boar_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ goes to @animal/Boar_aoe2DE.webp@"
         ],
         "time": "1:35"
       },
@@ -4690,8 +4690,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ go to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)",
-          "Build 1 @other/House_aoe2DE.png@ | Start pushing 3 @animal/Deer_aoe2DE.png@ with @stable/Scoutcavalry_aoe2DE.png@"
+          "Next 4 @resource/MaleVillDE.webp@ go to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@)",
+          "Build 1 @other/House_aoe2DE.webp@ | Start pushing 3 @animal/Deer_aoe2DE.webp@ with @stable/Scoutcavalry_aoe2DE.webp@"
         ],
         "time": "3:10"
       },
@@ -4705,7 +4705,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@ (lure the 2nd)"
+          "Next 2 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@ (lure the 2nd)"
         ],
         "time": "3:58"
       },
@@ -4719,7 +4719,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 6 @resource/MaleVillDE.jpg@ go to @resource/BerryBushDE.png@ (build @mill/Mill_aoe2de.png@) | Build a @other/House_aoe2DE.png@."
+          "Next 6 @resource/MaleVillDE.webp@ go to @resource/BerryBushDE.webp@ (build @mill/Mill_aoe2de.webp@) | Build a @other/House_aoe2DE.webp@."
         ],
         "time": "6:21"
       },
@@ -4733,7 +4733,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ go to @resource/Aoe2de_wood.png@ | Research @town_center/LoomDE.png@ | Click up to @age/FeudalAgeIconDE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ go to @resource/Aoe2de_wood.webp@ | Research @town_center/LoomDE.webp@ | Click up to @age/FeudalAgeIconDE.webp@"
         ],
         "time": "7:32"
       },
@@ -4747,7 +4747,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Build @barracks/Barracks_aoe2DE.png@"
+          "Before @age/FeudalAgeIconDE.webp@ | Build @barracks/Barracks_aoe2DE.webp@"
         ],
         "time": "9:36"
       },
@@ -4761,8 +4761,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Build @stable/Stable_aoe2DE.png@ (2 @resource/MaleVillDE.jpg@) & @market/Market_aoe2DE.png@ (3 @resource/MaleVillDE.jpg@), all from @lumber_camp/Lumber_camp_aoe2de.png@",
-          "Next 2 @resource/MaleVillDE.jpg@ go to @resource/Aoe2de_gold.png@ | Sell 200 @resource/Aoe2de_stone.png@ | Click up to @age/CastleAgeIconDE.png@."
+          "In @age/FeudalAgeIconDE.webp@ | Build @stable/Stable_aoe2DE.webp@ (2 @resource/MaleVillDE.webp@) & @market/Market_aoe2DE.webp@ (3 @resource/MaleVillDE.webp@), all from @lumber_camp/Lumber_camp_aoe2de.webp@",
+          "Next 2 @resource/MaleVillDE.webp@ go to @resource/Aoe2de_gold.webp@ | Sell 200 @resource/Aoe2de_stone.webp@ | Click up to @age/CastleAgeIconDE.webp@."
         ],
         "time": "10:22"
       },
@@ -4776,8 +4776,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | Move 3 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @mining_camp/GoldMiningDE.png@ | Build @other/House_aoe2DE.png@",
-          "All other @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @mill/FarmDE.png@ | Research @stable/BloodlinesDE.png@"
+          "Before @age/CastleAgeIconDE.webp@ | Move 3 @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @mining_camp/GoldMiningDE.webp@ | Build @other/House_aoe2DE.webp@",
+          "All other @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @mill/FarmDE.webp@ | Research @stable/BloodlinesDE.webp@"
         ],
         "time": "12:47"
       },
@@ -4791,7 +4791,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/CastleAgeIconDE.png@ | Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ | Make 2-3 @stable/Knight_aoe2DE.png@"
+          "In @age/CastleAgeIconDE.webp@ | Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@ | Make 2-3 @stable/Knight_aoe2DE.webp@"
         ],
         "time": "13:31"
       },
@@ -4805,7 +4805,7 @@ const aoe2_build_orders = [
           "stone": -1
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ forward to build @monastery/MonasteryAoe2DE.png@ | Make @stable/Knight_aoe2DE.png@ & @monastery/Monk_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ forward to build @monastery/MonasteryAoe2DE.webp@ | Make @stable/Knight_aoe2DE.webp@ & @monastery/Monk_aoe2DE.webp@"
         ],
         "time": "13:32"
       }
@@ -4832,7 +4832,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -4846,7 +4846,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "1:40"
       },
@@ -4860,7 +4860,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (straggler) | Build 1 @other/House_aoe2DE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (straggler) | Build 1 @other/House_aoe2DE.webp@"
         ],
         "time": "2:30"
       },
@@ -4874,7 +4874,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds @mill/Mill_aoe2de.png@ & gathers @resource/BerryBushDE.png@"
+          "Next @resource/MaleVillDE.webp@ builds @mill/Mill_aoe2de.webp@ & gathers @resource/BerryBushDE.webp@"
         ],
         "time": "2:55"
       },
@@ -4888,7 +4888,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@ & gathers @resource/BerryBushDE.png@"
+          "Next @resource/MaleVillDE.webp@ builds 1 @other/House_aoe2DE.webp@ & gathers @resource/BerryBushDE.webp@"
         ],
         "time": "3:20"
       },
@@ -4902,7 +4902,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ | Lure 2nd @animal/Boar_aoe2DE.png@ with existing @resource/MaleVillDE.jpg@"
+          "Next 4 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@ | Lure 2nd @animal/Boar_aoe2DE.webp@ with existing @resource/MaleVillDE.webp@"
         ],
         "time": "5:00"
       },
@@ -4916,7 +4916,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@) | Research @town_center/LoomDE.png@ | 19 Pop @age/FeudalAgeIconDE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@) | Research @town_center/LoomDE.webp@ | 19 Pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "6:35"
       },
@@ -4931,9 +4931,9 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Send 7 @resource/MaleVillDE.jpg@ from @resource/Aoe2de_food.png@ to @resource/Aoe2de_wood.png@ (4 to straggler)",
-          "1 @resource/BerryBushDE.png@@resource/MaleVillDE.jpg@ builds @other/House_aoe2DE.png@ & @barracks/Barracks_aoe2DE.png@",
-          "2 @resource/Aoe2de_wood.png@@resource/MaleVillDE.jpg@ (straggler) to @resource/Aoe2de_gold.png@ (at 50% up)"
+          "Before @age/FeudalAgeIconDE.webp@ | Send 7 @resource/MaleVillDE.webp@ from @resource/Aoe2de_food.webp@ to @resource/Aoe2de_wood.webp@ (4 to straggler)",
+          "1 @resource/BerryBushDE.webp@@resource/MaleVillDE.webp@ builds @other/House_aoe2DE.webp@ & @barracks/Barracks_aoe2DE.webp@",
+          "2 @resource/Aoe2de_wood.webp@@resource/MaleVillDE.webp@ (straggler) to @resource/Aoe2de_gold.webp@ (at 50% up)"
         ],
         "time": "8:45"
       },
@@ -4947,8 +4947,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ | Build 2 @archery_range/Archery_range_aoe2DE.png@ | Next 4 to @resource/Aoe2de_gold.png@",
-          "2 @resource/Aoe2de_wood.png@@resource/MaleVillDE.jpg@ (straggler) to @animal/Sheep_aoe2DE.png@ | Produce @archery_range/Archer_aoe2DE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ | Build 2 @archery_range/Archery_range_aoe2DE.webp@ | Next 4 to @resource/Aoe2de_gold.webp@",
+          "2 @resource/Aoe2de_wood.webp@@resource/MaleVillDE.webp@ (straggler) to @animal/Sheep_aoe2DE.webp@ | Produce @archery_range/Archer_aoe2DE.webp@"
         ],
         "time": "10:25"
       },
@@ -4962,8 +4962,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "All new @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@ | Build @blacksmith/Blacksmith_aoe2de.png@ | Research @blacksmith/FletchingDE.png@",
-          "Send 5 @resource/BerryBushDE.png@@resource/MaleVillDE.jpg@ (depleted) to @resource/Aoe2de_gold.png@ (1) & @resource/Aoe2de_wood.png@ (4, 2nd @lumber_camp/Lumber_camp_aoe2de.png@)"
+          "All new @resource/MaleVillDE.webp@ to @resource/Aoe2de_food.webp@ | Build @blacksmith/Blacksmith_aoe2de.webp@ | Research @blacksmith/FletchingDE.webp@",
+          "Send 5 @resource/BerryBushDE.webp@@resource/MaleVillDE.webp@ (depleted) to @resource/Aoe2de_gold.webp@ (1) & @resource/Aoe2de_wood.webp@ (4, 2nd @lumber_camp/Lumber_camp_aoe2de.webp@)"
         ],
         "time": "12:05"
       }
@@ -4990,7 +4990,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 4 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 4 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "0:25"
       },
@@ -5004,7 +5004,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ (build @mill/Mill_aoe2de.png@) | Start pushing @animal/Deer_aoe2DE.png@"
+          "Next 4 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@ (build @mill/Mill_aoe2de.webp@) | Start pushing @animal/Deer_aoe2DE.webp@"
         ],
         "time": "2:05"
       },
@@ -5018,7 +5018,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @animal/Deer_aoe2DE.png@/@animal/Sheep_aoe2DE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @animal/Deer_aoe2DE.webp@/@animal/Sheep_aoe2DE.webp@"
         ],
         "time": "2:55"
       },
@@ -5032,7 +5032,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@, then lures 1st @animal/Boar_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ builds 1 @other/House_aoe2DE.webp@, then lures 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -5046,7 +5046,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@/@animal/Deer_aoe2DE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@/@animal/Deer_aoe2DE.webp@"
         ],
         "time": "4:35"
       },
@@ -5060,8 +5060,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 on @resource/Aoe2de_wood.png@ (@lumber_camp/Lumber_camp_aoe2de.png@) | Build 1 @other/House_aoe2DE.png@ with @resource/Aoe2de_wood.png@@resource/MaleVillDE.jpg@ (drop off)",
-          "Lure 2nd @animal/Boar_aoe2DE.png@ with existing @resource/MaleVillDE.jpg@ | Eat @animal/Sheep_aoe2DE.png@ when needed"
+          "Next 4 on @resource/Aoe2de_wood.webp@ (@lumber_camp/Lumber_camp_aoe2de.webp@) | Build 1 @other/House_aoe2DE.webp@ with @resource/Aoe2de_wood.webp@@resource/MaleVillDE.webp@ (drop off)",
+          "Lure 2nd @animal/Boar_aoe2DE.webp@ with existing @resource/MaleVillDE.webp@ | Eat @animal/Sheep_aoe2DE.webp@ when needed"
         ],
         "time": "6:15"
       },
@@ -5075,7 +5075,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ on @resource/Aoe2de_gold.png@ (build @mining_camp/Mining_camp_aoe2de.png@) | 22 pop @age/FeudalAgeIconDE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ on @resource/Aoe2de_gold.webp@ (build @mining_camp/Mining_camp_aoe2de.webp@) | 22 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "7:30"
       },
@@ -5089,7 +5089,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | 2 @resource/MaleVillDE.jpg@ from @resource/Aoe2de_food.png@ to @resource/Aoe2de_wood.png@ | Scout opponent"
+          "Before @age/FeudalAgeIconDE.webp@ | 2 @resource/MaleVillDE.webp@ from @resource/Aoe2de_food.webp@ to @resource/Aoe2de_wood.webp@ | Scout opponent"
         ],
         "time": "9:40"
       },
@@ -5103,8 +5103,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | @resource/Aoe2de_wood.png@@resource/MaleVillDE.jpg@ build 1 @blacksmith/Blacksmith_aoe2de.png@ (1) & @market/Market_aoe2DE.png@ (3)",
-          "Next @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@ | Research @town_center/LoomDE.png@ | 23 pop @age/CastleAgeIconDE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | @resource/Aoe2de_wood.webp@@resource/MaleVillDE.webp@ build 1 @blacksmith/Blacksmith_aoe2de.webp@ (1) & @market/Market_aoe2DE.webp@ (3)",
+          "Next @resource/MaleVillDE.webp@ to @resource/Aoe2de_food.webp@ | Research @town_center/LoomDE.webp@ | 23 pop @age/CastleAgeIconDE.webp@"
         ],
         "time": "10:25"
       },
@@ -5119,8 +5119,8 @@ const aoe2_build_orders = [
           "builder": 6
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | 11 @resource/MaleVillDE.jpg@ (9 @animal/Sheep_aoe2DE.png@, 1 @resource/BerryBushDE.png@, 1 @resource/Aoe2de_gold.png@) to @resource/Aoe2de_stone.png@ (build @mining_camp/Mining_camp_aoe2de.png@)",
-          "6 @resource/MaleVillDE.jpg@ (5 @resource/Aoe2de_wood.png@, 1 @resource/Aoe2de_gold.png@) forward build 1 @other/House_aoe2DE.png@ | Sell @resource/Aoe2de_food.png@ to buy @resource/Aoe2de_stone.png@"
+          "Before @age/CastleAgeIconDE.webp@ | 11 @resource/MaleVillDE.webp@ (9 @animal/Sheep_aoe2DE.webp@, 1 @resource/BerryBushDE.webp@, 1 @resource/Aoe2de_gold.webp@) to @resource/Aoe2de_stone.webp@ (build @mining_camp/Mining_camp_aoe2de.webp@)",
+          "6 @resource/MaleVillDE.webp@ (5 @resource/Aoe2de_wood.webp@, 1 @resource/Aoe2de_gold.webp@) forward build 1 @other/House_aoe2DE.webp@ | Sell @resource/Aoe2de_food.webp@ to buy @resource/Aoe2de_stone.webp@"
         ],
         "time": "13:05"
       },
@@ -5135,7 +5135,7 @@ const aoe2_build_orders = [
           "builder": 6
         },
         "notes": [
-          "In @age/CastleAgeIconDE.png@ | Build forward @castle/Castle_aoe2DE.png@ | @resource/Aoe2de_stone.png@@resource/MaleVillDE.jpg@ (+ new) to @resource/Aoe2de_wood.png@ & @resource/Aoe2de_gold.png@"
+          "In @age/CastleAgeIconDE.webp@ | Build forward @castle/Castle_aoe2DE.webp@ | @resource/Aoe2de_stone.webp@@resource/MaleVillDE.webp@ (+ new) to @resource/Aoe2de_wood.webp@ & @resource/Aoe2de_gold.webp@"
         ],
         "time": "13:30"
       },
@@ -5149,7 +5149,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "6 @resource/Aoe2de_hammer.png@@resource/MaleVillDE.jpg@ to opponent @resource/Aoe2de_gold.png@ | Train @unique_unit/OrganGunIcon-DE.png@"
+          "6 @resource/Aoe2de_hammer.webp@@resource/MaleVillDE.webp@ to opponent @resource/Aoe2de_gold.webp@ | Train @unique_unit/OrganGunIcon-DE.webp@"
         ],
         "time": "13:55"
       }
@@ -5176,7 +5176,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -5190,7 +5190,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "1:40"
       },
@@ -5204,7 +5204,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@) | Push @animal/Deer_aoe2DE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@) | Push @animal/Deer_aoe2DE.webp@"
         ],
         "time": "2:30"
       },
@@ -5218,7 +5218,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -5232,7 +5232,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@, then @mill/Mill_aoe2de.png@ | Lure 2nd @animal/Boar_aoe2DE.png@ (existing @resource/MaleVillDE.jpg@)"
+          "Next @resource/MaleVillDE.webp@ builds 1 @other/House_aoe2DE.webp@, then @mill/Mill_aoe2de.webp@ | Lure 2nd @animal/Boar_aoe2DE.webp@ (existing @resource/MaleVillDE.webp@)"
         ],
         "time": "3:45"
       },
@@ -5246,7 +5246,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@"
         ],
         "time": "5:00"
       },
@@ -5260,7 +5260,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ goes to @resource/Aoe2de_wood.png@ | Research @town_center/LoomDE.png@ | 17 Pop @age/FeudalAgeIconDE.png@"
+          "Next @resource/MaleVillDE.webp@ goes to @resource/Aoe2de_wood.webp@ | Research @town_center/LoomDE.webp@ | 17 Pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "5:50"
       },
@@ -5275,8 +5275,8 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Move 7 @animal/Sheep_aoe2DE.png@@resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (3+4 straggler)",
-          "1 @animal/Sheep_aoe2DE.png@ builds @other/House_aoe2DE.png@ & @barracks/Barracks_aoe2DE.png@ | At 80% up, straggler @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Before @age/FeudalAgeIconDE.webp@ | Move 7 @animal/Sheep_aoe2DE.webp@@resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (3+4 straggler)",
+          "1 @animal/Sheep_aoe2DE.webp@ builds @other/House_aoe2DE.webp@ & @barracks/Barracks_aoe2DE.webp@ | At 80% up, straggler @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "8:00"
       },
@@ -5290,7 +5290,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Next 5 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ | Build @stable/Stable_aoe2DE.png@, @other/House_aoe2DE.png@, @defensive_structures/Palisade_wall_aoe2de.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Next 5 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ | Build @stable/Stable_aoe2DE.webp@, @other/House_aoe2DE.webp@, @defensive_structures/Palisade_wall_aoe2de.webp@"
         ],
         "time": "10:05"
       },
@@ -5304,7 +5304,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@, then to @mill/FarmDE.png@ | Produce @stable/Scoutcavalry_aoe2DE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@, then to @mill/FarmDE.webp@ | Produce @stable/Scoutcavalry_aoe2DE.webp@"
         ],
         "time": "10:55"
       }
@@ -5331,7 +5331,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -5345,7 +5345,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "1:40"
       },
@@ -5359,7 +5359,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (@lumber_camp/Lumber_camp_aoe2de.png@) | Build 1 @other/House_aoe2DE.png@ | Push @animal/Deer_aoe2DE.png@"
+          "Next 4 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (@lumber_camp/Lumber_camp_aoe2de.webp@) | Build 1 @other/House_aoe2DE.webp@ | Push @animal/Deer_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -5373,7 +5373,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ lures 2nd @animal/Boar_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ lures 2nd @animal/Boar_aoe2DE.webp@"
         ],
         "time": "3:45"
       },
@@ -5387,7 +5387,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 6 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ (@mill/Mill_aoe2de.png@) | Build 1 @other/House_aoe2DE.png@"
+          "Next 6 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@ (@mill/Mill_aoe2de.webp@) | Build 1 @other/House_aoe2DE.webp@"
         ],
         "time": "6:15"
       },
@@ -5401,7 +5401,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ | 22 Pop @age/FeudalAgeIconDE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ | 22 Pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "7:30"
       },
@@ -5415,7 +5415,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Build @barracks/Barracks_aoe2DE.png@"
+          "Before @age/FeudalAgeIconDE.webp@ | Build @barracks/Barracks_aoe2DE.webp@"
         ],
         "time": "9:40"
       },
@@ -5429,8 +5429,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Build @stable/Stable_aoe2DE.png@ (2) & @market/Market_aoe2DE.png@ (3) | Research @town_center/LoomDE.png@",
-          "Next @resource/MaleVillDE.jpg@ goes to @resource/Aoe2de_gold.png@ | Sell 200 @resource/Aoe2de_stone.png@ | 23 Pop @age/CastleAgeIconDE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Build @stable/Stable_aoe2DE.webp@ (2) & @market/Market_aoe2DE.webp@ (3) | Research @town_center/LoomDE.webp@",
+          "Next @resource/MaleVillDE.webp@ goes to @resource/Aoe2de_gold.webp@ | Sell 200 @resource/Aoe2de_stone.webp@ | 23 Pop @age/CastleAgeIconDE.webp@"
         ],
         "time": "10:30"
       },
@@ -5444,8 +5444,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | 8 @animal/Sheep_aoe2DE.png@@resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ (5) & @mill/FarmDE.png@ (3) | Build @other/House_aoe2DE.png@",
-          "6 @resource/BerryBushDE.png@@resource/MaleVillDE.jpg@ to @mill/FarmDE.png@ (2) & @resource/Aoe2de_wood.png@ (4) | Research @stable/BloodlinesDE.png@"
+          "Before @age/CastleAgeIconDE.webp@ | 8 @animal/Sheep_aoe2DE.webp@@resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@ (5) & @mill/FarmDE.webp@ (3) | Build @other/House_aoe2DE.webp@",
+          "6 @resource/BerryBushDE.webp@@resource/MaleVillDE.webp@ to @mill/FarmDE.webp@ (2) & @resource/Aoe2de_wood.webp@ (4) | Research @stable/BloodlinesDE.webp@"
         ],
         "time": "13:10"
       },
@@ -5459,7 +5459,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/CastleAgeIconDE.png@ | Next 3 @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@ | Make 2-3 @stable/Knight_aoe2DE.png@ | Build @blacksmith/Blacksmith_aoe2de.png@"
+          "In @age/CastleAgeIconDE.webp@ | Next 3 @resource/MaleVillDE.webp@ to @mill/FarmDE.webp@ | Make 2-3 @stable/Knight_aoe2DE.webp@ | Build @blacksmith/Blacksmith_aoe2de.webp@"
         ],
         "time": "14:25"
       },
@@ -5474,7 +5474,7 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds forward @siege_workshop/Siege_workshop_aoe2DE.png@ | Use @market/Market_aoe2DE.png@ for @stable/Knight_aoe2DE.png@ / @lumber_camp/DoubleBitAxe_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ builds forward @siege_workshop/Siege_workshop_aoe2DE.webp@ | Use @market/Market_aoe2DE.webp@ for @stable/Knight_aoe2DE.webp@ / @lumber_camp/DoubleBitAxe_aoe2DE.webp@"
         ],
         "time": "14:50"
       },
@@ -5489,7 +5489,7 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (straggler) | 2 @animal/Sheep_aoe2DE.png@@resource/MaleVillDE.jpg@ to @mill/FarmDE.png@ | Build 2nd @siege_workshop/Siege_workshop_aoe2DE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (straggler) | 2 @animal/Sheep_aoe2DE.webp@@resource/MaleVillDE.webp@ to @mill/FarmDE.webp@ | Build 2nd @siege_workshop/Siege_workshop_aoe2DE.webp@"
         ],
         "time": "16:05"
       },
@@ -5503,7 +5503,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 6 to @resource/Aoe2de_gold.png@ (then @resource/Aoe2de_food.png@) | Spam @siege_workshop/HeavyScorpionDE.png@ & @stable/Knight_aoe2DE.png@"
+          "Next 6 to @resource/Aoe2de_gold.webp@ (then @resource/Aoe2de_food.webp@) | Spam @siege_workshop/HeavyScorpionDE.webp@ & @stable/Knight_aoe2DE.webp@"
         ],
         "time": "19:00"
       }
@@ -5531,7 +5531,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Create 6 @resource/MaleVillDE.jpg@ on @animal/Sheep_aoe2DE.png@"
+          "Create 6 @resource/MaleVillDE.webp@ on @animal/Sheep_aoe2DE.webp@"
         ]
       },
       {
@@ -5544,7 +5544,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Create 3 @resource/MaleVillDE.jpg@ on @resource/Aoe2de_wood.png@"
+          "Create 3 @resource/MaleVillDE.webp@ on @resource/Aoe2de_wood.webp@"
         ]
       },
       {
@@ -5557,7 +5557,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Create 1 @resource/MaleVillDE.jpg@ on @animal/Boar_aoe2DE.png@"
+          "Create 1 @resource/MaleVillDE.webp@ on @animal/Boar_aoe2DE.webp@"
         ]
       },
       {
@@ -5570,7 +5570,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Create 7 @resource/MaleVillDE.jpg@ on @animal/Sheep_aoe2DE.png@"
+          "Create 7 @resource/MaleVillDE.webp@ on @animal/Sheep_aoe2DE.webp@"
         ]
       },
       {
@@ -5583,7 +5583,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Move 3 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @resource/Aoe2de_gold.png@"
+          "Move 3 @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @resource/Aoe2de_gold.webp@"
         ]
       },
       {
@@ -5596,8 +5596,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Create 2 @resource/MaleVillDE.jpg@ on @animal/Sheep_aoe2DE.png@",
-          "Research @town_center/LoomDE.png@",
+          "Create 2 @resource/MaleVillDE.webp@ on @animal/Sheep_aoe2DE.webp@",
+          "Research @town_center/LoomDE.webp@",
           "Click up to feudalAge"
         ]
       },
@@ -5612,11 +5612,11 @@ const aoe2_build_orders = [
           "builder": 2
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE_alpha.png@",
-          "Move 9 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @resource/Aoe2de_wood.png@",
-          "Move 2 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @resource/Aoe2de_gold.png@",
-          "Move 2 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to forward",
-          "@resource/Aoe2de_hammer.png@ 1 @barracks/Barracks_aoe2DE.png@"
+          "Before @age/FeudalAgeIconDE_alpha.webp@",
+          "Move 9 @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @resource/Aoe2de_wood.webp@",
+          "Move 2 @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @resource/Aoe2de_gold.webp@",
+          "Move 2 @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to forward",
+          "@resource/Aoe2de_hammer.webp@ 1 @barracks/Barracks_aoe2DE.webp@"
         ]
       },
       {
@@ -5630,11 +5630,11 @@ const aoe2_build_orders = [
           "builder": 2
         },
         "notes": [
-          "In @age/FeudalAgeIconDE_alpha.png@",
-          "@resource/Aoe2de_hammer.png@ 2 archeryRange",
-          "@resource/Aoe2de_hammer.png@ 1 @blacksmith/Blacksmith_aoe2de.png@",
-          "Research @blacksmith/FletchingDE.png@",
-          "@resource/Aoe2de_hammer.png@ 1 archeryRange"
+          "In @age/FeudalAgeIconDE_alpha.webp@",
+          "@resource/Aoe2de_hammer.webp@ 2 archeryRange",
+          "@resource/Aoe2de_hammer.webp@ 1 @blacksmith/Blacksmith_aoe2de.webp@",
+          "Research @blacksmith/FletchingDE.webp@",
+          "@resource/Aoe2de_hammer.webp@ 1 archeryRange"
         ]
       },
       {
@@ -5648,7 +5648,7 @@ const aoe2_build_orders = [
           "builder": 2
         },
         "notes": [
-          "Move 5 @resource/MaleVillDE.jpg@ from @resource/Aoe2de_wood.png@ to @resource/Aoe2de_gold.png@"
+          "Move 5 @resource/MaleVillDE.webp@ from @resource/Aoe2de_wood.webp@ to @resource/Aoe2de_gold.webp@"
         ]
       }
     ]
@@ -5674,7 +5674,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -5688,7 +5688,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "1:40"
       },
@@ -5702,7 +5702,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@"
         ],
         "time": "2:55"
       },
@@ -5716,7 +5716,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@) | Lure 2nd @animal/Boar_aoe2DE.png@ with existing @resource/MaleVillDE.jpg@"
+          "Next @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@) | Lure 2nd @animal/Boar_aoe2DE.webp@ with existing @resource/MaleVillDE.webp@"
         ],
         "time": "3:20"
       },
@@ -5730,7 +5730,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds @other/House_aoe2DE.png@, then to @resource/Aoe2de_wood.png@"
+          "Next @resource/MaleVillDE.webp@ builds @other/House_aoe2DE.webp@, then to @resource/Aoe2de_wood.webp@"
         ],
         "time": "3:45"
       },
@@ -5744,7 +5744,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@"
+          "Add 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@"
         ],
         "time": "5:00"
       },
@@ -5758,8 +5758,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build @mill/Mill_aoe2de.png@ with exisiting @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@",
-          "Next 2 to @resource/Aoe2de_wood.png@ | Research @town_center/LoomDE.png@ | Research 18 pop @age/FeudalAgeIconDE.png@"
+          "Build @mill/Mill_aoe2de.webp@ with exisiting @resource/MaleVillDE.webp@ from @town_center/Towncenter_aoe2DE.webp@",
+          "Next 2 to @resource/Aoe2de_wood.webp@ | Research @town_center/LoomDE.webp@ | Research 18 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "6:15"
       },
@@ -5774,8 +5774,8 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | 1 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ builds @barracks/Barracks_aoe2DE.png@ & @other/House_aoe2DE.png@",
-          "Move 3-5 @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ to @resource/BerryBushDE.png@"
+          "Before @age/FeudalAgeIconDE.webp@ | 1 @resource/MaleVillDE.webp@ from @town_center/Towncenter_aoe2DE.webp@ builds @barracks/Barracks_aoe2DE.webp@ & @other/House_aoe2DE.webp@",
+          "Move 3-5 @resource/MaleVillDE.webp@ from @town_center/Towncenter_aoe2DE.webp@ to @resource/BerryBushDE.webp@"
         ],
         "time": "8:25"
       },
@@ -5789,8 +5789,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Research @lumber_camp/Lumber_camp_aoe2de.png@ | Build @stable/Stable_aoe2DE.png@, then @other/House_aoe2DE.png@/@defensive_structures/Palisade_wall_aoe2de.png@",
-          "Send new @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | Research @lumber_camp/Lumber_camp_aoe2de.webp@ | Build @stable/Stable_aoe2DE.webp@, then @other/House_aoe2DE.webp@/@defensive_structures/Palisade_wall_aoe2de.webp@",
+          "Send new @resource/MaleVillDE.webp@ to @mill/FarmDE.webp@"
         ],
         "time": "9:40"
       }
@@ -5817,7 +5817,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -5831,7 +5831,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "1:40"
       },
@@ -5845,7 +5845,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@) | Start pushing @animal/Deer_aoe2DE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@) | Start pushing @animal/Deer_aoe2DE.webp@"
         ],
         "time": "2:30"
       },
@@ -5859,7 +5859,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -5873,7 +5873,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 1 @other/House_aoe2DE.png@, then lures 2nd @animal/Boar_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ builds 1 @other/House_aoe2DE.webp@, then lures 2nd @animal/Boar_aoe2DE.webp@"
         ],
         "time": "3:45"
       },
@@ -5887,7 +5887,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@"
+          "Next @resource/MaleVillDE.webp@ builds @mill/Mill_aoe2de.webp@ on @resource/BerryBushDE.webp@"
         ],
         "time": "4:10"
       },
@@ -5901,7 +5901,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@"
         ],
         "time": "5:25"
       },
@@ -5915,7 +5915,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ | Research @town_center/LoomDE.png@ | Research 18 pop @age/FeudalAgeIconDE.png@"
+          "Next @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ | Research @town_center/LoomDE.webp@ | Research 18 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "6:15"
       },
@@ -5930,8 +5930,8 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Move 1 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to build @barracks/Barracks_aoe2DE.png@ & @other/House_aoe2DE.png@",
-          "Move 7 @resource/MaleVillDE.jpg@ from @animal/Sheep_aoe2DE.png@ to @resource/Aoe2de_wood.png@ (2 straggler, 5 to 1st @lumber_camp/Lumber_camp_aoe2de.png@)"
+          "Before @age/FeudalAgeIconDE.webp@ | Move 1 @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to build @barracks/Barracks_aoe2DE.webp@ & @other/House_aoe2DE.webp@",
+          "Move 7 @resource/MaleVillDE.webp@ from @animal/Sheep_aoe2DE.webp@ to @resource/Aoe2de_wood.webp@ (2 straggler, 5 to 1st @lumber_camp/Lumber_camp_aoe2de.webp@)"
         ],
         "time": "8:25"
       },
@@ -5946,8 +5946,8 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | 3 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ | Build @stable/Stable_aoe2DE.png@, then @other/House_aoe2DE.png@/@defensive_structures/Palisade_wall_aoe2de.png@",
-          "Move 2 @resource/MaleVillDE.jpg@ from @resource/Aoe2de_wood.png@ (straggler) to @animal/Sheep_aoe2DE.png@ | New @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | 3 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ | Build @stable/Stable_aoe2DE.webp@, then @other/House_aoe2DE.webp@/@defensive_structures/Palisade_wall_aoe2de.webp@",
+          "Move 2 @resource/MaleVillDE.webp@ from @resource/Aoe2de_wood.webp@ (straggler) to @animal/Sheep_aoe2DE.webp@ | New @resource/MaleVillDE.webp@ to @mill/FarmDE.webp@"
         ],
         "time": "9:40"
       }
@@ -5975,7 +5975,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "2 @other/House_aoe2DE.png@ + 6 on @animal/Sheep_aoe2DE.png@"
+          "2 @other/House_aoe2DE.webp@ + 6 on @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -5989,7 +5989,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "3 on @resource/Aoe2de_wood.png@"
+          "3 on @resource/Aoe2de_wood.webp@"
         ],
         "time": "2:30"
       },
@@ -6003,7 +6003,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "1 Lures @animal/Boar_aoe2DE.png@ | Push 3 @animal/Deer_aoe2DE.png@"
+          "1 Lures @animal/Boar_aoe2DE.webp@ | Push 3 @animal/Deer_aoe2DE.webp@"
         ],
         "time": "2:55"
       },
@@ -6017,7 +6017,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "@other/House_aoe2DE.png@ + 2 on @animal/Sheep_aoe2DE.png@"
+          "@other/House_aoe2DE.webp@ + 2 on @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "3:45"
       },
@@ -6031,7 +6031,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "@mill/Mill_aoe2de.png@ + 2 on @resource/BerryBushDE.png@"
+          "@mill/Mill_aoe2de.webp@ + 2 on @resource/BerryBushDE.webp@"
         ],
         "time": "4:35"
       },
@@ -6045,7 +6045,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "1 Lures @animal/Boar_aoe2DE.png@ + 1 More on @animal/Boar_aoe2DE.png@"
+          "1 Lures @animal/Boar_aoe2DE.webp@ + 1 More on @animal/Boar_aoe2DE.webp@"
         ],
         "time": "5:25"
       },
@@ -6059,7 +6059,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "2 on @resource/Aoe2de_wood.png@ | Research @town_center/LoomDE.png@ | 19 Pop @age/FeudalAgeIconDE_alpha.png@"
+          "2 on @resource/Aoe2de_wood.webp@ | Research @town_center/LoomDE.webp@ | 19 Pop @age/FeudalAgeIconDE_alpha.webp@"
         ],
         "time": "6:40"
       },
@@ -6073,7 +6073,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE_alpha.png@ | 4 @animal/Sheep_aoe2DE.png@ \u2192 @resource/Aoe2de_wood.png@ (2) & @resource/BerryBushDE.png@ (2) | @barracks/Barracks_aoe2DE.png@ + @other/House_aoe2DE.png@"
+          "Before @age/FeudalAgeIconDE_alpha.webp@ | 4 @animal/Sheep_aoe2DE.webp@ \u2192 @resource/Aoe2de_wood.webp@ (2) & @resource/BerryBushDE.webp@ (2) | @barracks/Barracks_aoe2DE.webp@ + @other/House_aoe2DE.webp@"
         ],
         "time": "8:50"
       },
@@ -6087,8 +6087,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE_alpha.png@ | Build @stable/Stable_aoe2DE.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ | 1 @animal/Sheep_aoe2DE.png@ \u2192 1 @resource/Aoe2de_wood.png@",
-          "1 on @resource/Aoe2de_wood.png@ | Start Training @stable/Scoutcavalry_aoe2DE.png@ (@barracks/Spearman_aoe2DE.png@ if needed)"
+          "In @age/FeudalAgeIconDE_alpha.webp@ | Build @stable/Stable_aoe2DE.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ | 1 @animal/Sheep_aoe2DE.webp@ \u2192 1 @resource/Aoe2de_wood.webp@",
+          "1 on @resource/Aoe2de_wood.webp@ | Start Training @stable/Scoutcavalry_aoe2DE.webp@ (@barracks/Spearman_aoe2DE.webp@ if needed)"
         ],
         "time": "9:15"
       },
@@ -6102,7 +6102,7 @@ const aoe2_build_orders = [
           "stone": 2
         },
         "notes": [
-          "2 on @resource/Aoe2de_stone.png@ | Research @mill/HorseCollarDE.png@"
+          "2 on @resource/Aoe2de_stone.webp@ | Research @mill/HorseCollarDE.webp@"
         ],
         "time": "10:05"
       },
@@ -6116,8 +6116,8 @@ const aoe2_build_orders = [
           "stone": 2
         },
         "notes": [
-          "2 on @mill/FarmDE.png@ | next @resource/MaleVillDE.jpg@ on @mill/FarmDE.png@ & @resource/Aoe2de_gold.png@",
-          "Research @stable/BloodlinesDE.png@ | Add @defensive_structures/Tower_aoe2de.png@ if needed"
+          "2 on @mill/FarmDE.webp@ | next @resource/MaleVillDE.webp@ on @mill/FarmDE.webp@ & @resource/Aoe2de_gold.webp@",
+          "Research @stable/BloodlinesDE.webp@ | Add @defensive_structures/Tower_aoe2de.webp@ if needed"
         ],
         "time": "10:55"
       }
@@ -6144,7 +6144,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -6158,7 +6158,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@)"
+          "Next 4 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@)"
         ],
         "time": "2:55"
       },
@@ -6172,7 +6172,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -6186,7 +6186,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/MaleVillDE.jpg@ builds 2 @other/House_aoe2DE.png@ + 1 @mill/Mill_aoe2de.png@ on @resource/BerryBushDE.png@ | Start pushing @animal/Deer_aoe2DE.png@"
+          "Next @resource/MaleVillDE.webp@ builds 2 @other/House_aoe2DE.webp@ + 1 @mill/Mill_aoe2de.webp@ on @resource/BerryBushDE.webp@ | Start pushing @animal/Deer_aoe2DE.webp@"
         ],
         "time": "3:45"
       },
@@ -6200,7 +6200,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@"
         ],
         "time": "4:35"
       },
@@ -6214,7 +6214,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @resource/BerryBushDE.png@ | Lure 2nd @animal/Boar_aoe2DE.png@ with existing @resource/MaleVillDE.jpg@"
+          "Next 4 @resource/MaleVillDE.webp@ to @resource/BerryBushDE.webp@ | Lure 2nd @animal/Boar_aoe2DE.webp@ with existing @resource/MaleVillDE.webp@"
         ],
         "time": "6:15"
       },
@@ -6228,7 +6228,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@"
         ],
         "time": "7:05"
       },
@@ -6242,7 +6242,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ | Research @town_center/LoomDE.png@ | 23 pop @age/FeudalAgeIconDE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ | Research @town_center/LoomDE.webp@ | 23 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "8:20"
       },
@@ -6256,7 +6256,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | Build @barracks/Barracks_aoe2DE.png@"
+          "Before @age/FeudalAgeIconDE.webp@ | Build @barracks/Barracks_aoe2DE.webp@"
         ],
         "time": "10:30"
       },
@@ -6270,7 +6270,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ | Build 1 @archery_range/Archery_range_aoe2DE.png@ + @blacksmith/Blacksmith_aoe2de.png@ | 25 pop @age/CastleAgeIconDE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@ | Build 1 @archery_range/Archery_range_aoe2DE.webp@ + @blacksmith/Blacksmith_aoe2de.webp@ | 25 pop @age/CastleAgeIconDE.webp@"
         ],
         "time": "11:20"
       },
@@ -6284,8 +6284,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | Build 2 @other/House_aoe2DE.png@ + 2nd @archery_range/Archery_range_aoe2DE.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@",
-          "7 @animal/Sheep_aoe2DE.png@@resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (4) & @resource/Aoe2de_gold.png@ (3) | 1 @resource/BerryBushDE.png@@resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@"
+          "Before @age/CastleAgeIconDE.webp@ | Build 2 @other/House_aoe2DE.webp@ + 2nd @archery_range/Archery_range_aoe2DE.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@",
+          "7 @animal/Sheep_aoe2DE.webp@@resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (4) & @resource/Aoe2de_gold.webp@ (3) | 1 @resource/BerryBushDE.webp@@resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@"
         ],
         "time": "14:00"
       },
@@ -6299,8 +6299,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/CastleAgeIconDE.png@ | Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ | Bulid @stable/Stable_aoe2DE.png@ + 3rd @archery_range/Archery_range_aoe2DE.png@ | Train @archery_range/Cavalryarcher_aoe2DE.png@",
-          "Research @blacksmith/FletchingDE.png@ + @blacksmith/BodkinArrowDE.png@ + @stable/BloodlinesDE.png@ + @stable/HusbandryDE.png@ | Next @resource/MaleVillDE.jpg@ to @mill/FarmDE.png@/@resource/Aoe2de_wood.png@"
+          "In @age/CastleAgeIconDE.webp@ | Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@ | Bulid @stable/Stable_aoe2DE.webp@ + 3rd @archery_range/Archery_range_aoe2DE.webp@ | Train @archery_range/Cavalryarcher_aoe2DE.webp@",
+          "Research @blacksmith/FletchingDE.webp@ + @blacksmith/BodkinArrowDE.webp@ + @stable/BloodlinesDE.webp@ + @stable/HusbandryDE.webp@ | Next @resource/MaleVillDE.webp@ to @mill/FarmDE.webp@/@resource/Aoe2de_wood.webp@"
         ],
         "time": "15:15"
       }
@@ -6327,7 +6327,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ to @animal/Sheep_aoe2DE.png@ | Lure @animal/Deer_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ to @animal/Sheep_aoe2DE.webp@ | Lure @animal/Deer_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -6341,7 +6341,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (build @lumber_camp/Lumber_camp_aoe2de.png@) | Build 1 @other/House_aoe2DE.png@"
+          "Next 4 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (build @lumber_camp/Lumber_camp_aoe2de.webp@) | Build 1 @other/House_aoe2DE.webp@"
         ],
         "time": "2:55"
       },
@@ -6355,7 +6355,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@ | 3 more @resource/MaleVillDE.jpg@ to @animal/Boar_aoe2DE.png@/@animal/Deer_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@ | 3 more @resource/MaleVillDE.webp@ to @animal/Boar_aoe2DE.webp@/@animal/Deer_aoe2DE.webp@"
         ],
         "time": "4:35"
       },
@@ -6369,7 +6369,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 to @resource/BerryBushDE.png@ | Build @mill/Mill_aoe2de.png@ & 1 @other/House_aoe2DE.png@ | Lure 2nd @animal/Boar_aoe2DE.png@"
+          "Next 4 to @resource/BerryBushDE.webp@ | Build @mill/Mill_aoe2de.webp@ & 1 @other/House_aoe2DE.webp@ | Lure 2nd @animal/Boar_aoe2DE.webp@"
         ],
         "time": "6:15"
       },
@@ -6383,7 +6383,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Add 1 to @animal/Boar_aoe2DE.png@/@animal/Sheep_aoe2DE.png@"
+          "Add 1 to @animal/Boar_aoe2DE.webp@/@animal/Sheep_aoe2DE.webp@"
         ],
         "time": "6:40"
       },
@@ -6397,7 +6397,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ (build @mining_camp/Mining_camp_aoe2de.png@) | 23 Pop @age/FeudalAgeIconDE.png@"
+          "Next 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@ (build @mining_camp/Mining_camp_aoe2de.webp@) | 23 Pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "7:55"
       },
@@ -6412,7 +6412,7 @@ const aoe2_build_orders = [
           "builder": 1
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@ | 1 @resource/Aoe2de_wood.png@@resource/MaleVillDE.jpg@  builds 1 @other/House_aoe2DE.png@ | At 200 @resource/Aoe2de_gold.png@, 2 @resource/Aoe2de_gold.png@ to @resource/Aoe2de_food.png@"
+          "Before @age/FeudalAgeIconDE.webp@ | 1 @resource/Aoe2de_wood.webp@@resource/MaleVillDE.webp@  builds 1 @other/House_aoe2DE.webp@ | At 200 @resource/Aoe2de_gold.webp@, 2 @resource/Aoe2de_gold.webp@ to @resource/Aoe2de_food.webp@"
         ],
         "time": "10:05"
       },
@@ -6426,8 +6426,8 @@ const aoe2_build_orders = [
           "stone": 12
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | Build @market/Market_aoe2DE.png@ (2) & @blacksmith/Forging_aoe2de.png@ (1) | 1 new to @mill/FarmDE.png@ | 25 Pop @age/CastleAgeIconDE.png@",
-          "When no @resource/Aoe2de_food.png@ under @town_center/Towncenter_aoe2DE.png@, all @resource/MaleVillDE.jpg@ from @town_center/Towncenter_aoe2DE.png@ (+1 new) to @resource/Aoe2de_stone.png@ (@mining_camp/Mining_camp_aoe2de.png@)"
+          "In @age/FeudalAgeIconDE.webp@ | Build @market/Market_aoe2DE.webp@ (2) & @blacksmith/Forging_aoe2de.webp@ (1) | 1 new to @mill/FarmDE.webp@ | 25 Pop @age/CastleAgeIconDE.webp@",
+          "When no @resource/Aoe2de_food.webp@ under @town_center/Towncenter_aoe2DE.webp@, all @resource/MaleVillDE.webp@ from @town_center/Towncenter_aoe2DE.webp@ (+1 new) to @resource/Aoe2de_stone.webp@ (@mining_camp/Mining_camp_aoe2de.webp@)"
         ],
         "time": "10:55"
       },
@@ -6441,8 +6441,8 @@ const aoe2_build_orders = [
           "stone": 12
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | Build 1 @other/House_aoe2DE.png@ & 1 @mill/FarmDE.png@ | At 650 @resource/Aoe2de_stone.png@, 8+ @resource/MaleVillDE.jpg@ forward",
-          "4 from @resource/BerryBushDE.png@ to @resource/Aoe2de_gold.png@ (1) & @resource/Aoe2de_wood.png@ (3)"
+          "Before @age/CastleAgeIconDE.webp@ | Build 1 @other/House_aoe2DE.webp@ & 1 @mill/FarmDE.webp@ | At 650 @resource/Aoe2de_stone.webp@, 8+ @resource/MaleVillDE.webp@ forward",
+          "4 from @resource/BerryBushDE.webp@ to @resource/Aoe2de_gold.webp@ (1) & @resource/Aoe2de_wood.webp@ (3)"
         ],
         "time": "13:35"
       },
@@ -6456,7 +6456,7 @@ const aoe2_build_orders = [
           "stone": 12
         },
         "notes": [
-          "In @age/CastleAgeIconDE.png@ | Research @town_center/LoomDE.png@, @lumber_camp/DoubleBitAxe_aoe2DE.png@ & @mill/HorseCollarDE.png@ | Build @castle/Castle_aoe2DE.png@"
+          "In @age/CastleAgeIconDE.webp@ | Research @town_center/LoomDE.webp@, @lumber_camp/DoubleBitAxe_aoe2DE.webp@ & @mill/HorseCollarDE.webp@ | Build @castle/Castle_aoe2DE.webp@"
         ],
         "time": "14:00"
       }
@@ -6483,7 +6483,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 2 @other/House_aoe2DE.png@ | First 6 @resource/MaleVillDE.jpg@ on @animal/Sheep_aoe2DE.png@"
+          "Build 2 @other/House_aoe2DE.webp@ | First 6 @resource/MaleVillDE.webp@ on @animal/Sheep_aoe2DE.webp@"
         ],
         "time": "1:15"
       },
@@ -6497,7 +6497,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (@lumber_camp/Lumber_camp_aoe2de.png@)"
+          "Next 4 @resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (@lumber_camp/Lumber_camp_aoe2de.webp@)"
         ],
         "time": "2:55"
       },
@@ -6511,7 +6511,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 1st @animal/Boar_aoe2DE.png@"
+          "Lure 1st @animal/Boar_aoe2DE.webp@"
         ],
         "time": "3:20"
       },
@@ -6525,7 +6525,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 1 @other/House_aoe2DE.png@ + @mill/Mill_aoe2de.png@ (@resource/BerryBushDE.png@)"
+          "Build 1 @other/House_aoe2DE.webp@ + @mill/Mill_aoe2de.webp@ (@resource/BerryBushDE.webp@)"
         ],
         "time": "3:45"
       },
@@ -6539,7 +6539,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 2 @resource/MaleVillDE.jpg@ on @resource/BerryBushDE.png@"
+          "Next 2 @resource/MaleVillDE.webp@ on @resource/BerryBushDE.webp@"
         ],
         "time": "4:35"
       },
@@ -6553,7 +6553,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Lure 2nd @animal/Boar_aoe2DE.png@"
+          "Lure 2nd @animal/Boar_aoe2DE.webp@"
         ],
         "time": "5:00"
       },
@@ -6567,7 +6567,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build 1 @other/House_aoe2DE.png@ | Next @resource/MaleVillDE.jpg@ goes to @resource/BerryBushDE.png@"
+          "Build 1 @other/House_aoe2DE.webp@ | Next @resource/MaleVillDE.webp@ goes to @resource/BerryBushDE.webp@"
         ],
         "time": "5:25"
       },
@@ -6581,7 +6581,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next 4 @resource/MaleVillDE.jpg@ go to @resource/Aoe2de_wood.png@ (only 1 @lumber_camp/Lumber_camp_aoe2de.png@)"
+          "Next 4 @resource/MaleVillDE.webp@ go to @resource/Aoe2de_wood.webp@ (only 1 @lumber_camp/Lumber_camp_aoe2de.webp@)"
         ],
         "time": "7:05"
       },
@@ -6595,7 +6595,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Send 3 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_food.png@ under @town_center/Towncenter_aoe2DE.png@ | Build 1 @other/House_aoe2DE.png@"
+          "Send 3 @resource/MaleVillDE.webp@ to @resource/Aoe2de_food.webp@ under @town_center/Towncenter_aoe2DE.webp@ | Build 1 @other/House_aoe2DE.webp@"
         ],
         "time": "8:20"
       },
@@ -6609,7 +6609,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Seed @mill/FarmDE.png@ after @animal/Sheep_aoe2DE.png@/@animal/Deer_aoe2DE.png@ | Next 5 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ (@mining_camp/Mining_camp_aoe2de.png@) | 29 pop @age/FeudalAgeIconDE.png@"
+          "Seed @mill/FarmDE.webp@ after @animal/Sheep_aoe2DE.webp@/@animal/Deer_aoe2DE.webp@ | Next 5 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@ (@mining_camp/Mining_camp_aoe2de.webp@) | 29 pop @age/FeudalAgeIconDE.webp@"
         ],
         "time": "10:25"
       },
@@ -6623,7 +6623,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/FeudalAgeIconDE.png@  | 3 @town_center/Towncenter_aoe2DE.png@@resource/MaleVillDE.jpg@ to @resource/Aoe2de_wood.png@ (straggler) when out of @resource/Aoe2de_food.png@ | Build @other/House_aoe2DE.png@"
+          "Before @age/FeudalAgeIconDE.webp@  | 3 @town_center/Towncenter_aoe2DE.webp@@resource/MaleVillDE.webp@ to @resource/Aoe2de_wood.webp@ (straggler) when out of @resource/Aoe2de_food.webp@ | Build @other/House_aoe2DE.webp@"
         ],
         "time": "12:35"
       },
@@ -6637,8 +6637,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/FeudalAgeIconDE.png@ | 3 @resource/Aoe2de_wood.png@@resource/MaleVillDE.jpg@ build @blacksmith/Blacksmith_aoe2de.png@ (1) and @market/Market_aoe2DE.png@ (2)",
-          "Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@ | 31 pop @age/CastleAgeIconDE.png@"
+          "In @age/FeudalAgeIconDE.webp@ | 3 @resource/Aoe2de_wood.webp@@resource/MaleVillDE.webp@ build @blacksmith/Blacksmith_aoe2de.webp@ (1) and @market/Market_aoe2DE.webp@ (2)",
+          "Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@ | 31 pop @age/CastleAgeIconDE.webp@"
         ],
         "time": "13:25"
       },
@@ -6652,8 +6652,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/CastleAgeIconDE.png@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.png@ & @mining_camp/GoldMiningDE.png@ (optionally @mill/HorseCollarDE.png@)",
-          "Seed @mill/FarmDE.png@ with builders | Sell 200 @resource/Aoe2de_stone.png@"
+          "Before @age/CastleAgeIconDE.webp@ | Research @lumber_camp/DoubleBitAxe_aoe2DE.webp@ & @mining_camp/GoldMiningDE.webp@ (optionally @mill/HorseCollarDE.webp@)",
+          "Seed @mill/FarmDE.webp@ with builders | Sell 200 @resource/Aoe2de_stone.webp@"
         ],
         "time": "16:05"
       },
@@ -6667,8 +6667,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "In @age/CastleAgeIconDE.png@ | Next 2 @resource/MaleVillDE.jpg@ to @resource/Aoe2de_gold.png@",
-          "Build @siege_workshop/Siege_workshop_aoe2DE.png@ & @monastery/MonasteryAoe2DE.png@ with 3 @resource/Aoe2de_wood.png@@resource/MaleVillDE.jpg@ (back to @resource/Aoe2de_wood.png@) | 33 pop @age/ImperialAgeIconDE.png@"
+          "In @age/CastleAgeIconDE.webp@ | Next 2 @resource/MaleVillDE.webp@ to @resource/Aoe2de_gold.webp@",
+          "Build @siege_workshop/Siege_workshop_aoe2DE.webp@ & @monastery/MonasteryAoe2DE.webp@ with 3 @resource/Aoe2de_wood.webp@@resource/MaleVillDE.webp@ (back to @resource/Aoe2de_wood.webp@) | 33 pop @age/ImperialAgeIconDE.webp@"
         ],
         "time": "16:55"
       },
@@ -6682,8 +6682,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Before @age/ImperialAgeIconDE.png@| @resource/BerryBushDE.png@@resource/MaleVillDE.jpg@ (when depleted) to 2nd @resource/Aoe2de_gold.png@",
-          "Build @barracks/Barracks_aoe2DE.png@ & 2 @archery_range/Archery_range_aoe2DE.png@ (buy @resource/Aoe2de_wood.png@ if needed)"
+          "Before @age/ImperialAgeIconDE.webp@| @resource/BerryBushDE.webp@@resource/MaleVillDE.webp@ (when depleted) to 2nd @resource/Aoe2de_gold.webp@",
+          "Build @barracks/Barracks_aoe2DE.webp@ & 2 @archery_range/Archery_range_aoe2DE.webp@ (buy @resource/Aoe2de_wood.webp@ if needed)"
         ],
         "time": "20:05"
       },
@@ -6697,7 +6697,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Produce @archery_range/Hand_cannoneer_aoe2DE.png@ & @siege_workshop/Bombard_cannon_aoe2DE.png@ | Grow economy"
+          "Produce @archery_range/Hand_cannoneer_aoe2DE.webp@ & @siege_workshop/Bombard_cannon_aoe2DE.webp@ | Grow economy"
         ],
         "time": "20:30"
       }
@@ -6725,9 +6725,9 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Build @barracks/Barracks_aoe2DE.png@ with 2 @resource/villager.jpg@, then to @resource/Aoe2de_wood.png@ (@resource/tree.png@)",
-          "Build 1 @other/House_aoe2DE.png@ with 1 @resource/villager.jpg@, then to @animal/Sheep_aoe2DE.png@ | Train 2 @barracks/MilitiaDE.png@",
-          "Next 3 @resource/villager.jpg@ to @animal/Sheep_aoe2DE.png@ (stop @resource/villager.jpg@ production)"
+          "Build @barracks/Barracks_aoe2DE.webp@ with 2 @resource/villager.webp@, then to @resource/Aoe2de_wood.webp@ (@resource/tree.webp@)",
+          "Build 1 @other/House_aoe2DE.webp@ with 1 @resource/villager.webp@, then to @animal/Sheep_aoe2DE.webp@ | Train 2 @barracks/MilitiaDE.webp@",
+          "Next 3 @resource/villager.webp@ to @animal/Sheep_aoe2DE.webp@ (stop @resource/villager.webp@ production)"
         ]
       },
       {
@@ -6741,8 +6741,8 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "At 30 @resource/Aoe2de_wood.png@, build 1 @other/House_aoe2DE.png@ with @resource/Aoe2de_wood.png@@resource/villager.jpg@, then to @animal/Sheep_aoe2DE.png@",
-          "Train 3 additional @barracks/MilitiaDE.png@ | Attack as soon as possible"
+          "At 30 @resource/Aoe2de_wood.webp@, build 1 @other/House_aoe2DE.webp@ with @resource/Aoe2de_wood.webp@@resource/villager.webp@, then to @animal/Sheep_aoe2DE.webp@",
+          "Train 3 additional @barracks/MilitiaDE.webp@ | Attack as soon as possible"
         ]
       },
       {
@@ -6756,7 +6756,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "At 5 @barracks/MilitiaDE.png@ | Re-train @resource/villager.jpg@ | Next @resource/villager.jpg@ forward (lame)"
+          "At 5 @barracks/MilitiaDE.webp@ | Re-train @resource/villager.webp@ | Next @resource/villager.webp@ forward (lame)"
         ]
       },
       {
@@ -6770,7 +6770,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/villager.jpg@ goes to  @resource/Aoe2de_wood.png@ (@resource/tree.png@)"
+          "Next @resource/villager.webp@ goes to  @resource/Aoe2de_wood.webp@ (@resource/tree.webp@)"
         ]
       },
       {
@@ -6784,7 +6784,7 @@ const aoe2_build_orders = [
           "stone": 0
         },
         "notes": [
-          "Next @resource/villager.jpg@ to @resource/Aoe2de_food.png@ (lure @animal/Boar_aoe2DE.png@) | Build 1 @other/House_aoe2DE.png@"
+          "Next @resource/villager.webp@ to @resource/Aoe2de_food.webp@ (lure @animal/Boar_aoe2DE.webp@) | Build 1 @other/House_aoe2DE.webp@"
         ]
       }
     ]

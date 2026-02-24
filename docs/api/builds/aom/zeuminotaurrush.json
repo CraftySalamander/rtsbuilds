@@ -14,8 +14,8 @@
         "favor": 0
       },
       "notes": [
-        "First 4 @greeks_civilian/villager_greek.png@ to @animal/giraffe.png@ (build @greeks_building/granary.png@)",
-        "Next @greeks_civilian/villager_greek.png@ goes to @resource/wood.png@ (build @greeks_building/storehouse.png@)"
+        "First 4 @greeks_civilian/villager_greek.webp@ to @animal/giraffe.webp@ (build @greeks_building/granary.webp@)",
+        "Next @greeks_civilian/villager_greek.webp@ goes to @resource/wood.webp@ (build @greeks_building/storehouse.webp@)"
       ],
       "time": "0:15"
     },
@@ -29,7 +29,7 @@
         "favor": 0
       },
       "notes": [
-        "Next 2 @greeks_civilian/villager_greek.png@ to @resource/gold.png@ (build @greeks_building/storehouse.png@)"
+        "Next 2 @greeks_civilian/villager_greek.webp@ to @resource/gold.webp@ (build @greeks_building/storehouse.webp@)"
       ],
       "time": "0:45"
     },
@@ -43,7 +43,7 @@
         "favor": 0
       },
       "notes": [
-        "Next 4 @greeks_civilian/villager_greek.png@ to @animal/giraffe.png@"
+        "Next 4 @greeks_civilian/villager_greek.webp@ to @animal/giraffe.webp@"
       ],
       "time": "1:45"
     },
@@ -57,7 +57,7 @@
         "favor": 0
       },
       "notes": [
-        "Next 2 @greeks_civilian/villager_greek.png@ to @resource/gold.png@ | Build @temple/temple.png@ with @resource/gold.png@@greeks_civilian/villager_greek.png@"
+        "Next 2 @greeks_civilian/villager_greek.webp@ to @resource/gold.webp@ | Build @temple/temple.webp@ with @resource/gold.webp@@greeks_civilian/villager_greek.webp@"
       ],
       "time": "2:15"
     },
@@ -71,8 +71,8 @@
         "favor": 2
       },
       "notes": [
-        "Build 1 @other/house.png@ with @resource/food.png@@greeks_civilian/villager_greek.png@ | Next 2 @greeks_civilian/villager_greek.png@ to @resource/favor.png@",
-        "Drop off @resource/food.png@ | 2:45 @greeks_minor_god/athena.png@"
+        "Build 1 @other/house.webp@ with @resource/food.webp@@greeks_civilian/villager_greek.webp@ | Next 2 @greeks_civilian/villager_greek.webp@ to @resource/favor.webp@",
+        "Drop off @resource/food.webp@ | 2:45 @greeks_minor_god/athena.webp@"
       ],
       "time": "2:45"
     },
@@ -86,7 +86,7 @@
         "favor": 2
       },
       "notes": [
-        "Before @age/classical_age.png@ | Move 3 @resource/food.png@@greeks_civilian/villager_greek.png@ to @resource/wood.png@ | Train @greeks_hero/jason.png@"
+        "Before @age/classical_age.webp@ | Move 3 @resource/food.webp@@greeks_civilian/villager_greek.webp@ to @resource/wood.webp@ | Train @greeks_hero/jason.webp@"
       ],
       "time": "3:45"
     },
@@ -100,8 +100,8 @@
         "favor": 2
       },
       "notes": [
-        "In @age/classical_age.png@ | Build @greeks_building/military_academy.png@ + 2 @other/house.png@ | Train 3 extra @greeks_myth/minotaur.png@",
-        "Next 3@greeks_civilian/villager_greek.png@ to @resource/food.png@"
+        "In @age/classical_age.webp@ | Build @greeks_building/military_academy.webp@ + 2 @other/house.webp@ | Train 3 extra @greeks_myth/minotaur.webp@",
+        "Next 3@greeks_civilian/villager_greek.webp@ to @resource/food.webp@"
       ],
       "time": "4:30"
     },
@@ -115,7 +115,7 @@
         "favor": 4
       },
       "notes": [
-        "Next 2 @greeks_civilian/villager_greek.png@ to @temple/temple.png@ | Train @greeks_human/hoplite.png@ +@greeks_hero/heracles.png@"
+        "Next 2 @greeks_civilian/villager_greek.webp@ to @temple/temple.webp@ | Train @greeks_human/hoplite.webp@ +@greeks_hero/heracles.webp@"
       ],
       "time": "5:00"
     },
@@ -129,7 +129,7 @@
         "favor": 4
       },
       "notes": [
-        "Add 1 @greeks_civilian/villager_greek.png@ to @resource/wood.png@ & 6 @greeks_civilian/villager_greek.png@ to @resource/gold.png@ | Research @greeks_tech/labyrinth_of_minos.png@ + @greeks_tech/sarissa.png@"
+        "Add 1 @greeks_civilian/villager_greek.webp@ to @resource/wood.webp@ & 6 @greeks_civilian/villager_greek.webp@ to @resource/gold.webp@ | Research @greeks_tech/labyrinth_of_minos.webp@ + @greeks_tech/sarissa.webp@"
       ],
       "time": "6:45"
     }
