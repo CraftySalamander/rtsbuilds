@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #b0b0b0;
+  background-color: rgb(176, 176, 176);
   margin: 0;
   padding: 20px;
 }
@@ -8,7 +8,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #dcdcdc;
+  background-color: rgb(220, 220, 220);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -49,9 +49,9 @@ button {
   padding: 10px;
   font-size: 16px;
   border-radius: 5px;
-  border: 1px solid #ccc;
-  background-color: #333;
-  color: white;
+  border: 1px solid rgb(204, 204, 204);
+  background-color: rgb(55, 55, 55);
+  color: rgb(255, 255, 255);
 }
 
 button {
@@ -60,7 +60,7 @@ button {
 }
 
 button:hover {
-  background-color: #555;
+  background-color: rgb(85, 85, 85);
 }
 
 .build-orders-container {
@@ -77,8 +77,8 @@ button:hover {
   display: flex;
   align-items: center;
   padding: 10px;
-  background-color: #333;
-  color: white;
+  background-color: rgb(55, 55, 55);
+  color: rgb(255, 255, 255);
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -86,7 +86,7 @@ button:hover {
 }
 
 .build-order-button:hover {
-  background-color: #555;
+  background-color: rgb(85, 85, 85);
 }
 
 .build-order-button img {
@@ -118,7 +118,7 @@ button:hover {
 .no-build-orders {
   text-align: center;
   font-size: 18px;
-  color: #666;
+  color: rgb(102, 102, 102);
 }
 
 /* Media Query for mobile */
