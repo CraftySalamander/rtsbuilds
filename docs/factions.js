@@ -1,7 +1,7 @@
 // Define factions for each game with corresponding icons
 const gameFactions = {
   aoe2: {
-    Generic: "civilization/question_mark_black.webp",
+    Generic: "civilization/question_mark.webp",
     Armenians: "civilization/CivIcon-Armenians.webp",
     Aztecs: "civilization/CivIcon-Aztecs.webp",
     Bengalis: "civilization/CivIcon-Bengalis.webp",
