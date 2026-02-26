@@ -568,29 +568,18 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
 
   htmlContent += indentSpace(2) + "const dataHTML = " + JSON.stringify(htmlContentCopy) + ";\n\n";
   htmlContent += indentSpace(2) + "const dataBO = " + JSON.stringify(dataBO) + ";\n\n";
+  htmlContent += indentSpace(2) + "const gameName = " + JSON.stringify(gameName) + ";\n\n";
 
   // Open in RTS Overlay
   htmlContent +=
     indentSpace(2) +
     "document.getElementById('open_in_rts_overlay').addEventListener('click', function() {\n";
-  htmlContent += indentSpace(3) + "let game;\n";
-  htmlContent += indentSpace(3) + "if (dataBO.major_god) {\n";
-  htmlContent += indentSpace(4) + "game = 'aom';\n";
-  htmlContent += indentSpace(3) + "} else if (dataBO.race) {\n";
-  htmlContent += indentSpace(4) + "game = dataBO.opponent_race ? 'wc3' : 'sc2';\n";
-  htmlContent += indentSpace(3) + "} else if (dataBO.civilization) {\n";
-  htmlContent += indentSpace(4) + "game = 'aoe2';\n";
-  htmlContent += indentSpace(3) + "} else {\n";
-  htmlContent +=
-    indentSpace(4) + "console.error('Could not determine game from build order data');\n";
-  htmlContent += indentSpace(4) + "return;\n";
-  htmlContent += indentSpace(3) + "}\n";
   htmlContent +=
     indentSpace(3) +
     "const buildOrderName = dataBO.name.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');\n";
   htmlContent +=
     indentSpace(3) +
-    "const url = `https://rts-overlay.github.io?gameId=${game}&buildOrderId=rtsbuilds|${buildOrderName}`;\n";
+    "const url = `https://rts-overlay.github.io?gameId=${gameName}&buildOrderId=rtsbuilds|${buildOrderName}`;\n";
   htmlContent += indentSpace(3) + "window.open(url, '_blank');\n";
   htmlContent += indentSpace(2) + "});\n\n";
 
