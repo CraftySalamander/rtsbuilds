@@ -550,13 +550,13 @@ const sc2_build_orders = [
   "opponent_faction": "Terran"
 },
   {
-  "name": "HuShang's Beginner Zerg (Timing Attack)",
+  "name": "HuShang\u2019s Beginner Zerg (Timing Attack)",
   "faction": "Zerg",
   "author": "hushang",
   "content": {
     "race": "Zerg",
     "opponent_race": "Any",
-    "name": "HuShang's Beginner Zerg (Timing Attack)",
+    "name": "HuShang\u2019s Beginner Zerg (Timing Attack)",
     "patch": "4.11.0",
     "author": "hushang",
     "source": "https://lotv.spawningtool.com/build/163886/",
