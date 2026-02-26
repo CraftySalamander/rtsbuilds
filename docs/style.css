@@ -121,6 +121,22 @@ button:hover {
   color: rgb(102, 102, 102);
 }
 
+a {
+  color: rgb(120, 120, 120);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(120, 120, 120);
+  font-size: 0.85em;
+  margin-top: 10px;
+  font-style: italic;
+}
+
 /* Media Query for mobile */
 @media (max-width: 768px) {
   .build-orders-container {
