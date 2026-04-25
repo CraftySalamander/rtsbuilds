@@ -84,6 +84,7 @@ const gameFactions = {
     Zeus: "major_god/zeus.webp",
     Hades: "major_god/hades.webp",
     Poseidon: "major_god/poseidon.webp",
+    Demeter: "major_god/demeter.webp",
     Ra: "major_god/ra.webp",
     Isis: "major_god/isis.webp",
     Set: "major_god/set.webp",
@@ -100,6 +101,9 @@ const gameFactions = {
     Amaterasu: "major_god/amaterasu.webp",
     Tsukuyomi: "major_god/tsukuyomi.webp",
     Susanoo: "major_god/susanoo.webp",
+    Huitzilopochtli: "major_god/huitzilopochtli.webp",
+    Quetzalcoatl: "major_god/quetzalcoatl.webp",
+    Tezcatlipoca: "major_god/tezcatlipoca.webp",
   },
   sc2: {
     Any: "race_icon/AnyRaceIcon.webp",
