@@ -1,0 +1,79 @@
+{
+  "name": "Orc Beginner Guide with FS HH SH",
+  "race": "Orcs",
+  "opponent_race": "Any",
+  "author": "Grubby",
+  "written_by": "pdalcastel",
+  "build_order": [
+    {
+      "time": "00:00",
+      "food": 5,
+      "notes": [
+        "Train 2@orc_unit/peon.webp@, 4@orc_unit/peon.webp@&gt;@resource/gold.webp@",
+        "1@orc_unit/peon.webp@&gt;@orc_building/altar_of_storms.webp@&gt;@resource/lumber.webp@",
+        "Rally 1st @orc_unit/peon.webp@&gt;@orc_building/orc_burrow.webp@, train @orc_unit/peon.webp@",
+        "Rally 2nd @orc_unit/peon.webp@&gt;@resource/gold.webp@ (5/5)",
+        "Rally 3rd @orc_unit/peon.webp@&gt;@orc_building/war_mill.webp@&gt;@resource/lumber.webp@",
+        "Rally 4th @orc_unit/peon.webp@&gt;@orc_building/barracks.webp@&gt;@resource/lumber.webp@"
+      ]
+    },
+    {
+      "time": "01:08",
+      "food": 9,
+      "notes": [
+        "Train @orc_hero/far_seer.webp@",
+        "3@orc_unit/peon.webp@&gt;@resource/lumber.webp@",
+        "Build @orc_building/orc_burrow.webp@",
+        "Train 2@orc_unit/troll_headhunter.webp@"
+      ]
+    },
+    {
+      "time": "02:45",
+      "food": 21,
+      "notes": [
+        "@orc_building/great_hall.webp@ Tier 2",
+        "Train 4@orc_unit/troll_headhunter.webp@ (6 total)",
+        "Build @orc_building/orc_burrow.webp@@orc_building/voodoo_lounge.webp@"
+      ]
+    },
+    {
+      "time": "05:06",
+      "food": 29,
+      "notes": [
+        "Train @orc_hero/shadow_hunter.webp@",
+        "Buy @orc_items/healing_salve.webp@@orc_items/lesser_clarity_potion.webp@@orc_items/scroll_of_haste.webp@"
+      ]
+    },
+    {
+      "time": "05:22",
+      "food": 34,
+      "notes": [
+        "@orc_building/great_hall.webp@ Tier 3",
+        "Build @orc_building/beastiary.webp@",
+        "Research @orc_upgrades/regenerate.webp@",
+        "Train 1@orc_unit/troll_headhunter.webp@ (7 total)"
+      ]
+    },
+    {
+      "time": "06:58",
+      "food": 36,
+      "notes": [
+        "Train @orc_unit/kodo_beast.webp@",
+        "Build @orc_building/orc_burrow.webp@",
+        "Research @orc_upgrades/head_hunter_berserker.webp@@orc_upgrades/drum.webp@"
+      ]
+    },
+    {
+      "time": "08:00",
+      "food": 40,
+      "notes": [
+        "Continuation:",
+        "2@orc_items/orb_of_lightning.webp@",
+        "@orc_upgrades/steel_armor.webp@@orc_upgrades/steel_ranged.webp@@orc_upgrades/orc_melee_up_one.webp@",
+        "@orc_unit/tauren.webp@@orc_unit/spirit_walker.webp@@orc_unit/raider.webp@",
+        "Tiny @orc_building/great_hall.webp@ expand 5@orc_unit/peon.webp@",
+        "Buy Shredder when expand"
+      ]
+    }
+  ]
+}
