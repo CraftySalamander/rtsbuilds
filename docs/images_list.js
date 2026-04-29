@@ -288,6 +288,22 @@ function getImagesAoM() {
     atlanteans_siege: "cheiroballista.webp#fire_siphon.webp",
     atlanteans_tech:
       "alluvial_clay.webp#asper_blood.webp#bite_of_the_shark.webp#celerity.webp#channels.webp#conscript_counter_soldiers.webp#conscript_mainline_soldiers.webp#conscript_palace_soldiers.webp#empyrian_speed.webp#eyes_of_atlas.webp#focus.webp#gemini.webp#guardian_of_io.webp#halo_of_the_sun.webp#heart_of_the_titans.webp#hephaestus_revenge.webp#heroic_renewal.webp#horns_of_consecration.webp#lance_of_stone.webp#lemuriandescendants.webp#levy_counter_soldiers.webp#levy_mainline_soldiers.webp#levy_palace_soldiers.webp#mythic_rejuvenation.webp#orichalcum_mail.webp#petrification.webp#poseidons_secret.webp#rheias_gift.webp#safe_passage.webp#temporal_chaos.webp#titan_shield.webp#volcanic_forge.webp#weightless_mace.webp",
+    aztecs_building:
+      "calpulli.webp#great_temple.webp#nobles_hut.webp#smoke_trap.webp#spike_trap.webp#tzompantli_tower.webp#war_hut.webp",
+    aztecs_civilian: "villager_aztec.webp",
+    aztecs_hero:
+      "huitzilopochtli_unit.webp#quetzalcoatl_unit.webp#teixiptla_huitzilopochtli.webp#teixiptla_quetzalcoatl.webp#teixiptla_tezcatlipoca.webp#tezcatlipoca_unit.webp#warrior_priest.webp",
+    aztecs_human:
+      "coyote_warrior.webp#eagle_warrior.webp#jaguar_rider.webp#ocelotl_warrior.webp#otontin_smasher.webp#quimichin_spy.webp#shorn_one.webp#tequihua_archer.webp#tlamanih_spearman.webp",
+    aztecs_minor_god:
+      "coatlicue.webp#coyolxauhqui.webp#huehuecoyotl.webp#itzpapalotl.webp#malinalxochitl.webp#mictlantecuhtli.webp#patecatl.webp#tlaloc.webp#xolotl.webp",
+    aztecs_myth:
+      "ahuizotl.webp#axolotl.webp#axolotl_mutant.webp#ayotochtli.webp#centzon_totochtin.webp#chaneque.webp#maquizcoatl.webp#obsidian_butterfly.webp#quinametzin.webp#soul_guide.webp#titan_cipactli.webp#tunkuluchu.webp#tzitzimitl.webp",
+    aztecs_power:
+      "agave_bloom.webp#blood_pact.webp#corrupted_ground.webp#earth_monster.webp#infestation.webp#lullaby.webp#obsidian_mirror_power.webp#pillar_of_tlalocan.webp#purge.webp#starfall.webp#tailwind.webp#volcano.webp",
+    aztecs_ship: "arrow_canoe.webp#atlatl_siege_canoe.webp#tepoztli_canoe.webp",
+    aztecs_tech:
+      "advanced_traps.webp#arrival_of_the_gods.webp#burnt_water.webp#centzon_huitznahua.webp#ceremonial_armor.webp#ceremonial_shields.webp#chinampas.webp#cipactlis_scales.webp#coatepec_shrines.webp#cosmic_guard.webp#coyolxauhqui_stone.webp#craft_workshop.webp#cuicacalli_training.webp#evening_star.webp#feast_of_sustenance.webp#feathered_armor.webp#feathered_shields.webp#flint_weapons.webp#flowery_wars.webp#four_jars.webp#jade_weapons.webp#livestock_pen.webp#lumber_outpost.webp#maguey_cultivation.webp#metzliapan.webp#mictecah.webp#nahuallatolli.webp#necklace_of_eyeballs.webp#new_fire_ceremony.webp#obsidian_knapping.webp#obsidian_weapons.webp#ocpatli_infusions.webp#old_coyotes_spirit.webp#omen_of_death.webp#omen_of_malinalco.webp#ometochtlis_revelry.webp#precious_bones.webp#sacred_armor.webp#sacred_shields.webp#serpent_skirt.webp#shards_of_itztli.webp#sting_of_yappan.webp#stoneskin_quinametzin.webp#string_of_hearts.webp#tecciztecatls_penance.webp#temiminaloyan_trials.webp#tepeyollotls_reach.webp#teponaztli_drums.webp#tlaloques.webp#toloache_trance.webp#tonacatepetl.webp#torch_of_misfortune.webp#twisted_limbs.webp#wings_of_itzpapalotl.webp#wings_of_the_south.webp",
     chinese_blessing:
       "creator_auspice.webp#shennong_gift_all.webp#yang.webp#yin.webp#yin_yang.webp",
     chinese_building:
@@ -365,7 +381,7 @@ function getImagesAoM() {
     japanese_tech:
       "ascetic_practices.webp#asymmetrical_bows.webp#burning_malevolence.webp#condemned_soul.webp#crushing_waves.webp#dan-no-ura_tactics.webp#deadly_rage.webp#deadly_snare.webp#den_den_drums.webp#divine_prefecture.webp#eight_banners.webp#eternal_haunting.webp#gales_fury.webp#gohei_wands.webp#golden_kite.webp#hannya_mask.webp#heavenly_barrage.webp#hunters_strength.webp#ivory_netsuke.webp#kagura.webp#katagi.webp#kumiki.webp#mechanical_artisans.webp#oni_mask.webp#onmyodo.webp#restless_army.webp#sacred_custodians.webp#sakura_gardens.webp#saltwater_spring.webp#sashimono_bannermen.webp#seaside_infiltrators.webp#sojutsu.webp#sumo_training.webp#ten-fist_sword.webp#tenshu.webp#thunderous_presence.webp#wind_sickles.webp#wisdom_of_nine.webp",
     major_god:
-      "amaterasu.webp#demeter.webp#freyr.webp#fuxi.webp#gaia.webp#hades.webp#isis.webp#kronos.webp#loki.webp#nuwa.webp#odin.webp#oranos.webp#poseidon.webp#ra.webp#set.webp#shennong.webp#susanoo.webp#thor.webp#tsukuyomi.webp#zeus.webp",
+      "amaterasu.webp#demeter.webp#freyr.webp#fuxi.webp#gaia.webp#hades.webp#huitzilopochtli.webp#isis.webp#kronos.webp#loki.webp#nuwa.webp#odin.webp#oranos.webp#poseidon.webp#quetzalcoatl.webp#ra.webp#set.webp#shennong.webp#susanoo.webp#tezcatlipoca.webp#thor.webp#tsukuyomi.webp#zeus.webp",
     market: "ambassadors.webp#coinage.webp#market.webp#tax_collectors.webp",
     norse_building:
       "dwarven_armory.webp#great_hall.webp#hill_fort.webp#longhouse.webp#town_center_norse.webp",
@@ -451,32 +467,50 @@ function getImagesWC3() {
     human_building:
       "altar_of_kings.webp#arcane_sanctum.webp#arcane_vault.webp#barracks.webp#blacksmith.webp#farm.webp#gryphon_aviary.webp#lumber_mill.webp#scout_tower.webp#town_hall.webp#workshop.webp",
     human_hero: "archmage.webp#blood_mage.webp#mountain_king.webp#paladin.webp",
+    human_items:
+      "human_watch_tower.webp#lesser_clarity_potion.webp#mechanical_critter.webp#orb_of_fire.webp#potion_blue_small.webp#potion_green_small.webp#scroll_of_regeneration_green.webp#scroll_uber.webp#staff_of_sanctuary.webp",
     human_special: "militia.webp#phoenix.webp#summon_water_elemental.webp",
     human_unit:
       "dragon_hawk_rider.webp#flying_machine.webp#footman.webp#gryphon_rider.webp#knight.webp#mortar_team.webp#peasant.webp#priest.webp#rifleman.webp#siege_engine.webp#sorceress.webp#spell_breaker.webp",
+    human_upgrades:
+      "animal_war_training.webp#arcanite_architecture.webp#arcanite_melee.webp#cloud_of_fog.webp#control_magic.webp#defend.webp#dwarven_long_rifle.webp#flak_cannons.webp#flare.webp#fragmentation_bombs.webp#human_armor_up_one.webp#human_armor_up_three.webp#human_armor_up_two.webp#human_artillery_up_one.webp#human_lumber_upgrade1.webp#human_lumber_upgrade2.webp#human_missile_up_one.webp#human_missile_up_three.webp#human_missile_up_two.webp#imbued_masonry.webp#leather_upgrade_one.webp#leather_upgrade_three.webp#leather_upgrade_two.webp#magical_sentry.webp#priest_adept.webp#priest_master.webp#scatter_rockets.webp#sorceress_adept.webp#sorceress_master.webp#steel_melee.webp#stone_architecture.webp#storm_hammer.webp#sundering_blades.webp#thorium_melee.webp",
+    neutral_shop:
+      "boots_of_speed.webp#circlet.webp#dust_of_appearance.webp#lesser_invisibility.webp#lesser_invulneralbility.webp#periapt.webp#scroll.webp#scroll_healing.webp#scroll_uber.webp#staff_of_teleportation.webp#tome_of_retraining.webp",
     night_elf_building:
       "altar_of_elders.webp#ancient_of_lore.webp#ancient_of_war.webp#ancient_of_wind.webp#ancient_of_wonders.webp#ancient_protector.webp#chimaera_roost.webp#hunters_hall.webp#moon_well.webp#tree_of_life.webp",
     night_elf_hero:
       "demon_hunter.webp#keeper_of_the_grove.webp#priestess_of_the_moon.webp#warden.webp",
+    night_elf_items:
+      "dust_of_appearance.webp#lesser_clarity_potion.webp#moon_stone.webp#orb_of_venom.webp#potion_blue_small.webp#potion_green_small.webp#scroll_uber.webp#snazzy_potion.webp#staff_of_preservation.webp",
     night_elf_special:
       "avatar_of_vengeance.webp#druid_of_the_claw.webp#druid_of_the_talon.webp#hippogryph_rider.webp#owl_scout.webp#spirit_of_vengeance.webp#treant.webp",
     night_elf_unit:
       "archer.webp#chimaera.webp#druid_of_the_claw.webp#druid_of_the_talon.webp#dryad.webp#faerie_dragon.webp#glaive_thrower.webp#hippogryph.webp#huntress.webp#mountain_giant.webp#wisp.webp",
+    night_elf_upgrades:
+      "advanced_moon_armor.webp#advanced_reinforced_hides.webp#advanced_strength_of_the_moon.webp#advanced_strength_of_the_wild.webp#corrosive_breath.webp#doc_adept_training.webp#doc_master_training.webp#dot_adept_training.webp#dot_master_training.webp#dryad_dispel_magic.webp#enchanted_bears.webp#enchanted_crows.webp#hardened_skin.webp#improved_bows.webp#improved_moon_armor.webp#improved_reinforced_hides.webp#improved_strength_of_the_moon.webp#improved_strength_of_the_wild.webp#marksmanship.webp#moon_armor.webp#natures_blessing.webp#reinforced_hides.webp#resistant_skin.webp#sentinel.webp#strength_of_the_moon.webp#strength_of_the_wild.webp#tame_hippogriff.webp#ultravision.webp#upgrade_moon_glaive.webp#vorpal_blades.webp#well_spring.webp",
     orc_building:
       "altar_of_storms.webp#barracks.webp#beastiary.webp#great_hall.webp#orc_burrow.webp#spirit_lodge.webp#tauren_totem.webp#voodoo_lounge.webp#war_mill.webp#watch_tower.webp",
     orc_hero: "blademaster.webp#far_seer.webp#shadow_hunter.webp#tauren_chieftain.webp",
+    orc_items:
+      "great_hall.webp#healing_salve.webp#lesser_clarity_potion.webp#orb_of_lightning.webp#potion_blue_small.webp#potion_green_small.webp#scroll_of_haste.webp#scroll_uber.webp",
     orc_special: "serpent_ward.webp#spirit_wolf.webp#troll_berserker.webp",
     orc_unit:
       "demolisher.webp#grunt.webp#kodo_beast.webp#peon.webp#raider.webp#shaman.webp#spirit_walker.webp#tauren.webp#troll_batrider.webp#troll_headhunter.webp#wind_rider.webp#witch_doctor.webp",
+    orc_upgrades:
+      "advanced_spiked_barricades.webp#arcanite_armor.webp#arcanite_ranged.webp#berserk.webp#drum.webp#ensnare.webp#envenomed_spear.webp#fire_rocks.webp#head_hunter_berserker.webp#improved_spiked_barricades.webp#liquid_fire.webp#orc_melee_up_one.webp#orc_melee_up_three.webp#orc_melee_up_two.webp#pillage.webp#regenerate.webp#reinforced_burrows.webp#shaman_adept.webp#shaman_master.webp#smash.webp#spiked_barricades.webp#spirit_walker_adept_training.webp#spirit_walker_master_training.webp#steel_armor.webp#steel_ranged.webp#thorium_armor.webp#thorium_ranged.webp#witch_doctor_adept.webp#witch_doctor_master.webp",
     race: "dice.webp#human.webp#night_elf.webp#orc.webp#undead.webp",
     resource: "food.webp#gold.webp#lumber.webp",
     undead_building:
       "altar_of_darkness.webp#boneyard.webp#crypt.webp#graveyard.webp#haunted_goldmine.webp#necropolis.webp#sacrificial_pit.webp#slaughter_house.webp#temple_of_the_damned.webp#tomb_of_relics.webp#ziggurat.webp",
     undead_hero: "crypt_lord.webp#death_knight.webp#dread_lord.webp#lich.webp",
+    undead_items:
+      "dust_of_appearance.webp#orb_of_corruption.webp#potion_blue_small.webp#potion_green_small.webp#rod_of_necromancy.webp#sacrificial_dagger.webp#sacrificial_skull.webp#scroll_uber.webp",
     undead_special:
       "carrion_beetle.webp#destroyer.webp#shade.webp#skeletal_mage.webp#skeleton_warrior.webp",
     undead_unit:
       "abomination.webp#acolyte.webp#banshee.webp#crypt_fiend.webp#frost_wyrm.webp#gargoyle.webp#ghoul.webp#meat_wagon.webp#necromancer.webp#obsidian_statue.webp",
+    undead_upgrades:
+      "advanced_creature_attack.webp#advanced_creature_carapace.webp#advanced_unholy_armor.webp#advanced_unholy_strength.webp#banshee_adept.webp#banshee_master.webp#cannibalize.webp#creature_attack.webp#creature_carapace.webp#crypt_fiend_burrow.webp#destroyer.webp#exhume_corpses.webp#freezing_breath.webp#ghoul_frenzy.webp#improved_creature_attack.webp#improved_creature_carapace.webp#improved_unholy_armor.webp#improved_unholy_strength.webp#necromancer_adept.webp#necromancer_master.webp#plague_cloud.webp#skeletal_longevity.webp#skeleton_mage.webp#stone_form.webp#unholy_armor.webp#unholy_strength.webp#web.webp",
   };
 
   // Split each string (e.g. 'image_0#image_1#image_2') in a list of images.
