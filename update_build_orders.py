@@ -166,7 +166,10 @@ if __name__ == "__main__":
         help='Input BO JSON file or folder to process (containing the BO files).',
     )
     parser.add_argument(
-        '-u', '--update', action='store_false', help='Update the file without removing existing entries'
+        '--no-update',
+        action='store_false',
+        dest='update',  # This ensures the argument is stored in `args.update`
+        help='Overwrite existing entries instead of updating them (default: update existing entries).',
     )
     args = parser.parse_args()
 
