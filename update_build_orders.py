@@ -68,6 +68,7 @@ def remove_build_order(game: str, remove_entries: list[str]) -> None:
     # Remove corresponding JSON files
     for entry in game_entries:
         build_name = entry.split('|')[1]
+        # Normalize: remove all non-alphanumeric characters
         normalized_name = re.sub(r'[^a-zA-Z0-9]', '', build_name.lower())
         json_file = json_dir / f"{normalized_name}.json"
         if json_file.exists():
@@ -93,9 +94,9 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
     Update the JS file containing the build orders for a specific game and generate individual JSON files.
 
     Args:
-        game          Acronym of the game: 'aoe2', 'aoe4', 'aom', 'sc2', 'wc3'.
-        input_path    Input BO JSON file or folder to process (containing the BO files).
-        update        True to update the file without removing existing entries.
+        game: Acronym of the game: 'aoe2', 'aoe4', 'aom', 'sc2', 'wc3'.
+        input_path: Input BO JSON file or folder to process (containing the BO files).
+        update: True to update the file without removing existing entries.
     """
     # Define the mapping of fields for each game
     game_field_mapping = {
@@ -197,8 +198,8 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
                 log_warning(f"An entry with the name '{entry['name']}' already exists. Skipping this file.")
                 continue
 
-            # Normalize the file name (replace non-alphanumeric with underscores)
-            json_file_name = re.sub(r'[^a-zA-Z0-9]', '_', entry['name'].lower())
+            # Normalize the file name: remove all non-alphanumeric characters
+            json_file_name = re.sub(r'[^a-zA-Z0-9]', '', entry['name'].lower())
 
             # Check if the normalized file name already exists
             if json_file_name in normalized_file_names:
