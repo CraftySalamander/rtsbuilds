@@ -249,11 +249,11 @@ const wc3_build_orders = [
   "opponent_faction": "Any"
 },
   {
-  "name": "Undead_Bloody_Beginner_DK_Fiends",
+  "name": "Undead Bloody Beginner DK Fiends",
   "faction": "Undead",
   "author": "Grubby",
   "content": {
-    "name": "Undead_Bloody_Beginner_DK_Fiends",
+    "name": "Undead Bloody Beginner DK Fiends",
     "race": "Undead",
     "opponent_race": "Any",
     "author": "Grubby",
