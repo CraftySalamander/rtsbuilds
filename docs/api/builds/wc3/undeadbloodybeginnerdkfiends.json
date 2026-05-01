@@ -1,0 +1,83 @@
+{
+  "name": "Undead_Bloody_Beginner_DK_Fiends",
+  "race": "Undead",
+  "opponent_race": "Any",
+  "author": "Grubby",
+  "source": "Grubby's Discord",
+  "build_order": [
+    {
+      "time": "00:00",
+      "food": 5,
+      "notes": [
+        "Train 1@undead_unit/acolyte.webp@, 3@undead_unit/acolyte.webp@&gt;@resource/gold.webp@, @undead_unit/ghoul.webp@&gt;@resource/lumber.webp@",
+        "Build@undead_building/crypt.webp@@undead_building/graveyard.webp@immediately"
+      ]
+    },
+    {
+      "time": "00:15",
+      "food": 6,
+      "notes": [
+        "Train 1@undead_unit/acolyte.webp@, reposition@undead_unit/ghoul.webp@to@undead_building/graveyard.webp@",
+        "Build@undead_building/altar_of_darkness.webp@ (185@resource/gold.webp@)",
+        "Build@undead_building/ziggurat.webp@ (155@resource/gold.webp@)"
+      ]
+    },
+    {
+      "time": "01:15",
+      "food": 7,
+      "notes": [
+        "Train 1@undead_unit/ghoul.webp@",
+        "Build@undead_building/tomb_of_relics.webp@ (135@resource/gold.webp@)",
+        "Train@undead_hero/death_knight.webp@1@undead_unit/crypt_fiend.webp@",
+        "Build@undead_building/ziggurat.webp@(2nd) Train 1@undead_unit/crypt_fiend.webp@"
+      ]
+    },
+    {
+      "time": "02:10",
+      "food": 20,
+      "notes": [
+        "Buy@undead_items/rod_of_necromancy.webp@, summon@undead_special/skeleton_warrior.webp@",
+        "Train 1@undead_unit/crypt_fiend.webp@",
+        "UPGRADE@undead_building/necropolis.webp@TIER 2"
+      ]
+    },
+    {
+      "time": "03:00",
+      "food": 23,
+      "notes": [
+        "Upgrade@undead_building/ziggurat.webp@Nerubian Tower",
+        "Train 1@undead_unit/ghoul.webp@, buy@undead_items/rod_of_necromancy.webp@",
+        "Build@undead_building/ziggurat.webp@(3nd), Train 1@undead_unit/crypt_fiend.webp@"
+      ]
+    },
+    {
+      "time": "06:00",
+      "food": 30,
+      "notes": [
+        "Train@undead_hero/lich.webp@",
+        "Build@undead_building/slaughter_house.webp@@undead_building/temple_of_the_damned.webp@",
+        "UPGRADE@undead_building/necropolis.webp@TIER 3"
+      ]
+    },
+    {
+      "time": "07:00",
+      "food": 35,
+      "notes": [
+        "UPGRADE@undead_building/necropolis.webp@TIER 3",
+        "buy@undead_items/rod_of_necromancy.webp@on@undead_hero/lich.webp@",
+        "Train 1@undead_unit/obsidian_statue.webp@1@undead_unit/banshee.webp@",
+        "Build@undead_building/ziggurat.webp@(4th)"
+      ]
+    },
+    {
+      "time": "08:00",
+      "food": 40,
+      "notes": [
+        "Train 1@undead_unit/obsidian_statue.webp@1@undead_unit/banshee.webp@ (2 each total)",
+        "Upgrade@undead_upgrades/web.webp@",
+        "Buy@undead_items/orb_of_corruption.webp@on@undead_hero/lich.webp@",
+        "Get 3rd hero from Tavern"
+      ]
+    }
+  ]
+}
