@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RTS Builds - Build Order</title>
+    <style>
+        /* Fixed layout styles */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(176, 176, 176);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: rgb(220, 220, 220);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        .build-order-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-family: "Book Antiqua", Palatino, serif;
+            font-size: 40px;
+        }
+
+        .selectors {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .selector-group {
+            display: flex;
+            flex-direction: column;
+            min-width: 200px;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid rgb(204, 204, 204);
+            background-color: rgb(55, 55, 55);
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: rgb(85, 85, 85);
+        }
+
+        /* Raw JSON display */
+        #raw-json-container {
+            background-color: rgb(55, 55, 55);
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 10px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Fixed elements -->
+        <div class="header">
+            <img src="assets/common/title/rts_builds.webp" alt="RTS Builds Title" />
+        </div>
+        <h1 class="build-order-title">Build Order</h1>
+
+        <div class="selectors">
+            <div class="selector-group">
+                <button id="open_in_rts_overlay">Open in RTS Overlay</button>
+            </div>
+            <div class="selector-group">
+                <button id="copy_bo">Copy build order to clipboard</button>
+            </div>
+            <div class="selector-group">
+                <button id="export_bo">Export build order</button>
+            </div>
+        </div>
+
+        <!-- Dynamic content: Raw JSON will be displayed here -->
+        <div id="raw-json-container">Loading build order...</div>
+    </div>
+
+    <script>
+        // Parse URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const gameId = urlParams.get('gameId');
+        const buildOrderId = urlParams.get('buildOrderId');
+
+        // Fetch and display the JSON
+        async function loadBuildOrder() {
+            const jsonContainer = document.getElementById('raw-json-container');
+
+            if (!gameId || !buildOrderId) {
+                jsonContainer.textContent = 'Error: Missing URL parameters. Use: ?gameId=aoe2&buildOrderId=chidarkage';
+                return;
+            }
+
+            try {
+                const response = await fetch(`api/builds/${gameId}/${buildOrderId}.json`);
+                if (!response.ok) {
+                    throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
+                }
+                const data = await response.json();
+                jsonContainer.textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                jsonContainer.textContent = `Error loading build order: ${error.message}`;
+            }
+        }
+
+        // Load the build order when the page loads
+        document.addEventListener('DOMContentLoaded', loadBuildOrder);
+    </script>
+</body>
+
+</html>
