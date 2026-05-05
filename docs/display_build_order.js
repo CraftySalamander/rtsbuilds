@@ -134,7 +134,7 @@ function noteToTextImages(note, imageHeight = -1) {
 }
 
 /**
- * Open a new page displaying the full BO in a single panel,
+ * Render the full BO in a single panel inside build_order.html,
  * based on table descriptions.
  *
  * @param {Object} dataBO             Data of the build order.
@@ -145,34 +145,25 @@ function noteToTextImages(note, imageHeight = -1) {
  */
 function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHeader = null) {
   const buildOrderData = dataBO["build_order"];
+  const buildOrderName = dataBO["name"];
+
+  // Update the page title
+  document.title = "RTS Builds - " + buildOrderName;
+  document.querySelector(".build-order-title").textContent = buildOrderName;
 
   // Check which columns need to be displayed
   let displayColumns = new Array(columnsDescription.length).fill(false);
 
   for (const currentStep of buildOrderData) {
-    // loop on all BO steps
-    // Loop on all the columns
     for (const [index, column] of columnsDescription.entries()) {
-      // Colmun already validated
-      if (displayColumns[index]) {
-        continue;
-      }
-
-      // Check valid description
-      if (!(column instanceof SinglePanelColumn)) {
-        throw "Wrong column definition.";
-      }
-
-      // No need to hide the column (even if totally absent)
+      if (displayColumns[index]) continue;
+      if (!(column instanceof SinglePanelColumn)) throw "Wrong column definition.";
       if (!column.hideIfAbsent) {
         displayColumns[index] = true;
         continue;
       }
-
-      // Check field presence (potentially after splitting part_0/part_1/...)
       let subPart = currentStep;
       let valid = true;
-
       for (const subField of column.field.split("/")) {
         if (!(subField in subPart)) {
           valid = false;
@@ -182,17 +173,8 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
       }
       if (valid) {
         if (column.displayIfPositive) {
-          // Check if valid number
           const num = Number(subPart);
-          if (Number.isInteger(num)) {
-            if (num > 0) {
-              displayColumns[index] = true;
-            }
-          } else {
-            console.log(
-              "Warning: Exepcted integer for '" + field + "', but received '" + num + "'.",
-            );
-          }
+          if (Number.isInteger(num) && num > 0) displayColumns[index] = true;
         } else {
           displayColumns[index] = true;
         }
@@ -202,7 +184,6 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
 
   // Update the columns description to only keep the ones to display
   let updatedColumnsDescription = [];
-
   let validColumnsCount = 0;
   for (const [index, column] of columnsDescription.entries()) {
     if (displayColumns[index]) {
@@ -211,411 +192,168 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
     }
   }
 
-  // Create window
-  let fullPageWindow = window.open("", "_blank");
+  // Generate HTML content
+  let htmlContent = "";
 
-  // Prepare HTML main content
-  let htmlContent = '<!DOCTYPE html>\n<html lang="en">\n\n';
-  htmlContent += "<head>\n";
-
-  // Title
-  htmlContent += indentSpace(1) + "<title>RTS Builds - " + dataBO["name"] + "</title>\n";
-
-  // Style
-  htmlContent += indentSpace(1) + "<style>\n";
-
-  htmlContent += indentSpace(2) + "body {\n";
-  htmlContent += indentSpace(3) + "font-family: Arial, Helvetica, sans-serif;\n";
-  htmlContent += indentSpace(3) + "background-color: rgb(176, 176, 176);\n";
-  htmlContent += indentSpace(3) + "margin: 0;\n";
-  htmlContent += indentSpace(3) + "padding: 20px;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + ".container {\n";
-  htmlContent += indentSpace(3) + "max-width: 1200px;\n";
-  htmlContent += indentSpace(3) + "margin: 0 auto;\n";
-  htmlContent += indentSpace(3) + "background-color: rgb(220, 220, 220);\n";
-  htmlContent += indentSpace(3) + "padding: 20px;\n";
-  htmlContent += indentSpace(3) + "border-radius: 10px;\n";
-  htmlContent += indentSpace(3) + "box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + ".header {\n";
-  htmlContent += indentSpace(3) + "text-align: center;\n";
-  htmlContent += indentSpace(3) + "margin-bottom: 20px;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + ".header img {\n";
-  htmlContent += indentSpace(3) + "max-width: 50%;\n";
-  htmlContent += indentSpace(3) + "height: auto;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + ".selectors {\n";
-  htmlContent += indentSpace(3) + "display: flex;\n";
-  htmlContent += indentSpace(3) + "flex-wrap: wrap;\n";
-  htmlContent += indentSpace(3) + "gap: 10px;\n";
-  htmlContent += indentSpace(3) + "margin-bottom: 20px;\n";
-  htmlContent += indentSpace(3) + "align-items: center;\n";
-  htmlContent += indentSpace(3) + "justify-content: center;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + ".selector-group {\n";
-  htmlContent += indentSpace(3) + "display: flex;\n";
-  htmlContent += indentSpace(3) + "flex-direction: column;\n";
-  htmlContent += indentSpace(3) + "min-width: 200px;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + ".selector-group label {\n";
-  htmlContent += indentSpace(3) + "margin-bottom: 5px;\n";
-  htmlContent += indentSpace(3) + "font-size: 16px;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + "button {\n";
-  htmlContent += indentSpace(3) + "padding: 10px;\n";
-  htmlContent += indentSpace(3) + "font-size: 16px;\n";
-  htmlContent += indentSpace(3) + "border-radius: 5px;\n";
-  htmlContent += indentSpace(3) + "border: 1px solid rgb(204, 204, 204);\n";
-  htmlContent += indentSpace(3) + "background-color: rgb(55, 55, 55);\n";
-  htmlContent += indentSpace(3) + "color: white;\n";
-  htmlContent += indentSpace(3) + "cursor: pointer;\n";
-  htmlContent += indentSpace(3) + "transition: background-color 0.3s;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + "button:hover {\n";
-  htmlContent += indentSpace(3) + "background-color: rgb(85, 85, 85);\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + "table {\n";
-  htmlContent += indentSpace(3) + "color: rgb(255, 255, 255);\n";
-  htmlContent += indentSpace(3) + "background-color: rgb(55, 55, 55);\n";
-  htmlContent += indentSpace(3) + "margin: 0 auto;\n";
-  htmlContent += indentSpace(3) + "border-radius: 15px;\n";
-  htmlContent += indentSpace(3) + "border-collapse: collapse;\n";
-  htmlContent += indentSpace(3) + "margin-bottom: 30px;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + "td {\n";
-  htmlContent += indentSpace(3) + "text-align: center;\n";
-  htmlContent += indentSpace(3) + "vertical-align: middle;\n";
-  htmlContent += indentSpace(3) + "padding: 10px;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + "img {\n";
-  htmlContent += indentSpace(3) + "vertical-align: middle;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + ".note {\n";
-  htmlContent += indentSpace(3) + "text-align: left;\n";
-  htmlContent += indentSpace(3) + "padding-right: 25px;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + ".full_line {\n";
-  htmlContent += indentSpace(3) + "text-align: left;\n";
-  htmlContent += indentSpace(3) + "font-weight: bold;\n";
-  htmlContent += indentSpace(3) + "padding-left: 25px;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + ".full_line img {\n";
-  htmlContent += indentSpace(3) + "margin-right: 10px;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + ".border_top {\n";
-  htmlContent += indentSpace(3) + "position: relative;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + ".border_top::after {\n";
-  htmlContent += indentSpace(3) + "content: '';\n";
-  htmlContent += indentSpace(3) + "position: absolute;\n";
-  htmlContent += indentSpace(3) + "top: 0;\n";
-  htmlContent += indentSpace(3) + "left: 2.5%;\n";
-  htmlContent += indentSpace(3) + "width: 95%;\n";
-  htmlContent += indentSpace(3) + "border: 1px solid rgb(150, 150, 150);\n";
-  htmlContent += indentSpace(2) + "}\n\n";
-
-  htmlContent += indentSpace(2) + ".column-0 {\n";
-  htmlContent += indentSpace(3) + "padding-left: 25px;\n";
-  htmlContent += indentSpace(2) + "}\n\n";
+  // Style (same as original)
+  htmlContent += "<style>";
+  htmlContent +=
+    ".build-order-table { color: rgb(255, 255, 255); background-color: rgb(55, 55, 55); margin: 0 auto; border-radius: 15px; border-collapse: collapse; margin-bottom: 30px; }";
+  htmlContent +=
+    ".build-order-table td { text-align: center; vertical-align: middle; padding: 10px; }";
+  htmlContent += ".build-order-table img { vertical-align: middle; }";
+  htmlContent += ".note { text-align: left; padding-right: 25px; }";
+  htmlContent += ".full_line { text-align: left; font-weight: bold; padding-left: 25px; }";
+  htmlContent += ".full_line img { margin-right: 10px; }";
+  htmlContent += ".border_top { position: relative; }";
+  htmlContent +=
+    ".border_top::after { content: ''; position: absolute; top: 0; left: 2.5%; width: 95%; border: 1px solid rgb(150, 150, 150); }";
+  htmlContent += ".column-0 { padding-left: 25px; }";
 
   // Style from column description
   for (const [index, column] of updatedColumnsDescription.entries()) {
     if (column.italic || column.bold || column.backgroundColor || column.textAlign) {
-      htmlContent += indentSpace(2) + ".column-" + index.toString() + " {\n";
-
-      if (column.italic) {
-        htmlContent += indentSpace(3) + "font-style: italic;\n";
-      }
-      if (column.bold) {
-        htmlContent += indentSpace(3) + "font-weight: bold;\n";
-      }
+      htmlContent += `.column-${index} {`;
+      if (column.italic) htmlContent += "font-style: italic;";
+      if (column.bold) htmlContent += "font-weight: bold;";
       if (column.backgroundColor) {
-        color = column.backgroundColor;
-        console.assert(color.length == 3, "Background color length should be of size 3.");
-        htmlContent +=
-          indentSpace(3) +
-          "background-color: rgb(" +
-          color[0].toString() +
-          ", " +
-          color[1].toString() +
-          ", " +
-          color[2].toString() +
-          ");\n";
+        const color = column.backgroundColor;
+        htmlContent += `background-color: rgb(${color[0]}, ${color[1]}, ${color[2]});`;
       }
-      if (column.textAlign) {
-        htmlContent += indentSpace(3) + "text-align: " + column.textAlign + ";\n";
-      }
-      htmlContent += indentSpace(2) + "}\n\n";
+      if (column.textAlign) htmlContent += `text-align: ${column.textAlign};`;
+      htmlContent += "}";
     }
   }
+  htmlContent += "</style>";
 
-  htmlContent += indentSpace(1) + "</style>\n\n";
-  htmlContent += "</head>\n\n";
-
-  // Main body
-  htmlContent += "<body>\n";
-  htmlContent += indentSpace(1) + "<div class='container'>\n";
-  htmlContent += indentSpace(2) + "<div class='header'>\n";
-  htmlContent +=
-    indentSpace(3) + "<img src='assets/common/title/rts_builds.webp' alt='RTS Builds Title' />\n";
-  htmlContent += indentSpace(2) + "</div>\n";
-
-  // Build order name
-  htmlContent +=
-    indentSpace(2) +
-    "<h1 style='text-align: center; margin-bottom: 30px; font-family: \"Book Antiqua\", Palatino, serif; font-size: 40px;'>" +
-    dataBO["name"] +
-    "</h1>\n";
-
-  // Buttons and build order name
-  htmlContent += indentSpace(2) + "<div class='selectors'>\n";
-  htmlContent += indentSpace(3) + "<div class='selector-group'>\n";
-  htmlContent += indentSpace(4) + "<button id='open_in_rts_overlay'>Open in RTS Overlay</button>\n";
-  htmlContent += indentSpace(3) + "</div>\n";
-  htmlContent += indentSpace(3) + "<div class='selector-group'>\n";
-  htmlContent += indentSpace(4) + "<button id='copy_bo'>Copy build order to clipboard</button>\n";
-  htmlContent += indentSpace(3) + "</div>\n";
-  htmlContent += indentSpace(3) + "<div class='selector-group'>\n";
-  htmlContent += indentSpace(4) + "<button id='export_bo'>Export build order</button>\n";
-  htmlContent += indentSpace(3) + "</div>\n";
-  htmlContent += indentSpace(2) + "</div>\n";
-
-  htmlContent += indentSpace(1) + "<table>\n";
-
-  // Icons header
-  htmlContent += indentSpace(2) + '<tr id="header">\n';
+  // Table content
+  htmlContent += "<table class='build-order-table'>";
+  htmlContent += '<tr id="header">';
 
   for (const column of updatedColumnsDescription) {
     if (column.image) {
-      htmlContent += indentSpace(3) + "<td>" + getBOImageHTML(column.image) + "</td>\n";
+      htmlContent += "<td>" + getBOImageHTML(column.image) + "</td>";
     } else {
-      htmlContent += indentSpace(3) + "<td></td>\n";
+      htmlContent += "<td></td>";
     }
   }
-  htmlContent += indentSpace(2) + "</tr>\n";
+  htmlContent += "</tr>";
 
-  let lastSectionHeaderKey = null; // last key value for section header
-
-  // Loop on all the build order steps
+  let lastSectionHeaderKey = null;
   for (const currentStep of buildOrderData) {
     const notes = currentStep["notes"];
-
-    let currentSectionHeaderKey = null; // current key value for section header
-
+    let currentSectionHeaderKey = null;
     if (sectionsHeader) {
-      // Key to check for section header
-      console.assert(
-        sectionsHeader.key in currentStep,
-        "Current step is missing '" + sectionsHeader.key + "'.",
-      );
       currentSectionHeaderKey = currentStep[sectionsHeader.key];
-
-      // Header section before first line
       if (
         sectionsHeader.first_line &&
         currentSectionHeaderKey in sectionsHeader.first_line &&
         !lastSectionHeaderKey
       ) {
-        htmlContent += indentSpace(2) + '<tr class="border_top">\n';
-        htmlContent +=
-          indentSpace(3) +
-          '<td class="full_line" colspan=' +
-          validColumnsCount.toString() +
-          ">" +
-          sectionsHeader.first_line[currentSectionHeaderKey] +
-          "</td>\n";
-        htmlContent += indentSpace(2) + "</tr>\n";
+        htmlContent += '<tr class="border_top">';
+        htmlContent += `<td class="full_line" colspan=${validColumnsCount}>${sectionsHeader.first_line[currentSectionHeaderKey]}</td>`;
+        htmlContent += "</tr>";
       }
-
-      // Header section before current line
       if (
         sectionsHeader.before &&
         currentSectionHeaderKey in sectionsHeader.before &&
         lastSectionHeaderKey &&
         currentSectionHeaderKey !== lastSectionHeaderKey
       ) {
-        htmlContent += indentSpace(2) + '<tr class="border_top">\n';
-        htmlContent +=
-          indentSpace(3) +
-          '<td class="full_line" colspan=' +
-          validColumnsCount.toString() +
-          ">" +
-          sectionsHeader.before[currentSectionHeaderKey] +
-          "</td>\n";
-        htmlContent += indentSpace(2) + "</tr>\n";
+        htmlContent += '<tr class="border_top">';
+        htmlContent += `<td class="full_line" colspan=${validColumnsCount}>${sectionsHeader.before[currentSectionHeaderKey]}</td>`;
+        htmlContent += "</tr>";
       }
     }
 
-    // Loop on the notes
     for (const [noteID, note] of enumerate(notes)) {
-      // Add column content for the first line of the notes.
       if (noteID == 0) {
-        htmlContent += indentSpace(2) + '<tr class="border_top">\n';
-
-        // Loop on the columns to show
+        htmlContent += '<tr class="border_top">';
         for (const [index, column] of updatedColumnsDescription.entries()) {
-          // Get the value of the current field
-          const field = column.field;
           let subPart = currentStep;
-          for (const subField of field.split("/")) {
+          for (const subField of column.field.split("/")) {
             if (!(subField in subPart)) {
-              // field not found
               subPart = "";
               break;
             }
             subPart = subPart[subField];
           }
           let fieldValue = subPart;
-
-          // Only show numbers > 0
           if (column.displayIfPositive && fieldValue !== "") {
             const num = Number(fieldValue);
-            if (Number.isInteger(num)) {
-              if (num <= 0) {
-                fieldValue = "";
-              }
-            } else {
-              console.log(
-                "Warning: Exepcted integer for '" + field + "', but received '" + fieldValue + "'.",
-              );
-            }
+            if (Number.isInteger(num) && num <= 0) fieldValue = "";
           }
-
-          // Display field value
-          htmlContent +=
-            indentSpace(3) +
-            '<td class="column-' +
-            index.toString() +
-            '">' +
-            fieldValue +
-            "</td>\n";
+          htmlContent += `<td class="column-${index}">${fieldValue}</td>`;
         }
-      }
-      // Only add notes for the next lines (i.e. no column content).
-      else {
-        htmlContent += indentSpace(2) + "<tr>\n";
+      } else {
+        htmlContent += "<tr>";
         for (let index = 0; index < updatedColumnsDescription.length; index++) {
-          htmlContent += indentSpace(3) + '<td class="column-' + index.toString() + '"></td>\n';
+          htmlContent += `<td class="column-${index}"></td>`;
         }
       }
-
-      // Add the current note line
-      htmlContent +=
-        indentSpace(3) +
-        '<td class="note">\n' +
-        indentSpace(4) +
-        "<div>" +
-        noteToTextImages(note) +
-        "</div>\n" +
-        indentSpace(3) +
-        "</td>\n";
-      htmlContent += indentSpace(2) + "</tr>\n";
+      htmlContent += `<td class="note"><div>${noteToTextImages(note)}</div></td>`;
+      htmlContent += "</tr>";
     }
 
     if (sectionsHeader) {
-      // Header section after current line
       if (
         sectionsHeader.after &&
         currentSectionHeaderKey in sectionsHeader.after &&
         lastSectionHeaderKey &&
         currentSectionHeaderKey !== lastSectionHeaderKey
       ) {
-        htmlContent += indentSpace(2) + '<tr class="border_top">\n';
-        htmlContent +=
-          indentSpace(3) +
-          '<td class="full_line" colspan=' +
-          validColumnsCount.toString() +
-          ">" +
-          sectionsHeader.after[currentSectionHeaderKey] +
-          "</td>\n";
-        htmlContent += indentSpace(2) + "</tr>\n";
+        htmlContent += '<tr class="border_top">';
+        htmlContent += `<td class="full_line" colspan=${validColumnsCount}>${sectionsHeader.after[currentSectionHeaderKey]}</td>`;
+        htmlContent += "</tr>";
       }
-
-      // Save last key value seen
       lastSectionHeaderKey = currentSectionHeaderKey;
     }
   }
+  htmlContent += "</table>";
 
-  htmlContent += indentSpace(1) + "</table>\n";
+  // Inject the table into build_order.html
+  const buildOrderContentContainer =
+    document.getElementById("build-order-content") || document.createElement("div");
+  buildOrderContentContainer.id = "build-order-content";
+  buildOrderContentContainer.innerHTML = htmlContent;
 
-  // Copy HTML for export
-  const htmlContentCopy = JSON.parse(JSON.stringify(htmlContent)) + "</div></body>\n\n</html>";
+  // Append the container to the selectors div (or another suitable parent)
+  const selectorsDiv = document.querySelector(".selectors");
+  if (selectorsDiv) {
+    selectorsDiv.after(buildOrderContentContainer);
+  } else {
+    document.body.appendChild(buildOrderContentContainer);
+  }
 
-  // Name for file export
-  const exportName = Object.keys(dataBO).includes("name")
-    ? dataBO.name.replaceAll(/\s+/g, "_")
-    : "rts_overlay";
+  // Set up button event listeners
+  const exportName = dataBO.name ? dataBO.name.replaceAll(/\s+/g, "_") : "rts_overlay";
 
-  htmlContent += indentSpace(1) + "<script>\n";
+  document.getElementById("open_in_rts_overlay").addEventListener("click", () => {
+    const buildOrderName = dataBO.name.toLowerCase().replace(/[^a-zA-Z0-9]/g, "");
+    const url = `https://rts-overlay.github.io?gameId=${gameName}&buildOrderId=rtsbuilds|${buildOrderName}`;
+    window.open(url, "_blank");
+  });
 
-  htmlContent += indentSpace(2) + "const dataHTML = " + JSON.stringify(htmlContentCopy) + ";\n\n";
-  htmlContent += indentSpace(2) + "const dataBO = " + JSON.stringify(dataBO) + ";\n\n";
-  htmlContent += indentSpace(2) + "const gameName = " + JSON.stringify(gameName) + ";\n\n";
+  document.getElementById("copy_bo").addEventListener("click", () => {
+    const jsonString = JSON.stringify(dataBO, null, 4);
+    navigator.clipboard
+      .writeText(jsonString)
+      .then(() => {
+        console.log("Content copied to clipboard");
+      })
+      .catch((err) => {
+        console.error("Failed to copy: ", err);
+      });
+  });
 
-  // Open in RTS Overlay
-  htmlContent +=
-    indentSpace(2) +
-    "document.getElementById('open_in_rts_overlay').addEventListener('click', function() {\n";
-  htmlContent +=
-    indentSpace(3) +
-    "const buildOrderName = dataBO.name.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');\n";
-  htmlContent +=
-    indentSpace(3) +
-    "const url = `https://rts-overlay.github.io?gameId=${gameName}&buildOrderId=rtsbuilds|${buildOrderName}`;\n";
-  htmlContent += indentSpace(3) + "window.open(url, '_blank');\n";
-  htmlContent += indentSpace(2) + "});\n\n";
-
-  // Copy BO
-  htmlContent +=
-    indentSpace(2) + "document.getElementById('copy_bo').addEventListener('click', function() {\n";
-  htmlContent += indentSpace(3) + "const jsonString = JSON.stringify(dataBO, null, 4);\n";
-  htmlContent += indentSpace(3) + "navigator.clipboard.writeText(jsonString).then(() => {\n";
-  htmlContent += indentSpace(4) + "console.log('Content copied to clipboard');\n";
-  htmlContent += indentSpace(3) + "}).catch(err => {\n";
-  htmlContent += indentSpace(4) + "console.error('Failed to copy: ', err);\n";
-  htmlContent += indentSpace(3) + "});\n";
-  htmlContent += indentSpace(2) + "});\n\n";
-
-  // Export BO
-  htmlContent +=
-    indentSpace(2) +
-    "document.getElementById('export_bo').addEventListener('click', function() {\n";
-  htmlContent +=
-    indentSpace(3) +
-    "const fileBO = new Blob([JSON.stringify(dataBO, null, 4)], {type: 'text/plain'});\n";
-  htmlContent += indentSpace(3) + "const link = document.createElement('a');\n";
-  htmlContent += indentSpace(3) + "link.href = URL.createObjectURL(fileBO);\n";
-  htmlContent += indentSpace(3) + "link.download = '" + exportName + ".json';\n";
-  htmlContent += indentSpace(3) + "link.click();\n";
-  htmlContent += indentSpace(3) + "URL.revokeObjectURL(link.href);\n";
-  htmlContent += indentSpace(2) + "});\n\n";
-
-  htmlContent += indentSpace(1) + "</script>\n";
-
-  htmlContent += "</div></body>\n\n</html>";
-
-  // Update overlay HTML content
-  fullPageWindow.document.open();
-  fullPageWindow.document.write(htmlContent);
-  fullPageWindow.document.close();
+  document.getElementById("export_bo").addEventListener("click", () => {
+    const fileBO = new Blob([JSON.stringify(dataBO, null, 4)], { type: "text/plain" });
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(fileBO);
+    link.download = `${exportName}.json`;
+    link.click();
+    URL.revokeObjectURL(link.href);
+  });
 }
 
 /**

@@ -69,18 +69,6 @@
         button:hover {
             background-color: rgb(85, 85, 85);
         }
-
-        /* Raw JSON display */
-        #raw-json-container {
-            background-color: rgb(55, 55, 55);
-            color: rgb(255, 255, 255);
-            padding: 20px;
-            border-radius: 10px;
-            font-family: monospace;
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            margin-top: 20px;
-        }
     </style>
 </head>
 
@@ -104,22 +92,23 @@
             </div>
         </div>
 
-        <!-- Dynamic content: Raw JSON will be displayed here -->
-        <div id="raw-json-container">Loading build order...</div>
+        <!-- Container for the build order content -->
+        <div id="build-order-content"></div>
     </div>
 
+    <!-- Load the script to handle the build order display -->
+    <script src="display_build_order.js"></script>
     <script>
         // Parse URL parameters
         const urlParams = new URLSearchParams(window.location.search);
         const gameId = urlParams.get('gameId');
         const buildOrderId = urlParams.get('buildOrderId');
 
-        // Fetch and display the JSON
-        async function loadBuildOrder() {
-            const jsonContainer = document.getElementById('raw-json-container');
-
+        // Fetch the JSON and call displayBuildOrder
+        async function loadAndDisplayBuildOrder() {
             if (!gameId || !buildOrderId) {
-                jsonContainer.textContent = 'Error: Missing URL parameters. Use: ?gameId=aoe2&buildOrderId=chidarkage';
+                console.error('Error: Missing URL parameters. Use: ?gameId=aoe2&buildOrderId=chidarkage');
+                document.getElementById('build-order-content').textContent = 'Error: Missing URL parameters. Use: ?gameId=aoe2&buildOrderId=chidarkage';
                 return;
             }
 
@@ -128,15 +117,21 @@
                 if (!response.ok) {
                     throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
                 }
-                const data = await response.json();
-                jsonContainer.textContent = JSON.stringify(data, null, 2);
+                const dataBO = await response.json();
+
+                // Set the global gameName (required by displayBuildOrder.js)
+                window.gameName = gameId;
+
+                // Call the existing displayBuildOrder function
+                displayBuildOrder(dataBO);
             } catch (error) {
-                jsonContainer.textContent = `Error loading build order: ${error.message}`;
+                console.error('Error loading build order:', error);
+                document.getElementById('build-order-content').textContent = `Error loading build order: ${error.message}`;
             }
         }
 
-        // Load the build order when the page loads
-        document.addEventListener('DOMContentLoaded', loadBuildOrder);
+        // Load and display the build order when the page loads
+        document.addEventListener('DOMContentLoaded', loadAndDisplayBuildOrder);
     </script>
 </body>
 
