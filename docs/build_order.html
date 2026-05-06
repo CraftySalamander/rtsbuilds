@@ -69,6 +69,58 @@
         button:hover {
             background-color: rgb(85, 85, 85);
         }
+
+        /* Table styles (moved from displayBuildOrderFromDescription) */
+        table {
+            color: rgb(255, 255, 255);
+            background-color: rgb(55, 55, 55);
+            margin: 0 auto;
+            border-radius: 15px;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        td {
+            text-align: center;
+            vertical-align: middle;
+            padding: 10px;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        .note {
+            text-align: left;
+            padding-right: 25px;
+        }
+
+        .full_line {
+            text-align: left;
+            font-weight: bold;
+            padding-left: 25px;
+        }
+
+        .full_line img {
+            margin-right: 10px;
+        }
+
+        .border_top {
+            position: relative;
+        }
+
+        .border_top::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 2.5%;
+            width: 95%;
+            border: 1px solid rgb(150, 150, 150);
+        }
+
+        .column-0 {
+            padding-left: 25px;
+        }
     </style>
 </head>
 
