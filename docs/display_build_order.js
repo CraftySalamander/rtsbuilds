@@ -195,33 +195,76 @@ function displayBuildOrderFromDescription(dataBO, columnsDescription, sectionsHe
   // Generate HTML content
   let htmlContent = "";
 
-  // Style (same as original)
   htmlContent += "<style>";
-  htmlContent +=
-    ".build-order-table { color: rgb(255, 255, 255); background-color: rgb(55, 55, 55); margin: 0 auto; border-radius: 15px; border-collapse: collapse; margin-bottom: 30px; }";
-  htmlContent +=
-    ".build-order-table td { text-align: center; vertical-align: middle; padding: 10px; }";
-  htmlContent += ".build-order-table img { vertical-align: middle; }";
-  htmlContent += ".note { text-align: left; padding-right: 25px; }";
-  htmlContent += ".full_line { text-align: left; font-weight: bold; padding-left: 25px; }";
-  htmlContent += ".full_line img { margin-right: 10px; }";
-  htmlContent += ".border_top { position: relative; }";
-  htmlContent +=
-    ".border_top::after { content: ''; position: absolute; top: 0; left: 2.5%; width: 95%; border: 1px solid rgb(150, 150, 150); }";
-  htmlContent += ".column-0 { padding-left: 25px; }";
+  htmlContent += "table {\n";
+  htmlContent += "  color: rgb(255, 255, 255);\n";
+  htmlContent += "  background-color: rgb(55, 55, 55);\n";
+  htmlContent += "  margin: 0 auto;\n";
+  htmlContent += "  border-radius: 15px;\n";
+  htmlContent += "  border-collapse: collapse;\n";
+  htmlContent += "  margin-bottom: 30px;\n";
+  htmlContent += "}\n\n";
+
+  htmlContent += "td {\n";
+  htmlContent += "  text-align: center;\n";
+  htmlContent += "  vertical-align: middle;\n";
+  htmlContent += "  padding: 10px;\n";
+  htmlContent += "}\n\n";
+
+  htmlContent += "img {\n";
+  htmlContent += "  vertical-align: middle;\n";
+  htmlContent += "}\n\n";
+
+  htmlContent += ".note {\n";
+  htmlContent += "  text-align: left;\n";
+  htmlContent += "  padding-right: 25px;\n";
+  htmlContent += "}\n\n";
+
+  htmlContent += ".full_line {\n";
+  htmlContent += "  text-align: left;\n";
+  htmlContent += "  font-weight: bold;\n";
+  htmlContent += "  padding-left: 25px;\n";
+  htmlContent += "}\n\n";
+
+  htmlContent += ".full_line img {\n";
+  htmlContent += "  margin-right: 10px;\n";
+  htmlContent += "}\n\n";
+
+  htmlContent += ".border_top {\n";
+  htmlContent += "  position: relative;\n";
+  htmlContent += "}\n\n";
+
+  htmlContent += ".border_top::after {\n";
+  htmlContent += "  content: '';\n";
+  htmlContent += "  position: absolute;\n";
+  htmlContent += "  top: 0;\n";
+  htmlContent += "  left: 2.5%;\n";
+  htmlContent += "  width: 95%;\n";
+  htmlContent += "  border: 1px solid rgb(150, 150, 150);\n";
+  htmlContent += "}\n\n";
+
+  htmlContent += ".column-0 {\n";
+  htmlContent += "  padding-left: 25px;\n";
+  htmlContent += "}\n\n";
 
   // Style from column description
   for (const [index, column] of updatedColumnsDescription.entries()) {
     if (column.italic || column.bold || column.backgroundColor || column.textAlign) {
-      htmlContent += `.column-${index} {`;
-      if (column.italic) htmlContent += "font-style: italic;";
-      if (column.bold) htmlContent += "font-weight: bold;";
+      htmlContent += `.column-${index} {\n`;
+      if (column.italic) {
+        htmlContent += "  font-style: italic;\n";
+      }
+      if (column.bold) {
+        htmlContent += "  font-weight: bold;\n";
+      }
       if (column.backgroundColor) {
         const color = column.backgroundColor;
-        htmlContent += `background-color: rgb(${color[0]}, ${color[1]}, ${color[2]});`;
+        htmlContent += `  background-color: rgb(${color[0]}, ${color[1]}, ${color[2]});\n`;
       }
-      if (column.textAlign) htmlContent += `text-align: ${column.textAlign};`;
-      htmlContent += "}";
+      if (column.textAlign) {
+        htmlContent += `  text-align: ${column.textAlign};\n`;
+      }
+      htmlContent += "}\n\n";
     }
   }
   htmlContent += "</style>";
