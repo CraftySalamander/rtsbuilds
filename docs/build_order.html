@@ -151,24 +151,30 @@
     <!-- Include JS files -->
     <script src="images_list.js"></script>
     <script src="display_build_order.js"></script>
+
+    <!-- Update html content based on build order -->
     <script>
         // Parse URL parameters
         const urlParams = new URLSearchParams(window.location.search);
         const gameId = urlParams.get('gameId');
         const buildOrderId = urlParams.get('buildOrderId');
 
-        imagesGame = getImagesGame(gameId);
-        imagesCommon = getImagesCommon();
-
         // Fetch the JSON and call displayBuildOrder
         async function loadAndDisplayBuildOrder() {
+            // Check arguments
             if (!gameId || !buildOrderId) {
-                console.error('Error: Missing URL parameters. Use: ?gameId=aoe2&buildOrderId=chidarkage');
-                document.getElementById('build-order-content').textContent = 'Error: Missing URL parameters. Use: ?gameId=aoe2&buildOrderId=chidarkage';
+                const strError = 'Error: Missing URL parameters. Use: ?gameId=GAME_ID&buildOrderId=BO_ID';
+                console.error(strError);
+                document.getElementById('build-order-content').textContent = strError;
                 return;
             }
 
             try {
+                // Get image lists
+                imagesGame = getImagesGame(gameId);
+                imagesCommon = getImagesCommon();
+
+                // Get the BO content as dictionary
                 const response = await fetch(`api/builds/${gameId}/${buildOrderId}.json`);
                 if (!response.ok) {
                     throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
@@ -178,8 +184,9 @@
                 // Call the existing displayBuildOrder function
                 displayBuildOrder(dataBO);
             } catch (error) {
-                console.error('Error loading build order:', error);
-                document.getElementById('build-order-content').textContent = `Error loading build order: ${error.message}`;
+                const strError = 'Error loading build order:' + error.message;
+                console.error(strError);
+                document.getElementById('build-order-content').textContent = strError;
             }
         }
 
