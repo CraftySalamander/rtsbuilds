@@ -4,7 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="View RTS build orders for games like Age of Empires, StarCraft, and more." />
+    <meta property="og:title" content="RTS Builds - Build Order" />
+    <meta property="og:description" content="View and share RTS build orders." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#b0b0b0" />
     <title>RTS Builds - Build Order</title>
+    <link rel="icon" href="assets/common/icon/favicon.ico" type="image/x-icon" />
     <style>
         /* Fixed layout styles */
         body {
@@ -58,19 +64,19 @@
         button {
             padding: 10px;
             font-size: 16px;
-            border-radius: 5px;
             border: 1px solid rgb(204, 204, 204);
-            background-color: rgb(55, 55, 55);
+            border-radius: 5px;
+            background: rgb(55, 55, 55);
             color: white;
             cursor: pointer;
-            transition: background-color 0.3s;
+            transition: background 0.3s;
         }
 
         button:hover {
             background-color: rgb(85, 85, 85);
         }
 
-        /* Table styles (moved from displayBuildOrderFromDescription) */
+        /* Table styles */
         table {
             color: rgb(255, 255, 255);
             background-color: rgb(55, 55, 55);
@@ -80,14 +86,14 @@
             margin-bottom: 30px;
         }
 
-        td {
-            text-align: center;
-            vertical-align: middle;
-            padding: 10px;
-        }
-
+        td,
         img {
             vertical-align: middle;
+        }
+
+        td {
+            text-align: center;
+            padding: 10px;
         }
 
         .note {
@@ -121,6 +127,12 @@
         .column-0 {
             padding-left: 25px;
         }
+
+        a {
+            color: var(--reference_color);
+            font-weight: bold;
+            text-decoration: none;
+        }
     </style>
 </head>
 
@@ -134,21 +146,28 @@
 
         <div class="selectors">
             <div class="selector-group">
-                <button id="open_in_rts_overlay">Open in RTS Overlay</button>
+                <button id="open_in_rts_overlay" aria-label="Open this build order in RTS Overlay">Open in RTS
+                    Overlay</button>
             </div>
             <div class="selector-group">
-                <button id="copy_bo">Copy build order to clipboard</button>
+                <button id="copy_bo" aria-label="Copy this build order to clipboard">Copy build order to
+                    clipboard</button>
             </div>
             <div class="selector-group">
-                <button id="export_bo">Export build order</button>
+                <button id="export_bo" aria-label="Export this build order as JSON">Export build order</button>
             </div>
         </div>
 
         <!-- Container for the build order content -->
-        <div id="build-order-content"></div>
+        <div id="build-order-content">Loading build order...</div>
     </div>
 
-    <!-- Include JS files -->
+    <footer style="text-align: center; margin-top: 20px; color: rgb(100, 100, 100);">
+        <p>A project initiated by <b>CraftySalamander</b>. Contribute on <a
+                href="https://github.com/CraftySalamander/rtsbuilds" target="_blank">Github</a>.</p>
+    </footer>
+
+    <!-- Include JS files with async -->
     <script src="images_list.js"></script>
     <script src="display_build_order.js"></script>
 
@@ -158,6 +177,7 @@
         const urlParams = new URLSearchParams(window.location.search);
         const gameId = urlParams.get('gameId');
         const buildOrderId = urlParams.get('buildOrderId');
+        const validGames = ["aoe2", "aoe4", "aom", "sc2", "wc3"];
 
         // Fetch the JSON and call displayBuildOrder
         async function loadAndDisplayBuildOrder() {
@@ -165,7 +185,23 @@
             if (!gameId || !buildOrderId) {
                 const strError = 'Error: Missing URL parameters. Use: ?gameId=GAME_ID&buildOrderId=BO_ID';
                 console.error(strError);
-                document.getElementById('build-order-content').textContent = strError;
+                document.getElementById('build-order-content').innerHTML = `
+                    <div style="color: red; font-weight: bold; text-align: center; padding: 20px;">
+                        ${strError}
+                    </div>
+                `;
+                return;
+            }
+
+            // Validate gameId
+            if (!validGames.includes(gameId)) {
+                const strError = `Error: Invalid game ID: ${gameId}. Valid options: ${validGames.join(", ")}`;
+                console.error(strError);
+                document.getElementById('build-order-content').innerHTML = `
+                    <div style="color: red; font-weight: bold; text-align: center; padding: 20px;">
+                        ${strError}
+                    </div>
+                `;
                 return;
             }
 
@@ -184,9 +220,13 @@
                 // Call the existing displayBuildOrder function
                 displayBuildOrder(dataBO);
             } catch (error) {
-                const strError = 'Error loading build order:' + error.message;
+                const strError = `Error loading build order: ${error.message}`;
                 console.error(strError);
-                document.getElementById('build-order-content').textContent = strError;
+                document.getElementById('build-order-content').innerHTML = `
+                    <div style="color: red; font-weight: bold; text-align: center; padding: 20px;">
+                        ${strError}
+                    </div>
+                `;
             }
         }
 
