@@ -118,12 +118,18 @@ document.addEventListener("DOMContentLoaded", function () {
               ? buildOrder.faction[0]
               : buildOrder.faction;
             buildOrderElement.innerHTML = `
-                        <img src="assets/${gameName}/${gameFactions[gameName][factionIcon]}" alt="${factionIcon} icon">
-                        <span class="build-order-name">${buildOrder.name}</span>
-                        `;
+            <img src="assets/${gameName}/${gameFactions[gameName][factionIcon]}" alt="${factionIcon} icon">
+            <span class="build-order-name">${buildOrder.name}</span>
+          `;
+
+            // Update the click handler to navigate to build_order.html with URL parameters
             buildOrderElement.addEventListener("click", function () {
-              displayBuildOrder(buildOrder.content);
+              // Generate a URL-friendly build order ID (e.g., lowercase, no spaces)
+              const buildOrderId = buildOrder.name.toLowerCase().replace(/\s+/g, "");
+              // Navigate to build_order.html with gameId and buildOrderId as URL parameters
+              window.location.href = `build_order.html?gameId=${gameName}&buildOrderId=${buildOrderId}`;
             });
+
             buildOrdersContainer.appendChild(buildOrderElement);
           }
         });
