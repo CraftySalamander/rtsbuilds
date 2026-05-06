@@ -186,7 +186,6 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
                 'name': data['name'],
                 'faction': faction,
                 'author': data.get('author', 'Unknown'),
-                'content': data,
             }
 
             if game in ['sc2', 'wc3']:
@@ -212,7 +211,7 @@ def update_build_orders(game: str, input_path: str, update: bool = True):
             # Generate individual JSON file for the build order
             json_file_path = json_output_dir / f"{json_file_name}.json"
             with open(json_file_path, 'w') as json_out_file:
-                json.dump(entry['content'], json_out_file, indent=2)
+                json.dump(data, json_out_file, indent=2)  # Save the full content to the JSON file
             log_info(f"Generated JSON file: {json_file_path}")
 
         except Exception as e:

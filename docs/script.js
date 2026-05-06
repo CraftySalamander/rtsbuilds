@@ -122,10 +122,10 @@ document.addEventListener("DOMContentLoaded", function () {
             <span class="build-order-name">${buildOrder.name}</span>
           `;
 
-            // Update the click handler to navigate to build_order.html with URL parameters
+            // Navigate to build_order.html with URL parameters
             buildOrderElement.addEventListener("click", function () {
-              // Generate a URL-friendly build order ID (e.g., lowercase, no spaces)
-              const buildOrderId = buildOrder.name.toLowerCase().replace(/\s+/g, "");
+              // Normalize the build order name to match the JSON filename
+              const buildOrderId = buildOrder.name.toLowerCase().replace(/[^a-zA-Z0-9]/g, "");
               // Navigate to build_order.html with gameId and buildOrderId as URL parameters
               window.location.href = `build_order.html?gameId=${gameName}&buildOrderId=${buildOrderId}`;
             });
