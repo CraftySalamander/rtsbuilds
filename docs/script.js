@@ -126,8 +126,11 @@ document.addEventListener("DOMContentLoaded", function () {
             buildOrderElement.addEventListener("click", function () {
               // Normalize the build order name to match the JSON filename
               const buildOrderId = buildOrder.name.toLowerCase().replace(/[^a-zA-Z0-9]/g, "");
-              // Navigate to build_order.html with gameId and buildOrderId as URL parameters
-              window.location.href = `build_order.html?gameId=${gameName}&buildOrderId=${buildOrderId}`;
+              // Open build_order.html in a new tab with gameId and buildOrderId as URL parameters
+              window.open(
+                `build_order.html?gameId=${gameName}&buildOrderId=${buildOrderId}`,
+                "_blank",
+              );
             });
 
             buildOrdersContainer.appendChild(buildOrderElement);
