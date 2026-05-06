@@ -96,13 +96,17 @@
         <div id="build-order-content"></div>
     </div>
 
-    <!-- Load the script to handle the build order display -->
+    <!-- Include JS files -->
+    <script src="images_list.js"></script>
     <script src="display_build_order.js"></script>
     <script>
         // Parse URL parameters
         const urlParams = new URLSearchParams(window.location.search);
         const gameId = urlParams.get('gameId');
         const buildOrderId = urlParams.get('buildOrderId');
+
+        imagesGame = getImagesGame(gameId);
+        imagesCommon = getImagesCommon();
 
         // Fetch the JSON and call displayBuildOrder
         async function loadAndDisplayBuildOrder() {
@@ -118,9 +122,6 @@
                     throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
                 }
                 const dataBO = await response.json();
-
-                // Set the global gameName (required by displayBuildOrder.js)
-                window.gameName = gameId;
 
                 // Call the existing displayBuildOrder function
                 displayBuildOrder(dataBO);
