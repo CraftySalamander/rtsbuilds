@@ -54,6 +54,14 @@ document.addEventListener("DOMContentLoaded", function () {
     if (gameName === "sc2" || gameName === "wc3") {
       opponentFactionGroup.style.display = "flex";
       opponentFactionSelect.innerHTML = "";
+      // Add "All" option as the first option and select it by default
+      const allOption = document.createElement("option");
+      allOption.value = "All";
+      allOption.textContent = "All";
+      allOption.selected = true;
+      opponentFactionSelect.appendChild(allOption);
+
+      // Add "Any" and other factions
       if (gameFactions[gameName]) {
         Object.keys(gameFactions[gameName]).forEach((factionKey) => {
           const option = document.createElement("option");
@@ -114,6 +122,7 @@ document.addEventListener("DOMContentLoaded", function () {
               : buildOrder.faction === faction);
           const matchesOpponentFaction =
             !filterOpponentFaction ||
+            opponentFaction === "All" ||
             buildOrder.opponent_faction === "Any" ||
             buildOrder.opponent_faction === opponentFaction;
           const matchesAuthor = !author || buildOrder.author.toLowerCase().includes(author);
