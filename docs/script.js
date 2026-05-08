@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const opponentFactionGroup = document.getElementById("opponent-faction-group");
   const opponentFactionSelect = document.getElementById("opponent-faction-select");
   const designBuildOrderButton = document.getElementById("design-build-order");
+  const submitBuildOrderButton = document.getElementById("submit-build-order");
   const downloadOverlayButton = document.getElementById("download-overlay");
   const authorFilter = document.getElementById("author-filter");
   const buildOrderFilter = document.getElementById("build-order-filter");
@@ -76,9 +77,17 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
+  // Submit build order button link
+  submitBuildOrderButton.addEventListener("click", function () {
+    window.open("https://github.com/CraftySalamander/RTS_Overlay/issues/46", "_blank");
+  });
+
   // Download overlay button link
   downloadOverlayButton.addEventListener("click", function () {
-    window.open("https://github.com/CraftySalamander/RTS_Overlay", "_blank");
+    window.open(
+      "https://github.com/CraftySalamander/RTS_Overlay#main-instructions-and-download",
+      "_blank",
+    );
   });
 
   // Filter build orders based on input
